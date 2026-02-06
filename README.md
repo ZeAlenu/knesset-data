@@ -8,21 +8,6 @@
 **רישיון:** CC-BY-SA-4.0
 **תחזוקה:** [זה עלינו](https://zan.org.il)
 
-## מבנה
-
-```
-data/
-  KNS_Person/
-    KNS_Person-000001.jsonl    # רשומות 0–9,999
-    KNS_Person-000002.jsonl    # רשומות 10,000–19,999
-  KNS_Bill/
-    ...
-schema/v1/schema.json          # סכמת כל הטבלאות
-manifest.yaml                  # checksums + metadata
-```
-
-## שימוש
-
 כל קובץ JSONL מכיל שורה אחת לכל רשומה, ממוין לפי `Id`.
 
 </div>
@@ -37,7 +22,18 @@ Open dataset of the Israeli Knesset (parliament) — sourced directly from the o
 **License:** CC-BY-SA-4.0
 **Maintained by:** [ZeAlenu](https://zan.org.il)
 
-## Structure
+## File Structure
+
+```
+data/
+  KNS_Person/
+    KNS_Person-000001.jsonl    # IDs 0–9,999
+    KNS_Person-000002.jsonl    # IDs 10,000–19,999
+  KNS_Bill/
+    ...
+schema/v1/schema.json          # Schema for all entities
+manifest.yaml                  # SHA-256 checksums + metadata
+```
 
 Each entity is stored under `data/{entity}/` as partitioned JSONL files (10,000 IDs per partition).
 See `manifest.yaml` for checksums and record counts.
