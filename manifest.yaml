@@ -1,0 +1,78 @@
+version: 1
+name: "knesset-data"
+description: "נתוני הכנסת הפתוחה — מקור האמת"
+license: "CC-BY-SA-4.0"
+generated:
+  at: "2026-02-06T16:48:15.150Z"
+  by: "knesset-sync v1.0.0"
+source:
+  api_base: "https://knesset.gov.il/OdataV4/ParliamentInfo"
+  api_version: "v4"
+  documentation: "https://main.knesset.gov.il/Activity/Info/Pages/Databases.aspx"
+schema:
+  version: 1
+  path: "schema/v1/schema.json"
+partitioning:
+  strategy: "id_range"
+  partition_size: 10000
+  id_field: "Id"
+  format: "{entity}-{partition:06d}.jsonl"
+  partition_calc: "floor(ID / 10000) + 1"
+tables:
+  KNS_Status:
+    description: ""
+    source_endpoint: "KNS_Status"
+    stats:
+      record_count: 82
+      file_count: 1
+      size_bytes: 15372
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T16:47:58.036Z"
+    files:
+      - name: "KNS_Status-000001.jsonl"
+        path: "data/KNS_Status/KNS_Status-000001.jsonl"
+        partition: 1
+        records: 82
+        size_bytes: 15372
+        sha256: "3096aedb814dc70cd83a8ad827387ab8de44af2858065b083a9ede295006ed9b"
+  KNS_Person:
+    description: ""
+    source_endpoint: "KNS_Person"
+    stats:
+      record_count: 1184
+      file_count: 4
+      size_bytes: 210753
+      min_id: 0
+      max_id: 39999
+      last_updated: "2026-02-06T16:48:06.281Z"
+    files:
+      - name: "KNS_Person-000001.jsonl"
+        path: "data/KNS_Person/KNS_Person-000001.jsonl"
+        partition: 1
+        records: 847
+        size_bytes: 147961
+        sha256: "7e3c89df208a5aeaf3124c8c61c42cfcdce673640f503a506cf1869c6d77ba38"
+      - name: "KNS_Person-000002.jsonl"
+        path: "data/KNS_Person/KNS_Person-000002.jsonl"
+        partition: 2
+        records: 43
+        size_bytes: 7774
+        sha256: "ac8db5fb3c2cc675393971a620a751cfebdad09202aea67ab367ee2ff40b6c55"
+      - name: "KNS_Person-000003.jsonl"
+        path: "data/KNS_Person/KNS_Person-000003.jsonl"
+        partition: 3
+        records: 60
+        size_bytes: 10984
+        sha256: "f28ec4a3383f8b1bfe59d14f6381c1cc8a68d6e10a234eb9b59cc658f4f72f7d"
+      - name: "KNS_Person-000004.jsonl"
+        path: "data/KNS_Person/KNS_Person-000004.jsonl"
+        partition: 4
+        records: 234
+        size_bytes: 44034
+        sha256: "a729304af8684ccefce05ad1dc0d66a2b57aba8a75eed7a5d7f97769a9754e90"
+totals:
+  tables: 2
+  files: 5
+  records: 1266
+  size_bytes: 226125
