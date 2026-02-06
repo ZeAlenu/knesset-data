@@ -3,7 +3,7 @@ name: "knesset-data"
 description: "נתוני הכנסת הפתוחה — מקור האמת"
 license: "CC-BY-SA-4.0"
 generated:
-  at: "2026-02-06T16:48:15.150Z"
+  at: "2026-02-06T21:29:38.867Z"
   by: "knesset-sync v1.0.0"
 source:
   api_base: "https://knesset.gov.il/OdataV4/ParliamentInfo"
@@ -71,8 +71,705 @@ tables:
         records: 234
         size_bytes: 44034
         sha256: "a729304af8684ccefce05ad1dc0d66a2b57aba8a75eed7a5d7f97769a9754e90"
+  KNS_ItemType:
+    description: ""
+    source_endpoint: "KNS_ItemType"
+    stats:
+      record_count: 8
+      file_count: 1
+      size_bytes: 536
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:11:04.293Z"
+    files:
+      - name: "KNS_ItemType-000001.jsonl"
+        path: "data/KNS_ItemType/KNS_ItemType-000001.jsonl"
+        partition: 1
+        records: 8
+        size_bytes: 536
+        sha256: "57afae052a4812e56eac49f8481ea954147898ba142866f17f3ffb05c28a4783"
+  KNS_GovMinistry:
+    description: ""
+    source_endpoint: "KNS_GovMinistry"
+    stats:
+      record_count: 922
+      file_count: 1
+      size_bytes: 107138
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:11:18.749Z"
+    files:
+      - name: "KNS_GovMinistry-000001.jsonl"
+        path: "data/KNS_GovMinistry/KNS_GovMinistry-000001.jsonl"
+        partition: 1
+        records: 922
+        size_bytes: 107138
+        sha256: "7189e0da38dbde3a93068a96c3e22e9eacf58a68bbb5c89cfd9651272de18d7c"
+  KNS_KnessetDates:
+    description: ""
+    source_endpoint: "KNS_KnessetDates"
+    stats:
+      record_count: 164
+      file_count: 1
+      size_bytes: 37460
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:11:30.035Z"
+    files:
+      - name: "KNS_KnessetDates-000001.jsonl"
+        path: "data/KNS_KnessetDates/KNS_KnessetDates-000001.jsonl"
+        partition: 1
+        records: 164
+        size_bytes: 37460
+        sha256: "ecb7c17f3aa284b2d203f9db4a183b04221d435a3ef11d05b417d24ec348e0ae"
+  KNS_Position:
+    description: ""
+    source_endpoint: "KNS_Position"
+    stats:
+      record_count: 29
+      file_count: 2
+      size_bytes: 3894
+      min_id: 0
+      max_id: 289999
+      last_updated: "2026-02-06T19:11:40.589Z"
+    files:
+      - name: "KNS_Position-000001.jsonl"
+        path: "data/KNS_Position/KNS_Position-000001.jsonl"
+        partition: 1
+        records: 27
+        size_bytes: 3616
+        sha256: "1718240b20bf94effe751f998a20d3a0278ccf08441c3a2af09aeae9e6b74bbb"
+      - name: "KNS_Position-000029.jsonl"
+        path: "data/KNS_Position/KNS_Position-000029.jsonl"
+        partition: 29
+        records: 2
+        size_bytes: 278
+        sha256: "5e650b8df7a6e1de9999f2bb6d2f9bad1d86d623b8964b4d91c9674aa8d043b5"
+  KNS_Faction:
+    description: ""
+    source_endpoint: "KNS_Faction"
+    stats:
+      record_count: 544
+      file_count: 1
+      size_bytes: 117433
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:20:04.648Z"
+    files:
+      - name: "KNS_Faction-000001.jsonl"
+        path: "data/KNS_Faction/KNS_Faction-000001.jsonl"
+        partition: 1
+        records: 544
+        size_bytes: 117433
+        sha256: "620d9aec43e39bf29a2cdf53bc8c9810d41366dddb9c34c7d9cc40e783bb1782"
+  KNS_PersonToPosition:
+    description: ""
+    source_endpoint: "KNS_PersonToPosition"
+    stats:
+      record_count: 23483
+      file_count: 4
+      size_bytes: 9698266
+      min_id: 0
+      max_id: 39999
+      last_updated: "2026-02-06T19:22:58.731Z"
+    files:
+      - name: "KNS_PersonToPosition-000001.jsonl"
+        path: "data/KNS_PersonToPosition/KNS_PersonToPosition-000001.jsonl"
+        partition: 1
+        records: 4485
+        size_bytes: 1694825
+        sha256: "ebe5e7ff49a82f4e6128a843d18c1252cf048baebdcf86e6e1af39bf36ab2843"
+      - name: "KNS_PersonToPosition-000002.jsonl"
+        path: "data/KNS_PersonToPosition/KNS_PersonToPosition-000002.jsonl"
+        partition: 2
+        records: 8844
+        size_bytes: 3810777
+        sha256: "187945c9862421ba894df6e1c406156f397e3d9c160fe1fc103dbbdeb2e3be95"
+      - name: "KNS_PersonToPosition-000003.jsonl"
+        path: "data/KNS_PersonToPosition/KNS_PersonToPosition-000003.jsonl"
+        partition: 3
+        records: 7746
+        size_bytes: 3134790
+        sha256: "b50725a68ef635a1230d988436f4fab7b14b65f0ff52c6bd31b6972c14e0ca91"
+      - name: "KNS_PersonToPosition-000004.jsonl"
+        path: "data/KNS_PersonToPosition/KNS_PersonToPosition-000004.jsonl"
+        partition: 4
+        records: 2408
+        size_bytes: 1057874
+        sha256: "78a22d77cacc6b7befe763254ad39f87b09fbf1a8b16b98e4a16ee5fe979b878"
+  KNS_Committee:
+    description: ""
+    source_endpoint: "KNS_Committee"
+    stats:
+      record_count: 2900
+      file_count: 1
+      size_bytes: 1471742
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:23:13.867Z"
+    files:
+      - name: "KNS_Committee-000001.jsonl"
+        path: "data/KNS_Committee/KNS_Committee-000001.jsonl"
+        partition: 1
+        records: 2900
+        size_bytes: 1471742
+        sha256: "0c69e5cda98f7a2c93d71ac0c74e1dbb4d17f4695a8886f8ca2bcaf5ada013b2"
+  KNS_CmtSiteCode:
+    description: ""
+    source_endpoint: "KNS_CmtSiteCode"
+    stats:
+      record_count: 718
+      file_count: 1
+      size_bytes: 25468
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:23:30.410Z"
+    files:
+      - name: "KNS_CmtSiteCode-000001.jsonl"
+        path: "data/KNS_CmtSiteCode/KNS_CmtSiteCode-000001.jsonl"
+        partition: 1
+        records: 718
+        size_bytes: 25468
+        sha256: "d96117b3ecb85d55f8732c7f27910411e03e9a064c5346393a9092aba9561971"
+  KNS_JointCommittee:
+    description: ""
+    source_endpoint: "KNS_JointCommittee"
+    stats:
+      record_count: 1174
+      file_count: 1
+      size_bytes: 125816
+      min_id: 0
+      max_id: 9999
+      last_updated: "2026-02-06T19:23:31.354Z"
+    files:
+      - name: "KNS_JointCommittee-000001.jsonl"
+        path: "data/KNS_JointCommittee/KNS_JointCommittee-000001.jsonl"
+        partition: 1
+        records: 1174
+        size_bytes: 125816
+        sha256: "6f95622d4bdb6c319d0ccb2213fff96eb50502559be03c7f70db169f8aec31c9"
+  KNS_BroadcastCommitteSession:
+    description: ""
+    source_endpoint: "KNS_BroadcastCommitteSession"
+    stats:
+      record_count: 107735
+      file_count: 60
+      size_bytes: 7797430
+      min_id: 60000
+      max_id: 2249999
+      last_updated: "2026-02-06T19:25:13.515Z"
+    files:
+      - name: "KNS_BroadcastCommitteSession-000007.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000007.jsonl"
+        partition: 7
+        records: 2962
+        size_bytes: 154023
+        sha256: "a160ffdc2aeee9db5f1949aa63dac61b4cae80f615ea74bcdb1419fb5470d661"
+      - name: "KNS_BroadcastCommitteSession-000008.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000008.jsonl"
+        partition: 8
+        records: 668
+        size_bytes: 34735
+        sha256: "32669dd9d9eb7d7b460830e3adf7e3f3654f6b1872edb751459c0063ee5f40aa"
+      - name: "KNS_BroadcastCommitteSession-000009.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000009.jsonl"
+        partition: 9
+        records: 764
+        size_bytes: 39727
+        sha256: "fdbf71df5ff026300b40f6f449a58560f40f5619b34b74aa8b40db2267674c79"
+      - name: "KNS_BroadcastCommitteSession-000010.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000010.jsonl"
+        partition: 10
+        records: 835
+        size_bytes: 43419
+        sha256: "104c06245d4b6fb62c48f538fcee79efd35c083640ba67619a7e40754dac74b2"
+      - name: "KNS_BroadcastCommitteSession-000011.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000011.jsonl"
+        partition: 11
+        records: 587
+        size_bytes: 31110
+        sha256: "2b00763ea89fdb86183b353a09a1e8d114834b03d0e65f3c8267d9007d454f66"
+      - name: "KNS_BroadcastCommitteSession-000012.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000012.jsonl"
+        partition: 12
+        records: 411
+        size_bytes: 21782
+        sha256: "5c6039b5d182378643215d8f42e0b0076360b49977dd39126f80fa815c6c5f6a"
+      - name: "KNS_BroadcastCommitteSession-000013.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000013.jsonl"
+        partition: 13
+        records: 846
+        size_bytes: 44837
+        sha256: "edbe6056bb5ba78876f7d8b33a1abb5e19dcb8a9279da6f3532cab7043f1f6ff"
+      - name: "KNS_BroadcastCommitteSession-000014.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000014.jsonl"
+        partition: 14
+        records: 295
+        size_bytes: 15634
+        sha256: "1074001c5d1e909fc02951f755bbb372346fb8156e26ae05209dd6ffb4ab20aa"
+      - name: "KNS_BroadcastCommitteSession-000015.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000015.jsonl"
+        partition: 15
+        records: 439
+        size_bytes: 23266
+        sha256: "962546fa023f89145b43083b16c3efb3fb6ad489401d559d6a50989621a9ffe4"
+      - name: "KNS_BroadcastCommitteSession-000018.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000018.jsonl"
+        partition: 18
+        records: 433
+        size_bytes: 22948
+        sha256: "854591b5854a1c44f6a0e1e40b2dfdef6a3d9c1667646048486f1db7b967cf4c"
+      - name: "KNS_BroadcastCommitteSession-000019.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000019.jsonl"
+        partition: 19
+        records: 874
+        size_bytes: 46321
+        sha256: "c75cb0284d18ab97043071be280eca6b4343ac08fecea81c72c4c09cc1cbc082"
+      - name: "KNS_BroadcastCommitteSession-000020.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000020.jsonl"
+        partition: 20
+        records: 85
+        size_bytes: 4504
+        sha256: "9faf52295ce3cf346b4c2a4dac6725d82eb9a97b382a888d2fbe2bbb568eb517"
+      - name: "KNS_BroadcastCommitteSession-000025.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000025.jsonl"
+        partition: 25
+        records: 708
+        size_bytes: 37523
+        sha256: "d7cea06135804e0bd556f0b7baaf0cf9531139e3519256ed6cd35579bc354704"
+      - name: "KNS_BroadcastCommitteSession-000026.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000026.jsonl"
+        partition: 26
+        records: 781
+        size_bytes: 41392
+        sha256: "3b98dce3f4f05e84ac0d7b7afd40e03a37d7539a4b0a115185719d701fdeb1f1"
+      - name: "KNS_BroadcastCommitteSession-000027.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000027.jsonl"
+        partition: 27
+        records: 634
+        size_bytes: 33601
+        sha256: "6bc1211c4b1bda511a2619872a093c32c4345eafc0940311f20e534428739d04"
+      - name: "KNS_BroadcastCommitteSession-000028.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000028.jsonl"
+        partition: 28
+        records: 454
+        size_bytes: 24061
+        sha256: "4879db1fe1787161d9d321425f6452d8849a9caaf487f6b2ae7547a4b2cb6a5f"
+      - name: "KNS_BroadcastCommitteSession-000029.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000029.jsonl"
+        partition: 29
+        records: 401
+        size_bytes: 21252
+        sha256: "49d2fcb0749e63fb5b4720198fba2edd1afc2a2f161398863dae28a39883912c"
+      - name: "KNS_BroadcastCommitteSession-000030.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000030.jsonl"
+        partition: 30
+        records: 677
+        size_bytes: 35880
+        sha256: "c50bf96a21c102f60fbbd0d06a205802cf2b672707121ffb51d85a64702ce127"
+      - name: "KNS_BroadcastCommitteSession-000031.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000031.jsonl"
+        partition: 31
+        records: 645
+        size_bytes: 34184
+        sha256: "666ce11372a408bb485a89dec6e98f9a2ef3fa0e655b0f40772546153ae329f1"
+      - name: "KNS_BroadcastCommitteSession-000032.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000032.jsonl"
+        partition: 32
+        records: 296
+        size_bytes: 15687
+        sha256: "de254c9e1992dbce4e63fd87f24285e911b8dd6a53994cde692be05369440d63"
+      - name: "KNS_BroadcastCommitteSession-000033.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000033.jsonl"
+        partition: 33
+        records: 1040
+        size_bytes: 55119
+        sha256: "3e3b351d4db7035554aeca754691ebafa0333ff6ac3d2ccdafe130fbe6a3a219"
+      - name: "KNS_BroadcastCommitteSession-000034.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000034.jsonl"
+        partition: 34
+        records: 1136
+        size_bytes: 60207
+        sha256: "ea7328caa29f225f90d80f5efc2a1ac6816e449141a123d4c37dae9dcd9b93c1"
+      - name: "KNS_BroadcastCommitteSession-000035.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000035.jsonl"
+        partition: 35
+        records: 313
+        size_bytes: 16588
+        sha256: "62bcff20273c2c9dc25bb7cbc3c89557a64175a6206162cb893759fde7f9e2a2"
+      - name: "KNS_BroadcastCommitteSession-000036.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000036.jsonl"
+        partition: 36
+        records: 334
+        size_bytes: 17701
+        sha256: "6c159b2375e190bd57a616ac1cd8af58feb2bad07f4a177bb391a19d6c06f8c4"
+      - name: "KNS_BroadcastCommitteSession-000037.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000037.jsonl"
+        partition: 37
+        records: 301
+        size_bytes: 15952
+        sha256: "be769bec2fcae9390484b2e6de82a07e5e0dd45f6cbf6174b0c517355140ccfd"
+      - name: "KNS_BroadcastCommitteSession-000038.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000038.jsonl"
+        partition: 38
+        records: 62
+        size_bytes: 3285
+        sha256: "7d792f61a9d35b6b0483edc062ac1ed8388f6aba30da8f6aed6ea85c75188924"
+      - name: "KNS_BroadcastCommitteSession-000039.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000039.jsonl"
+        partition: 39
+        records: 171
+        size_bytes: 9774
+        sha256: "0b61ca4c4671c794a43b109d238d7fa3024a7159ad208e1890ebfe1245844134"
+      - name: "KNS_BroadcastCommitteSession-000040.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000040.jsonl"
+        partition: 40
+        records: 357
+        size_bytes: 22391
+        sha256: "5be0fa1656c9b41c5da89ae0d5fc92b6ad99614204b7da71c96fb0b53a2146df"
+      - name: "KNS_BroadcastCommitteSession-000041.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000041.jsonl"
+        partition: 41
+        records: 1188
+        size_bytes: 75194
+        sha256: "fe9c2a85972e17112120a9f51f8fbc9f0022711d970eee122a0045180c633713"
+      - name: "KNS_BroadcastCommitteSession-000042.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000042.jsonl"
+        partition: 42
+        records: 878
+        size_bytes: 51720
+        sha256: "f67af2963065504cb6acc28391eb0564c08569a46cd2a4eb5f0cf603b43c3189"
+      - name: "KNS_BroadcastCommitteSession-000043.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000043.jsonl"
+        partition: 43
+        records: 1132
+        size_bytes: 64181
+        sha256: "cedc6c0db2c64f2a44517f663d78744fc8f85a0d434abe5a712277fda660e276"
+      - name: "KNS_BroadcastCommitteSession-000044.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000044.jsonl"
+        partition: 44
+        records: 813
+        size_bytes: 49458
+        sha256: "5563372a72bced7a2c59069d0dc95d4a4f6a9319f2527ee7c168dd0d5f8b7605"
+      - name: "KNS_BroadcastCommitteSession-000048.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000048.jsonl"
+        partition: 48
+        records: 966
+        size_bytes: 81500
+        sha256: "be8e65c52e8343726eaa4680e0ec5f1bacffa982e81294d92af1891c05d1f8fa"
+      - name: "KNS_BroadcastCommitteSession-000049.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000049.jsonl"
+        partition: 49
+        records: 877
+        size_bytes: 81151
+        sha256: "51a7e5f6220f132a2473a5393463c53656bc5e79b14fd5341e6e8dfbb70a2f01"
+      - name: "KNS_BroadcastCommitteSession-000054.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000054.jsonl"
+        partition: 54
+        records: 23
+        size_bytes: 1764
+        sha256: "5a10e973183c664258c7eb416e74938b76fa3f18597cc9171d6022f806dc6bab"
+      - name: "KNS_BroadcastCommitteSession-000055.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000055.jsonl"
+        partition: 55
+        records: 1441
+        size_bytes: 120052
+        sha256: "641d24b2c4b20b18d4c53a2ca40b1b648b4c7bfc727cd3fc5125d737238bab8c"
+      - name: "KNS_BroadcastCommitteSession-000056.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000056.jsonl"
+        partition: 56
+        records: 1539
+        size_bytes: 123337
+        sha256: "4657d86c855cedfcf762fac56d56eb8e387eafba3cd181ee7b1180c343c85d59"
+      - name: "KNS_BroadcastCommitteSession-000057.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000057.jsonl"
+        partition: 57
+        records: 1060
+        size_bytes: 123701
+        sha256: "0495470a66b4cf6facc008befdc08b1933fcba5d3e9d899a595eab083d8220a7"
+      - name: "KNS_BroadcastCommitteSession-000058.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000058.jsonl"
+        partition: 58
+        records: 1736
+        size_bytes: 211959
+        sha256: "8ea5f7492c3198c0b361f4d44df491170249d0d066c32a023c1a4310b4e618f3"
+      - name: "KNS_BroadcastCommitteSession-000201.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000201.jsonl"
+        partition: 201
+        records: 1642
+        size_bytes: 202871
+        sha256: "39ddbb4f108c7859dcc37ac2b986b2c742baabad9ccae3d3133e4a443fa5fa14"
+      - name: "KNS_BroadcastCommitteSession-000202.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000202.jsonl"
+        partition: 202
+        records: 2125
+        size_bytes: 261038
+        sha256: "f225d92ccd464d83cdd7ad35071e269b58f2ac1f53c9467c2aff2f85be90132c"
+      - name: "KNS_BroadcastCommitteSession-000203.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000203.jsonl"
+        partition: 203
+        records: 5305
+        size_bytes: 359753
+        sha256: "3c3366b039685d807d23b191aece86ad2066351a9247478445f0b44d523a796e"
+      - name: "KNS_BroadcastCommitteSession-000204.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000204.jsonl"
+        partition: 204
+        records: 9892
+        size_bytes: 534167
+        sha256: "03ff50c3ba0366af76a23282264ae686ab14df6f048a1e554206a01f149e9705"
+      - name: "KNS_BroadcastCommitteSession-000205.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000205.jsonl"
+        partition: 205
+        records: 9884
+        size_bytes: 533735
+        sha256: "6eb4cbfb515a24e8b6d62029a18caed17adaf3e283bf9a06b8c33236d7bba200"
+      - name: "KNS_BroadcastCommitteSession-000206.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000206.jsonl"
+        partition: 206
+        records: 9912
+        size_bytes: 535247
+        sha256: "64bb870e590f3b44b6f1435c1041f0f41399406ed49b25cbd6015244e8b96932"
+      - name: "KNS_BroadcastCommitteSession-000207.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000207.jsonl"
+        partition: 207
+        records: 4275
+        size_bytes: 307481
+        sha256: "6fe4efb0704c17f08a07ac9577e30369da78abcae7af3ae2a8dbdaf693bba626"
+      - name: "KNS_BroadcastCommitteSession-000208.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000208.jsonl"
+        partition: 208
+        records: 1759
+        size_bytes: 225371
+        sha256: "97eed0549fab90aeba774c71db6b9e5214f7a1a594e69d341582d3e417e9bbcd"
+      - name: "KNS_BroadcastCommitteSession-000209.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000209.jsonl"
+        partition: 209
+        records: 412
+        size_bytes: 52844
+        sha256: "1ae1b0875cb5b83e1bd1776e328ad1a84ae2b950b246c71f41cef03e8e24a181"
+      - name: "KNS_BroadcastCommitteSession-000214.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000214.jsonl"
+        partition: 214
+        records: 13
+        size_bytes: 1910
+        sha256: "75a0389bd254d10cb380c0e961112199052e8fb5e9a619ac7335afe1fe04881c"
+      - name: "KNS_BroadcastCommitteSession-000215.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000215.jsonl"
+        partition: 215
+        records: 1616
+        size_bytes: 219137
+        sha256: "b9ca205e42aa5ee2a87e3d09ab454c7797cf54bf848012ac14e44dc30a109d03"
+      - name: "KNS_BroadcastCommitteSession-000216.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000216.jsonl"
+        partition: 216
+        records: 582
+        size_bytes: 78113
+        sha256: "202a451d70d5735e6dfa451afb73f392ef3afb4d006b2236eed29b6136ac56ca"
+      - name: "KNS_BroadcastCommitteSession-000217.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000217.jsonl"
+        partition: 217
+        records: 1590
+        size_bytes: 209363
+        sha256: "828fbd0d4b76c5f785a54ba1a55601a866cbbc5aca715d82c47e14e4eb1ddfa5"
+      - name: "KNS_BroadcastCommitteSession-000218.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000218.jsonl"
+        partition: 218
+        records: 9716
+        size_bytes: 528290
+        sha256: "0db827ceba538946706a5482be59cd58cc92fb4248c74410ce8e6884c814d3a4"
+      - name: "KNS_BroadcastCommitteSession-000219.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000219.jsonl"
+        partition: 219
+        records: 9538
+        size_bytes: 521561
+        sha256: "aa9e072b2d1d510964d1256c1eff668e34f9c787e58688ffa31b959186afd0aa"
+      - name: "KNS_BroadcastCommitteSession-000220.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000220.jsonl"
+        partition: 220
+        records: 1206
+        size_bytes: 153101
+        sha256: "541baccb19750ab5328164dfa52cc69851f345a47386e88442b08d425f3fe49d"
+      - name: "KNS_BroadcastCommitteSession-000221.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000221.jsonl"
+        partition: 221
+        records: 1814
+        size_bytes: 238571
+        sha256: "e6697d939a4cb50e7e88c2d5758bf1ccfa2e27817d27e786e042c663795d2607"
+      - name: "KNS_BroadcastCommitteSession-000222.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000222.jsonl"
+        partition: 222
+        records: 2342
+        size_bytes: 308561
+        sha256: "49648229c103ee385e8919d52f6af71cf499e83705b34e9f5d5470b80accec5d"
+      - name: "KNS_BroadcastCommitteSession-000223.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000223.jsonl"
+        partition: 223
+        records: 2286
+        size_bytes: 295400
+        sha256: "ef1937546d9ed788a64a9ad7e4d122fbe2dc1d54330b67f57d3427dad7a4d2cf"
+      - name: "KNS_BroadcastCommitteSession-000224.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000224.jsonl"
+        partition: 224
+        records: 2586
+        size_bytes: 315785
+        sha256: "379cff3429cb406b2765aba1d75f3fe362206c3bf0067fb7dcf595d8235b6c8a"
+      - name: "KNS_BroadcastCommitteSession-000225.jsonl"
+        path: "data/KNS_BroadcastCommitteSession/KNS_BroadcastCommitteSession-000225.jsonl"
+        partition: 225
+        records: 78
+        size_bytes: 4211
+        sha256: "f039ce9ecfb85ada1574e290a39e0bec4b7d428a0e1259951f288f7ebb150adb"
+  KNS_BillInitiator:
+    description: ""
+    source_endpoint: "KNS_BillInitiator"
+    stats:
+      record_count: 169493
+      file_count: 23
+      size_bytes: 21156963
+      min_id: 0
+      max_id: 229999
+      last_updated: "2026-02-06T21:29:38.043Z"
+    files:
+      - name: "KNS_BillInitiator-000001.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000001.jsonl"
+        partition: 1
+        records: 7537
+        size_bytes: 904215
+        sha256: "14c8f8135029d450023dd494ff0cbcfbe006e990505d278e119807925ffdd575"
+      - name: "KNS_BillInitiator-000002.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000002.jsonl"
+        partition: 2
+        records: 8185
+        size_bytes: 997169
+        sha256: "8ed80cd89dfad1d326acb7a45d4e631d5d1aca15ae4958da415ccfd93d595f45"
+      - name: "KNS_BillInitiator-000003.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000003.jsonl"
+        partition: 3
+        records: 8140
+        size_bytes: 992636
+        sha256: "00072079c52a203476af115775f1c7085cd280b6d937116ccf13368f0e48436c"
+      - name: "KNS_BillInitiator-000004.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000004.jsonl"
+        partition: 4
+        records: 7742
+        size_bytes: 947105
+        sha256: "a073e9cdc203cd95690db56dab3e8b439cd0b558efd0252d6b64f40ec486863a"
+      - name: "KNS_BillInitiator-000005.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000005.jsonl"
+        partition: 5
+        records: 7862
+        size_bytes: 962154
+        sha256: "16dbcf0488aa39125f85990956422e7f31c80cbac24e7f81adb79a1c4fc13c72"
+      - name: "KNS_BillInitiator-000006.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000006.jsonl"
+        partition: 6
+        records: 8020
+        size_bytes: 983570
+        sha256: "d9766c151b420f93367dc96fea41b443a45aea3604e2b7c1172fd5524dfdb4e3"
+      - name: "KNS_BillInitiator-000007.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000007.jsonl"
+        partition: 7
+        records: 7927
+        size_bytes: 971312
+        sha256: "6a4f293a9a162b4a9804eb5612814bed3eb5c36770e73e953046760f702b5064"
+      - name: "KNS_BillInitiator-000008.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000008.jsonl"
+        partition: 8
+        records: 7474
+        size_bytes: 916907
+        sha256: "21eca0df8af6cc6ced2ac735543d7a4acd2941c7f6853eb9f131fa89f1923404"
+      - name: "KNS_BillInitiator-000009.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000009.jsonl"
+        partition: 9
+        records: 7044
+        size_bytes: 886589
+        sha256: "f5f9043742555e0e9303a55da4199a5f2afcda9a1af931b9e999f14a020fc6a5"
+      - name: "KNS_BillInitiator-000010.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000010.jsonl"
+        partition: 10
+        records: 7660
+        size_bytes: 959257
+        sha256: "a477f38d65140626688bb00b1fef8c7c47bad5496cfe0f1f97dfe5840be86196"
+      - name: "KNS_BillInitiator-000011.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000011.jsonl"
+        partition: 11
+        records: 9714
+        size_bytes: 1189036
+        sha256: "19eef9aece029f7cce866102fcced5457b1955afe5936de22382ede10ce72cd6"
+      - name: "KNS_BillInitiator-000012.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000012.jsonl"
+        partition: 12
+        records: 9856
+        size_bytes: 1204032
+        sha256: "a86aa77cb9fdc24e0a4aa7b3a25a1fb89a69f2c537f1f84de3ace96965c39fee"
+      - name: "KNS_BillInitiator-000013.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000013.jsonl"
+        partition: 13
+        records: 9523
+        size_bytes: 1170275
+        sha256: "fe82b4cbebcc72970dc79da01ccec6746463bc6902f7f714df65e408dfe7ffa1"
+      - name: "KNS_BillInitiator-000014.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000014.jsonl"
+        partition: 14
+        records: 7190
+        size_bytes: 920322
+        sha256: "824a25b8f04a5c3598c57977e87345b8a5637b4eee1ec9f8cf22d0772f8c5a76"
+      - name: "KNS_BillInitiator-000015.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000015.jsonl"
+        partition: 15
+        records: 7398
+        size_bytes: 951440
+        sha256: "12999229a008a98c62a11de50398272d126d42ec2eb6d5e32d9efe8dcf8b95ac"
+      - name: "KNS_BillInitiator-000016.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000016.jsonl"
+        partition: 16
+        records: 7731
+        size_bytes: 995174
+        sha256: "b127ea783cfdee17a3e87401c741bd6b54544521941b3064a9b7fdbe17230dc6"
+      - name: "KNS_BillInitiator-000017.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000017.jsonl"
+        partition: 17
+        records: 4533
+        size_bytes: 582493
+        sha256: "d2995ae2f3266ae516912240e366b63f0b441e72ee45523c90917e4b52250ab6"
+      - name: "KNS_BillInitiator-000018.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000018.jsonl"
+        partition: 18
+        records: 5324
+        size_bytes: 684544
+        sha256: "ef9033f484a4d1b89cc59d3b5247a3ee1da4ffd351be6482c5749c0968986c95"
+      - name: "KNS_BillInitiator-000019.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000019.jsonl"
+        partition: 19
+        records: 5778
+        size_bytes: 742724
+        sha256: "9b3ca8e6197ded296846bb701f4b8c61fb228e89164d2dbd3d87a0f2d85fd5e7"
+      - name: "KNS_BillInitiator-000020.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000020.jsonl"
+        partition: 20
+        records: 6539
+        size_bytes: 841283
+        sha256: "466ad615f161740f2e87a1319d2e4911146e0efa6200fd0a3d8fd13dee721743"
+      - name: "KNS_BillInitiator-000021.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000021.jsonl"
+        partition: 21
+        records: 5524
+        size_bytes: 709440
+        sha256: "02fa5d9360f99f82cb099c0829875f17cabfd9ef1d4d117c348ef45bf40cea53"
+      - name: "KNS_BillInitiator-000022.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000022.jsonl"
+        partition: 22
+        records: 6602
+        size_bytes: 849438
+        sha256: "3c5b6384b606df185720facda1fd4c69310e8f2584cd91c68e3fded37652c552"
+      - name: "KNS_BillInitiator-000023.jsonl"
+        path: "data/KNS_BillInitiator/KNS_BillInitiator-000023.jsonl"
+        partition: 23
+        records: 6190
+        size_bytes: 795848
+        sha256: "1ccaa6f9497ddba7fb5775d658e539ef594b8150badf406dc025c7973e4eb4d1"
 totals:
-  tables: 2
-  files: 5
-  records: 1266
-  size_bytes: 226125
+  tables: 13
+  files: 101
+  records: 308436
+  size_bytes: 40768271
