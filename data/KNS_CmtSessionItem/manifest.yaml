@@ -1,7 +1,7 @@
 manifest_version: "1.0.0"
 table:
   name: "KNS_CmtSessionItem"
-  description: ""
+  description: "פריטים על סדר היום בישיבות ועדה"
   primary_key: "Id"
 provenance:
   source:
@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:17:44.078Z"
+    accessed_at: "2026-02-07T14:47:54.318Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
 schema:
   fields:
     - name: "Id"
