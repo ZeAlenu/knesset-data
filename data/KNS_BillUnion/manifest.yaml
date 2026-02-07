@@ -1,0 +1,49 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_BillUnion"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_BillUnion"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "MainBillID"
+      type: "integer"
+      nullable: true
+    - name: "UnionBillID"
+      type: "integer"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 1563
+  file_count: 1
+  total_bytes: 159570
+  min_id: 1
+  max_id: 1670
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_BillUnion-000001.jsonl"
+    records: 1563
+    bytes: 159570
+    sha256: "9c160aa7362ac654c86f3c1287a35dc110249eae4a060d3be3a77819bd8a05f2"
+    id_range:
+      - 1
+      - 1670

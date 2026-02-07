@@ -1,0 +1,49 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_GovMinistry"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_GovMinistry"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "IsActive"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 922
+  file_count: 1
+  total_bytes: 107138
+  min_id: 490
+  max_id: 1478
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_GovMinistry-000001.jsonl"
+    records: 922
+    bytes: 107138
+    sha256: "7189e0da38dbde3a93068a96c3e22e9eacf58a68bbb5c89cfd9651272de18d7c"
+    id_range:
+      - 490
+      - 1478

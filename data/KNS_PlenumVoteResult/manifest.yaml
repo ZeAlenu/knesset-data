@@ -1,0 +1,64 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_PlenumVoteResult"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVoteResult"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "MkId"
+      type: "integer"
+      nullable: true
+    - name: "VoteID"
+      type: "integer"
+      nullable: true
+    - name: "VoteDate"
+      type: "datetime"
+      nullable: true
+    - name: "ResultCode"
+      type: "integer"
+      nullable: true
+    - name: "ResultDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+    - name: "LastName"
+      type: "string"
+      nullable: true
+    - name: "FirstName"
+      type: "string"
+      nullable: true
+stats:
+  record_count: 50
+  file_count: 1
+  total_bytes: 10489
+  min_id: 1
+  max_id: 50
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_PlenumVoteResult-000001.jsonl"
+    records: 50
+    bytes: 10489
+    sha256: "e9e7bd62f7a79a5856e98fa7c5eb26987555266b5089d53c5b398b0b7fa7b19c"
+    id_range:
+      - 1
+      - 50

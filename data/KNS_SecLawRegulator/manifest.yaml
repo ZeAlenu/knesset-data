@@ -1,0 +1,58 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_SecLawRegulator"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_SecLawRegulator"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "SecondaryLawID"
+      type: "integer"
+      nullable: true
+    - name: "RegulatorTypeID"
+      type: "integer"
+      nullable: true
+    - name: "RegulatorTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "RegulatorID"
+      type: "integer"
+      nullable: true
+    - name: "RegulatorDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 4817
+  file_count: 1
+  total_bytes: 992487
+  min_id: 1
+  max_id: 8462
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_SecLawRegulator-000001.jsonl"
+    records: 4817
+    bytes: 992487
+    sha256: "5b1c1d696b8f597b5b412c869a82dd14d4cb1a36a9652f3660c3f031c10ea406"
+    id_range:
+      - 1
+      - 8462

@@ -1,0 +1,173 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_IsraelLaw"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLaw"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "IsBasicLaw"
+      type: "boolean"
+      nullable: true
+    - name: "IsFavoriteLaw"
+      type: "boolean"
+      nullable: true
+    - name: "PublicationDate"
+      type: "datetime"
+      nullable: true
+    - name: "LatestPublicationDate"
+      type: "datetime"
+      nullable: true
+    - name: "IsBudgetLaw"
+      type: "boolean"
+      nullable: true
+    - name: "LawValidityID"
+      type: "integer"
+      nullable: true
+    - name: "LawValidityDesc"
+      type: "string"
+      nullable: true
+    - name: "ValidityStartDate"
+      type: "datetime"
+      nullable: true
+    - name: "ValidityStartDateNotes"
+      type: "string"
+      nullable: true
+    - name: "ValidityFinishDate"
+      type: "datetime"
+      nullable: true
+    - name: "ValidityFinishDateNotes"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 1993
+  file_count: 14
+  total_bytes: 1017345
+  min_id: 2000001
+  max_id: 2239473
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_IsraelLaw-000201.jsonl"
+    records: 1449
+    bytes: 731490
+    sha256: "5c542810c7ebb73bd89d64584869b9622499ac10a455cb416d310d4e18281f5a"
+    id_range:
+      - 2000001
+      - 2009637
+  - name: "KNS_IsraelLaw-000202.jsonl"
+    records: 19
+    bytes: 10895
+    sha256: "ef94bfbae7c22cf54e2e7983b7a0af3a80e6fef033e9ce83817c15d5bd85bdc9"
+    id_range:
+      - 2010821
+      - 2019222
+  - name: "KNS_IsraelLaw-000203.jsonl"
+    records: 12
+    bytes: 7012
+    sha256: "ffce02dbb6505273b2f91e91d63e1e2e43c541d8c8969058f4762959f85d0bdb"
+    id_range:
+      - 2020878
+      - 2025411
+  - name: "KNS_IsraelLaw-000207.jsonl"
+    records: 155
+    bytes: 75674
+    sha256: "b55c77ba3932ecca2ac9ce0b7bb21ddf0802719f89810ac1b9712388b53af81d"
+    id_range:
+      - 2064029
+      - 2069999
+  - name: "KNS_IsraelLaw-000208.jsonl"
+    records: 132
+    bytes: 64944
+    sha256: "082260e1b341c104efd4da96ed31e13a0ba7b4922a15308be653c0c9204ea461"
+    id_range:
+      - 2070000
+      - 2078565
+  - name: "KNS_IsraelLaw-000209.jsonl"
+    records: 28
+    bytes: 14492
+    sha256: "469c5e13aa8e79f00df4bd97fd01141d59041709824567e85c8d68c63e12e292"
+    id_range:
+      - 2080774
+      - 2085030
+  - name: "KNS_IsraelLaw-000215.jsonl"
+    records: 27
+    bytes: 16879
+    sha256: "e22cf0add875cede62ddface7ea854378f83d57de69fa9cb77a7f3d2414c6a11"
+    id_range:
+      - 2140923
+      - 2149841
+  - name: "KNS_IsraelLaw-000216.jsonl"
+    records: 57
+    bytes: 31677
+    sha256: "cae33a8f72ebef5f7648c29a2dc83e304d1631ea8f0473442537e96a9db2cffa"
+    id_range:
+      - 2151346
+      - 2159966
+  - name: "KNS_IsraelLaw-000217.jsonl"
+    records: 13
+    bytes: 7018
+    sha256: "5343ac3f363d73434bf9855e48e773a73bda5c582502368cf2bc55669c20cf18"
+    id_range:
+      - 2160254
+      - 2169192
+  - name: "KNS_IsraelLaw-000220.jsonl"
+    records: 6
+    bytes: 3395
+    sha256: "93c2027ddb41f292972a15bd6e82256757b39804677da7592a77a2a414290c43"
+    id_range:
+      - 2191134
+      - 2194944
+  - name: "KNS_IsraelLaw-000221.jsonl"
+    records: 16
+    bytes: 9017
+    sha256: "24fbc72b0e5db0a0879efd2dc8ead6baaeef2f492d884fdeff3f70383c6fced3"
+    id_range:
+      - 2203836
+      - 2209913
+  - name: "KNS_IsraelLaw-000222.jsonl"
+    records: 35
+    bytes: 20369
+    sha256: "0d2d276a62e1ca49b19a4bc03944f70197c2743f5ccf06d0fb862a9bdd54c070"
+    id_range:
+      - 2210693
+      - 2219974
+  - name: "KNS_IsraelLaw-000223.jsonl"
+    records: 26
+    bytes: 14562
+    sha256: "4f9e94ae5e5d9457bdb7c791047c24c4ff62dd2c074da75feb29b677ae54a385"
+    id_range:
+      - 2220343
+      - 2229332
+  - name: "KNS_IsraelLaw-000224.jsonl"
+    records: 18
+    bytes: 9921
+    sha256: "f5cd5fefbae4346e213494f5e9d2478943bb586c1806b6b1c6a56d7c56734db1"
+    id_range:
+      - 2230332
+      - 2239473

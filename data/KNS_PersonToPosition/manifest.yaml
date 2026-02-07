@@ -1,0 +1,106 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_PersonToPosition"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PersonToPosition"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "PersonID"
+      type: "integer"
+      nullable: true
+    - name: "PositionID"
+      type: "integer"
+      nullable: true
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "StartDate"
+      type: "datetime"
+      nullable: true
+    - name: "FinishDate"
+      type: "datetime"
+      nullable: true
+    - name: "GovMinistryID"
+      type: "integer"
+      nullable: true
+    - name: "GovMinistryName"
+      type: "string"
+      nullable: true
+    - name: "DutyDesc"
+      type: "string"
+      nullable: true
+    - name: "FactionID"
+      type: "integer"
+      nullable: true
+    - name: "FactionName"
+      type: "string"
+      nullable: true
+    - name: "GovernmentNum"
+      type: "integer"
+      nullable: true
+    - name: "CommitteeID"
+      type: "integer"
+      nullable: true
+    - name: "CommitteeName"
+      type: "string"
+      nullable: true
+    - name: "IsCurrent"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 23483
+  file_count: 4
+  total_bytes: 9698266
+  min_id: 379
+  max_id: 33708
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_PersonToPosition-000001.jsonl"
+    records: 4485
+    bytes: 1694825
+    sha256: "ebe5e7ff49a82f4e6128a843d18c1252cf048baebdcf86e6e1af39bf36ab2843"
+    id_range:
+      - 379
+      - 9999
+  - name: "KNS_PersonToPosition-000002.jsonl"
+    records: 8844
+    bytes: 3810777
+    sha256: "187945c9862421ba894df6e1c406156f397e3d9c160fe1fc103dbbdeb2e3be95"
+    id_range:
+      - 10000
+      - 19999
+  - name: "KNS_PersonToPosition-000003.jsonl"
+    records: 7746
+    bytes: 3134790
+    sha256: "b50725a68ef635a1230d988436f4fab7b14b65f0ff52c6bd31b6972c14e0ca91"
+    id_range:
+      - 20000
+      - 29999
+  - name: "KNS_PersonToPosition-000004.jsonl"
+    records: 2408
+    bytes: 1057874
+    sha256: "78a22d77cacc6b7befe763254ad39f87b09fbf1a8b16b98e4a16ee5fe979b878"
+    id_range:
+      - 30000
+      - 33708

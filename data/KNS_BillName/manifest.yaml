@@ -1,0 +1,76 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_BillName"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_BillName"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "BillID"
+      type: "integer"
+      nullable: true
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "NameHistoryTypeID"
+      type: "integer"
+      nullable: true
+    - name: "NameHistoryTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 27812
+  file_count: 4
+  total_bytes: 7943138
+  min_id: 1
+  max_id: 37279
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_BillName-000001.jsonl"
+    records: 9792
+    bytes: 2734745
+    sha256: "76dafcb3f13bc5884bfffe8b8c8b50faee9fd8eb7fb3c70b1d9d23874d71df66"
+    id_range:
+      - 1
+      - 9999
+  - name: "KNS_BillName-000002.jsonl"
+    records: 6558
+    bytes: 1826566
+    sha256: "5ef59a0faf866ae72f9b104037ce2e2539d9f0508929d4f7d85459572feeb913"
+    id_range:
+      - 10000
+      - 19739
+  - name: "KNS_BillName-000003.jsonl"
+    records: 6779
+    bytes: 2011867
+    sha256: "6f583fd6a1a79893451719ac6ea040a0dcfc47e7f73530f2bc8c5ed75f1ae4b8"
+    id_range:
+      - 20738
+      - 29999
+  - name: "KNS_BillName-000004.jsonl"
+    records: 4683
+    bytes: 1369960
+    sha256: "0d039cc0b4ad70de56fbdad11b39c9d763a86e7c1a9fff6d536d3d9227972bcb"
+    id_range:
+      - 30000
+      - 37279

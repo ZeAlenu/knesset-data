@@ -1,0 +1,87 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_LawBinding"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_LawBinding"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "LawID"
+      type: "integer"
+      nullable: true
+    - name: "IsraelLawID"
+      type: "integer"
+      nullable: true
+    - name: "ParentLawID"
+      type: "integer"
+      nullable: true
+    - name: "LawTypeID"
+      type: "integer"
+      nullable: true
+    - name: "LawParentTypeID"
+      type: "integer"
+      nullable: true
+    - name: "BindingType"
+      type: "integer"
+      nullable: true
+    - name: "BindingTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "PageNumber"
+      type: "string"
+      nullable: true
+    - name: "AmendmentType"
+      type: "integer"
+      nullable: true
+    - name: "AmendmentTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 15045
+  file_count: 3
+  total_bytes: 4206921
+  min_id: 41555
+  max_id: 67529
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_LawBinding-000005.jsonl"
+    records: 7898
+    bytes: 2205881
+    sha256: "dbb1849f127e2a37a3067512be8c035156e1591bd2b47331a3e2a8a92f989eca"
+    id_range:
+      - 41555
+      - 49999
+  - name: "KNS_LawBinding-000006.jsonl"
+    records: 4941
+    bytes: 1384738
+    sha256: "3e0d051409d103936fe3dccaaa8854ff70ed60a451dab3e93846323b48f69391"
+    id_range:
+      - 50000
+      - 58958
+  - name: "KNS_LawBinding-000007.jsonl"
+    records: 2206
+    bytes: 616302
+    sha256: "b8b177d6d91ce5613041eb888e0446a7ff0259a98bb74e9bdb7cf659945f9c16"
+    id_range:
+      - 62377
+      - 67529

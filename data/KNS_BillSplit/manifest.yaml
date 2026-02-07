@@ -1,0 +1,52 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_BillSplit"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_BillSplit"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "MainBillID"
+      type: "integer"
+      nullable: true
+    - name: "SplitBillID"
+      type: "integer"
+      nullable: true
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 818
+  file_count: 1
+  total_bytes: 171791
+  min_id: 1
+  max_id: 1265
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_BillSplit-000001.jsonl"
+    records: 818
+    bytes: 171791
+    sha256: "59dfd8af3a254ba58094a27fa8c9715bbb66c617beb19cf1192882f13041af59"
+    id_range:
+      - 1
+      - 1265

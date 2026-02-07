@@ -1,0 +1,495 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_CommitteeSession"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_CommitteeSession"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "Number"
+      type: "integer"
+      nullable: true
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "TypeID"
+      type: "integer"
+      nullable: true
+    - name: "TypeDesc"
+      type: "string"
+      nullable: true
+    - name: "CommitteeID"
+      type: "integer"
+      nullable: true
+    - name: "StatusID"
+      type: "integer"
+      nullable: true
+    - name: "StatusDesc"
+      type: "string"
+      nullable: true
+    - name: "Location"
+      type: "string"
+      nullable: true
+    - name: "SessionUrl"
+      type: "string"
+      nullable: true
+    - name: "BroadcastUrl"
+      type: "string"
+      nullable: true
+    - name: "StartDate"
+      type: "datetime"
+      nullable: true
+    - name: "FinishDate"
+      type: "datetime"
+      nullable: true
+    - name: "Note"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 107735
+  file_count: 60
+  total_bytes: 55745013
+  min_id: 64515
+  max_id: 2240345
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_CommitteeSession-000007.jsonl"
+    records: 2962
+    bytes: 1294564
+    sha256: "98c3b29bb4b1b6886fb4aced430a087918599d8a83303b337ccc64db6f564790"
+    id_range:
+      - 64515
+      - 67632
+  - name: "KNS_CommitteeSession-000008.jsonl"
+    records: 668
+    bytes: 291847
+    sha256: "6ec572fd9a60fe1d219b159106ae3aaddfdff117e19b5da30e873b2a8e41aab0"
+    id_range:
+      - 70218
+      - 79989
+  - name: "KNS_CommitteeSession-000009.jsonl"
+    records: 764
+    bytes: 332330
+    sha256: "35f5976d1826023ecc5a6b0833e8da7914a445c29cd131ef310dcfa9a67868b2"
+    id_range:
+      - 80000
+      - 89822
+  - name: "KNS_CommitteeSession-000010.jsonl"
+    records: 835
+    bytes: 364614
+    sha256: "eb1d26b4f9257c4d0f9a20693007fb6f85b7da93f9dcc0bc10a69f0dbb8e9fb2"
+    id_range:
+      - 93148
+      - 99975
+  - name: "KNS_CommitteeSession-000011.jsonl"
+    records: 587
+    bytes: 250952
+    sha256: "f3a4eca52a4043aafe8e4a310bf996f331eec4a65389a1847d8a6e002a88b210"
+    id_range:
+      - 100017
+      - 109992
+  - name: "KNS_CommitteeSession-000012.jsonl"
+    records: 411
+    bytes: 176394
+    sha256: "fe463314932789468b9e2fb734c039f33f86eac567afc0ef35a877c09903667a"
+    id_range:
+      - 110032
+      - 119992
+  - name: "KNS_CommitteeSession-000013.jsonl"
+    records: 846
+    bytes: 360665
+    sha256: "d3609dae42fecbbd9928f83b2e9bf4fe673648332da36fd435669d52bed95ff9"
+    id_range:
+      - 120012
+      - 129766
+  - name: "KNS_CommitteeSession-000014.jsonl"
+    records: 295
+    bytes: 125255
+    sha256: "48e82d09b4c72d78901d2c376c0c885186f4beb7dffb410ec7de6cb1895d6195"
+    id_range:
+      - 130178
+      - 139929
+  - name: "KNS_CommitteeSession-000015.jsonl"
+    records: 439
+    bytes: 187718
+    sha256: "1dde4df31a821e8cff9b46b022bb29a40a4aa5a2a3bac88d35fd92564ff6a3a6"
+    id_range:
+      - 140005
+      - 146786
+  - name: "KNS_CommitteeSession-000018.jsonl"
+    records: 433
+    bytes: 186526
+    sha256: "f23185e5a99e37f2c10baccb5e341219807aa9d90792c84cd3c546f0b7e9d5ed"
+    id_range:
+      - 174567
+      - 179975
+  - name: "KNS_CommitteeSession-000019.jsonl"
+    records: 874
+    bytes: 373038
+    sha256: "2c70a00b57d58a83e58910a6c244f287738bde132d0e6e90559f7abe4a0337cd"
+    id_range:
+      - 180006
+      - 189981
+  - name: "KNS_CommitteeSession-000020.jsonl"
+    records: 85
+    bytes: 36234
+    sha256: "840a3059367b61c0e0614f5a4e9c61079e7e007d8f10a4aaedbabd99cbb59101"
+    id_range:
+      - 190006
+      - 191014
+  - name: "KNS_CommitteeSession-000025.jsonl"
+    records: 708
+    bytes: 302136
+    sha256: "092ed03537757803440797fb9ba7ff0ed4ae4125299fded8b44706ff4e71992e"
+    id_range:
+      - 240080
+      - 249992
+  - name: "KNS_CommitteeSession-000026.jsonl"
+    records: 781
+    bytes: 330762
+    sha256: "08855ba920173328d8351fb8f81b4b8e477468beeeb2853a13004f538e0cd6d7"
+    id_range:
+      - 250059
+      - 259999
+  - name: "KNS_CommitteeSession-000027.jsonl"
+    records: 634
+    bytes: 270169
+    sha256: "8376503086a0c1ff1b44846a58d8afc0a1dd24819225bffa0daaeacf91ab2ff7"
+    id_range:
+      - 260001
+      - 269990
+  - name: "KNS_CommitteeSession-000028.jsonl"
+    records: 454
+    bytes: 194402
+    sha256: "2b52b51337acb95d31b8568cebdf359cdd21bf03df1e5e1a76048d98d64f8a2b"
+    id_range:
+      - 270007
+      - 279988
+  - name: "KNS_CommitteeSession-000029.jsonl"
+    records: 401
+    bytes: 171034
+    sha256: "2bdc3f8a01b3b4cbc95c669fb920efde35d09b886e70d57eec6ac9776f6696de"
+    id_range:
+      - 280088
+      - 289892
+  - name: "KNS_CommitteeSession-000030.jsonl"
+    records: 677
+    bytes: 288291
+    sha256: "625369ee4881cc40e95e7eb9ef2a5c0ce191b3e5429f032ab1a756f898b14b93"
+    id_range:
+      - 290031
+      - 299975
+  - name: "KNS_CommitteeSession-000031.jsonl"
+    records: 645
+    bytes: 273287
+    sha256: "65ec14d75ff4426323f247416bb566923c5ca2f6cd51c3bd8ae3b4cdbd18e1f9"
+    id_range:
+      - 300012
+      - 309975
+  - name: "KNS_CommitteeSession-000032.jsonl"
+    records: 296
+    bytes: 126310
+    sha256: "df8201568036026ca034da8a637ad764855983d59796ec0112529907f3600a89"
+    id_range:
+      - 310014
+      - 319901
+  - name: "KNS_CommitteeSession-000033.jsonl"
+    records: 1040
+    bytes: 444351
+    sha256: "3650402ab8edca002189b0c769a11abdd080343aba860d5a100b0423098f1d03"
+    id_range:
+      - 321205
+      - 329999
+  - name: "KNS_CommitteeSession-000034.jsonl"
+    records: 1136
+    bytes: 484301
+    sha256: "e5f66fc46adf06d1b0b0a71efbae53a9e34af256e615428f4afe7fe945a7b842"
+    id_range:
+      - 330002
+      - 339994
+  - name: "KNS_CommitteeSession-000035.jsonl"
+    records: 313
+    bytes: 133465
+    sha256: "9b848e5f5b3f5cc5fc2a9cb0e06ea688fe7bb3ed8ef90b19e416b8baac459a90"
+    id_range:
+      - 340001
+      - 349930
+  - name: "KNS_CommitteeSession-000036.jsonl"
+    records: 334
+    bytes: 142148
+    sha256: "d6305d9290558537d3dcfb8f35cb2fbb651cf17453542cda3a7597532cff513a"
+    id_range:
+      - 350014
+      - 359992
+  - name: "KNS_CommitteeSession-000037.jsonl"
+    records: 301
+    bytes: 128167
+    sha256: "a9ef2c0b56ebc0cde648f724b269383ed36eb2cc773d1679167792c67d437264"
+    id_range:
+      - 360094
+      - 369980
+  - name: "KNS_CommitteeSession-000038.jsonl"
+    records: 62
+    bytes: 26258
+    sha256: "2cd7a40ed9040d03bbb73099ab454eda8e83237e2b555dd301679b4cb5e95c9f"
+    id_range:
+      - 370169
+      - 373449
+  - name: "KNS_CommitteeSession-000039.jsonl"
+    records: 171
+    bytes: 72893
+    sha256: "0529f1970a0a39ea7fec71049f82c3e06d31c61be56d2718fdb236d304e320cf"
+    id_range:
+      - 385451
+      - 389731
+  - name: "KNS_CommitteeSession-000040.jsonl"
+    records: 357
+    bytes: 155755
+    sha256: "07097fb388fb5009b2d8c4c09f96cbe57701c745beadc9721a528a1ed57db2e8"
+    id_range:
+      - 390295
+      - 399656
+  - name: "KNS_CommitteeSession-000041.jsonl"
+    records: 1188
+    bytes: 507401
+    sha256: "7e7fd42f3b38b03be661c448ebf3a362aa41adb94554c9f68127871a6c3680a5"
+    id_range:
+      - 400014
+      - 409976
+  - name: "KNS_CommitteeSession-000042.jsonl"
+    records: 878
+    bytes: 376044
+    sha256: "61ca62f71bf71ea1ba1dddceb0e65c38c06652455bd33c5674326695b3ee46f3"
+    id_range:
+      - 410005
+      - 419976
+  - name: "KNS_CommitteeSession-000043.jsonl"
+    records: 1132
+    bytes: 486877
+    sha256: "335e8489cc88c2661d81cafba4fcdde990581d5121a48a58bbcc04055f55945f"
+    id_range:
+      - 420008
+      - 429997
+  - name: "KNS_CommitteeSession-000044.jsonl"
+    records: 813
+    bytes: 347805
+    sha256: "dce31f1058f5e078b07bf3fc0dbc4af438635779a4775fc355c8709b23568bad"
+    id_range:
+      - 430008
+      - 438050
+  - name: "KNS_CommitteeSession-000048.jsonl"
+    records: 966
+    bytes: 417299
+    sha256: "9b2c0346fd9b3dcead9f71d62e251bce104f34f5fa67bea265acf170bcb9dd96"
+    id_range:
+      - 470240
+      - 479980
+  - name: "KNS_CommitteeSession-000049.jsonl"
+    records: 877
+    bytes: 382125
+    sha256: "84bf06408ebcab0cd0b87fc1be1a406d438b83b211b4d3dd06ca26c9b5e0bb04"
+    id_range:
+      - 480033
+      - 488670
+  - name: "KNS_CommitteeSession-000054.jsonl"
+    records: 23
+    bytes: 9922
+    sha256: "e87397d69311557b0e2a48015ed4a899b2767faa5b26d7d1f9c628027e5e78fa"
+    id_range:
+      - 539787
+      - 539963
+  - name: "KNS_CommitteeSession-000055.jsonl"
+    records: 1441
+    bytes: 617947
+    sha256: "dd2b387e39816d24c8440a758e992dbc7eae85935e72046219a252b672a74f7a"
+    id_range:
+      - 540043
+      - 549996
+  - name: "KNS_CommitteeSession-000056.jsonl"
+    records: 1539
+    bytes: 663505
+    sha256: "11ef215201b5967ab24a986369678669a717b6b56ac2158bbb5ae8c9c00ce65c"
+    id_range:
+      - 550004
+      - 559990
+  - name: "KNS_CommitteeSession-000057.jsonl"
+    records: 1060
+    bytes: 458267
+    sha256: "1d850dd5f5724318ca69f42d1e1fe77806ab95f854bbae17053561d83c01c892"
+    id_range:
+      - 560092
+      - 569999
+  - name: "KNS_CommitteeSession-000058.jsonl"
+    records: 1736
+    bytes: 754686
+    sha256: "c0149d1d29794ad06626326c9935a4267514aa65ce1f5e4eb7a68fc89370bee2"
+    id_range:
+      - 570009
+      - 579323
+  - name: "KNS_CommitteeSession-000201.jsonl"
+    records: 1642
+    bytes: 713346
+    sha256: "ff551c66a13621e9131a96e6cc7153534297b53d12cc7fcfe0ba658d55f6f8d7"
+    id_range:
+      - 2002367
+      - 2009999
+  - name: "KNS_CommitteeSession-000202.jsonl"
+    records: 2125
+    bytes: 924018
+    sha256: "70cb5f5ba1134c8c6e3c920c2ccb91fd6acc4a811935c8b23f566f62531f4044"
+    id_range:
+      - 2010007
+      - 2019999
+  - name: "KNS_CommitteeSession-000203.jsonl"
+    records: 5305
+    bytes: 2843905
+    sha256: "6341a83a686b1aa208bcde215c3180ceb480a9c16a9477d97e2c5600171efbeb"
+    id_range:
+      - 2020001
+      - 2029999
+  - name: "KNS_CommitteeSession-000204.jsonl"
+    records: 9892
+    bytes: 5968116
+    sha256: "319d51d893e4cd44b7f87b0398c1914519ae2f87f4a2a08f9751cdbc9d0a3ed8"
+    id_range:
+      - 2030000
+      - 2039999
+  - name: "KNS_CommitteeSession-000205.jsonl"
+    records: 9884
+    bytes: 6446637
+    sha256: "14e174e9b7d143c1a37bb3df1580125f9b10633fef1ea04624da1e54a008c6d5"
+    id_range:
+      - 2040000
+      - 2049999
+  - name: "KNS_CommitteeSession-000206.jsonl"
+    records: 9912
+    bytes: 6314644
+    sha256: "9ef9f4a4798d51981059513828ac1d29e131bf7d6f024e3ce8ac29771bdfd874"
+    id_range:
+      - 2050000
+      - 2059999
+  - name: "KNS_CommitteeSession-000207.jsonl"
+    records: 4275
+    bytes: 2350360
+    sha256: "6c8dee57be9001296d34b8edeed5f17b389a3cf2d447e29afc562485699a15f1"
+    id_range:
+      - 2060000
+      - 2069995
+  - name: "KNS_CommitteeSession-000208.jsonl"
+    records: 1759
+    bytes: 773674
+    sha256: "0100432fc3e225529230a6070b4e212c5d1cd19aca649422b9677bbc7f4fe4f4"
+    id_range:
+      - 2070024
+      - 2079976
+  - name: "KNS_CommitteeSession-000209.jsonl"
+    records: 412
+    bytes: 182506
+    sha256: "d9e738d45c94709df79a422d0651a6bb903e93c2495e11539e08c3b64e501488"
+    id_range:
+      - 2080161
+      - 2088528
+  - name: "KNS_CommitteeSession-000214.jsonl"
+    records: 13
+    bytes: 5696
+    sha256: "ad12c7852c74e90f266f9868c75f89ac7131abfc6c7bfeeae6f6d5e2f6956d94"
+    id_range:
+      - 2139678
+      - 2139982
+  - name: "KNS_CommitteeSession-000215.jsonl"
+    records: 1616
+    bytes: 724255
+    sha256: "6d53385f79918dba6599cadd683e040de75151400d313f77975a2680962d1fc7"
+    id_range:
+      - 2140007
+      - 2149999
+  - name: "KNS_CommitteeSession-000216.jsonl"
+    records: 582
+    bytes: 258106
+    sha256: "7c790d4c06187df7352eea82b2efd9c630323112938653903dae819c897f0ed9"
+    id_range:
+      - 2150002
+      - 2159985
+  - name: "KNS_CommitteeSession-000217.jsonl"
+    records: 1590
+    bytes: 716579
+    sha256: "c6a5867dbf103f527a2fa9290d9de22cd470fe5921b13a22235a3eb73a9e79e2"
+    id_range:
+      - 2160006
+      - 2169993
+  - name: "KNS_CommitteeSession-000218.jsonl"
+    records: 9716
+    bytes: 5016674
+    sha256: "c41b40746a86953a7f9e86fc11771429c352652279cea24567b2fe23551fa9ba"
+    id_range:
+      - 2170002
+      - 2179999
+  - name: "KNS_CommitteeSession-000219.jsonl"
+    records: 9538
+    bytes: 4922039
+    sha256: "8a029a3fdb19f8eb32c368cd2c0a6c6688111d08acf9eecc6449e233416deab0"
+    id_range:
+      - 2180000
+      - 2189999
+  - name: "KNS_CommitteeSession-000220.jsonl"
+    records: 1206
+    bytes: 537345
+    sha256: "b52b9eb209ccdbd2bfd3e71c1c0487c0178d78bf9e61b199ccfee361a7b12db4"
+    id_range:
+      - 2190001
+      - 2199987
+  - name: "KNS_CommitteeSession-000221.jsonl"
+    records: 1814
+    bytes: 842970
+    sha256: "e168f28e0ef32073486f238efacdd619317995cce63138af6b7ce5af112c9ead"
+    id_range:
+      - 2200044
+      - 2209997
+  - name: "KNS_CommitteeSession-000222.jsonl"
+    records: 2342
+    bytes: 1111397
+    sha256: "fd2b3e508306d7989a36181dd8d01d15808ff4fb41dd3f8311f5d30930690197"
+    id_range:
+      - 2210000
+      - 2219994
+  - name: "KNS_CommitteeSession-000223.jsonl"
+    records: 2286
+    bytes: 1173822
+    sha256: "3f15d1d245d0b8c9bea7eb4944301b4b1d3164aab99218c2a4451d3aa9886226"
+    id_range:
+      - 2220009
+      - 2229985
+  - name: "KNS_CommitteeSession-000224.jsonl"
+    records: 2586
+    bytes: 1333143
+    sha256: "8e3fc7cc193126673b31051c0874a29a2000fee22553b52981004bc6dfc468e6"
+    id_range:
+      - 2230050
+      - 2239994
+  - name: "KNS_CommitteeSession-000225.jsonl"
+    records: 78
+    bytes: 40037
+    sha256: "74735229cd2dd6b7007209421cc08bda51c8c0839ed666839c8aa6f8439c6fd2"
+    id_range:
+      - 2240022
+      - 2240345

@@ -1,0 +1,99 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_SecToSecBinding"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_SecToSecBinding"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "SecChildID"
+      type: "integer"
+      nullable: true
+    - name: "SecChildTypeID"
+      type: "integer"
+      nullable: true
+    - name: "SecParentID"
+      type: "integer"
+      nullable: true
+    - name: "SecParentTypeID"
+      type: "integer"
+      nullable: true
+    - name: "SecMainID"
+      type: "integer"
+      nullable: true
+    - name: "SecMainTypeID"
+      type: "integer"
+      nullable: true
+    - name: "BindingTypeID"
+      type: "integer"
+      nullable: true
+    - name: "BindingTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "IsTempLegislation"
+      type: "boolean"
+      nullable: true
+    - name: "IsSecondaryAmendment"
+      type: "boolean"
+      nullable: true
+    - name: "CorrectionNumber"
+      type: "integer"
+      nullable: true
+    - name: "AmendmentTypeID"
+      type: "integer"
+      nullable: true
+    - name: "AmendmentTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "ParagraphNumber"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 23763
+  file_count: 3
+  total_bytes: 9348474
+  min_id: 1
+  max_id: 24911
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_SecToSecBinding-000001.jsonl"
+    records: 9995
+    bytes: 3926029
+    sha256: "0c755f54a19062c704d2dc510631f7e89dcbba9b29efcb9174dc32bf657468d6"
+    id_range:
+      - 1
+      - 9999
+  - name: "KNS_SecToSecBinding-000002.jsonl"
+    records: 9998
+    bytes: 3937557
+    sha256: "28adc68f43b275db87682078910ac2999ac22d061f5129ac8c420c063833a3a7"
+    id_range:
+      - 10000
+      - 19999
+  - name: "KNS_SecToSecBinding-000003.jsonl"
+    records: 3770
+    bytes: 1484888
+    sha256: "496fd114a53c8648323a6c2fdd984642faa9a7fc9cc795191d6d91fbfa6f18f6"
+    id_range:
+      - 20000
+      - 24911

@@ -1,0 +1,71 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_BillHistoryInitiator"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_BillHistoryInitiator"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "BillID"
+      type: "integer"
+      nullable: true
+    - name: "PersonID"
+      type: "integer"
+      nullable: true
+    - name: "IsInitiator"
+      type: "boolean"
+      nullable: true
+    - name: "StartDate"
+      type: "datetime"
+      nullable: true
+    - name: "EndDate"
+      type: "datetime"
+      nullable: true
+    - name: "ReasonID"
+      type: "integer"
+      nullable: true
+    - name: "ReasonDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 10390
+  file_count: 2
+  total_bytes: 2497372
+  min_id: 1
+  max_id: 10959
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_BillHistoryInitiator-000001.jsonl"
+    records: 9443
+    bytes: 2258102
+    sha256: "2b37db3314bf64171b667a18ea5e9559579864ab83c2664675480ee6f8490b95"
+    id_range:
+      - 1
+      - 9999
+  - name: "KNS_BillHistoryInitiator-000002.jsonl"
+    records: 947
+    bytes: 239270
+    sha256: "e83a8284bb72a693a8181630b9a160ea617b27b1871fa049e0c1977b73bbe732"
+    id_range:
+      - 10000
+      - 10959

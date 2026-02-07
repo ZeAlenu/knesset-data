@@ -1,0 +1,112 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_SecLawAuthorizingLaw"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_SecLawAuthorizingLaw"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "AuthorizingLawID"
+      type: "integer"
+      nullable: true
+    - name: "SecondaryLawID"
+      type: "integer"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 67827
+  file_count: 10
+  total_bytes: 7602052
+  min_id: 7
+  max_id: 135819
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_SecLawAuthorizingLaw-000001.jsonl"
+    records: 1040
+    bytes: 116392
+    sha256: "6fc36e18fb23bb2e589aa52b41dd0bd903a7dc738c62d9fdac40cfc7ddc75978"
+    id_range:
+      - 7
+      - 2544
+  - name: "KNS_SecLawAuthorizingLaw-000006.jsonl"
+    records: 3213
+    bytes: 356642
+    sha256: "b91d62d43c70ab94e9bffd23bac98c7a9c64898d6606afd145907d10c7735ea4"
+    id_range:
+      - 56516
+      - 59983
+  - name: "KNS_SecLawAuthorizingLaw-000007.jsonl"
+    records: 8830
+    bytes: 980129
+    sha256: "47f0d96eb39b2d8f2e5c2b06bb4031b3b2147823660f123319ab1aeb01772e36"
+    id_range:
+      - 60006
+      - 69999
+  - name: "KNS_SecLawAuthorizingLaw-000008.jsonl"
+    records: 9580
+    bytes: 1063379
+    sha256: "503b3eee1fa93ed57b1c14e1a132c1be10c3bfe9e2123e22e37a78fcd35b2d65"
+    id_range:
+      - 70000
+      - 79999
+  - name: "KNS_SecLawAuthorizingLaw-000009.jsonl"
+    records: 9875
+    bytes: 1096124
+    sha256: "4018226662e7ba2423f13bf92cda9fbdc041cad8e23b95d78242fcf4d7185340"
+    id_range:
+      - 80000
+      - 89999
+  - name: "KNS_SecLawAuthorizingLaw-000010.jsonl"
+    records: 9852
+    bytes: 1093571
+    sha256: "2d7c4a65af34741af4df9292be955bcd1f25981f3d5d0b9e67047584345b403a"
+    id_range:
+      - 90000
+      - 99999
+  - name: "KNS_SecLawAuthorizingLaw-000011.jsonl"
+    records: 9248
+    bytes: 1035775
+    sha256: "f317750243ac31082f9c81892b608a77b0855258b5b17a742c0031a02a0d530c"
+    id_range:
+      - 100000
+      - 109999
+  - name: "KNS_SecLawAuthorizingLaw-000012.jsonl"
+    records: 6322
+    bytes: 719622
+    sha256: "1966673af1cf9c89099ae8a2a7e77ada751a5e7976619e7b9f9f99ec058aef60"
+    id_range:
+      - 110000
+      - 119999
+  - name: "KNS_SecLawAuthorizingLaw-000013.jsonl"
+    records: 4368
+    bytes: 505035
+    sha256: "69a064666313a1ebf6387080baf68904be8a5495988031ffeddf3cfbde2be714"
+    id_range:
+      - 120000
+      - 129999
+  - name: "KNS_SecLawAuthorizingLaw-000014.jsonl"
+    records: 5499
+    bytes: 635383
+    sha256: "f827df53ecca1a916494566e9beae9d94d6d575e4317d8cb5c97978f429ef422"
+    id_range:
+      - 130000
+      - 135819

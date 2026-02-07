@@ -1,0 +1,59 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_Position"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Position"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "Description"
+      type: "string"
+      nullable: true
+    - name: "GenderID"
+      type: "integer"
+      nullable: true
+    - name: "GenderDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 29
+  file_count: 2
+  total_bytes: 3894
+  min_id: 29
+  max_id: 285079
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_Position-000001.jsonl"
+    records: 27
+    bytes: 3616
+    sha256: "1718240b20bf94effe751f998a20d3a0278ccf08441c3a2af09aeae9e6b74bbb"
+    id_range:
+      - 29
+      - 663
+  - name: "KNS_Position-000029.jsonl"
+    records: 2
+    bytes: 278
+    sha256: "5e650b8df7a6e1de9999f2bb6d2f9bad1d86d623b8964b4d91c9674aa8d043b5"
+    id_range:
+      - 285078
+      - 285079

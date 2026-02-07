@@ -1,0 +1,4359 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_DocumentSecondaryLaw"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_DocumentSecondaryLaw"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "SecondaryLawId"
+      type: "integer"
+      nullable: true
+    - name: "GroupTypeID"
+      type: "integer"
+      nullable: true
+    - name: "GroupTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "ApplicationID"
+      type: "integer"
+      nullable: true
+    - name: "ApplicationDesc"
+      type: "string"
+      nullable: true
+    - name: "FilePath"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 6846
+  file_count: 615
+  total_bytes: 1949790
+  min_id: 491804
+  max_id: 11246059
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_DocumentSecondaryLaw-000050.jsonl"
+    records: 51
+    bytes: 14281
+    sha256: "ca9a59e08689c31f82063424ca53491c0ceb36802ab016034e51096987adb730"
+    id_range:
+      - 491804
+      - 499916
+  - name: "KNS_DocumentSecondaryLaw-000051.jsonl"
+    records: 29
+    bytes: 8444
+    sha256: "ea8bd080a57d773409f2a8063c0c0c751fe7450582c748b423d8aa85b9119155"
+    id_range:
+      - 500053
+      - 504469
+  - name: "KNS_DocumentSecondaryLaw-000052.jsonl"
+    records: 14
+    bytes: 4037
+    sha256: "11b468510f0a548fba1c6b460cc4cf65f0384e74124776fa7d6b6ceec9540760"
+    id_range:
+      - 514692
+      - 519839
+  - name: "KNS_DocumentSecondaryLaw-000053.jsonl"
+    records: 31
+    bytes: 9088
+    sha256: "e5c4ee5a4912b4fc445c35f2404c6be09b2624fab293da49b1e1197e7037c0c8"
+    id_range:
+      - 520169
+      - 528232
+  - name: "KNS_DocumentSecondaryLaw-000054.jsonl"
+    records: 5
+    bytes: 1449
+    sha256: "44ffd4417449ce17fb1d302bca651d0457cb9f0f66953d489f0d8ba12facb227"
+    id_range:
+      - 533638
+      - 539360
+  - name: "KNS_DocumentSecondaryLaw-000055.jsonl"
+    records: 5
+    bytes: 1493
+    sha256: "40d5cbbb7c2e24ccfce021f8af576291dad917803da2d3a6fbc0983f3e3faa6c"
+    id_range:
+      - 546556
+      - 546738
+  - name: "KNS_DocumentSecondaryLaw-000056.jsonl"
+    records: 2
+    bytes: 597
+    sha256: "80efead6364b3730c53bd631c1ba612497008b268dabf080b75b05bcf09f4fcb"
+    id_range:
+      - 559918
+      - 559919
+  - name: "KNS_DocumentSecondaryLaw-000057.jsonl"
+    records: 52
+    bytes: 14643
+    sha256: "bcfdd884aa405509322a986303fdca38ef6b73a3e7fedc8137995ee309904489"
+    id_range:
+      - 562188
+      - 569417
+  - name: "KNS_DocumentSecondaryLaw-000058.jsonl"
+    records: 50
+    bytes: 14400
+    sha256: "f4045325b771da3d533e152aa9689fe5e1a80e3147c0f9a7526b3ead5b679258"
+    id_range:
+      - 571705
+      - 579719
+  - name: "KNS_DocumentSecondaryLaw-000059.jsonl"
+    records: 254
+    bytes: 72417
+    sha256: "881c77d80bd68d6a7e9b5137cd1097d52285b0771478c02977eef74ed3a44bdf"
+    id_range:
+      - 580002
+      - 589904
+  - name: "KNS_DocumentSecondaryLaw-000060.jsonl"
+    records: 410
+    bytes: 117992
+    sha256: "e34393ff02e1012cfe220235039c51f02dfa9cbf143e804efbb3e81fa7bcf23c"
+    id_range:
+      - 590021
+      - 599849
+  - name: "KNS_DocumentSecondaryLaw-000061.jsonl"
+    records: 279
+    bytes: 81119
+    sha256: "004552ba486f97a5abcaaf3bbd0c8031f71ceeffcfd819536d180a43572dc4e1"
+    id_range:
+      - 600258
+      - 609998
+  - name: "KNS_DocumentSecondaryLaw-000062.jsonl"
+    records: 340
+    bytes: 98134
+    sha256: "1a991b0ec10762fe9e934c351b2bd4f0dc7ca693e377f2aa09ac2f5d3594d341"
+    id_range:
+      - 610000
+      - 619997
+  - name: "KNS_DocumentSecondaryLaw-000063.jsonl"
+    records: 608
+    bytes: 171766
+    sha256: "c375601cfda7e3b41f7baaaca09725bad465d4eb340f9c1d82813553dcd3bb6a"
+    id_range:
+      - 620036
+      - 629222
+  - name: "KNS_DocumentSecondaryLaw-000065.jsonl"
+    records: 92
+    bytes: 25334
+    sha256: "f855aa0c3efba7979204da78743ab0491d1bcd662ce95c6a9f743f6463fd3d6e"
+    id_range:
+      - 643831
+      - 649771
+  - name: "KNS_DocumentSecondaryLaw-000066.jsonl"
+    records: 105
+    bytes: 28925
+    sha256: "df99be75f66a16b23cb0a3ebf72eaceb4cd58ce530d4a739825b2a60df786bb0"
+    id_range:
+      - 650422
+      - 659859
+  - name: "KNS_DocumentSecondaryLaw-000067.jsonl"
+    records: 9
+    bytes: 2528
+    sha256: "bc7b30167442c6b1a30ad7d73d7f8917aa542724d2f52eaa456030753a2d8c09"
+    id_range:
+      - 660017
+      - 661348
+  - name: "KNS_DocumentSecondaryLaw-000068.jsonl"
+    records: 26
+    bytes: 7103
+    sha256: "5e30e164fc549933bf44c48f1acc7f8f55cf5601ec97b81fc04a3d9511676bbe"
+    id_range:
+      - 670004
+      - 679037
+  - name: "KNS_DocumentSecondaryLaw-000069.jsonl"
+    records: 6
+    bytes: 1635
+    sha256: "ae04c09a6461b6296b93a39ce5bdf08f1d5c858fcd3d2af6d0b8c5b63959a0a2"
+    id_range:
+      - 681189
+      - 689920
+  - name: "KNS_DocumentSecondaryLaw-000070.jsonl"
+    records: 35
+    bytes: 9696
+    sha256: "b9c6cc1a5a7d9fce52ce1ffbebe50c664d03aa7a7b3905a92c83f58644d87e5d"
+    id_range:
+      - 692957
+      - 698575
+  - name: "KNS_DocumentSecondaryLaw-000071.jsonl"
+    records: 6
+    bytes: 1662
+    sha256: "cd1049fba978407d2f60d3e94a106f2193fca57dca89fe3873061983e8938bb6"
+    id_range:
+      - 701745
+      - 709993
+  - name: "KNS_DocumentSecondaryLaw-000072.jsonl"
+    records: 34
+    bytes: 9490
+    sha256: "67e70c14d419446f185ee70f5fc9d6f7f82e718a6faebf01aec581e34e1f88bb"
+    id_range:
+      - 710004
+      - 716302
+  - name: "KNS_DocumentSecondaryLaw-000077.jsonl"
+    records: 4
+    bytes: 1163
+    sha256: "ead8b2cf87e3e63a25f05cf4114d9adad926686b56c274502f87be31bca1b682"
+    id_range:
+      - 764403
+      - 769213
+  - name: "KNS_DocumentSecondaryLaw-000078.jsonl"
+    records: 10
+    bytes: 2790
+    sha256: "8c8a6b2865f9be97f5f8f0974533b9830a58ea5c26be6433887b49442e4f38c2"
+    id_range:
+      - 772712
+      - 775076
+  - name: "KNS_DocumentSecondaryLaw-000079.jsonl"
+    records: 7
+    bytes: 1977
+    sha256: "e285943ecd6bf8892cafb251bc325760e929fed422bf7cc0ffc8c3103445ce00"
+    id_range:
+      - 783258
+      - 789510
+  - name: "KNS_DocumentSecondaryLaw-000080.jsonl"
+    records: 2
+    bytes: 600
+    sha256: "45ce4662f7f2aa76b5c6582cae01d2b7ee7abefce1d7ec3205bde14b8d8ade83"
+    id_range:
+      - 791708
+      - 794835
+  - name: "KNS_DocumentSecondaryLaw-000081.jsonl"
+    records: 21
+    bytes: 5727
+    sha256: "317d55a6ddcdc10c947567ea9fddbd46ec91493678ce38ae2bfb749e19767a8d"
+    id_range:
+      - 803552
+      - 808866
+  - name: "KNS_DocumentSecondaryLaw-000082.jsonl"
+    records: 4
+    bytes: 1119
+    sha256: "9bf98878d064343c79801f2bc6164f3a5e629188316ebfb8948753300b9db4fa"
+    id_range:
+      - 811417
+      - 812002
+  - name: "KNS_DocumentSecondaryLaw-000083.jsonl"
+    records: 68
+    bytes: 19712
+    sha256: "dae660706c2d7b02aeae3c5564225bb32d3ce5ab6999de1963006c62483cc815"
+    id_range:
+      - 827441
+      - 829898
+  - name: "KNS_DocumentSecondaryLaw-000084.jsonl"
+    records: 18
+    bytes: 5049
+    sha256: "04ca93686d93ae166e98dbb56da1d39a4243c4ffa25a8a812308694549f4cd53"
+    id_range:
+      - 830061
+      - 831284
+  - name: "KNS_DocumentSecondaryLaw-000085.jsonl"
+    records: 21
+    bytes: 5892
+    sha256: "011de6ddb1d6c7462a6b1b67ff7cd6142cef1fa077d3c143baa090caed18663e"
+    id_range:
+      - 849101
+      - 849985
+  - name: "KNS_DocumentSecondaryLaw-000086.jsonl"
+    records: 15
+    bytes: 4104
+    sha256: "5a6423210f07126c13f3ccad2bb646d599fe83b5d81f7bd58afc83a1d0a05ba8"
+    id_range:
+      - 850003
+      - 856684
+  - name: "KNS_DocumentSecondaryLaw-000088.jsonl"
+    records: 4
+    bytes: 1090
+    sha256: "59ed86ac94fa996346bcebe15354f89c7bc7bff78486e37acc458829abcbf4c6"
+    id_range:
+      - 875115
+      - 875177
+  - name: "KNS_DocumentSecondaryLaw-000096.jsonl"
+    records: 3
+    bytes: 817
+    sha256: "8de8eb767d27cc5539bf655a8e0ea4b1ffcf5a948d7508d0892699d3b6c03645"
+    id_range:
+      - 959290
+      - 959702
+  - name: "KNS_DocumentSecondaryLaw-000097.jsonl"
+    records: 3
+    bytes: 873
+    sha256: "421b30bf37dcf27612fa8094703d1b484e7cd3874859e292f64bf851e3947fe2"
+    id_range:
+      - 965077
+      - 965689
+  - name: "KNS_DocumentSecondaryLaw-000099.jsonl"
+    records: 2
+    bytes: 544
+    sha256: "8e11c0ba24ef182eb724c75f04bfcd754979a7cd21dcac6a8a2d50c9dd439610"
+    id_range:
+      - 984712
+      - 984725
+  - name: "KNS_DocumentSecondaryLaw-000100.jsonl"
+    records: 9
+    bytes: 2456
+    sha256: "a31add32d4964a40fffa3e40654ea9b517a357b6eeb555d998e27b819753b9eb"
+    id_range:
+      - 990276
+      - 996845
+  - name: "KNS_DocumentSecondaryLaw-000101.jsonl"
+    records: 14
+    bytes: 4099
+    sha256: "665a56ef3be14eb4cae06d5e189fdcf9202d4b5f8baf0b158846467188582c40"
+    id_range:
+      - 1002302
+      - 1009732
+  - name: "KNS_DocumentSecondaryLaw-000104.jsonl"
+    records: 8
+    bytes: 2206
+    sha256: "64561f1a8ff94f9258dd306f1c07a396147afadd6a24dedf81d82b22254b6971"
+    id_range:
+      - 1031624
+      - 1038351
+  - name: "KNS_DocumentSecondaryLaw-000106.jsonl"
+    records: 2
+    bytes: 549
+    sha256: "0570c65caf72d2c58b88d85c451a4bdfedb98be74d55465f34d51dde1681f310"
+    id_range:
+      - 1051413
+      - 1052279
+  - name: "KNS_DocumentSecondaryLaw-000116.jsonl"
+    records: 2
+    bytes: 549
+    sha256: "1d69da321c7d4b816a9aaa6518379de33404992171435c3d68ca78f64fe21919"
+    id_range:
+      - 1150191
+      - 1157465
+  - name: "KNS_DocumentSecondaryLaw-000118.jsonl"
+    records: 16
+    bytes: 4362
+    sha256: "c46787866f7bd8058123e8d56fb5150bcc47b52648dec1d068c170683cf3ce9e"
+    id_range:
+      - 1178149
+      - 1179245
+  - name: "KNS_DocumentSecondaryLaw-000119.jsonl"
+    records: 15
+    bytes: 4119
+    sha256: "6058823afac375cca099018f89f837ac2b16633678eb0bf3e8be116a9284e040"
+    id_range:
+      - 1185256
+      - 1185746
+  - name: "KNS_DocumentSecondaryLaw-000120.jsonl"
+    records: 7
+    bytes: 1918
+    sha256: "8cb7334c4ed322334e7a7839b22165ed324c483025090d1bb26cb2a1a828942b"
+    id_range:
+      - 1191826
+      - 1199915
+  - name: "KNS_DocumentSecondaryLaw-000125.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "719ba6e46b0348d4c181d7c8e48e2545384584d85a75ce13547df4c83dd89875"
+    id_range:
+      - 1243331
+      - 1243338
+  - name: "KNS_DocumentSecondaryLaw-000130.jsonl"
+    records: 1
+    bytes: 300
+    sha256: "44449a2e9d76c3c165856e10c6db04e7edcbbd909968a6cfa7eb6ca19f073387"
+    id_range:
+      - 1299759
+      - 1299759
+  - name: "KNS_DocumentSecondaryLaw-000133.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "aba3beacd263f0e419a38c5aeaf1826757e89c93e82ffd4250d788266c404bab"
+    id_range:
+      - 1327060
+      - 1327060
+  - name: "KNS_DocumentSecondaryLaw-000134.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "e6f156eade4d4d97e0ef4bdc117e1916ab7147b77afa7966affcc82878fe3586"
+    id_range:
+      - 1334615
+      - 1334615
+  - name: "KNS_DocumentSecondaryLaw-000135.jsonl"
+    records: 4
+    bytes: 1096
+    sha256: "c719213fe48675ff00a65807c2ac8b7786d2d271b229be5f0f7b3b5a55a8e2a0"
+    id_range:
+      - 1348296
+      - 1348689
+  - name: "KNS_DocumentSecondaryLaw-000136.jsonl"
+    records: 14
+    bytes: 3928
+    sha256: "f74fa4acd20d164ba968c24986e3b810198f339c8230ae2afea671bcfbc51f7f"
+    id_range:
+      - 1350014
+      - 1358116
+  - name: "KNS_DocumentSecondaryLaw-000138.jsonl"
+    records: 5
+    bytes: 1373
+    sha256: "d81110a727ef5e8b51b41852a5a64ec5a5223f8398dc81b40f563cbe9bada517"
+    id_range:
+      - 1377488
+      - 1378876
+  - name: "KNS_DocumentSecondaryLaw-000139.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "b4d78612415adb00eb28ac38d1c85b5936f673f25d2387aa103accb75e9e3980"
+    id_range:
+      - 1385466
+      - 1385466
+  - name: "KNS_DocumentSecondaryLaw-000140.jsonl"
+    records: 9
+    bytes: 2585
+    sha256: "d449dd95b238b23a152cb4d75ddbcf66d979137a92b3e7c63f796b12db3434b9"
+    id_range:
+      - 1392153
+      - 1399765
+  - name: "KNS_DocumentSecondaryLaw-000141.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "1f492ce131445719101cd23571fbdba9b85f5b96b793c0b7b7e210aff5243ab7"
+    id_range:
+      - 1406366
+      - 1406366
+  - name: "KNS_DocumentSecondaryLaw-000144.jsonl"
+    records: 5
+    bytes: 1373
+    sha256: "ed964a5c664794878cc0805507c7d5228a165af6639cc8dcf0cc1e1898794fe6"
+    id_range:
+      - 1437593
+      - 1438114
+  - name: "KNS_DocumentSecondaryLaw-000145.jsonl"
+    records: 4
+    bytes: 1097
+    sha256: "57a1e50bad27d2d66128a1ba579a117854d63c78e13eb4b438e7485582571946"
+    id_range:
+      - 1443271
+      - 1445121
+  - name: "KNS_DocumentSecondaryLaw-000146.jsonl"
+    records: 4
+    bytes: 1098
+    sha256: "207f8a46f8d523390ad49e4d333b32fdfefb99e3eee40f6a2c4e48d5248db013"
+    id_range:
+      - 1451068
+      - 1451772
+  - name: "KNS_DocumentSecondaryLaw-000148.jsonl"
+    records: 3
+    bytes: 878
+    sha256: "9153349729504bad47aa5e52e7cdac0967771ddd5935e06a0f9ec9aaebf71a59"
+    id_range:
+      - 1478948
+      - 1479238
+  - name: "KNS_DocumentSecondaryLaw-000149.jsonl"
+    records: 8
+    bytes: 2160
+    sha256: "8c084acc93bd327a30de96a6980c423f6ce222618fe6f215592c4b1b29e28465"
+    id_range:
+      - 1480444
+      - 1487894
+  - name: "KNS_DocumentSecondaryLaw-000150.jsonl"
+    records: 7
+    bytes: 1900
+    sha256: "8c201b73eaa818d2313379ea6ece010ba19a659b7608d616c1b89557a332d755"
+    id_range:
+      - 1492885
+      - 1496482
+  - name: "KNS_DocumentSecondaryLaw-000151.jsonl"
+    records: 3
+    bytes: 859
+    sha256: "877d04e7b6ef0b9c34604078bd8ffe5c9e08f6857aaadee4b15e174d4b116ffc"
+    id_range:
+      - 1508439
+      - 1508507
+  - name: "KNS_DocumentSecondaryLaw-000153.jsonl"
+    records: 3
+    bytes: 824
+    sha256: "d9b859d380c3fd3fb9ec12a12f3252e1f85a5eb24f4026eb4e2bc7498fc6d09b"
+    id_range:
+      - 1529636
+      - 1529954
+  - name: "KNS_DocumentSecondaryLaw-000154.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "d6ff4b8c9de7841c09732f18a236a0951484fb5292a8bb0cf204a1012e9ec9ba"
+    id_range:
+      - 1538744
+      - 1538744
+  - name: "KNS_DocumentSecondaryLaw-000155.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "c070d123f9f5002d6c3565b39df3fcb9538dcb6f45b5ede9b901e9d841df5fca"
+    id_range:
+      - 1546015
+      - 1546015
+  - name: "KNS_DocumentSecondaryLaw-000156.jsonl"
+    records: 8
+    bytes: 2220
+    sha256: "cc99e3ec810128badce52bf29318a1a743216c7cf8d8a1a10935a6d97d8fddee"
+    id_range:
+      - 1551887
+      - 1559246
+  - name: "KNS_DocumentSecondaryLaw-000159.jsonl"
+    records: 9
+    bytes: 2591
+    sha256: "505320c970e7d14b5b8efc02d9137ae20675b05225e63cc7c1e9a377d9201973"
+    id_range:
+      - 1580357
+      - 1589804
+  - name: "KNS_DocumentSecondaryLaw-000160.jsonl"
+    records: 3
+    bytes: 821
+    sha256: "3f2ae9c4d20f4545ffcf7bb0f9c42c8cdeb82adfa148328c7400ac8ab4455611"
+    id_range:
+      - 1596127
+      - 1596150
+  - name: "KNS_DocumentSecondaryLaw-000161.jsonl"
+    records: 8
+    bytes: 2268
+    sha256: "0a22f19d73a2692f04d4ffafe031df17fd915ca93992faa8c89c9c30b95eba83"
+    id_range:
+      - 1602507
+      - 1609412
+  - name: "KNS_DocumentSecondaryLaw-000164.jsonl"
+    records: 8
+    bytes: 2198
+    sha256: "55d227dbb85e29ce269fcc33b64c9444d4dfc02cb3694ede78aaf49679030e43"
+    id_range:
+      - 1630165
+      - 1639121
+  - name: "KNS_DocumentSecondaryLaw-000165.jsonl"
+    records: 8
+    bytes: 2149
+    sha256: "9f22af01cc6fce640192f610f037293e588035fd8542a678c1ef61cc7ea5bc45"
+    id_range:
+      - 1646204
+      - 1648494
+  - name: "KNS_DocumentSecondaryLaw-000166.jsonl"
+    records: 5
+    bytes: 1475
+    sha256: "48b9ab7bf7a7b632c310cebe36126b7ef7bae23f1a270fae8bf691ebe2c572f8"
+    id_range:
+      - 1652480
+      - 1659156
+  - name: "KNS_DocumentSecondaryLaw-000169.jsonl"
+    records: 4
+    bytes: 1117
+    sha256: "21f2d3b7a411907ec1116d810be52b069e730068255d1ee408c962ec4de84cca"
+    id_range:
+      - 1688489
+      - 1689502
+  - name: "KNS_DocumentSecondaryLaw-000170.jsonl"
+    records: 4
+    bytes: 1168
+    sha256: "b0d17f1229e3565d3282885e1fa65cd03e7f4a470d678e10b19e5d812dbf0dd1"
+    id_range:
+      - 1697445
+      - 1697559
+  - name: "KNS_DocumentSecondaryLaw-000171.jsonl"
+    records: 3
+    bytes: 823
+    sha256: "955aa75666e82bf1ccf33e20dfd785d2b9a07b1d402ede5e9745765c6623ff1b"
+    id_range:
+      - 1702828
+      - 1702834
+  - name: "KNS_DocumentSecondaryLaw-000172.jsonl"
+    records: 2
+    bytes: 576
+    sha256: "7b8b68c5b60aa31ac309da458736b9d9037bd9a3199333697f6455bff21255d7"
+    id_range:
+      - 1710850
+      - 1710852
+  - name: "KNS_DocumentSecondaryLaw-000174.jsonl"
+    records: 10
+    bytes: 2805
+    sha256: "c3b9536490f949e6b27de7044a1d29bab0afead7416e61c598aaaa2e9f5a7057"
+    id_range:
+      - 1731675
+      - 1733314
+  - name: "KNS_DocumentSecondaryLaw-000175.jsonl"
+    records: 7
+    bytes: 2004
+    sha256: "aaff7414630aa40427bb6154b3562db63fa13306bab6da71a7fb308d743c2c31"
+    id_range:
+      - 1740970
+      - 1747780
+  - name: "KNS_DocumentSecondaryLaw-000176.jsonl"
+    records: 7
+    bytes: 2071
+    sha256: "a669933ca663698d94be4c659bc05524921595faa4fa8d5a3e398c26bdbed830"
+    id_range:
+      - 1753919
+      - 1755679
+  - name: "KNS_DocumentSecondaryLaw-000177.jsonl"
+    records: 9
+    bytes: 2499
+    sha256: "eec10c17ff836060e5b116fe1b30475e77647e6b8ed94795995db2b2c54edb5d"
+    id_range:
+      - 1760624
+      - 1762076
+  - name: "KNS_DocumentSecondaryLaw-000179.jsonl"
+    records: 9
+    bytes: 2546
+    sha256: "15072948a781dfb0b093341bf4f52ce5e99638b835af1ee810110658d5fc1534"
+    id_range:
+      - 1782279
+      - 1789020
+  - name: "KNS_DocumentSecondaryLaw-000180.jsonl"
+    records: 7
+    bytes: 1994
+    sha256: "25c8df23d121ef783c6e969a67f8891ccbb00b40304050c580834f38938b2d00"
+    id_range:
+      - 1792048
+      - 1798440
+  - name: "KNS_DocumentSecondaryLaw-000182.jsonl"
+    records: 3
+    bytes: 880
+    sha256: "d901797950a2c7d6f2b241432bc48ee901136a9c08a1cbcf3e0b299c9a8e1176"
+    id_range:
+      - 1810827
+      - 1812599
+  - name: "KNS_DocumentSecondaryLaw-000185.jsonl"
+    records: 2
+    bytes: 605
+    sha256: "158283f3f3ed0bf7d135596895e99e0b191f34dfe10426f2619f0b211c8dbfa9"
+    id_range:
+      - 1842498
+      - 1848321
+  - name: "KNS_DocumentSecondaryLaw-000186.jsonl"
+    records: 3
+    bytes: 824
+    sha256: "b5cbaef8ed0e45cb2491ac4e3fbeda725cc69929523ea9c8394a8811b9dda1a1"
+    id_range:
+      - 1855126
+      - 1855945
+  - name: "KNS_DocumentSecondaryLaw-000187.jsonl"
+    records: 1
+    bytes: 272
+    sha256: "7a2ae6aa9d0a94f61ddb72611b69140b73117dea4caf9dfbd9b01128bcc16ff4"
+    id_range:
+      - 1862673
+      - 1862673
+  - name: "KNS_DocumentSecondaryLaw-000189.jsonl"
+    records: 4
+    bytes: 1156
+    sha256: "f48b8218156b4ea3181874bb4004ffed52bf4e9cc771ad4df09ec38f7237dd23"
+    id_range:
+      - 1882860
+      - 1885163
+  - name: "KNS_DocumentSecondaryLaw-000190.jsonl"
+    records: 12
+    bytes: 3274
+    sha256: "8592764263af9e7dfefecc1cbe6780f5421fd6a63538e1607bc8e5e8f9796788"
+    id_range:
+      - 1890822
+      - 1898780
+  - name: "KNS_DocumentSecondaryLaw-000191.jsonl"
+    records: 3
+    bytes: 822
+    sha256: "a2e43c22e88d4ec7b1d2cafb48a864982d82b536fca86e50fbdcc60377821dcb"
+    id_range:
+      - 1905586
+      - 1905901
+  - name: "KNS_DocumentSecondaryLaw-000192.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "da13cc2d5a20aa2b9b4827a36777e51a090e224626a77f79cbc83084bde2a4c5"
+    id_range:
+      - 1913192
+      - 1913193
+  - name: "KNS_DocumentSecondaryLaw-000194.jsonl"
+    records: 2
+    bytes: 567
+    sha256: "f87883b15935409aa4c4118fb31f17e6e3fb94b8c76a2569ffbdae498a30e5f0"
+    id_range:
+      - 1934566
+      - 1934652
+  - name: "KNS_DocumentSecondaryLaw-000195.jsonl"
+    records: 10
+    bytes: 2795
+    sha256: "5ba5d6600f972b6708551e19f496afed5e0a035b7bb922f2746791af1f4ef2d3"
+    id_range:
+      - 1940176
+      - 1941897
+  - name: "KNS_DocumentSecondaryLaw-000197.jsonl"
+    records: 4
+    bytes: 1132
+    sha256: "9da82c6b8ec43cd0671cf12bf28fe85d2f972f6a6675a9330b26892483359bbf"
+    id_range:
+      - 1961518
+      - 1962642
+  - name: "KNS_DocumentSecondaryLaw-000201.jsonl"
+    records: 2
+    bytes: 577
+    sha256: "3353dd358ad1b099f8ab146f686b1c9928b31855f291791a2f5a46ae3e07b6c7"
+    id_range:
+      - 2003316
+      - 2004622
+  - name: "KNS_DocumentSecondaryLaw-000202.jsonl"
+    records: 6
+    bytes: 1728
+    sha256: "036dfc6fb9f898150318bd85bd853d051fa956af1daaef291f2302d6c1bad141"
+    id_range:
+      - 2013017
+      - 2018313
+  - name: "KNS_DocumentSecondaryLaw-000203.jsonl"
+    records: 20
+    bytes: 5617
+    sha256: "d25a98330840e8c641b59d1a988b114ee0dea6b76de6a054dc4b80d2840913f8"
+    id_range:
+      - 2020269
+      - 2026019
+  - name: "KNS_DocumentSecondaryLaw-000204.jsonl"
+    records: 8
+    bytes: 2346
+    sha256: "ee7155699db401d6ba887233ff9af88b80cc23c587763f46c57e5eb0e9922bf0"
+    id_range:
+      - 2031762
+      - 2033911
+  - name: "KNS_DocumentSecondaryLaw-000207.jsonl"
+    records: 3
+    bytes: 887
+    sha256: "978cc2c1a9b82d82bf540ee7d71775de3c05605cab6f350544d1a1972b4333c4"
+    id_range:
+      - 2062795
+      - 2068356
+  - name: "KNS_DocumentSecondaryLaw-000208.jsonl"
+    records: 3
+    bytes: 901
+    sha256: "f9c8d30bcf11cbde8455016a386e06f7c372636951fb6ab3e4f0df8548fd63b2"
+    id_range:
+      - 2075859
+      - 2077509
+  - name: "KNS_DocumentSecondaryLaw-000209.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "73f4160e383e63fd514982c3614bd411fe4c74bd15d536315eeb97c06580ef79"
+    id_range:
+      - 2082871
+      - 2082885
+  - name: "KNS_DocumentSecondaryLaw-000212.jsonl"
+    records: 13
+    bytes: 3721
+    sha256: "e1a4745228bca8ceab80897ee5ab58ffb530e5a2bd2c9dda78fe14117a15ed0b"
+    id_range:
+      - 2110387
+      - 2119906
+  - name: "KNS_DocumentSecondaryLaw-000213.jsonl"
+    records: 9
+    bytes: 2581
+    sha256: "87f92d52bfcf98460fa93ad88ddb8b45f0a281901b9f419e83a50ed808245777"
+    id_range:
+      - 2125002
+      - 2128144
+  - name: "KNS_DocumentSecondaryLaw-000214.jsonl"
+    records: 14
+    bytes: 3914
+    sha256: "51c63d064633ace08a99d9b9656d85e6e88bf6ddc8f894f2e26f472461c96975"
+    id_range:
+      - 2132341
+      - 2134577
+  - name: "KNS_DocumentSecondaryLaw-000216.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "5cbc27e4cccef8dc2d275fc39c061ea921d1b16742333fb7977aa46dcd0475cd"
+    id_range:
+      - 2154227
+      - 2154236
+  - name: "KNS_DocumentSecondaryLaw-000217.jsonl"
+    records: 4
+    bytes: 1162
+    sha256: "dfc6535a9a05dcbc38d78aff6911033b6893d3d1bcc46791d27953fa5602c855"
+    id_range:
+      - 2160214
+      - 2162398
+  - name: "KNS_DocumentSecondaryLaw-000226.jsonl"
+    records: 3
+    bytes: 852
+    sha256: "667a916afe3797385407767ab625cb6fba4bff43d8a6d54f9e7531d794db75e9"
+    id_range:
+      - 2253612
+      - 2259821
+  - name: "KNS_DocumentSecondaryLaw-000228.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "4a622feeabf6346a113047507d959c789b4de0689e45da7d8447f2b8fa3ae5f8"
+    id_range:
+      - 2274807
+      - 2274807
+  - name: "KNS_DocumentSecondaryLaw-000229.jsonl"
+    records: 2
+    bytes: 525
+    sha256: "a88f1ca74170c3d86e1aebbf5f0972e87373172074f3a9027e24f77e4b3ef8c6"
+    id_range:
+      - 2280856
+      - 2283227
+  - name: "KNS_DocumentSecondaryLaw-000231.jsonl"
+    records: 2
+    bytes: 524
+    sha256: "72efb613d7eee215deeb96809b9873888ee6f867037841ac9fc32e019b8b267a"
+    id_range:
+      - 2301497
+      - 2301772
+  - name: "KNS_DocumentSecondaryLaw-000232.jsonl"
+    records: 2
+    bytes: 577
+    sha256: "2e02b8648e44427d6765554b98f11560ba0140f84da74d849cabb03382e555cc"
+    id_range:
+      - 2316706
+      - 2317246
+  - name: "KNS_DocumentSecondaryLaw-000234.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "e7f88989d5232ef95ee33a01cbeeadde843e02c87e58b7dff9370b16d7e8696b"
+    id_range:
+      - 2332018
+      - 2332018
+  - name: "KNS_DocumentSecondaryLaw-000236.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "4a9b2757be651867fc920fb523e9bbdc5a7f95f2cb990836d1e971c149137756"
+    id_range:
+      - 2351629
+      - 2351629
+  - name: "KNS_DocumentSecondaryLaw-000237.jsonl"
+    records: 10
+    bytes: 2858
+    sha256: "666445ac746fd80fba154beaddf66d7a1c80857e97c5d4bf0cde537559a1243b"
+    id_range:
+      - 2366227
+      - 2368821
+  - name: "KNS_DocumentSecondaryLaw-000238.jsonl"
+    records: 4
+    bytes: 1154
+    sha256: "31743b3f544fc9022aed590a0ea325402ac2396038ccedf39bcd03cd4b4b8834"
+    id_range:
+      - 2373772
+      - 2374190
+  - name: "KNS_DocumentSecondaryLaw-000239.jsonl"
+    records: 22
+    bytes: 6376
+    sha256: "ddc3d895c94d870b57b6da7fe6402e09e65d7ff71085096f97b1a3e630f69898"
+    id_range:
+      - 2380757
+      - 2382515
+  - name: "KNS_DocumentSecondaryLaw-000241.jsonl"
+    records: 187
+    bytes: 51395
+    sha256: "3523cf93af68b582609ac037bd07f13d1149d61013d59f023e5fd520b2fcda95"
+    id_range:
+      - 2401634
+      - 2409041
+  - name: "KNS_DocumentSecondaryLaw-000242.jsonl"
+    records: 9
+    bytes: 2540
+    sha256: "c042d9b21b65d74f18011e0bdf0d3a426f63151152bb058d336c2404bf2b21d8"
+    id_range:
+      - 2410501
+      - 2417688
+  - name: "KNS_DocumentSecondaryLaw-000243.jsonl"
+    records: 2
+    bytes: 589
+    sha256: "98d77082f0867227974509f024a72f454ae71d0466a74a9894c2aa9b552be10a"
+    id_range:
+      - 2423443
+      - 2423448
+  - name: "KNS_DocumentSecondaryLaw-000244.jsonl"
+    records: 8
+    bytes: 2359
+    sha256: "f67293c6716b20b7ea3b4f49e075eab999339c409f503a7c157f614ab89d2605"
+    id_range:
+      - 2431457
+      - 2431756
+  - name: "KNS_DocumentSecondaryLaw-000246.jsonl"
+    records: 10
+    bytes: 2746
+    sha256: "886f502f50a8e9939b5f433a3b5079f7fa789972786478cfae2e438a30a93918"
+    id_range:
+      - 2451654
+      - 2458740
+  - name: "KNS_DocumentSecondaryLaw-000247.jsonl"
+    records: 1
+    bytes: 263
+    sha256: "816f26899b51a8ba9477957bf6e38c59d77e8c5b70a31aaad1523b4fb0a7552f"
+    id_range:
+      - 2466612
+      - 2466612
+  - name: "KNS_DocumentSecondaryLaw-000248.jsonl"
+    records: 8
+    bytes: 2251
+    sha256: "d8c11775411ecc932acd771d86a6bb3dd476d2b1f40c29242efdf159fc4961a5"
+    id_range:
+      - 2473592
+      - 2474634
+  - name: "KNS_DocumentSecondaryLaw-000251.jsonl"
+    records: 4
+    bytes: 1097
+    sha256: "6afcaa77a8d3bdec49b8b10f95eb3cec8c3d1d8cab232368efeb2b24c03be5c1"
+    id_range:
+      - 2501723
+      - 2509531
+  - name: "KNS_DocumentSecondaryLaw-000252.jsonl"
+    records: 9
+    bytes: 2567
+    sha256: "f2c2ceafeaac84f090f0d4488da48c9bae78bb5aa8cef9f7e9010e0f73515560"
+    id_range:
+      - 2514961
+      - 2516587
+  - name: "KNS_DocumentSecondaryLaw-000253.jsonl"
+    records: 34
+    bytes: 9932
+    sha256: "7a767ee0d9559fe807bb845ef824c25e2dc69927be711e894711375e1e404562"
+    id_range:
+      - 2522408
+      - 2523950
+  - name: "KNS_DocumentSecondaryLaw-000255.jsonl"
+    records: 3
+    bytes: 909
+    sha256: "d9dfc319f569b5352b3a84568827c812d603e3f35f1714502bcc37df829a794a"
+    id_range:
+      - 2549886
+      - 2549905
+  - name: "KNS_DocumentSecondaryLaw-000256.jsonl"
+    records: 20
+    bytes: 5843
+    sha256: "694f55fe283148facff754785686791299410279f02cf6e3351a68cb7d3716c8"
+    id_range:
+      - 2550028
+      - 2559139
+  - name: "KNS_DocumentSecondaryLaw-000257.jsonl"
+    records: 3
+    bytes: 893
+    sha256: "6560ad23e7d47478f4ff11d5eeed27906e343c2cd9f7f18a26ef60ca4bbffb84"
+    id_range:
+      - 2565702
+      - 2566466
+  - name: "KNS_DocumentSecondaryLaw-000258.jsonl"
+    records: 6
+    bytes: 1768
+    sha256: "d168aa48a3425d9ff97c3f18b8a49310b4f1b61e2a3816423f0d639b7fe13f77"
+    id_range:
+      - 2571972
+      - 2578908
+  - name: "KNS_DocumentSecondaryLaw-000259.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "e0a5ba069ba93888e9a6c7a780fc0f3643a207562348ac638124fe6884ccd210"
+    id_range:
+      - 2580035
+      - 2580035
+  - name: "KNS_DocumentSecondaryLaw-000260.jsonl"
+    records: 3
+    bytes: 852
+    sha256: "d27733b9fab8e7c9aeceeff5cc2a03485b47bf3a516d839f558cc85790da0501"
+    id_range:
+      - 2599979
+      - 2599985
+  - name: "KNS_DocumentSecondaryLaw-000261.jsonl"
+    records: 3
+    bytes: 842
+    sha256: "e39ea19d89f81c5e16bebe2eded2d7cf630709ee628666c95c058f4a8e039d8f"
+    id_range:
+      - 2608514
+      - 2609575
+  - name: "KNS_DocumentSecondaryLaw-000262.jsonl"
+    records: 3
+    bytes: 824
+    sha256: "5215e19cc94a45f6e0d7972ae97113a2fc7d13babb2070cadf03f742841d5c97"
+    id_range:
+      - 2614162
+      - 2614652
+  - name: "KNS_DocumentSecondaryLaw-000263.jsonl"
+    records: 11
+    bytes: 3161
+    sha256: "e077524338318c47478a792e49d4da26bc8e67419d64ffe94f2c35256721f4ca"
+    id_range:
+      - 2621066
+      - 2622888
+  - name: "KNS_DocumentSecondaryLaw-000265.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "7b5a271216f17dd90ee244de1acf2f92636251d762070ef36b2d5a0128e0c45e"
+    id_range:
+      - 2649315
+      - 2649315
+  - name: "KNS_DocumentSecondaryLaw-000266.jsonl"
+    records: 7
+    bytes: 1986
+    sha256: "fd23054cdabaeb19e142eade53c14c23ecff4616fea8e23a1f84fed0a417572e"
+    id_range:
+      - 2650521
+      - 2658459
+  - name: "KNS_DocumentSecondaryLaw-000267.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "a5cab8726fb601701e37130a1949d2aeff7a986c52adc599c53058976194ef96"
+    id_range:
+      - 2665674
+      - 2665674
+  - name: "KNS_DocumentSecondaryLaw-000268.jsonl"
+    records: 6
+    bytes: 1772
+    sha256: "7bf99f9547c1fadab4a3de4bc736d11f5dfd87527bea2ea5cfaff6ac74184c93"
+    id_range:
+      - 2672677
+      - 2678244
+  - name: "KNS_DocumentSecondaryLaw-000270.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "45382782146446d1cd88dd55c1735515b7bc70c01cacc2fd1e9262aee7a19782"
+    id_range:
+      - 2698397
+      - 2698397
+  - name: "KNS_DocumentSecondaryLaw-000271.jsonl"
+    records: 8
+    bytes: 2129
+    sha256: "b3ca8830d35a4cf3a1bdc78d7d8ffd77814585d85c0c6d4617ba6589eab915a2"
+    id_range:
+      - 2706986
+      - 2708885
+  - name: "KNS_DocumentSecondaryLaw-000272.jsonl"
+    records: 6
+    bytes: 1729
+    sha256: "771990cbe2b5df2a6d58f02cac84e6e36ac47453553491846b98636fa908395d"
+    id_range:
+      - 2713071
+      - 2715801
+  - name: "KNS_DocumentSecondaryLaw-000273.jsonl"
+    records: 9
+    bytes: 2585
+    sha256: "0f3f894af18dc70e42b750dd75b4556f45b46b996bcdf9fc25c6d81abc0f4cd7"
+    id_range:
+      - 2721146
+      - 2727876
+  - name: "KNS_DocumentSecondaryLaw-000276.jsonl"
+    records: 6
+    bytes: 1588
+    sha256: "b5a39eb73f281f2e4a695d8df9c7d6ae6a4f4f8a21caf6709c34a2ac66b729de"
+    id_range:
+      - 2750449
+      - 2755836
+  - name: "KNS_DocumentSecondaryLaw-000277.jsonl"
+    records: 7
+    bytes: 1953
+    sha256: "f4e500994e74c0efb2827faf33442b10a8a90d0b2f0b2d609e7e331fb98fd355"
+    id_range:
+      - 2762607
+      - 2764890
+  - name: "KNS_DocumentSecondaryLaw-000278.jsonl"
+    records: 9
+    bytes: 2583
+    sha256: "8021c32493a088682d46759b5d30a4d573a669144cd142e83e340e8c1a0ea215"
+    id_range:
+      - 2770337
+      - 2778672
+  - name: "KNS_DocumentSecondaryLaw-000280.jsonl"
+    records: 2
+    bytes: 591
+    sha256: "872547a5f922b946d7adcb39c06741da5d44e18922b046b8767f11fb8aca6eb2"
+    id_range:
+      - 2798464
+      - 2799433
+  - name: "KNS_DocumentSecondaryLaw-000281.jsonl"
+    records: 13
+    bytes: 3637
+    sha256: "2a96b8cbdde7fce19a83a21c4d35aa54f05b0cd7f2998b0697846d2ed208382a"
+    id_range:
+      - 2800150
+      - 2808121
+  - name: "KNS_DocumentSecondaryLaw-000282.jsonl"
+    records: 3
+    bytes: 868
+    sha256: "b4e5a8a36a6ab7a07672b89582e73071bdca2919538fdfd7473e3f3365fdc5e9"
+    id_range:
+      - 2812752
+      - 2815688
+  - name: "KNS_DocumentSecondaryLaw-000283.jsonl"
+    records: 33
+    bytes: 9614
+    sha256: "caf12deaf536c12585adc44aa172e6ac3814bd1613f18ffa273db1b3963607be"
+    id_range:
+      - 2820559
+      - 2828553
+  - name: "KNS_DocumentSecondaryLaw-000286.jsonl"
+    records: 8
+    bytes: 2268
+    sha256: "278a19c0b7bc2059cd12dda417763063e2bbc7cdeb0aacf453c23972a8051feb"
+    id_range:
+      - 2856041
+      - 2859031
+  - name: "KNS_DocumentSecondaryLaw-000287.jsonl"
+    records: 5
+    bytes: 1429
+    sha256: "cc0263e37026b993826cb9ebc45be44539c0a1d51468118b5762bd1ad40c2b3e"
+    id_range:
+      - 2865039
+      - 2867131
+  - name: "KNS_DocumentSecondaryLaw-000288.jsonl"
+    records: 6
+    bytes: 1735
+    sha256: "7c6b0844e8bb4d77feb107cdd0ba3e384593944dc7fb90c8c2c75c8858ecf692"
+    id_range:
+      - 2872448
+      - 2878499
+  - name: "KNS_DocumentSecondaryLaw-000289.jsonl"
+    records: 4
+    bytes: 1169
+    sha256: "5a0fb8c7136e3223202e57208a232a075503cc1e444a5a88c892bde95b4dd572"
+    id_range:
+      - 2880004
+      - 2880144
+  - name: "KNS_DocumentSecondaryLaw-000292.jsonl"
+    records: 7
+    bytes: 1950
+    sha256: "19cb2362310702c6ff7aa3f504d7ece7bf84e8ee2cececd30ccf01f3ac4009c6"
+    id_range:
+      - 2911410
+      - 2914983
+  - name: "KNS_DocumentSecondaryLaw-000293.jsonl"
+    records: 10
+    bytes: 2935
+    sha256: "084f2744bf9b71387ca3abc588755886bd01e8efac68f16e14bbfe829c49d65b"
+    id_range:
+      - 2921304
+      - 2929397
+  - name: "KNS_DocumentSecondaryLaw-000295.jsonl"
+    records: 2
+    bytes: 581
+    sha256: "12512c666ab19fe875fdd18d2f39dc66122e2bf6fa5a29bba4ab96b68be0546f"
+    id_range:
+      - 2949072
+      - 2949074
+  - name: "KNS_DocumentSecondaryLaw-000296.jsonl"
+    records: 3
+    bytes: 887
+    sha256: "6a4993c8a8c63292494a3d56a81081c4bac8f93f0fc8976e78d81d5522c1ee12"
+    id_range:
+      - 2950791
+      - 2957248
+  - name: "KNS_DocumentSecondaryLaw-000297.jsonl"
+    records: 7
+    bytes: 2051
+    sha256: "4c67210160b23082d11423d82f11028419f82f1bb0de43c1d300b18260de958f"
+    id_range:
+      - 2964536
+      - 2965135
+  - name: "KNS_DocumentSecondaryLaw-000298.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "92533dc29196c74c3b0d93230111f719423641d0025eb1d1e1cefe7193d71098"
+    id_range:
+      - 2971032
+      - 2971032
+  - name: "KNS_DocumentSecondaryLaw-000300.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "37bb78fa1fe968139ddaab9d172c49338da82b39e9aa9f42e9675de418eb0e39"
+    id_range:
+      - 2998793
+      - 2998793
+  - name: "KNS_DocumentSecondaryLaw-000301.jsonl"
+    records: 1
+    bytes: 280
+    sha256: "2a01a0be06894b867f9bdff8881cb1c07f582be9ced8b289101c3caa9bc0c055"
+    id_range:
+      - 3006830
+      - 3006830
+  - name: "KNS_DocumentSecondaryLaw-000302.jsonl"
+    records: 11
+    bytes: 3128
+    sha256: "d471eb966d253fcfb7e6250e95e5913fa60912469d2935e5667225678eaf0107"
+    id_range:
+      - 3012381
+      - 3019988
+  - name: "KNS_DocumentSecondaryLaw-000303.jsonl"
+    records: 2
+    bytes: 577
+    sha256: "98c73d37f673bbd1439430c62e72dca9274cd4712dfa302ca35ece56ae29fdf2"
+    id_range:
+      - 3020006
+      - 3020010
+  - name: "KNS_DocumentSecondaryLaw-000305.jsonl"
+    records: 7
+    bytes: 1886
+    sha256: "b36ab0a38321043b491d24f2575f454eb50dda6909ce84eafa2df4b93ed37b9e"
+    id_range:
+      - 3048307
+      - 3049948
+  - name: "KNS_DocumentSecondaryLaw-000306.jsonl"
+    records: 10
+    bytes: 2825
+    sha256: "27aa70cbe64cbf574d5a2f0d172047f95e8cc7d18ca70fd10690e2f7bc10949c"
+    id_range:
+      - 3054780
+      - 3056475
+  - name: "KNS_DocumentSecondaryLaw-000307.jsonl"
+    records: 9
+    bytes: 2593
+    sha256: "1705fd95bbadc0e110af01f88729f48cc0621d6646e579cef40fd74a01eb7770"
+    id_range:
+      - 3063018
+      - 3069915
+  - name: "KNS_DocumentSecondaryLaw-000308.jsonl"
+    records: 4
+    bytes: 1125
+    sha256: "38cdc5b580a1263cd3a17fde694359a9d52b4d4d1b63b90ff86b970ba036143d"
+    id_range:
+      - 3071109
+      - 3077052
+  - name: "KNS_DocumentSecondaryLaw-000310.jsonl"
+    records: 7
+    bytes: 2034
+    sha256: "4b228f0db40fd35deaf243258bbbdef92745cc94fbc2591aa62fb3a18dd07533"
+    id_range:
+      - 3099235
+      - 3099699
+  - name: "KNS_DocumentSecondaryLaw-000311.jsonl"
+    records: 4
+    bytes: 1154
+    sha256: "cb79a2c852a672b268d3be1554ac35e072e68002fb958e943eac5ba51e5a9303"
+    id_range:
+      - 3105803
+      - 3106745
+  - name: "KNS_DocumentSecondaryLaw-000312.jsonl"
+    records: 4
+    bytes: 1097
+    sha256: "f0734f78e6d82faa23897fd5f5cd3d2140211c5e8bc3ad343a79bb8cb1b8b816"
+    id_range:
+      - 3112492
+      - 3119783
+  - name: "KNS_DocumentSecondaryLaw-000313.jsonl"
+    records: 5
+    bytes: 1395
+    sha256: "166f01086fdf81100becef9388de114f1f69cc86b0295a617202e11c2eedd344"
+    id_range:
+      - 3120266
+      - 3120572
+  - name: "KNS_DocumentSecondaryLaw-000322.jsonl"
+    records: 28
+    bytes: 8100
+    sha256: "c0ef67275c9d040cd8f2f0aefd149a6b94341fefa01afee36560848a1f8f3763"
+    id_range:
+      - 3214533
+      - 3219438
+  - name: "KNS_DocumentSecondaryLaw-000323.jsonl"
+    records: 23
+    bytes: 6653
+    sha256: "82594e29d2cff07e45bec26e6a856cf908ae409944589f2cd0d0dad339fc48d7"
+    id_range:
+      - 3220286
+      - 3225603
+  - name: "KNS_DocumentSecondaryLaw-000324.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "f03511ce6efdaa704af44ee32522d4626e919e309c47cc4f7b81e144225b49d0"
+    id_range:
+      - 3230514
+      - 3230514
+  - name: "KNS_DocumentSecondaryLaw-000325.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "ff160226387e6a3915b33917a007ac5862c2d943d432d374e6ead091dcf64f19"
+    id_range:
+      - 3246940
+      - 3246940
+  - name: "KNS_DocumentSecondaryLaw-000326.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "c485329cc979e742b28c36bd42a6b7d734dda98af8c86526055a62bd8e7cc976"
+    id_range:
+      - 3257222
+      - 3257222
+  - name: "KNS_DocumentSecondaryLaw-000327.jsonl"
+    records: 2
+    bytes: 584
+    sha256: "59ff38ee7f97fe43cf9e50f222a149495afe794b1caeebd0d0b64c893043a6da"
+    id_range:
+      - 3267586
+      - 3267595
+  - name: "KNS_DocumentSecondaryLaw-000329.jsonl"
+    records: 3
+    bytes: 821
+    sha256: "5aa967fb47dcb1a5a95c0f36a9cb78567ee5896a0c2db81e044d687e95e5ee1f"
+    id_range:
+      - 3286488
+      - 3289868
+  - name: "KNS_DocumentSecondaryLaw-000330.jsonl"
+    records: 12
+    bytes: 3301
+    sha256: "58c1dd7666ae2660867911f22efcb72b4d50cb7f37a3e66041e097a3be9a0062"
+    id_range:
+      - 3290196
+      - 3299673
+  - name: "KNS_DocumentSecondaryLaw-000333.jsonl"
+    records: 16
+    bytes: 4471
+    sha256: "991f94f8f8ec284d2b0e704ed7e40060adc10e32623dfce53b39dab6d5a60de6"
+    id_range:
+      - 3323091
+      - 3329132
+  - name: "KNS_DocumentSecondaryLaw-000334.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "77553fcc599bfd22cd3df47dfb34f69c2b854156262b238536fe8935976ccfdd"
+    id_range:
+      - 3335587
+      - 3335587
+  - name: "KNS_DocumentSecondaryLaw-000338.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "25884cb47804db0f8867e38c940bee2e1dd2ec6512a16fa27bff9667f02cbf1f"
+    id_range:
+      - 3379973
+      - 3379973
+  - name: "KNS_DocumentSecondaryLaw-000339.jsonl"
+    records: 11
+    bytes: 3166
+    sha256: "83a39d1390f15ad934b6217608f09362ff0e67ff101a7ba8f7cf135ea93c3c85"
+    id_range:
+      - 3383676
+      - 3389141
+  - name: "KNS_DocumentSecondaryLaw-000340.jsonl"
+    records: 13
+    bytes: 3712
+    sha256: "08a2bcbdcaa0be09f7dc069a11c32b8625319dce50a86e0c6e75ce397e43b0cb"
+    id_range:
+      - 3392229
+      - 3397025
+  - name: "KNS_DocumentSecondaryLaw-000341.jsonl"
+    records: 6
+    bytes: 1737
+    sha256: "654c7359ed159d412d2fee7c07e74cdd75c5c30a4da3e8c15009d4dc974a698d"
+    id_range:
+      - 3408931
+      - 3409242
+  - name: "KNS_DocumentSecondaryLaw-000342.jsonl"
+    records: 6
+    bytes: 1736
+    sha256: "b31c389028d15c9455a8e51cee0439a6e9cae85ec71dd2816ecd7135e492ac8d"
+    id_range:
+      - 3413250
+      - 3417590
+  - name: "KNS_DocumentSecondaryLaw-000343.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "9b65f70afc9942b1c2bd682401fdd3fdd16a2513e7ea8ca653fdc3dd702ad098"
+    id_range:
+      - 3421148
+      - 3421148
+  - name: "KNS_DocumentSecondaryLaw-000344.jsonl"
+    records: 5
+    bytes: 1464
+    sha256: "175eb77fb7fdcf858f48f49c48d5705daf490856db3ef6b598796a9fd08f8e7d"
+    id_range:
+      - 3438026
+      - 3439542
+  - name: "KNS_DocumentSecondaryLaw-000345.jsonl"
+    records: 5
+    bytes: 1445
+    sha256: "fc8d3ae29251bff22dc3b8413e97e6a9342349b1cf320141a37152ef19477f5a"
+    id_range:
+      - 3441853
+      - 3449666
+  - name: "KNS_DocumentSecondaryLaw-000346.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "9454436b0d2b480213e7db2a67ee42cc7da381ffc37fd780d7795b4264c331fa"
+    id_range:
+      - 3453930
+      - 3453930
+  - name: "KNS_DocumentSecondaryLaw-000348.jsonl"
+    records: 9
+    bytes: 2599
+    sha256: "069321e92c91ce8b2146ee645bc7615a375851f81f8c89d50fa4317055ec407c"
+    id_range:
+      - 3471378
+      - 3476423
+  - name: "KNS_DocumentSecondaryLaw-000350.jsonl"
+    records: 3
+    bytes: 865
+    sha256: "057ce1ea26c8386859c51ccbab72afabb2714d814f2a86adc971ec253821ac51"
+    id_range:
+      - 3495151
+      - 3499651
+  - name: "KNS_DocumentSecondaryLaw-000351.jsonl"
+    records: 10
+    bytes: 2919
+    sha256: "793084d39d0161e26bf1b3d757ff99f963f84895befce3410eda17a2dd3b3d49"
+    id_range:
+      - 3500155
+      - 3509240
+  - name: "KNS_DocumentSecondaryLaw-000352.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "c14118f0f2708cecb389a493e789938bb3e9e98eafbf7e74974b41753ba6c972"
+    id_range:
+      - 3512693
+      - 3512693
+  - name: "KNS_DocumentSecondaryLaw-000353.jsonl"
+    records: 4
+    bytes: 1158
+    sha256: "62837ccb60c32c863b70bd0fc74d4774ade99c5c684eaa785a94030672713da5"
+    id_range:
+      - 3527244
+      - 3527745
+  - name: "KNS_DocumentSecondaryLaw-000354.jsonl"
+    records: 8
+    bytes: 2258
+    sha256: "b991a9d25f8ab0f262ee6e3c0b82c6988204ed0b0a0f285a76a20558bad7bab4"
+    id_range:
+      - 3532656
+      - 3539607
+  - name: "KNS_DocumentSecondaryLaw-000355.jsonl"
+    records: 10
+    bytes: 2907
+    sha256: "5fb6d2d0f7f279c6311f5504b5a94d54924171e563946cb3f1a3c677de0552e7"
+    id_range:
+      - 3540024
+      - 3542997
+  - name: "KNS_DocumentSecondaryLaw-000356.jsonl"
+    records: 5
+    bytes: 1432
+    sha256: "2a206f6770789d59c28105e7204ec0177000bb85be894ca330c04723f1b4a12d"
+    id_range:
+      - 3557713
+      - 3558866
+  - name: "KNS_DocumentSecondaryLaw-000357.jsonl"
+    records: 11
+    bytes: 3148
+    sha256: "ac64f7d5f9b01b0296ddb1fe4bd19f5e127602af91d204dfe7498465ab18eccf"
+    id_range:
+      - 3565180
+      - 3569899
+  - name: "KNS_DocumentSecondaryLaw-000358.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "77985637ecaf8bca0e2bdbd00bcbdad9ca33a0c13e6feacf31cd79dad8083ac9"
+    id_range:
+      - 3579906
+      - 3579906
+  - name: "KNS_DocumentSecondaryLaw-000359.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "308285f42f33eef9dadb57ebd532f4bae537a6584be6b77507631613ccc0ec0d"
+    id_range:
+      - 3581024
+      - 3581024
+  - name: "KNS_DocumentSecondaryLaw-000360.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "e255d44317770a4b47d4eb6ec0b0eb0d324a6a8d953cf5aaf3a5d3b9b4d84f13"
+    id_range:
+      - 3599315
+      - 3599315
+  - name: "KNS_DocumentSecondaryLaw-000361.jsonl"
+    records: 12
+    bytes: 3480
+    sha256: "542868c8df6aa54cc36694cc4e834138a5498a1f1f8b4422065605292e059c8d"
+    id_range:
+      - 3601085
+      - 3608236
+  - name: "KNS_DocumentSecondaryLaw-000362.jsonl"
+    records: 6
+    bytes: 1735
+    sha256: "d6e89d528becf349ad682e98a6f20419d71e87b7672187554c2a16e759a1acc0"
+    id_range:
+      - 3611728
+      - 3613080
+  - name: "KNS_DocumentSecondaryLaw-000363.jsonl"
+    records: 2
+    bytes: 557
+    sha256: "311c741dfd9beb6be0369465dc1babec087720368a2e63356c71eccbdf08691a"
+    id_range:
+      - 3626331
+      - 3627632
+  - name: "KNS_DocumentSecondaryLaw-000364.jsonl"
+    records: 4
+    bytes: 1132
+    sha256: "108e365618114cbd0bbe35fa35b7ed0dcf19d3dc9352e051355da9eab61803cb"
+    id_range:
+      - 3630513
+      - 3639081
+  - name: "KNS_DocumentSecondaryLaw-000366.jsonl"
+    records: 1
+    bytes: 301
+    sha256: "7a5e6888c65bba51ba0a76773052b644decbd621e0165329405893e056566baa"
+    id_range:
+      - 3653817
+      - 3653817
+  - name: "KNS_DocumentSecondaryLaw-000368.jsonl"
+    records: 10
+    bytes: 2821
+    sha256: "c63a7dda9276e51fedd1eeaffb1f87826d5c487e7add80abfcf6e329b2504dfb"
+    id_range:
+      - 3672832
+      - 3675013
+  - name: "KNS_DocumentSecondaryLaw-000369.jsonl"
+    records: 10
+    bytes: 2780
+    sha256: "8f0db85fed125613b204814aeb5f5ab306b0c8f1826852e3b8414c250d7be96f"
+    id_range:
+      - 3681337
+      - 3687728
+  - name: "KNS_DocumentSecondaryLaw-000371.jsonl"
+    records: 3
+    bytes: 878
+    sha256: "c8168d64fc4e23c9b50739eed62eb06917730e2f3a7b0cde7eeb9522a1d6d359"
+    id_range:
+      - 3705736
+      - 3705988
+  - name: "KNS_DocumentSecondaryLaw-000372.jsonl"
+    records: 11
+    bytes: 3261
+    sha256: "e42ea564a3bf4a09a80a08d8cdc6cc3bff603bd42e0cd350936cc289318de22e"
+    id_range:
+      - 3711641
+      - 3713425
+  - name: "KNS_DocumentSecondaryLaw-000374.jsonl"
+    records: 6
+    bytes: 1719
+    sha256: "96cda8e1f447ff96fd5b971fce6b1617aac34ddebb109aa1e17a45e8f5ef9982"
+    id_range:
+      - 3733820
+      - 3739648
+  - name: "KNS_DocumentSecondaryLaw-000375.jsonl"
+    records: 5
+    bytes: 1344
+    sha256: "8c1a9d3ca088b09d9d9042e5cb138750cccc29095efcbedd4d221ebf46f51ca1"
+    id_range:
+      - 3740069
+      - 3741227
+  - name: "KNS_DocumentSecondaryLaw-000376.jsonl"
+    records: 12
+    bytes: 3468
+    sha256: "73a3ca7541fe3471e95152d5df8d6d2b95b955eb048ba29902797ad3de406c9e"
+    id_range:
+      - 3752323
+      - 3759358
+  - name: "KNS_DocumentSecondaryLaw-000377.jsonl"
+    records: 14
+    bytes: 4077
+    sha256: "4b2a401b2fef5aca8f163d5cd9c51e044b2ddb51fb00be4ad201e9644142ce85"
+    id_range:
+      - 3760062
+      - 3765783
+  - name: "KNS_DocumentSecondaryLaw-000378.jsonl"
+    records: 8
+    bytes: 2246
+    sha256: "26f891c82640b071207c2b8b6cd328ec666bcde801f47478376403e9b8c8c386"
+    id_range:
+      - 3771016
+      - 3774677
+  - name: "KNS_DocumentSecondaryLaw-000380.jsonl"
+    records: 6
+    bytes: 1671
+    sha256: "1d93b61563fa3a421e67b59a80805c9893d106611411e7502ca265b48c3bfecc"
+    id_range:
+      - 3791915
+      - 3799317
+  - name: "KNS_DocumentSecondaryLaw-000381.jsonl"
+    records: 18
+    bytes: 5137
+    sha256: "bad618d0078b1af2fa91412ee4a68380bd84183cfeb1567e2e0ded6f6b09e1e2"
+    id_range:
+      - 3800284
+      - 3809650
+  - name: "KNS_DocumentSecondaryLaw-000382.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "a33fc13e2f0906756283dc932b4e82f64a40283ecf4dc1a807178248fd2cc249"
+    id_range:
+      - 3813456
+      - 3813456
+  - name: "KNS_DocumentSecondaryLaw-000383.jsonl"
+    records: 4
+    bytes: 1119
+    sha256: "7ce5d40f516d725f6754f4b1c3a59a51b304b4e7ae57bfd6ef0df533288a7bf3"
+    id_range:
+      - 3820339
+      - 3823875
+  - name: "KNS_DocumentSecondaryLaw-000385.jsonl"
+    records: 16
+    bytes: 4483
+    sha256: "672bf89ee954c9f142525e0e35fd032a1935a872e3d0aa71e37cd64746b0c0ea"
+    id_range:
+      - 3841208
+      - 3848968
+  - name: "KNS_DocumentSecondaryLaw-000386.jsonl"
+    records: 19
+    bytes: 5487
+    sha256: "6cc83aa35c1be39d3581be056c716844f30febc414fab1d7b20b2c1b40a0ed51"
+    id_range:
+      - 3850464
+      - 3858039
+  - name: "KNS_DocumentSecondaryLaw-000387.jsonl"
+    records: 13
+    bytes: 3696
+    sha256: "4c4a027be2344d573411a2b266f20bb1e0ed5103e12e17843b4fa23f32f70a0a"
+    id_range:
+      - 3862682
+      - 3865588
+  - name: "KNS_DocumentSecondaryLaw-000388.jsonl"
+    records: 3
+    bytes: 867
+    sha256: "ba417307e9599f740bbcbf26c32531a70eb30e04598e9e741e74b557f08ffba0"
+    id_range:
+      - 3870309
+      - 3871351
+  - name: "KNS_DocumentSecondaryLaw-000390.jsonl"
+    records: 7
+    bytes: 1966
+    sha256: "e2f1bc40ac7ad9726ecfb0f681585b10248f96e5124f51d943e38c2e9fe6b6f7"
+    id_range:
+      - 3890858
+      - 3892414
+  - name: "KNS_DocumentSecondaryLaw-000391.jsonl"
+    records: 23
+    bytes: 6783
+    sha256: "3422343c4367e3d866513e55bd704a7356e136fa2611860d8d32f8056e9ee704"
+    id_range:
+      - 3900063
+      - 3907230
+  - name: "KNS_DocumentSecondaryLaw-000392.jsonl"
+    records: 3
+    bytes: 877
+    sha256: "68969efdb226907c9dcd0872427d7b2b1fb6d71f46cd1eec0188cf0475214bf1"
+    id_range:
+      - 3912930
+      - 3913168
+  - name: "KNS_DocumentSecondaryLaw-000393.jsonl"
+    records: 4
+    bytes: 1154
+    sha256: "3092d02d25efd8a6cea5351424d97c4ba26f6f458a4ca50e7c9f1dc765d99f77"
+    id_range:
+      - 3920932
+      - 3921353
+  - name: "KNS_DocumentSecondaryLaw-000395.jsonl"
+    records: 5
+    bytes: 1370
+    sha256: "c02f3f6cb3270e046145ab61758b474845be02681b08dd1e7b87ff358961f457"
+    id_range:
+      - 3940705
+      - 3948873
+  - name: "KNS_DocumentSecondaryLaw-000396.jsonl"
+    records: 9
+    bytes: 2488
+    sha256: "ebb0f0616a1e8f6ea103b5f6b62218e90caddf5f85bd802b80a289eb7f1690a0"
+    id_range:
+      - 3950961
+      - 3957947
+  - name: "KNS_DocumentSecondaryLaw-000397.jsonl"
+    records: 23
+    bytes: 6672
+    sha256: "8c2e341c9b37a6a2c16069e6dd19aaf2001246599ab1e2bb3815f6f67cc36db0"
+    id_range:
+      - 3962233
+      - 3963679
+  - name: "KNS_DocumentSecondaryLaw-000398.jsonl"
+    records: 10
+    bytes: 2802
+    sha256: "a9ca0d93a2dcd9453b9299fc78d8f178fa35518c922ccea290efc52be70b729b"
+    id_range:
+      - 3970323
+      - 3970921
+  - name: "KNS_DocumentSecondaryLaw-000400.jsonl"
+    records: 16
+    bytes: 4608
+    sha256: "5620daf084e8e171050dd4debdef69054b17184c03f913c35ccd709db61a4166"
+    id_range:
+      - 3991535
+      - 3999504
+  - name: "KNS_DocumentSecondaryLaw-000401.jsonl"
+    records: 8
+    bytes: 2314
+    sha256: "8e8ddc18f293e0015ab476e311f6e62239c53e63575913cd734c1a376fa7f78b"
+    id_range:
+      - 4000163
+      - 4005783
+  - name: "KNS_DocumentSecondaryLaw-000402.jsonl"
+    records: 15
+    bytes: 4391
+    sha256: "e6465c4117bcd2ad587410498ce954362665f77afb1523a8f4770d4aeb36413f"
+    id_range:
+      - 4011511
+      - 4019197
+  - name: "KNS_DocumentSecondaryLaw-000404.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "af96acf3f6d06a62f0007ec3efb7cce07a203e05ddc4201a6cdc11f32fef99be"
+    id_range:
+      - 4039928
+      - 4039928
+  - name: "KNS_DocumentSecondaryLaw-000405.jsonl"
+    records: 16
+    bytes: 4457
+    sha256: "8dc6d22da0845b5791d63483a7872cffa565be983251c3deb6ea485f57934478"
+    id_range:
+      - 4041351
+      - 4049015
+  - name: "KNS_DocumentSecondaryLaw-000406.jsonl"
+    records: 2
+    bytes: 545
+    sha256: "e289d23eb28750de0be56361dd294833b8ebc3ac7c6417521b1b577a625ee5fb"
+    id_range:
+      - 4054105
+      - 4054776
+  - name: "KNS_DocumentSecondaryLaw-000407.jsonl"
+    records: 2
+    bytes: 568
+    sha256: "d736211852da5240c398f7a0aad607af10e7f083dbe4e5a8478708da754b5ce6"
+    id_range:
+      - 4062385
+      - 4062913
+  - name: "KNS_DocumentSecondaryLaw-000409.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "5930c13a5e3d044ef16af4ba0f33e07bebf7756cd928b9bdc1e767e647256cac"
+    id_range:
+      - 4089722
+      - 4089722
+  - name: "KNS_DocumentSecondaryLaw-000410.jsonl"
+    records: 8
+    bytes: 2216
+    sha256: "03679b6ca542bf7c6384e7fbfdc8fea452d7c18c8a7fd50b0661cb576d849998"
+    id_range:
+      - 4090514
+      - 4098303
+  - name: "KNS_DocumentSecondaryLaw-000411.jsonl"
+    records: 9
+    bytes: 2642
+    sha256: "469e22d1264d06224c9578a1adea159271043a794a7e54af961f3e834e9edbdd"
+    id_range:
+      - 4103701
+      - 4105754
+  - name: "KNS_DocumentSecondaryLaw-000412.jsonl"
+    records: 18
+    bytes: 5197
+    sha256: "0862c4aff213fd5f9648d2b2eaaa69574ea7e02fa4a16a4cc5b5510d0aa1200c"
+    id_range:
+      - 4110733
+      - 4119350
+  - name: "KNS_DocumentSecondaryLaw-000414.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "12a205dda05a394e55f8687af606601fee7b8925b5eac60cdba5862088079ecf"
+    id_range:
+      - 4139928
+      - 4139928
+  - name: "KNS_DocumentSecondaryLaw-000415.jsonl"
+    records: 26
+    bytes: 7549
+    sha256: "27c4d3f263657d68742748b1d5a27427e18d53a47ba12119c79f63d1efe555b0"
+    id_range:
+      - 4141184
+      - 4148107
+  - name: "KNS_DocumentSecondaryLaw-000416.jsonl"
+    records: 1
+    bytes: 280
+    sha256: "ea7a635e251629f946de8297a7c2030fbd576c5cda9897b4beb8a290d746c42a"
+    id_range:
+      - 4150769
+      - 4150769
+  - name: "KNS_DocumentSecondaryLaw-000417.jsonl"
+    records: 33
+    bytes: 9344
+    sha256: "f31f09ef589887ea71f8a6df41a7f174b8cfb4cc8be7f316b6b0fc37edcfa19d"
+    id_range:
+      - 4165112
+      - 4169587
+  - name: "KNS_DocumentSecondaryLaw-000418.jsonl"
+    records: 14
+    bytes: 3954
+    sha256: "7c00aee007d0982631367ba60ed3bc58bed52da2d9c1cca2f4a00b0597b819c1"
+    id_range:
+      - 4174720
+      - 4178241
+  - name: "KNS_DocumentSecondaryLaw-000419.jsonl"
+    records: 14
+    bytes: 3962
+    sha256: "246ed1cc2ae7d9f4182f361290f2fbb86bd9545908f7d5dfbe6da8f43b3e39e9"
+    id_range:
+      - 4186229
+      - 4189963
+  - name: "KNS_DocumentSecondaryLaw-000420.jsonl"
+    records: 13
+    bytes: 3702
+    sha256: "fb91069c7e837cac1cd6be1def5b4f40b6f6f424d700f617a8de3a5ec5d4234b"
+    id_range:
+      - 4192232
+      - 4198622
+  - name: "KNS_DocumentSecondaryLaw-000421.jsonl"
+    records: 9
+    bytes: 2579
+    sha256: "47f6bae0853a0f76869ccbd7d7d03d31be532a8b6adcce98b0914b4ee959f6f0"
+    id_range:
+      - 4201220
+      - 4209938
+  - name: "KNS_DocumentSecondaryLaw-000422.jsonl"
+    records: 12
+    bytes: 3279
+    sha256: "c6ed3983124be52518c69833633519b5ba2d9bc4300e4d0c6a3d376d3b1310c8"
+    id_range:
+      - 4210066
+      - 4219066
+  - name: "KNS_DocumentSecondaryLaw-000423.jsonl"
+    records: 5
+    bytes: 1464
+    sha256: "73738019065fa79eae7047896e2682d58071c3d2932d5ce5f81f499e3eaea7a3"
+    id_range:
+      - 4226941
+      - 4227935
+  - name: "KNS_DocumentSecondaryLaw-000424.jsonl"
+    records: 22
+    bytes: 6192
+    sha256: "4152513878c4e2ba8aea5ffff4a78d5cdca6ed3a14af5289c421b61b1ffc5e30"
+    id_range:
+      - 4230237
+      - 4239805
+  - name: "KNS_DocumentSecondaryLaw-000426.jsonl"
+    records: 12
+    bytes: 3465
+    sha256: "c2a0b2d669f7293a4d3f701fb50e133fe05607f29d5563be15de44e80662a6d0"
+    id_range:
+      - 4253344
+      - 4259472
+  - name: "KNS_DocumentSecondaryLaw-000427.jsonl"
+    records: 7
+    bytes: 2036
+    sha256: "8f949346e6d8f930b34e523bcd22c3bdcc72ab7b2d24f386718c055635a759b3"
+    id_range:
+      - 4267798
+      - 4268316
+  - name: "KNS_DocumentSecondaryLaw-000428.jsonl"
+    records: 29
+    bytes: 8324
+    sha256: "0e34a6263f92c1f583eb9c59727211a610e912d5217b5a548fed7c4619e82925"
+    id_range:
+      - 4270559
+      - 4278151
+  - name: "KNS_DocumentSecondaryLaw-000429.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "4a82c3dbf0a39d5f17a27f38662d11cc275d04fffa53623bdc1e83b6e892caad"
+    id_range:
+      - 4280447
+      - 4280447
+  - name: "KNS_DocumentSecondaryLaw-000430.jsonl"
+    records: 4
+    bytes: 1097
+    sha256: "6a9c09c70e9ed857ccceb4265e8e27780a7422836ab8ce5c719666a9535ce370"
+    id_range:
+      - 4299868
+      - 4299874
+  - name: "KNS_DocumentSecondaryLaw-000431.jsonl"
+    records: 10
+    bytes: 2795
+    sha256: "0774eadee7a8e97b1a5b096c63a9d55733e34b53e832fdc4ad3c3abae2fb0e2b"
+    id_range:
+      - 4300444
+      - 4308536
+  - name: "KNS_DocumentSecondaryLaw-000432.jsonl"
+    records: 10
+    bytes: 2890
+    sha256: "dff0895e7ee095417b646919c53697b43a51469959f4ca4f076dace03bf1f94d"
+    id_range:
+      - 4316900
+      - 4319603
+  - name: "KNS_DocumentSecondaryLaw-000433.jsonl"
+    records: 10
+    bytes: 2840
+    sha256: "5ae4f45bdf64997d099b35a22b0b78dbd8bf8b80fd1157e4db00cf8ecdeb7702"
+    id_range:
+      - 4320684
+      - 4325842
+  - name: "KNS_DocumentSecondaryLaw-000436.jsonl"
+    records: 5
+    bytes: 1490
+    sha256: "0cc0e0c12139aa879c81a9628d9c7f85fb90c29001d48e6079fc0fdf270ae891"
+    id_range:
+      - 4355079
+      - 4355116
+  - name: "KNS_DocumentSecondaryLaw-000437.jsonl"
+    records: 13
+    bytes: 3650
+    sha256: "c5163cd702eb94032b14d35c6359e632e23ac502b802a69bd2cf70a7364c0184"
+    id_range:
+      - 4363638
+      - 4367556
+  - name: "KNS_DocumentSecondaryLaw-000439.jsonl"
+    records: 6
+    bytes: 1648
+    sha256: "d14eb780cc62738024511b978e4fe4a552dc9deeb6b1732712a6a1a968824466"
+    id_range:
+      - 4380785
+      - 4384609
+  - name: "KNS_DocumentSecondaryLaw-000440.jsonl"
+    records: 5
+    bytes: 1402
+    sha256: "c48b2193d8d91706586fdf22b65712e3e12a94fc7146eabe03f1977c9bb31f00"
+    id_range:
+      - 4391263
+      - 4391651
+  - name: "KNS_DocumentSecondaryLaw-000441.jsonl"
+    records: 7
+    bytes: 1958
+    sha256: "12121f8bc5797305aa4f20dc7aff1a2a18125b423b4883f1f0fa70d0c029b229"
+    id_range:
+      - 4401558
+      - 4405604
+  - name: "KNS_DocumentSecondaryLaw-000442.jsonl"
+    records: 9
+    bytes: 2644
+    sha256: "746ccc65fed527010d4b758b09fb325e0f0b307ef2e6a5d6f56581bab068f43b"
+    id_range:
+      - 4413481
+      - 4418830
+  - name: "KNS_DocumentSecondaryLaw-000443.jsonl"
+    records: 4
+    bytes: 1121
+    sha256: "6d69f45dc2f5d5bbade929479bc32317db294c5b5d05b9a1e2aa6c6a47799dfa"
+    id_range:
+      - 4428990
+      - 4429162
+  - name: "KNS_DocumentSecondaryLaw-000444.jsonl"
+    records: 19
+    bytes: 5412
+    sha256: "c9acd624bc151369cfc5505e3f31599e6cf026df23a8cbfd5ff7cedfe5a183d7"
+    id_range:
+      - 4432100
+      - 4436470
+  - name: "KNS_DocumentSecondaryLaw-000445.jsonl"
+    records: 12
+    bytes: 3450
+    sha256: "de13837725e664524e14586615db39ff4ab10ca3b895f5b92b87286f9a71434a"
+    id_range:
+      - 4440256
+      - 4443892
+  - name: "KNS_DocumentSecondaryLaw-000446.jsonl"
+    records: 17
+    bytes: 4838
+    sha256: "68b1202daab8f986e448353e58bff8f3322eb38f821bd0ba5180d1d60122e53b"
+    id_range:
+      - 4454245
+      - 4458555
+  - name: "KNS_DocumentSecondaryLaw-000447.jsonl"
+    records: 14
+    bytes: 4079
+    sha256: "75f71ee0caf50f20de07a5db66b12ceee2f574df0937f3ef5f270d2ff3e7c6d1"
+    id_range:
+      - 4464892
+      - 4469420
+  - name: "KNS_DocumentSecondaryLaw-000448.jsonl"
+    records: 5
+    bytes: 1466
+    sha256: "3981ff027849a7e425147ce7a88af2e3faf07928467a46704bd3b4eb83dead38"
+    id_range:
+      - 4479300
+      - 4479412
+  - name: "KNS_DocumentSecondaryLaw-000449.jsonl"
+    records: 14
+    bytes: 4068
+    sha256: "a222936d973d62bbb41fd4a90b2b9641990ef8ffe4274b952bc10fe337241bba"
+    id_range:
+      - 4483141
+      - 4486960
+  - name: "KNS_DocumentSecondaryLaw-000450.jsonl"
+    records: 8
+    bytes: 2356
+    sha256: "55b6be43bad1949d827961e8452ddfec2d64336aea7172a9eef85bdd88ca4655"
+    id_range:
+      - 4490547
+      - 4491082
+  - name: "KNS_DocumentSecondaryLaw-000453.jsonl"
+    records: 3
+    bytes: 851
+    sha256: "65f88168000c46ae7d29cff5ac6867b8296c30211deeb0c0128949fe2000062b"
+    id_range:
+      - 4521872
+      - 4521877
+  - name: "KNS_DocumentSecondaryLaw-000454.jsonl"
+    records: 5
+    bytes: 1390
+    sha256: "30d20506fb6ed924ce746c1acf756ec97de6dde3641d9dc4ebf62aa9ae972704"
+    id_range:
+      - 4532712
+      - 4535940
+  - name: "KNS_DocumentSecondaryLaw-000455.jsonl"
+    records: 5
+    bytes: 1431
+    sha256: "4df7b5228289c9af0c6fb64678fa0d6b91176807f223845aa071a9154c2465a3"
+    id_range:
+      - 4546463
+      - 4547194
+  - name: "KNS_DocumentSecondaryLaw-000456.jsonl"
+    records: 4
+    bytes: 1133
+    sha256: "4fce2166ff9694109f8824ca309ab0749efceeef5e3cd859c08d725230dbf8ed"
+    id_range:
+      - 4556684
+      - 4556777
+  - name: "KNS_DocumentSecondaryLaw-000457.jsonl"
+    records: 11
+    bytes: 3221
+    sha256: "cdd10c78cfad15be897737bbe97a39fc00bea4367d3fb49e475656015b9065a6"
+    id_range:
+      - 4560450
+      - 4568710
+  - name: "KNS_DocumentSecondaryLaw-000458.jsonl"
+    records: 8
+    bytes: 2235
+    sha256: "ab7e10ab06b648c7ba151192bfe2c94c4830a6ac8eda8a05f2cf99bf38027c46"
+    id_range:
+      - 4571490
+      - 4571803
+  - name: "KNS_DocumentSecondaryLaw-000459.jsonl"
+    records: 28
+    bytes: 8058
+    sha256: "b97e2ae5703e86184e6be73087d777bd3548e948e07a38e8b4bdfad8359610b1"
+    id_range:
+      - 4585808
+      - 4589985
+  - name: "KNS_DocumentSecondaryLaw-000460.jsonl"
+    records: 13
+    bytes: 3739
+    sha256: "911c34a153b6c670902ab5b4625e9bce5154d52b690cd94848a827953cbcf40d"
+    id_range:
+      - 4590485
+      - 4597255
+  - name: "KNS_DocumentSecondaryLaw-000462.jsonl"
+    records: 11
+    bytes: 3205
+    sha256: "de306f46ff4f21abf205bf48d2a73316d0f5e0aeb7197c70cd3a89cca4b8432c"
+    id_range:
+      - 4611208
+      - 4618827
+  - name: "KNS_DocumentSecondaryLaw-000463.jsonl"
+    records: 1
+    bytes: 280
+    sha256: "b326b3944ae8a21540d997aa25f0c161112576320e27f72c34508a5b481d8612"
+    id_range:
+      - 4629392
+      - 4629392
+  - name: "KNS_DocumentSecondaryLaw-000464.jsonl"
+    records: 2
+    bytes: 565
+    sha256: "732259fa3ccff944a189d856c32452f754a5afdebb5c895b46993c12cc268474"
+    id_range:
+      - 4632000
+      - 4632958
+  - name: "KNS_DocumentSecondaryLaw-000465.jsonl"
+    records: 12
+    bytes: 3484
+    sha256: "34968b417e7e751a5efa4a5cdb33254d5214b8ca40d92c79f3ebb907bc9083ba"
+    id_range:
+      - 4643115
+      - 4647487
+  - name: "KNS_DocumentSecondaryLaw-000466.jsonl"
+    records: 16
+    bytes: 4490
+    sha256: "934d5742b5941f4a2e4ee0c38a85e52aea1b231abc79d7921392687b6d773260"
+    id_range:
+      - 4650777
+      - 4658406
+  - name: "KNS_DocumentSecondaryLaw-000467.jsonl"
+    records: 1
+    bytes: 289
+    sha256: "529c22843d851bb18eb3e5df9fd8414deac3198541a17744a675a8c04fe8283b"
+    id_range:
+      - 4669466
+      - 4669466
+  - name: "KNS_DocumentSecondaryLaw-000469.jsonl"
+    records: 13
+    bytes: 3766
+    sha256: "7178a2f67cd7798da4eeab81428601fb66d4e918d0d6443291a42e282da631b5"
+    id_range:
+      - 4682952
+      - 4686865
+  - name: "KNS_DocumentSecondaryLaw-000470.jsonl"
+    records: 4
+    bytes: 1171
+    sha256: "85f874db324634a9c2997050c2059ea02008e12fa3f2a3f73f07eff5bb86ff5c"
+    id_range:
+      - 4694017
+      - 4694061
+  - name: "KNS_DocumentSecondaryLaw-000471.jsonl"
+    records: 12
+    bytes: 3367
+    sha256: "35a029562e783961723270c913441b71b9be5e9f2ddc7c6f47257911b90cd201"
+    id_range:
+      - 4704027
+      - 4708758
+  - name: "KNS_DocumentSecondaryLaw-000472.jsonl"
+    records: 27
+    bytes: 7848
+    sha256: "4db0318ed78c012a3caa6c91f987903cda76687cd2081df48a39e4fb9868f3ce"
+    id_range:
+      - 4711080
+      - 4718995
+  - name: "KNS_DocumentSecondaryLaw-000473.jsonl"
+    records: 10
+    bytes: 2937
+    sha256: "bdebf1a44818373f9677465714eaf7af6a6a07c526e2412eaf8cb0c35b7e2667"
+    id_range:
+      - 4720534
+      - 4729942
+  - name: "KNS_DocumentSecondaryLaw-000474.jsonl"
+    records: 8
+    bytes: 2330
+    sha256: "bf57e8b916edba42d14d54d43d4ae637024fc6b26d97e8d20ba4a80a486f73fe"
+    id_range:
+      - 4733341
+      - 4737372
+  - name: "KNS_DocumentSecondaryLaw-000475.jsonl"
+    records: 27
+    bytes: 7736
+    sha256: "59295d7ad9cd336042795cf4d4404bfa30f516018173577c570799795d24754e"
+    id_range:
+      - 4740017
+      - 4744494
+  - name: "KNS_DocumentSecondaryLaw-000476.jsonl"
+    records: 12
+    bytes: 3545
+    sha256: "cc4bf640858626c0e0e05c278030db1c63add3430fa973ea7ab3df256aa64e71"
+    id_range:
+      - 4755261
+      - 4757777
+  - name: "KNS_DocumentSecondaryLaw-000477.jsonl"
+    records: 13
+    bytes: 3615
+    sha256: "5ae5788fc5b801dd4a02b4a32041f7c0d04f1497f955357b9f4c4a1e6ca83015"
+    id_range:
+      - 4761815
+      - 4769408
+  - name: "KNS_DocumentSecondaryLaw-000478.jsonl"
+    records: 6
+    bytes: 1724
+    sha256: "69982522be19975fe59f152a50c5b25653e646ae2d66f991fee4f0a926ba3b75"
+    id_range:
+      - 4779055
+      - 4779521
+  - name: "KNS_DocumentSecondaryLaw-000479.jsonl"
+    records: 14
+    bytes: 4136
+    sha256: "fe772d6b562723a596a983d01ccd60783f5f4149326dd35ecc0e6bf81b0a2113"
+    id_range:
+      - 4782542
+      - 4789754
+  - name: "KNS_DocumentSecondaryLaw-000480.jsonl"
+    records: 4
+    bytes: 1130
+    sha256: "ab7e1512c605a5933a922bd5c4599a7e671a7c7b229964864caa2245c8a90695"
+    id_range:
+      - 4790469
+      - 4790644
+  - name: "KNS_DocumentSecondaryLaw-000490.jsonl"
+    records: 11
+    bytes: 3181
+    sha256: "e946f463a6b73a91c35811bc4d06a20fd9fe13229045320a1b1d58ddb264e9f9"
+    id_range:
+      - 4897870
+      - 4897919
+  - name: "KNS_DocumentSecondaryLaw-000491.jsonl"
+    records: 22
+    bytes: 6244
+    sha256: "526c56a0d81af69f9290731b6d5c6bc8c85d6d020e27874f433ef61a65189e24"
+    id_range:
+      - 4901106
+      - 4908147
+  - name: "KNS_DocumentSecondaryLaw-000492.jsonl"
+    records: 2
+    bytes: 568
+    sha256: "6eb9340dce1550e3fa059027a29bf89d1b57ee6dce00421f76770b1c04ecc8aa"
+    id_range:
+      - 4918809
+      - 4918890
+  - name: "KNS_DocumentSecondaryLaw-000493.jsonl"
+    records: 11
+    bytes: 3113
+    sha256: "9ffec4b05f6a1e6db00bec236220166f30ccc66b484300f5069111e725831a8e"
+    id_range:
+      - 4922238
+      - 4926518
+  - name: "KNS_DocumentSecondaryLaw-000494.jsonl"
+    records: 2
+    bytes: 556
+    sha256: "b53667ee9254663deb83e9d5025cb7602e4c569da0af491bae476cb2262713f3"
+    id_range:
+      - 4933093
+      - 4933480
+  - name: "KNS_DocumentSecondaryLaw-000495.jsonl"
+    records: 14
+    bytes: 4082
+    sha256: "431680068ce38781f7e8be2abaaa0ac568ac10d9b126f124ac7468570ed7fcb0"
+    id_range:
+      - 4944169
+      - 4947902
+  - name: "KNS_DocumentSecondaryLaw-000496.jsonl"
+    records: 17
+    bytes: 4782
+    sha256: "0e968a98b4a13905e320305270bc66b305b22d60a321502b445b6e9c554aa0b4"
+    id_range:
+      - 4950700
+      - 4958524
+  - name: "KNS_DocumentSecondaryLaw-000497.jsonl"
+    records: 10
+    bytes: 2834
+    sha256: "048e2f99507859a9337e27e1ec915ae35718321671d4019927ac046e1c1c5818"
+    id_range:
+      - 4968479
+      - 4969240
+  - name: "KNS_DocumentSecondaryLaw-000498.jsonl"
+    records: 22
+    bytes: 5973
+    sha256: "f1bcbd9d5da189235310a039cc505a0dae38903579483b9dac0ba9d8d6f03ad7"
+    id_range:
+      - 4971711
+      - 4979613
+  - name: "KNS_DocumentSecondaryLaw-000499.jsonl"
+    records: 15
+    bytes: 4190
+    sha256: "7ed47858cf5d2e372b618a7dbdecb407eea91a1efad5296e3b4cebc298ceb9ea"
+    id_range:
+      - 4980105
+      - 4983498
+  - name: "KNS_DocumentSecondaryLaw-000500.jsonl"
+    records: 21
+    bytes: 5797
+    sha256: "7fe27820d5fe2f17d3732b2c475e4e4d8e8d47eeaa6241aff8883a62919985a3"
+    id_range:
+      - 4993309
+      - 4997987
+  - name: "KNS_DocumentSecondaryLaw-000501.jsonl"
+    records: 3
+    bytes: 870
+    sha256: "27f4805d2643766606056c4a37a1069c136d1cc2cf944e9311cb6c0f2b17dc3d"
+    id_range:
+      - 5000275
+      - 5000997
+  - name: "KNS_DocumentSecondaryLaw-000502.jsonl"
+    records: 13
+    bytes: 3561
+    sha256: "d5e84993d5395670e242f4d4badd338516b589a78c8ab676aa336d85ef7fe670"
+    id_range:
+      - 5017779
+      - 5019490
+  - name: "KNS_DocumentSecondaryLaw-000503.jsonl"
+    records: 18
+    bytes: 5011
+    sha256: "88b2a9dcdc35ce7524cfd05cce188f852d3799e19d5afe573e03ccfe08bd4700"
+    id_range:
+      - 5025696
+      - 5029933
+  - name: "KNS_DocumentSecondaryLaw-000504.jsonl"
+    records: 7
+    bytes: 2021
+    sha256: "8717a9d6581f377fd600c447ec5afda7544590c008a0914c9e9f5a8a5a485cd7"
+    id_range:
+      - 5030159
+      - 5032937
+  - name: "KNS_DocumentSecondaryLaw-000505.jsonl"
+    records: 24
+    bytes: 6613
+    sha256: "1f50904e6bb8c613443d33de7428bb5463a1472a2a1ab5665b24efe4f40e87dd"
+    id_range:
+      - 5042642
+      - 5048395
+  - name: "KNS_DocumentSecondaryLaw-000510.jsonl"
+    records: 28
+    bytes: 7851
+    sha256: "089c20c9fe0a64598b005d2c2599054ad4486179ffc2c634bbc75d3b66561d85"
+    id_range:
+      - 5092403
+      - 5099952
+  - name: "KNS_DocumentSecondaryLaw-000511.jsonl"
+    records: 10
+    bytes: 2852
+    sha256: "19f5e758fd1f56bce6fe841162f47a054ebaada0938d818c582123be5db1b483"
+    id_range:
+      - 5100319
+      - 5107361
+  - name: "KNS_DocumentSecondaryLaw-000512.jsonl"
+    records: 7
+    bytes: 2012
+    sha256: "3eaced0403d733bf2ed5a50b60b287a88c33448f7986421cf467f74a2ec4b3d6"
+    id_range:
+      - 5117488
+      - 5118225
+  - name: "KNS_DocumentSecondaryLaw-000513.jsonl"
+    records: 39
+    bytes: 10959
+    sha256: "da29b99a67b539bee7a65e7ba339ca9c88235cadd94205823fe48fca4489ee86"
+    id_range:
+      - 5121055
+      - 5129920
+  - name: "KNS_DocumentSecondaryLaw-000514.jsonl"
+    records: 8
+    bytes: 2263
+    sha256: "4230b83cb04a92af0e20db7f24b5004bd9bdfc8a5bc37d1dca973a14767ee90e"
+    id_range:
+      - 5130170
+      - 5132827
+  - name: "KNS_DocumentSecondaryLaw-000515.jsonl"
+    records: 22
+    bytes: 6203
+    sha256: "ad1749c8cfa838efe734206afec4735e478cbad9a39e34908636ddad07cf62e5"
+    id_range:
+      - 5142732
+      - 5147605
+  - name: "KNS_DocumentSecondaryLaw-000516.jsonl"
+    records: 30
+    bytes: 8437
+    sha256: "20c4a6daf653e283d1736200ad7a03422da9888882ee701de5e9ce4eeb028719"
+    id_range:
+      - 5150087
+      - 5158138
+  - name: "KNS_DocumentSecondaryLaw-000518.jsonl"
+    records: 34
+    bytes: 9840
+    sha256: "dd69b425bd90d91c7e535c94d487bcc5aaf2e37da11a823a760ce4ac846c7279"
+    id_range:
+      - 5171932
+      - 5179714
+  - name: "KNS_DocumentSecondaryLaw-000519.jsonl"
+    records: 6
+    bytes: 1643
+    sha256: "88c301be1f3259bcbb6726b4164667ed18bc262c5feb46cf220b23ee6866d030"
+    id_range:
+      - 5180271
+      - 5183710
+  - name: "KNS_DocumentSecondaryLaw-000520.jsonl"
+    records: 11
+    bytes: 3081
+    sha256: "be8bbedaf28bf66f08729f178e6dd00aa382aecb554684012ddcf9678f0ee726"
+    id_range:
+      - 5193753
+      - 5198842
+  - name: "KNS_DocumentSecondaryLaw-000521.jsonl"
+    records: 28
+    bytes: 7856
+    sha256: "bb1abb8016cdaa4e18c1d065b491725ab3168440887d70da2182a92c41859977"
+    id_range:
+      - 5201404
+      - 5209494
+  - name: "KNS_DocumentSecondaryLaw-000522.jsonl"
+    records: 3
+    bytes: 858
+    sha256: "0e2df5333b4132b55aa9ed074b9cb8aefa1dd68d03b06e55db9031b83e6b62df"
+    id_range:
+      - 5219296
+      - 5219689
+  - name: "KNS_DocumentSecondaryLaw-000523.jsonl"
+    records: 28
+    bytes: 8165
+    sha256: "b84a0cc4f8a281ad24a2ac4461c210cd2f030430813f5c050ad4c013df1818b9"
+    id_range:
+      - 5220226
+      - 5227657
+  - name: "KNS_DocumentSecondaryLaw-000524.jsonl"
+    records: 10
+    bytes: 2881
+    sha256: "6ca0bcfbc23be642cdb947dddcd6bd6e2a288d4d79bacdf972fee62be6f09760"
+    id_range:
+      - 5230726
+      - 5234240
+  - name: "KNS_DocumentSecondaryLaw-000525.jsonl"
+    records: 10
+    bytes: 2933
+    sha256: "550c1199506043c4c5b85f9f438c4bc3ee1ab00747dbc0d79bd7939acf384f99"
+    id_range:
+      - 5245148
+      - 5249442
+  - name: "KNS_DocumentSecondaryLaw-000526.jsonl"
+    records: 16
+    bytes: 4627
+    sha256: "e8629b87b73f012df3ac1a1482d658f6e6b7468e758d086eab2457cd1af9bd56"
+    id_range:
+      - 5252262
+      - 5259664
+  - name: "KNS_DocumentSecondaryLaw-000527.jsonl"
+    records: 2
+    bytes: 584
+    sha256: "e5ba9cf7060620ffb319fe4106420ef5dd0485561b2f48fc00c609c80d4b5f14"
+    id_range:
+      - 5260201
+      - 5260202
+  - name: "KNS_DocumentSecondaryLaw-000528.jsonl"
+    records: 11
+    bytes: 3126
+    sha256: "4e1c3987e344b5748e261bdba487e8c4ea0bc2e8ac2f7e671e468db1d0486e05"
+    id_range:
+      - 5270419
+      - 5274786
+  - name: "KNS_DocumentSecondaryLaw-000529.jsonl"
+    records: 14
+    bytes: 4027
+    sha256: "16ae1b5776d1ea43ed213aa9f4309f7a54f33181ad3fca16738a2b1371881be3"
+    id_range:
+      - 5283162
+      - 5285699
+  - name: "KNS_DocumentSecondaryLaw-000530.jsonl"
+    records: 5
+    bytes: 1447
+    sha256: "411ed312875836282666a4f394e45ea55f48c51bb7865d0c548e928dcc43a49d"
+    id_range:
+      - 5294325
+      - 5295664
+  - name: "KNS_DocumentSecondaryLaw-000531.jsonl"
+    records: 5
+    bytes: 1460
+    sha256: "81d8b5dd2ab2ad72a9c15a2eacaed28abea0cdd9c472d039f05963cf62deea71"
+    id_range:
+      - 5302585
+      - 5303483
+  - name: "KNS_DocumentSecondaryLaw-000533.jsonl"
+    records: 3
+    bytes: 874
+    sha256: "edbf79706fdb3f4ff5aaf360c611cfb29479f4153197df645160c404e7c5b264"
+    id_range:
+      - 5329289
+      - 5329300
+  - name: "KNS_DocumentSecondaryLaw-000534.jsonl"
+    records: 8
+    bytes: 2362
+    sha256: "83735fed73d15ef5de2f48b21209a052b92d29a5d80ea01bb721be97da6d821e"
+    id_range:
+      - 5330702
+      - 5339452
+  - name: "KNS_DocumentSecondaryLaw-000535.jsonl"
+    records: 12
+    bytes: 3513
+    sha256: "6799f8905d708ab61928de2e13ffae5a374eb29c0bcbb631c22eb02e3d18d77a"
+    id_range:
+      - 5344818
+      - 5346221
+  - name: "KNS_DocumentSecondaryLaw-000536.jsonl"
+    records: 16
+    bytes: 4704
+    sha256: "898aa74b28133aa5ed33783a92f57f0ff654c551dcd3b8e95108258dd49befdb"
+    id_range:
+      - 5351870
+      - 5359634
+  - name: "KNS_DocumentSecondaryLaw-000538.jsonl"
+    records: 8
+    bytes: 2328
+    sha256: "de36af0d82564ee8bbe7bc9333ec645e985164d8aa45c071a36e2c4cff4b7e6f"
+    id_range:
+      - 5377036
+      - 5378578
+  - name: "KNS_DocumentSecondaryLaw-000539.jsonl"
+    records: 5
+    bytes: 1442
+    sha256: "536234ae0d67df3f1f077dccb309cb16f8bb9258a860d6a2f1825b5572e72afb"
+    id_range:
+      - 5384202
+      - 5384876
+  - name: "KNS_DocumentSecondaryLaw-000540.jsonl"
+    records: 14
+    bytes: 3980
+    sha256: "c8ec3a1c407bd6750c088809f55b5fd3ec5165c3b24d8fb853135d2154f79e60"
+    id_range:
+      - 5390471
+      - 5398322
+  - name: "KNS_DocumentSecondaryLaw-000541.jsonl"
+    records: 3
+    bytes: 888
+    sha256: "4ea8e1b470d4d5ff2f5fa8bed7058d4e911d9f576884656539e15a5249fd4065"
+    id_range:
+      - 5402960
+      - 5403920
+  - name: "KNS_DocumentSecondaryLaw-000543.jsonl"
+    records: 11
+    bytes: 3131
+    sha256: "4354bffcad9155e38ca8eff7abe3de8a1f87049618457942557b335750e33864"
+    id_range:
+      - 5422361
+      - 5429497
+  - name: "KNS_DocumentSecondaryLaw-000544.jsonl"
+    records: 10
+    bytes: 2826
+    sha256: "c2415637eeef54a373ac0eab57cf3779d4c94a6e4d9009c4b933368a7b63909c"
+    id_range:
+      - 5430013
+      - 5436747
+  - name: "KNS_DocumentSecondaryLaw-000545.jsonl"
+    records: 7
+    bytes: 1937
+    sha256: "b2c88950e7bff07a4730a00c084ba9d33044f6c41a2f1c8a8b50c52b31fabd77"
+    id_range:
+      - 5441970
+      - 5449055
+  - name: "KNS_DocumentSecondaryLaw-000546.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "cade9cd4ad070b44afa770ea725877a8b19e308a589019dceb6ab6ef74f8a976"
+    id_range:
+      - 5450037
+      - 5450044
+  - name: "KNS_DocumentSecondaryLaw-000548.jsonl"
+    records: 11
+    bytes: 3092
+    sha256: "4262c1287a3f62435243e02f0d76b357e23bfac4f019348b21c55ee326e20e03"
+    id_range:
+      - 5474690
+      - 5476656
+  - name: "KNS_DocumentSecondaryLaw-000549.jsonl"
+    records: 11
+    bytes: 3005
+    sha256: "16cf96e078663f2879197e3d959a9c7d4642f187a71ca4c3c9a37c49ad43d31c"
+    id_range:
+      - 5480467
+      - 5489137
+  - name: "KNS_DocumentSecondaryLaw-000550.jsonl"
+    records: 36
+    bytes: 10566
+    sha256: "6d0fd741061cbc34be40f245a869c1f2139031974037ba3a7bd080083cc762cc"
+    id_range:
+      - 5493789
+      - 5495883
+  - name: "KNS_DocumentSecondaryLaw-000552.jsonl"
+    records: 1
+    bytes: 301
+    sha256: "8253f710b97bcc9a5735dbd6c6b545328647ccd19c90e828203a5b438925f487"
+    id_range:
+      - 5514589
+      - 5514589
+  - name: "KNS_DocumentSecondaryLaw-000553.jsonl"
+    records: 13
+    bytes: 3717
+    sha256: "49471dafd327300659e7c14e7b4426883eb69c805be476b032738b012ae47ae1"
+    id_range:
+      - 5521625
+      - 5527911
+  - name: "KNS_DocumentSecondaryLaw-000554.jsonl"
+    records: 8
+    bytes: 2269
+    sha256: "b8685e4f76d3f520e55dd3662d7bbd5bed8637bca52e0b3701fac8cff35f97c3"
+    id_range:
+      - 5532935
+      - 5534983
+  - name: "KNS_DocumentSecondaryLaw-000555.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "406d2575a24a43de6f1bdbbeb9386a9ffc981632ffa6c252cc5480757dc79a8b"
+    id_range:
+      - 5540661
+      - 5540661
+  - name: "KNS_DocumentSecondaryLaw-000557.jsonl"
+    records: 12
+    bytes: 3450
+    sha256: "17e3a98d5a9abf5a0617f04a17e660e46befb10ace13350b22432062ff312284"
+    id_range:
+      - 5560567
+      - 5565546
+  - name: "KNS_DocumentSecondaryLaw-000558.jsonl"
+    records: 5
+    bytes: 1437
+    sha256: "dc06ae1a366822abc375e0045c6156b0265993729ab2093d24410353d0a0a5e2"
+    id_range:
+      - 5578758
+      - 5579309
+  - name: "KNS_DocumentSecondaryLaw-000559.jsonl"
+    records: 9
+    bytes: 2601
+    sha256: "68380b8bf6c884d6349423e3d64cdfda47633c282305376837960a752739ad21"
+    id_range:
+      - 5580137
+      - 5586649
+  - name: "KNS_DocumentSecondaryLaw-000561.jsonl"
+    records: 3
+    bytes: 883
+    sha256: "2df3309d37230587fb15d5d081e8eb9bc16f490e4d728f17d008cfd5d3a6216c"
+    id_range:
+      - 5603772
+      - 5605514
+  - name: "KNS_DocumentSecondaryLaw-000562.jsonl"
+    records: 23
+    bytes: 6570
+    sha256: "c26b1dd5b80bc7db52808a3fa20d28ee48b2f467ad68fc7d2cc057e46e620674"
+    id_range:
+      - 5610301
+      - 5617852
+  - name: "KNS_DocumentSecondaryLaw-000563.jsonl"
+    records: 7
+    bytes: 1971
+    sha256: "1510ca1c5b1021f6aacb6293e723af098d740bb66cf8e0361f80587884f85f7c"
+    id_range:
+      - 5620386
+      - 5629799
+  - name: "KNS_DocumentSecondaryLaw-000564.jsonl"
+    records: 4
+    bytes: 1125
+    sha256: "369a7accaac447a0ecba60f8730fa3ebe3a6e76eb1c8c8d48b79d2e6763b6bed"
+    id_range:
+      - 5630907
+      - 5630925
+  - name: "KNS_DocumentSecondaryLaw-000565.jsonl"
+    records: 2
+    bytes: 555
+    sha256: "6c1318b4c091222e17d0bbbfabcbaef03d854c01ca584c985793598e6439b341"
+    id_range:
+      - 5649518
+      - 5649612
+  - name: "KNS_DocumentSecondaryLaw-000566.jsonl"
+    records: 12
+    bytes: 3368
+    sha256: "07515972326f1bc2f819bdeeeae2f0cb1faa7f070062945b53c702bfc84d6364"
+    id_range:
+      - 5650928
+      - 5657054
+  - name: "KNS_DocumentSecondaryLaw-000567.jsonl"
+    records: 4
+    bytes: 1143
+    sha256: "e5ecda33a0e0a880adb4a94d776c87e4288b0cb3f6b754cbc433a5180fab0ba1"
+    id_range:
+      - 5663056
+      - 5668458
+  - name: "KNS_DocumentSecondaryLaw-000568.jsonl"
+    records: 7
+    bytes: 2021
+    sha256: "5fe62b40296ac35839a82c04a26b78ee9e4ee647177827f569fa3953d4851a8a"
+    id_range:
+      - 5670433
+      - 5675898
+  - name: "KNS_DocumentSecondaryLaw-000570.jsonl"
+    records: 6
+    bytes: 1753
+    sha256: "288382ee49d3d646130f79d1e910cdca748837e60d02fb6bd3f6380acd2bd3d0"
+    id_range:
+      - 5694536
+      - 5694917
+  - name: "KNS_DocumentSecondaryLaw-000571.jsonl"
+    records: 14
+    bytes: 3926
+    sha256: "190ffb898c9f212f7062820598ce956247ecb5ce9d4df61efe677e2998246d8c"
+    id_range:
+      - 5701043
+      - 5707508
+  - name: "KNS_DocumentSecondaryLaw-000572.jsonl"
+    records: 6
+    bytes: 1813
+    sha256: "8c0b72ec79331391077673c069c730a28c44d0a9624f78907e7b2aab31594642"
+    id_range:
+      - 5714251
+      - 5714488
+  - name: "KNS_DocumentSecondaryLaw-000573.jsonl"
+    records: 1
+    bytes: 261
+    sha256: "c769a511c8abdb9ca587254144cb87117a4918f80ac220e3556530304cb6f1da"
+    id_range:
+      - 5721698
+      - 5721698
+  - name: "KNS_DocumentSecondaryLaw-000574.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "4d521c7426e1616511e18977afce2cdb349372327eda635908277070a3e82d62"
+    id_range:
+      - 5739664
+      - 5739664
+  - name: "KNS_DocumentSecondaryLaw-000575.jsonl"
+    records: 8
+    bytes: 2158
+    sha256: "ed7fddff674fb1a92b08d94f14d490b3d049d7e1ce2fad6bc59c0008f7d1c16a"
+    id_range:
+      - 5741141
+      - 5748148
+  - name: "KNS_DocumentSecondaryLaw-000576.jsonl"
+    records: 7
+    bytes: 2040
+    sha256: "eb29e1fcb5b6fbbe0a089132ca99611690c61684e0fb5e02805299a4ef43373e"
+    id_range:
+      - 5758717
+      - 5759364
+  - name: "KNS_DocumentSecondaryLaw-000577.jsonl"
+    records: 4
+    bytes: 1115
+    sha256: "e03536647a3e77878d22049d2ec704934ea79ce91610e6293221e7d933e888fb"
+    id_range:
+      - 5760774
+      - 5765918
+  - name: "KNS_DocumentSecondaryLaw-000579.jsonl"
+    records: 4
+    bytes: 1153
+    sha256: "9779ee46744b82759bcb6d1b433c41d8295d987dd312f3d40d5d05a90b71c95a"
+    id_range:
+      - 5785663
+      - 5787139
+  - name: "KNS_DocumentSecondaryLaw-000580.jsonl"
+    records: 2
+    bytes: 604
+    sha256: "2a521bd95e6d39697fdc0ecf84dbc6969c4033761cca0bcf8a6328a101ed4e72"
+    id_range:
+      - 5793672
+      - 5795115
+  - name: "KNS_DocumentSecondaryLaw-000581.jsonl"
+    records: 3
+    bytes: 867
+    sha256: "5b2567bed9bde7b263961abda33e9fda85f4ecc63fbff87080641ece4465cfb3"
+    id_range:
+      - 5800632
+      - 5809589
+  - name: "KNS_DocumentSecondaryLaw-000582.jsonl"
+    records: 11
+    bytes: 3053
+    sha256: "ff2d54fb8402c50da6f6e9b6aed09f5aeadbda95b2f856d8111af064ca91ae16"
+    id_range:
+      - 5814424
+      - 5815998
+  - name: "KNS_DocumentSecondaryLaw-000584.jsonl"
+    records: 3
+    bytes: 844
+    sha256: "caa88cdd560ebf02439a5cd4d1772885e08222e9eea1d6a4051d16e4de02e6ea"
+    id_range:
+      - 5836551
+      - 5836573
+  - name: "KNS_DocumentSecondaryLaw-000586.jsonl"
+    records: 8
+    bytes: 2263
+    sha256: "be043031e0ee35d5a746e43b11d9332f8ee047c6300d88bed9f001cdd02b0fa2"
+    id_range:
+      - 5851494
+      - 5855806
+  - name: "KNS_DocumentSecondaryLaw-000587.jsonl"
+    records: 20
+    bytes: 5621
+    sha256: "0feaafe4158485e95c716d89bbb78845d6bd6971c3da30773e48629a9f345d1c"
+    id_range:
+      - 5866191
+      - 5868259
+  - name: "KNS_DocumentSecondaryLaw-000588.jsonl"
+    records: 3
+    bytes: 827
+    sha256: "7e6249c7b53c41c7595ec0b371175ad7ce419e9098e9ddc80143948c548986ab"
+    id_range:
+      - 5870414
+      - 5871745
+  - name: "KNS_DocumentSecondaryLaw-000589.jsonl"
+    records: 6
+    bytes: 1740
+    sha256: "776b111764a329fcd231fa33d19225e80dd9cb42736f4cc095f583af50636c1c"
+    id_range:
+      - 5880885
+      - 5882826
+  - name: "KNS_DocumentSecondaryLaw-000590.jsonl"
+    records: 4
+    bytes: 1119
+    sha256: "88f8f512a5ede20a510a7fdb2f52ad3e8d10728a85dbf037aa010877a47d164d"
+    id_range:
+      - 5893957
+      - 5895585
+  - name: "KNS_DocumentSecondaryLaw-000597.jsonl"
+    records: 4
+    bytes: 1155
+    sha256: "42bfa2c6eadb0d50604a669aa97ff4f66ab2f0f963fbcd87b0308b8310342f44"
+    id_range:
+      - 5964181
+      - 5968286
+  - name: "KNS_DocumentSecondaryLaw-000598.jsonl"
+    records: 1
+    bytes: 272
+    sha256: "510341c3d8deaa820f44661ef53a0cd2e48145cdfc579d19854f7a10a7da7136"
+    id_range:
+      - 5979386
+      - 5979386
+  - name: "KNS_DocumentSecondaryLaw-000599.jsonl"
+    records: 3
+    bytes: 821
+    sha256: "8c598698e55db6a0f51bc51acae4e277d0be6fd49e0691f26e7d8ac12d2189e3"
+    id_range:
+      - 5981408
+      - 5981468
+  - name: "KNS_DocumentSecondaryLaw-000600.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "a2d81d6d76d5a823f69d641f2c06dbd9f677dfac60b9f47c05d73be49d808730"
+    id_range:
+      - 5994987
+      - 5994987
+  - name: "KNS_DocumentSecondaryLaw-000604.jsonl"
+    records: 4
+    bytes: 1160
+    sha256: "733713bc1c909196ea61a1d8e58aad1327a9dc04a73162de8ef168fc3f456dcc"
+    id_range:
+      - 6035141
+      - 6037352
+  - name: "KNS_DocumentSecondaryLaw-000606.jsonl"
+    records: 3
+    bytes: 840
+    sha256: "dc830ed189cf8b8c47f2cb4b0172fb970ee526f9a0da07492b7c8b381d04afa8"
+    id_range:
+      - 6050077
+      - 6052964
+  - name: "KNS_DocumentSecondaryLaw-000607.jsonl"
+    records: 2
+    bytes: 578
+    sha256: "34a6a6e0a05738224d8214c1e8cc74789b7bf53049b9b93d5c03878594b5d31e"
+    id_range:
+      - 6067623
+      - 6068039
+  - name: "KNS_DocumentSecondaryLaw-000608.jsonl"
+    records: 3
+    bytes: 878
+    sha256: "187f31ba607b5ccce82bf4b23b3fa2cf864a396094134d2411c54a437e4b4668"
+    id_range:
+      - 6078093
+      - 6078316
+  - name: "KNS_DocumentSecondaryLaw-000614.jsonl"
+    records: 11
+    bytes: 3275
+    sha256: "58612d259192226e80f5907353c6ead9f6343739b449b04a3e7f3cf5a91a94e3"
+    id_range:
+      - 6133948
+      - 6135446
+  - name: "KNS_DocumentSecondaryLaw-000615.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "a3ec91b0cafcbcab2feb32de6092ae0af9dd332959b3ebd54b3223153e6af72d"
+    id_range:
+      - 6148643
+      - 6148643
+  - name: "KNS_DocumentSecondaryLaw-000616.jsonl"
+    records: 5
+    bytes: 1403
+    sha256: "8274cd7a1a3da38da0df68032004a057abedb69f3d76d4f2c99490f8792cd2c7"
+    id_range:
+      - 6150557
+      - 6151959
+  - name: "KNS_DocumentSecondaryLaw-000617.jsonl"
+    records: 5
+    bytes: 1457
+    sha256: "64b34f998ec6006c56e8d21aa0f5377ac40940cd2a412cd838f1eb6e42b9555f"
+    id_range:
+      - 6162142
+      - 6163435
+  - name: "KNS_DocumentSecondaryLaw-000618.jsonl"
+    records: 2
+    bytes: 576
+    sha256: "45d3713dde2411a80123f4a98197e657675ef229d28ddb6293333e3f71111ba2"
+    id_range:
+      - 6177140
+      - 6177142
+  - name: "KNS_DocumentSecondaryLaw-000619.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "84aee95c797dc2b514226a235c0ba5e8c8959857e0df7d633130d9d1d2fa7de8"
+    id_range:
+      - 6180603
+      - 6180606
+  - name: "KNS_DocumentSecondaryLaw-000620.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "82ddd7b495cccb961764973a67d5f3c0e879dc5334f2604fc9027f384b456938"
+    id_range:
+      - 6191402
+      - 6191406
+  - name: "KNS_DocumentSecondaryLaw-000624.jsonl"
+    records: 6
+    bytes: 1674
+    sha256: "75a0a86afa7db9c608f795804885874171ea6d59a8130e99074c1146a0c367ec"
+    id_range:
+      - 6235640
+      - 6235946
+  - name: "KNS_DocumentSecondaryLaw-000625.jsonl"
+    records: 4
+    bytes: 1090
+    sha256: "7ae5b05e309ea6ecea410735b1bdfd24e6baae9909ed61d0c97cca4ead0110e5"
+    id_range:
+      - 6248564
+      - 6248890
+  - name: "KNS_DocumentSecondaryLaw-000626.jsonl"
+    records: 5
+    bytes: 1369
+    sha256: "2d6874072366a52f55fe45a43b4507a270124cad5cb187b5937df34a2ea11b32"
+    id_range:
+      - 6251230
+      - 6251280
+  - name: "KNS_DocumentSecondaryLaw-000627.jsonl"
+    records: 3
+    bytes: 872
+    sha256: "81d1c90120b02dd0f37f18d1e39ac9763b9da03dfb2e8bf10bbd5a1297704bdf"
+    id_range:
+      - 6260888
+      - 6265063
+  - name: "KNS_DocumentSecondaryLaw-000628.jsonl"
+    records: 7
+    bytes: 2082
+    sha256: "51e7f1b4057d9390540e3252ed3ba0f2cebbcdf1726fd8445bc2c783b81cf0d0"
+    id_range:
+      - 6278127
+      - 6278334
+  - name: "KNS_DocumentSecondaryLaw-000630.jsonl"
+    records: 3
+    bytes: 883
+    sha256: "7ed30b2259bfd4ad039cc4b9f0536877332f86c4dd517e4a7e21ed7604235636"
+    id_range:
+      - 6290330
+      - 6290352
+  - name: "KNS_DocumentSecondaryLaw-000646.jsonl"
+    records: 9
+    bytes: 2561
+    sha256: "2cdd8ab6b19fe53de6a158510bb1aa381885dd9b35eeaaec17beeb9b6ee331fb"
+    id_range:
+      - 6458666
+      - 6459193
+  - name: "KNS_DocumentSecondaryLaw-000647.jsonl"
+    records: 2
+    bytes: 604
+    sha256: "e987c4cf4cd5758235943f6c74ed26f70156bdcdf5f8b470aa0ce63801a7bf89"
+    id_range:
+      - 6460888
+      - 6461264
+  - name: "KNS_DocumentSecondaryLaw-000648.jsonl"
+    records: 4
+    bytes: 1062
+    sha256: "c530321a56c2074e934d92caba98513cb9c3e31c14f362181851c71f68ec102b"
+    id_range:
+      - 6476434
+      - 6476493
+  - name: "KNS_DocumentSecondaryLaw-000650.jsonl"
+    records: 4
+    bytes: 1128
+    sha256: "730aa09d1aa9558681c8696a9ea65f83b9dc081216093b11f35767d93b026c47"
+    id_range:
+      - 6490120
+      - 6490144
+  - name: "KNS_DocumentSecondaryLaw-000651.jsonl"
+    records: 6
+    bytes: 1767
+    sha256: "24b2f68dbc6d8a3233cfe983d87171e024b948fa07b79c2653e7c2feefae3e5d"
+    id_range:
+      - 6500909
+      - 6505452
+  - name: "KNS_DocumentSecondaryLaw-000652.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "d20cf161c4b2e3291395b34f5bc1f862a16b6f48245056bc5d8eda31fb668a96"
+    id_range:
+      - 6517569
+      - 6517569
+  - name: "KNS_DocumentSecondaryLaw-000656.jsonl"
+    records: 9
+    bytes: 2643
+    sha256: "d9dd03f9c4303b34786ccee0194261245480dc3d899b7baaec718875a6d02656"
+    id_range:
+      - 6557851
+      - 6559969
+  - name: "KNS_DocumentSecondaryLaw-000657.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "4d4d1a06d0c9c6aa230f7b6ea7b8ff8b456a5808e31b496ec102f810fefee9dd"
+    id_range:
+      - 6560111
+      - 6560111
+  - name: "KNS_DocumentSecondaryLaw-000658.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "e555ff3db39f34163b6acc2b7534a95033c6e340c4f2b1487298a4db782a6096"
+    id_range:
+      - 6575147
+      - 6575147
+  - name: "KNS_DocumentSecondaryLaw-000659.jsonl"
+    records: 4
+    bytes: 1190
+    sha256: "b35dc84486854d50378e45c344c952952a8135a45cdc456d178f5f0f2a5b10c8"
+    id_range:
+      - 6586244
+      - 6588800
+  - name: "KNS_DocumentSecondaryLaw-000666.jsonl"
+    records: 6
+    bytes: 1701
+    sha256: "daf5719550cd3c7a9d97f1d6fec3686336ac1e1810d89f96509212b139b2a694"
+    id_range:
+      - 6657225
+      - 6659829
+  - name: "KNS_DocumentSecondaryLaw-000667.jsonl"
+    records: 2
+    bytes: 584
+    sha256: "b524409bb5693a5b694c8d4182ccd3bfef7145cc23fb2b8d1a21641c664c73d0"
+    id_range:
+      - 6660110
+      - 6660121
+  - name: "KNS_DocumentSecondaryLaw-000668.jsonl"
+    records: 10
+    bytes: 2744
+    sha256: "1ad9eaec6609349423c86b5bdf73a5587241c18bccf398a16c5f9c05caea9c3c"
+    id_range:
+      - 6670275
+      - 6674053
+  - name: "KNS_DocumentSecondaryLaw-000669.jsonl"
+    records: 7
+    bytes: 1989
+    sha256: "224ff51354de1aecbd1fb08816662ad44eae904f328cb10ea18ed647196e5ada"
+    id_range:
+      - 6684427
+      - 6686443
+  - name: "KNS_DocumentSecondaryLaw-000671.jsonl"
+    records: 10
+    bytes: 2943
+    sha256: "c058f6963465012b09d9fb18a3594d7eea250579552c15ca3771b88f1c65368b"
+    id_range:
+      - 6700046
+      - 6703410
+  - name: "KNS_DocumentSecondaryLaw-000672.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "74d242e0f0ea46921363da5ceb380bb53e7e22945956385c3551af4bdb4bce86"
+    id_range:
+      - 6714094
+      - 6714108
+  - name: "KNS_DocumentSecondaryLaw-000676.jsonl"
+    records: 6
+    bytes: 1726
+    sha256: "80e306378614823512ebdf863cfffc53f2d5e17337b38242a1db2678b4d95fc1"
+    id_range:
+      - 6754914
+      - 6758536
+  - name: "KNS_DocumentSecondaryLaw-000678.jsonl"
+    records: 18
+    bytes: 5188
+    sha256: "097cfb04d8941cd42d40a4a9f03a3e1e39e7f84265b91ae89594c7514f8a16ea"
+    id_range:
+      - 6770848
+      - 6774228
+  - name: "KNS_DocumentSecondaryLaw-000679.jsonl"
+    records: 5
+    bytes: 1460
+    sha256: "e19fe5657c99169fd15094bbc1dce5bb8067a2af6a448d7594acfc0050b77727"
+    id_range:
+      - 6784089
+      - 6788138
+  - name: "KNS_DocumentSecondaryLaw-000681.jsonl"
+    records: 4
+    bytes: 1156
+    sha256: "532025908af31b618580b930db25fa529835508cc704e1dc90d6096017a46bef"
+    id_range:
+      - 6800679
+      - 6801472
+  - name: "KNS_DocumentSecondaryLaw-000682.jsonl"
+    records: 3
+    bytes: 850
+    sha256: "39fd6c9c10e82aaa558513089dc40f726668b2017ebd1155d90cc9011cd662bc"
+    id_range:
+      - 6812515
+      - 6815641
+  - name: "KNS_DocumentSecondaryLaw-000686.jsonl"
+    records: 6
+    bytes: 1607
+    sha256: "106a937802a9c07437650592487be885bc4c1e58a2906fa7f6299702e565fa9f"
+    id_range:
+      - 6854802
+      - 6857836
+  - name: "KNS_DocumentSecondaryLaw-000688.jsonl"
+    records: 2
+    bytes: 549
+    sha256: "8195d7bedc9af2d96e8658eb53134495e34181e1fdcc40aeb8ab1cd553512b47"
+    id_range:
+      - 6872671
+      - 6874676
+  - name: "KNS_DocumentSecondaryLaw-000690.jsonl"
+    records: 6
+    bytes: 1742
+    sha256: "759fd8c3a4512ba4f55e7982f774ae32e09719729c273e5095b28b30f661ee47"
+    id_range:
+      - 6897699
+      - 6899707
+  - name: "KNS_DocumentSecondaryLaw-000691.jsonl"
+    records: 5
+    bytes: 1399
+    sha256: "c4073d2b807ad76e3c7996fb39f4297cabe9826f83f233227b8df65b82e9ba58"
+    id_range:
+      - 6900055
+      - 6901395
+  - name: "KNS_DocumentSecondaryLaw-000692.jsonl"
+    records: 2
+    bytes: 605
+    sha256: "01c297733c6004d8ebd4be44ae833dabf1759fcff0fdfff7c59fdebb4be62663"
+    id_range:
+      - 6912730
+      - 6912732
+  - name: "KNS_DocumentSecondaryLaw-000696.jsonl"
+    records: 3
+    bytes: 852
+    sha256: "0fe7090682fd74ccf7254902510811a297f36732e7caedf6914b5c597913ee80"
+    id_range:
+      - 6953653
+      - 6955064
+  - name: "KNS_DocumentSecondaryLaw-000697.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "81034e89a3fb414a12a8038a8f8e3256542a37e4d8f176394d9f843dc96d2668"
+    id_range:
+      - 6968594
+      - 6968614
+  - name: "KNS_DocumentSecondaryLaw-000698.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "24611b8478d94efdb93f5a3395b81f9dd8a08f0523e3baa2d4bb5d9175c49c40"
+    id_range:
+      - 6973747
+      - 6973767
+  - name: "KNS_DocumentSecondaryLaw-000699.jsonl"
+    records: 2
+    bytes: 566
+    sha256: "124956e4cb033f3353d6d3c539d0cd1e4465cdecba0fce232c033d0cb78fe39c"
+    id_range:
+      - 6983078
+      - 6985635
+  - name: "KNS_DocumentSecondaryLaw-000700.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "3b01d79349048f43cb25d86e3548dfad2cef129dea8cc0f7f9bcddfeb66bbb9c"
+    id_range:
+      - 6999911
+      - 6999911
+  - name: "KNS_DocumentSecondaryLaw-000701.jsonl"
+    records: 2
+    bytes: 549
+    sha256: "97d7251395e0a5d3befa9623c21988d80a5921aae27a2eb4258978d370cacaed"
+    id_range:
+      - 7000216
+      - 7000217
+  - name: "KNS_DocumentSecondaryLaw-000702.jsonl"
+    records: 12
+    bytes: 3422
+    sha256: "37e7fb442dd840fdf7e4b1ac69272c970b02823902b05547847bfa0da6164307"
+    id_range:
+      - 7012122
+      - 7013708
+  - name: "KNS_DocumentSecondaryLaw-000705.jsonl"
+    records: 2
+    bytes: 549
+    sha256: "2804f4b6c963a951ff3da57d761044b83b49d409588affc80494be4b40c4c0f7"
+    id_range:
+      - 7046481
+      - 7046482
+  - name: "KNS_DocumentSecondaryLaw-000709.jsonl"
+    records: 2
+    bytes: 571
+    sha256: "3e49ffc62ea6902925413f6b4c79cb02e14e3ec2b5f31cd5df5877cbfdb44c36"
+    id_range:
+      - 7081069
+      - 7081670
+  - name: "KNS_DocumentSecondaryLaw-000710.jsonl"
+    records: 11
+    bytes: 3171
+    sha256: "c7555fbe82e8e60a390d43e4c17131fa51d9039c80c2900e637957d83f4b143c"
+    id_range:
+      - 7095250
+      - 7099951
+  - name: "KNS_DocumentSecondaryLaw-000711.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "e2bf6b998a16391986f40e9fe5368fd27b32d2559bc61f21dd2408f52e6e25e8"
+    id_range:
+      - 7109274
+      - 7109274
+  - name: "KNS_DocumentSecondaryLaw-000712.jsonl"
+    records: 3
+    bytes: 851
+    sha256: "6a3e27d5e628a78dbc1f54e8830818097a099c5aac44f9d5bae527e8bc4d2410"
+    id_range:
+      - 7111761
+      - 7113771
+  - name: "KNS_DocumentSecondaryLaw-000716.jsonl"
+    records: 4
+    bytes: 1094
+    sha256: "ec1b0f4fa185d17fb7256fa04a42d78dd213a3e5cea81a5439c03eda945dbae7"
+    id_range:
+      - 7151946
+      - 7154501
+  - name: "KNS_DocumentSecondaryLaw-000717.jsonl"
+    records: 3
+    bytes: 894
+    sha256: "e0f6a8f4590e13427bbc4a5c61e022f4373c4e64827d3d6063755aaffb7082ab"
+    id_range:
+      - 7165407
+      - 7167720
+  - name: "KNS_DocumentSecondaryLaw-000718.jsonl"
+    records: 5
+    bytes: 1365
+    sha256: "04b5424f55effc4341411cf39ce514a1264b2cac4e5b45c61253a31c9bcf441b"
+    id_range:
+      - 7179490
+      - 7179976
+  - name: "KNS_DocumentSecondaryLaw-000719.jsonl"
+    records: 32
+    bytes: 8878
+    sha256: "94f0a20fb2f6b28eec7cb8103f84ad52b723edf8316a03447ee792eb9ae7b37f"
+    id_range:
+      - 7180001
+      - 7184099
+  - name: "KNS_DocumentSecondaryLaw-000720.jsonl"
+    records: 7
+    bytes: 2036
+    sha256: "c00a7249dd9c86efe464ea32dd53a2620390ffff7f11899e6e659685a66c7de0"
+    id_range:
+      - 7193600
+      - 7199449
+  - name: "KNS_DocumentSecondaryLaw-000721.jsonl"
+    records: 7
+    bytes: 2050
+    sha256: "0b8f903e8c786a954a07b673523439ad9bd88c5f5c864dad724f05330086217b"
+    id_range:
+      - 7207306
+      - 7209642
+  - name: "KNS_DocumentSecondaryLaw-000722.jsonl"
+    records: 2
+    bytes: 564
+    sha256: "d8b05a07b18e90e55f94118cb59ea3fa7953bfeda470c1caad9a46740af288be"
+    id_range:
+      - 7210035
+      - 7210040
+  - name: "KNS_DocumentSecondaryLaw-000726.jsonl"
+    records: 3
+    bytes: 883
+    sha256: "410f307477be2228a0a37d6a0a7fabe886fb3f4418999653ff6614b709d7866f"
+    id_range:
+      - 7250665
+      - 7256466
+  - name: "KNS_DocumentSecondaryLaw-000727.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "3e851c5a93e3b32bbfbdb1dbf2b0d53e1955cd11e704c1a900b6106120f34acc"
+    id_range:
+      - 7269004
+      - 7269004
+  - name: "KNS_DocumentSecondaryLaw-000729.jsonl"
+    records: 1
+    bytes: 301
+    sha256: "bc80c9491d2cb100e669a06297f3229ce8c99bb439f1f53e24d0620664f53cd5"
+    id_range:
+      - 7280730
+      - 7280730
+  - name: "KNS_DocumentSecondaryLaw-000730.jsonl"
+    records: 23
+    bytes: 6359
+    sha256: "9f29e00d056742bdd1bdca8b2da38ad3037b3eacfc66852c1879bd765fd1e32a"
+    id_range:
+      - 7293445
+      - 7295141
+  - name: "KNS_DocumentSecondaryLaw-000731.jsonl"
+    records: 5
+    bytes: 1468
+    sha256: "1833c5a154822e91b1eeaad63ae1a33c00936bddec322d739c07c832242e0701"
+    id_range:
+      - 7307428
+      - 7308397
+  - name: "KNS_DocumentSecondaryLaw-000732.jsonl"
+    records: 5
+    bytes: 1466
+    sha256: "9f6e7d7ca60bba4cf5f4281761f7708e16bce82c8463817521ec53497818621c"
+    id_range:
+      - 7310821
+      - 7313497
+  - name: "KNS_DocumentSecondaryLaw-000736.jsonl"
+    records: 5
+    bytes: 1376
+    sha256: "c613525ad7b740b875be1ba450ae148b444738f951291f62e95fccacfcdc9cad"
+    id_range:
+      - 7350936
+      - 7353980
+  - name: "KNS_DocumentSecondaryLaw-000737.jsonl"
+    records: 3
+    bytes: 847
+    sha256: "f82c7b26d4e2876a63e9ab400a8a107536383ce3698fb8d12c77efaea6f42e40"
+    id_range:
+      - 7365107
+      - 7368322
+  - name: "KNS_DocumentSecondaryLaw-000738.jsonl"
+    records: 3
+    bytes: 828
+    sha256: "95679c694d818ab39ff883727cb3b0a292c4ac7dbee58670950d28f3c34c9f1e"
+    id_range:
+      - 7377597
+      - 7377642
+  - name: "KNS_DocumentSecondaryLaw-000739.jsonl"
+    records: 13
+    bytes: 3775
+    sha256: "01050822ae8a3d64f324efbd3f882ac4636193cda028eeb42db2e5ee08bf0b30"
+    id_range:
+      - 7387699
+      - 7388991
+  - name: "KNS_DocumentSecondaryLaw-000740.jsonl"
+    records: 7
+    bytes: 2078
+    sha256: "87e686c77ff9242ce3f9f31d0f8e8f0f28eae07673211016f724e9315490249a"
+    id_range:
+      - 7390019
+      - 7391738
+  - name: "KNS_DocumentSecondaryLaw-000741.jsonl"
+    records: 10
+    bytes: 2856
+    sha256: "f3e7995378d24f04ca7f8ea96ce6194b2165d19dc840f7d394073758b02e71c1"
+    id_range:
+      - 7401045
+      - 7404316
+  - name: "KNS_DocumentSecondaryLaw-000742.jsonl"
+    records: 4
+    bytes: 1133
+    sha256: "7e4562804e0f08816f1d20046c987d71e5112696d7dbe8283130130af5e0bc95"
+    id_range:
+      - 7416390
+      - 7418811
+  - name: "KNS_DocumentSecondaryLaw-000746.jsonl"
+    records: 3
+    bytes: 865
+    sha256: "3072e3b8a46bbb8744e5d852a4565f8f0840558d82a40f7c655128843814968b"
+    id_range:
+      - 7459509
+      - 7459686
+  - name: "KNS_DocumentSecondaryLaw-000748.jsonl"
+    records: 23
+    bytes: 6536
+    sha256: "a86cae81896a24f90d9a4a832fa6fd016370eaa3653635cf201d010cffc8753e"
+    id_range:
+      - 7473625
+      - 7475749
+  - name: "KNS_DocumentSecondaryLaw-000749.jsonl"
+    records: 4
+    bytes: 1163
+    sha256: "eaede22ba8f43cbdb832995fccddd2dbb8c23485a5d0b878be9f04dc4746593e"
+    id_range:
+      - 7485319
+      - 7488061
+  - name: "KNS_DocumentSecondaryLaw-000750.jsonl"
+    records: 2
+    bytes: 525
+    sha256: "fa631c2dc4406cd456ab9dc426a943ac23aae4e65ca94137df56324caa4b20e0"
+    id_range:
+      - 7499386
+      - 7499951
+  - name: "KNS_DocumentSecondaryLaw-000751.jsonl"
+    records: 2
+    bytes: 544
+    sha256: "6a95e30d31ec631fc40ae0360fc5960b32bad8994e15b8677ec34ea802bc1d0b"
+    id_range:
+      - 7500213
+      - 7502353
+  - name: "KNS_DocumentSecondaryLaw-000752.jsonl"
+    records: 48
+    bytes: 13722
+    sha256: "d9c32b178e3ac2841638a5c73f2c43ec2548a4874ecc94cce0d2f3143f220c5b"
+    id_range:
+      - 7514358
+      - 7517364
+  - name: "KNS_DocumentSecondaryLaw-000756.jsonl"
+    records: 2
+    bytes: 575
+    sha256: "1825f56a0cc75f5bed0bbc7bc9a0554abdcd66e6d661ae46a50c0da474b83e5c"
+    id_range:
+      - 7557069
+      - 7557985
+  - name: "KNS_DocumentSecondaryLaw-000759.jsonl"
+    records: 4
+    bytes: 1162
+    sha256: "e138bce2b59f7fc00c4c3701913bc7c662c98c81f4c6e58875fe143c78cbd310"
+    id_range:
+      - 7580137
+      - 7584409
+  - name: "KNS_DocumentSecondaryLaw-000760.jsonl"
+    records: 14
+    bytes: 4045
+    sha256: "a53e0cac4ed3dd461de9589c358315a876df1b47c0688970821baf934a9e2417"
+    id_range:
+      - 7593741
+      - 7598094
+  - name: "KNS_DocumentSecondaryLaw-000761.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "0ef56b1fe98c6782431f09bd3e6c44a132644d6b3b631982e09303e04c5f129b"
+    id_range:
+      - 7608206
+      - 7608206
+  - name: "KNS_DocumentSecondaryLaw-000762.jsonl"
+    records: 2
+    bytes: 566
+    sha256: "2e724d4e1569d2069f16ff082d3f93d3d60aca87a135ae8b1a9d4a13fbb891df"
+    id_range:
+      - 7610753
+      - 7612268
+  - name: "KNS_DocumentSecondaryLaw-000767.jsonl"
+    records: 13
+    bytes: 3735
+    sha256: "f747cbb2b3150a9960cb6a61b524a8ff351c58bae68e9520d7c13620c9d13f5e"
+    id_range:
+      - 7665682
+      - 7668819
+  - name: "KNS_DocumentSecondaryLaw-000769.jsonl"
+    records: 7
+    bytes: 2013
+    sha256: "5452ca8b8e86d5edc62153b233c575f06575fa7837dcd1c0260929107dc1aa1d"
+    id_range:
+      - 7683093
+      - 7685144
+  - name: "KNS_DocumentSecondaryLaw-000770.jsonl"
+    records: 7
+    bytes: 2035
+    sha256: "190e19b0a1ee731cb5dc77b853691cc98fc438cc4e4c0756ed4cea5c09281b10"
+    id_range:
+      - 7694956
+      - 7699984
+  - name: "KNS_DocumentSecondaryLaw-000771.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "96d1a0870dfa43c71df70bd5b7b2d85d3494fea78a41ecb5098a39917ec98511"
+    id_range:
+      - 7700194
+      - 7700194
+  - name: "KNS_DocumentSecondaryLaw-000772.jsonl"
+    records: 7
+    bytes: 1959
+    sha256: "c597bbf67fe2c717fb3cbe47cd1e17db0d6d7f7206b4b19af5a85b99f57ff0b9"
+    id_range:
+      - 7711413
+      - 7712731
+  - name: "KNS_DocumentSecondaryLaw-000773.jsonl"
+    records: 4
+    bytes: 1176
+    sha256: "ba0e5dcb373c8ebf76b466dd04590239ffa22af8b509351e09d003cabede5a83"
+    id_range:
+      - 7724288
+      - 7725400
+  - name: "KNS_DocumentSecondaryLaw-000778.jsonl"
+    records: 4
+    bytes: 1146
+    sha256: "24ade8011c8f3bfa5196aead85c0112de5c7efa7b049c86e706d3ac5cc35e4bd"
+    id_range:
+      - 7774868
+      - 7777974
+  - name: "KNS_DocumentSecondaryLaw-000779.jsonl"
+    records: 2
+    bytes: 547
+    sha256: "820756f7139e86cb080522979432318d0724ae6a581c25b079739c2e48c61fe9"
+    id_range:
+      - 7780100
+      - 7788735
+  - name: "KNS_DocumentSecondaryLaw-000780.jsonl"
+    records: 4
+    bytes: 1160
+    sha256: "a5e35b56aa52ba14d4b5cf49cb32eba354db76488e04ca9aed6abfa9fca4c260"
+    id_range:
+      - 7792902
+      - 7793144
+  - name: "KNS_DocumentSecondaryLaw-000781.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "6f460f0e4dfd29281043bf8d0c4b7b07d27bfd0f0ca6b56531575aad10fb9e53"
+    id_range:
+      - 7803371
+      - 7803371
+  - name: "KNS_DocumentSecondaryLaw-000782.jsonl"
+    records: 4
+    bytes: 1207
+    sha256: "9896f2532d0022219e95947558c4a5e4530e6cb6fd017a14c123f20cea361146"
+    id_range:
+      - 7815958
+      - 7817618
+  - name: "KNS_DocumentSecondaryLaw-000790.jsonl"
+    records: 4
+    bytes: 1147
+    sha256: "f7d1744d2b604086db809c9ca1a07db296310ad7368a4bbd6e11651e83855fa0"
+    id_range:
+      - 7898703
+      - 7899861
+  - name: "KNS_DocumentSecondaryLaw-000791.jsonl"
+    records: 7
+    bytes: 1938
+    sha256: "09767c97e1898cb515ed8c65e34124eeabe1adefcdec75bc033959d9d7fea145"
+    id_range:
+      - 7900292
+      - 7903275
+  - name: "KNS_DocumentSecondaryLaw-000792.jsonl"
+    records: 8
+    bytes: 2348
+    sha256: "2eb153e4854554eab5333e49f96a6af6e831184ef12c6acc8c24890ee053d4a0"
+    id_range:
+      - 7912935
+      - 7913728
+  - name: "KNS_DocumentSecondaryLaw-000793.jsonl"
+    records: 3
+    bytes: 865
+    sha256: "17782cafae95b8ec9d420a680c45cb3f2a4469b2576066aa2e9df73d75042bda"
+    id_range:
+      - 7925825
+      - 7928902
+  - name: "KNS_DocumentSecondaryLaw-000794.jsonl"
+    records: 3
+    bytes: 844
+    sha256: "cbb8a5405e78bc97b7e4f9c30865595fe88cc67f15fa5ed3d0b4043b26f6fa5b"
+    id_range:
+      - 7938939
+      - 7939883
+  - name: "KNS_DocumentSecondaryLaw-000795.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "8eea7e1fd3900aaa8143ae06cba79ea53e1d5eba8fac3723c7aa10f1d7378bbf"
+    id_range:
+      - 7940520
+      - 7940520
+  - name: "KNS_DocumentSecondaryLaw-000799.jsonl"
+    records: 1
+    bytes: 262
+    sha256: "4514e8ef7c8997c3d434d511b407c54dd1581a634dcaac41782a87180494257e"
+    id_range:
+      - 7985459
+      - 7985459
+  - name: "KNS_DocumentSecondaryLaw-000800.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "5a925269ed1a8ee26865542e40ca3715e28282e9c4fb9d8cc6d1236dbd624b88"
+    id_range:
+      - 7996999
+      - 7997017
+  - name: "KNS_DocumentSecondaryLaw-000801.jsonl"
+    records: 5
+    bytes: 1434
+    sha256: "5eed38425f4fe7b7d20ffd9a8e1fefa058ee0d08d1e6597cca0ecf6274fb8537"
+    id_range:
+      - 8008330
+      - 8008448
+  - name: "KNS_DocumentSecondaryLaw-000802.jsonl"
+    records: 2
+    bytes: 564
+    sha256: "914402b9e3e7204bebd202fa796985e4a7119452c768d83aeb942f93fdcbfd0c"
+    id_range:
+      - 8010256
+      - 8018354
+  - name: "KNS_DocumentSecondaryLaw-000808.jsonl"
+    records: 6
+    bytes: 1662
+    sha256: "f9eab81578d092b5b44ab019159137812284fc7affbb97f4a5b3becc81637932"
+    id_range:
+      - 8076909
+      - 8079798
+  - name: "KNS_DocumentSecondaryLaw-000810.jsonl"
+    records: 14
+    bytes: 3872
+    sha256: "3e56517a9af34b2470d35e7d094f3d9ecf6a19f709be63aaf1f529a326226141"
+    id_range:
+      - 8093565
+      - 8096715
+  - name: "KNS_DocumentSecondaryLaw-000811.jsonl"
+    records: 3
+    bytes: 828
+    sha256: "4e2a0bd73d0502f1497925f97f0da7a1aa57736d4a78473dca9788b97d9f1383"
+    id_range:
+      - 8107142
+      - 8108273
+  - name: "KNS_DocumentSecondaryLaw-000813.jsonl"
+    records: 2
+    bytes: 536
+    sha256: "0c06e588d7f7717c1bce44e7ebb1f1deca49cd12b3810732c950136cb9da2879"
+    id_range:
+      - 8126775
+      - 8128161
+  - name: "KNS_DocumentSecondaryLaw-000814.jsonl"
+    records: 3
+    bytes: 869
+    sha256: "9d2c0abe6303b6bcb5fcaea1a54522c69e636d4847d9fc9768cc21bb72a1cea5"
+    id_range:
+      - 8130080
+      - 8131453
+  - name: "KNS_DocumentSecondaryLaw-000815.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "1676679223ece603963da7392ea8b32e2d96cf034d36255895035138d3b4bc6a"
+    id_range:
+      - 8147980
+      - 8147980
+  - name: "KNS_DocumentSecondaryLaw-000816.jsonl"
+    records: 2
+    bytes: 583
+    sha256: "6a564bf3f947fe351eb599e904b5a7f3f0bf1bbeba2753292e404590ae5a40c5"
+    id_range:
+      - 8152200
+      - 8152211
+  - name: "KNS_DocumentSecondaryLaw-000829.jsonl"
+    records: 2
+    bytes: 570
+    sha256: "08ac2fcf24da596fe21d01ce6fde3b51d97ccbfa6e0c6d6f25a89937aaf1fc0d"
+    id_range:
+      - 8285436
+      - 8286083
+  - name: "KNS_DocumentSecondaryLaw-000841.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "0496cf00277ec602e7f471cc3e746effba7bc1b3a433189eda068792dda21ba3"
+    id_range:
+      - 8404178
+      - 8404178
+  - name: "KNS_DocumentSecondaryLaw-000845.jsonl"
+    records: 28
+    bytes: 8064
+    sha256: "30bdfcbc0fa70da2ff7b10fc7d5eecf42c1f34fddfc6225b484aeeeb6a7146da"
+    id_range:
+      - 8442277
+      - 8446266
+  - name: "KNS_DocumentSecondaryLaw-000847.jsonl"
+    records: 9
+    bytes: 2483
+    sha256: "abe188256fa92e0d2443c228125a71efea1cae7dd262189f9c5601badc309ab4"
+    id_range:
+      - 8463062
+      - 8463379
+  - name: "KNS_DocumentSecondaryLaw-000848.jsonl"
+    records: 14
+    bytes: 3909
+    sha256: "9267659d2fa73e23539d26dd0d5ec5dc547b6872acaa9640a658e6ed65169ca0"
+    id_range:
+      - 8476632
+      - 8479895
+  - name: "KNS_DocumentSecondaryLaw-000853.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "48a9954ab7810b96e0f02e75eff5385c53e8e3edf4a52e8807e78f1970e2c00d"
+    id_range:
+      - 8529901
+      - 8529901
+  - name: "KNS_DocumentSecondaryLaw-000854.jsonl"
+    records: 12
+    bytes: 3491
+    sha256: "ee4a808141efc1cefbb8abc1f666dcff7fc7bfb279db53cf7ec11fa0daf91ab9"
+    id_range:
+      - 8530024
+      - 8531847
+  - name: "KNS_DocumentSecondaryLaw-000855.jsonl"
+    records: 14
+    bytes: 3844
+    sha256: "adcc9d079b283a4a83eafc303606139592e87708984b48a63c8f953b4c605eae"
+    id_range:
+      - 8546246
+      - 8549423
+  - name: "KNS_DocumentSecondaryLaw-000856.jsonl"
+    records: 3
+    bytes: 830
+    sha256: "49897ef599f07f5b331b8ba91ada30043db719588f6cd4013f5531d99444ae2c"
+    id_range:
+      - 8550509
+      - 8550872
+  - name: "KNS_DocumentSecondaryLaw-000857.jsonl"
+    records: 4
+    bytes: 1087
+    sha256: "2fc6d212470c49cdbd6c2e9350699cb30e274a477577e9417e603768436fed8a"
+    id_range:
+      - 8563576
+      - 8564191
+  - name: "KNS_DocumentSecondaryLaw-000859.jsonl"
+    records: 12
+    bytes: 3495
+    sha256: "dae10cccc24cf55bacd0c8ac8e2dcc326218c058157d0940247554641843001c"
+    id_range:
+      - 8581813
+      - 8586223
+  - name: "KNS_DocumentSecondaryLaw-000861.jsonl"
+    records: 2
+    bytes: 582
+    sha256: "e6dc4513f87f1f7c33d545d98a18697285ce286e1a4e3f4417f66f597cadd4ba"
+    id_range:
+      - 8602824
+      - 8602827
+  - name: "KNS_DocumentSecondaryLaw-000866.jsonl"
+    records: 6
+    bytes: 1649
+    sha256: "8a1206a01cfffe9e497c92a46815b407d887633d8ed9562ec9ffaea18da8d7d1"
+    id_range:
+      - 8652156
+      - 8654214
+  - name: "KNS_DocumentSecondaryLaw-000867.jsonl"
+    records: 6
+    bytes: 1692
+    sha256: "8e99e089e96c8b79c7aa353d3e4856975d11302c8b764f221cb791f62c43308c"
+    id_range:
+      - 8666586
+      - 8669150
+  - name: "KNS_DocumentSecondaryLaw-000868.jsonl"
+    records: 3
+    bytes: 885
+    sha256: "a80f44ae861e0497aefef718154dfc553d41c0deb811a30742a1d96f781d05dd"
+    id_range:
+      - 8671306
+      - 8671349
+  - name: "KNS_DocumentSecondaryLaw-000869.jsonl"
+    records: 2
+    bytes: 585
+    sha256: "1307ec75e821b0b9d393fe683d3d922ad9b11c534aa18834c0e33b147140a28e"
+    id_range:
+      - 8684687
+      - 8688024
+  - name: "KNS_DocumentSecondaryLaw-000871.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "a3f7417560dc5b6f6a40310d10ab536aab7bf382937c35ff33df9a6f29424644"
+    id_range:
+      - 8706713
+      - 8706713
+  - name: "KNS_DocumentSecondaryLaw-000873.jsonl"
+    records: 1
+    bytes: 281
+    sha256: "37549c8f6e8b89a70511e9c16e754f3cf600a198bf4416f2bc82ee385c5c8052"
+    id_range:
+      - 8720653
+      - 8720653
+  - name: "KNS_DocumentSecondaryLaw-000878.jsonl"
+    records: 4
+    bytes: 1121
+    sha256: "832a146f7d6f0223389293d7a82b6924315d20c2f3d502b2b18c4225a57227de"
+    id_range:
+      - 8772371
+      - 8772636
+  - name: "KNS_DocumentSecondaryLaw-000885.jsonl"
+    records: 10
+    bytes: 2958
+    sha256: "42b2a28bb44edabf2f5aad05bc4793cbf74f541c53c33a04307b98c6165a8702"
+    id_range:
+      - 8841300
+      - 8843933
+  - name: "KNS_DocumentSecondaryLaw-000890.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "0d5f9f482ccf903a77043a98b9bcbe0724a512181de342741fd6461f7957ff40"
+    id_range:
+      - 8896037
+      - 8896037
+  - name: "KNS_DocumentSecondaryLaw-000892.jsonl"
+    records: 5
+    bytes: 1459
+    sha256: "913918ba127d074fa06ee251d95feeaeef7a3417354d4c26e1a073039cfbfd2d"
+    id_range:
+      - 8912197
+      - 8913947
+  - name: "KNS_DocumentSecondaryLaw-000893.jsonl"
+    records: 7
+    bytes: 1927
+    sha256: "fb12ec87b1871b3770e55f51d23d9348e718930d93116806671ad65e9e0b06be"
+    id_range:
+      - 8925895
+      - 8928622
+  - name: "KNS_DocumentSecondaryLaw-000919.jsonl"
+    records: 10
+    bytes: 2875
+    sha256: "9edfcc38c874ea83bf75ac15ce14538f3b7538f1fe2987c3551ae8fdc4106794"
+    id_range:
+      - 9186255
+      - 9189093
+  - name: "KNS_DocumentSecondaryLaw-000921.jsonl"
+    records: 6
+    bytes: 1696
+    sha256: "15efb0e7a71cead702828c68b07ff93fe399a2776c196bbd1ac1a70e0259cc93"
+    id_range:
+      - 9203140
+      - 9206088
+  - name: "KNS_DocumentSecondaryLaw-000927.jsonl"
+    records: 6
+    bytes: 1707
+    sha256: "8446663163fc894d8c1011666db35eff0f2d11d0143f08547ac86d46ee636fd6"
+    id_range:
+      - 9268039
+      - 9269916
+  - name: "KNS_DocumentSecondaryLaw-000928.jsonl"
+    records: 6
+    bytes: 1753
+    sha256: "39e26689772b23a84aed1da4ac6a2bc3462021e6e1f78252c6fbfb18b6330130"
+    id_range:
+      - 9270246
+      - 9278332
+  - name: "KNS_DocumentSecondaryLaw-000929.jsonl"
+    records: 3
+    bytes: 828
+    sha256: "3892034f279f9aa093be425d4821dcf5242aa56f4e2be158262be0d45fda89bf"
+    id_range:
+      - 9287546
+      - 9289097
+  - name: "KNS_DocumentSecondaryLaw-000930.jsonl"
+    records: 3
+    bytes: 838
+    sha256: "d9595f468bd72a9e48827be10205182cb82a869cebb1f774bca052ae7aa67149"
+    id_range:
+      - 9290662
+      - 9291523
+  - name: "KNS_DocumentSecondaryLaw-000931.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "c5922d26d368c8ed0d8890ff2db2263a3407c6cbabbb54590d7fcd49f090c050"
+    id_range:
+      - 9305277
+      - 9305277
+  - name: "KNS_DocumentSecondaryLaw-000934.jsonl"
+    records: 2
+    bytes: 564
+    sha256: "dece1e9cafa28d5d06eaca5edc536999709e0b97a0e13c009fed2469fe0bf68a"
+    id_range:
+      - 9334202
+      - 9335265
+  - name: "KNS_DocumentSecondaryLaw-000941.jsonl"
+    records: 5
+    bytes: 1440
+    sha256: "c304bb97a2920323463748106ddbea695cd4c766d9285bc82f6c72397b459b28"
+    id_range:
+      - 9407074
+      - 9409969
+  - name: "KNS_DocumentSecondaryLaw-000943.jsonl"
+    records: 4
+    bytes: 1127
+    sha256: "90e46f5db2bb2556853b859987cc39b3cd56513dca01107fb9d77c65cf5b358b"
+    id_range:
+      - 9423795
+      - 9423843
+  - name: "KNS_DocumentSecondaryLaw-000945.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "96636ad2f9f89f9d16821dd3c1af6c720f987d7024141f7c0138fc94ff796276"
+    id_range:
+      - 9441206
+      - 9441206
+  - name: "KNS_DocumentSecondaryLaw-000947.jsonl"
+    records: 1
+    bytes: 294
+    sha256: "2a7306a9f6edb4541584c8591c68277041147f0f8d2b63a9a7093956dc805704"
+    id_range:
+      - 9469620
+      - 9469620
+  - name: "KNS_DocumentSecondaryLaw-000949.jsonl"
+    records: 2
+    bytes: 605
+    sha256: "e1da3510cc54c2868b16e501d3fa381d97aec27fa52d9c0dfa7988d435afe7e5"
+    id_range:
+      - 9484515
+      - 9484782
+  - name: "KNS_DocumentSecondaryLaw-000956.jsonl"
+    records: 3
+    bytes: 865
+    sha256: "fd2c894bac1af610f5a0f6cf25a7fa62405520d09f97bb9384159781b935448c"
+    id_range:
+      - 9558250
+      - 9559129
+  - name: "KNS_DocumentSecondaryLaw-000957.jsonl"
+    records: 2
+    bytes: 584
+    sha256: "04f1030e91ed2133996203703a5a7ea1e2c6d08830019ea73a2890bcd16f24f9"
+    id_range:
+      - 9561093
+      - 9561101
+  - name: "KNS_DocumentSecondaryLaw-000961.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "300cc1de399b6fae44f403872139d36bd2f2f047872bb48ece0f7217f25fe08e"
+    id_range:
+      - 9609647
+      - 9609647
+  - name: "KNS_DocumentSecondaryLaw-000962.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "020c1a48a1fbb3f406a6457a8e98e9940d02559b7eadaf9e682952cbd6ae0c80"
+    id_range:
+      - 9611686
+      - 9611686
+  - name: "KNS_DocumentSecondaryLaw-000963.jsonl"
+    records: 4
+    bytes: 1072
+    sha256: "67e088e5444c42c38f3b83d0df8f33d886cb58ca5bf79f2dd1fdaa7cbd0fb90d"
+    id_range:
+      - 9623829
+      - 9623872
+  - name: "KNS_DocumentSecondaryLaw-000968.jsonl"
+    records: 1
+    bytes: 261
+    sha256: "a80db260c01f85460530bbacebc1b110dc76d2eb22d77082a4fd816e865c5781"
+    id_range:
+      - 9674117
+      - 9674117
+  - name: "KNS_DocumentSecondaryLaw-000970.jsonl"
+    records: 2
+    bytes: 577
+    sha256: "32f6f40c8efdaf5492cf37cc246a9b61d5a139ae1d2dec20af1323638103e10b"
+    id_range:
+      - 9691214
+      - 9694346
+  - name: "KNS_DocumentSecondaryLaw-000973.jsonl"
+    records: 1
+    bytes: 295
+    sha256: "c4fd9e28111331fd35c39e1de1f082a3dc3492e44adb6e431892ccef5a686e5f"
+    id_range:
+      - 9728378
+      - 9728378
+  - name: "KNS_DocumentSecondaryLaw-000975.jsonl"
+    records: 2
+    bytes: 604
+    sha256: "93676f4efdf8ccf806adb595cb0699f7774395d6d94a30a79d4c660f2056a905"
+    id_range:
+      - 9744926
+      - 9747388
+  - name: "KNS_DocumentSecondaryLaw-000980.jsonl"
+    records: 2
+    bytes: 565
+    sha256: "0084ec46e200b0b4aebee225339f27e65109fa8f5f121a5f7f59d5ee99319724"
+    id_range:
+      - 9799103
+      - 9799369
+  - name: "KNS_DocumentSecondaryLaw-000982.jsonl"
+    records: 15
+    bytes: 4356
+    sha256: "8ab822df8bc8620ba0d0e4e2fdbff89c3e3675e8da191226bbfe33e1239672f1"
+    id_range:
+      - 9815358
+      - 9818309
+  - name: "KNS_DocumentSecondaryLaw-000983.jsonl"
+    records: 1
+    bytes: 273
+    sha256: "ce61aab719ad3658d4a97f135b76eba92aae8811a6dc014693f9ead074689129"
+    id_range:
+      - 9820117
+      - 9820117
+  - name: "KNS_DocumentSecondaryLaw-000984.jsonl"
+    records: 3
+    bytes: 842
+    sha256: "1fac13ba2b22b241ba4b9f97368fd1bfb5433c41e798b07dead126cb82284829"
+    id_range:
+      - 9831858
+      - 9833280
+  - name: "KNS_DocumentSecondaryLaw-000985.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "ea4558af993f8a30e69b9f9165db8ec380e2d574aeeaf4c81f07bef499bce807"
+    id_range:
+      - 9849254
+      - 9849254
+  - name: "KNS_DocumentSecondaryLaw-000986.jsonl"
+    records: 1
+    bytes: 274
+    sha256: "ccbeaa8fc43a9a5aa949e4239f99b3bfe7125062f1310b5f88efeb233716b5ba"
+    id_range:
+      - 9851942
+      - 9851942
+  - name: "KNS_DocumentSecondaryLaw-000992.jsonl"
+    records: 2
+    bytes: 605
+    sha256: "c7d71caa16173dee3ec8cfdbce707a995530efb9f8b7491a79799b3292240aba"
+    id_range:
+      - 9914321
+      - 9914359
+  - name: "KNS_DocumentSecondaryLaw-000993.jsonl"
+    records: 10
+    bytes: 2896
+    sha256: "67db33099ade34afe7d6fb741d483cf674b19efb24ead37d4078b753e7d37930"
+    id_range:
+      - 9926648
+      - 9929127
+  - name: "KNS_DocumentSecondaryLaw-000994.jsonl"
+    records: 4
+    bytes: 1141
+    sha256: "a316e1220d900b81108ff96b1b92ecb61bef5cc1fc8d9e0d1894250a709d562d"
+    id_range:
+      - 9930134
+      - 9939947
+  - name: "KNS_DocumentSecondaryLaw-000995.jsonl"
+    records: 4
+    bytes: 1160
+    sha256: "9ff71d2fe1a3db4f5ecb56f30d6dfbc43bd8121c99ba9ddbeb701ab1d21af557"
+    id_range:
+      - 9940136
+      - 9941730
+  - name: "KNS_DocumentSecondaryLaw-000997.jsonl"
+    records: 1
+    bytes: 301
+    sha256: "c94829ce9b41147f208042b1c3527c92aa5189079aafd5de6786eaa16d6be650"
+    id_range:
+      - 9968776
+      - 9968776
+  - name: "KNS_DocumentSecondaryLaw-001002.jsonl"
+    records: 4
+    bytes: 1096
+    sha256: "187b390c22fb2f7482775a53dfb297d22cd44fdd902673617f4a2209a40469d6"
+    id_range:
+      - 10016334
+      - 10019746
+  - name: "KNS_DocumentSecondaryLaw-001003.jsonl"
+    records: 3
+    bytes: 792
+    sha256: "1467ae8775f2f5449c34a8253555c6bf5f51df86b422ecd759144352eab48169"
+    id_range:
+      - 10020013
+      - 10025112
+  - name: "KNS_DocumentSecondaryLaw-001004.jsonl"
+    records: 12
+    bytes: 3412
+    sha256: "100bdea43c594bce809d24f5bd9f23bcda8af03effaa2abf76eda9159609b32d"
+    id_range:
+      - 10032248
+      - 10035066
+  - name: "KNS_DocumentSecondaryLaw-001005.jsonl"
+    records: 4
+    bytes: 1178
+    sha256: "17c85424ea22a2e4e8109f11c7093a1c48e06627da41f74871b225e38092c089"
+    id_range:
+      - 10047435
+      - 10048306
+  - name: "KNS_DocumentSecondaryLaw-001006.jsonl"
+    records: 3
+    bytes: 912
+    sha256: "8b9e814832da45bd6eff646eebb2ff549c3125d2501d3aabb394eb87ea797cf9"
+    id_range:
+      - 10050214
+      - 10051508
+  - name: "KNS_DocumentSecondaryLaw-001007.jsonl"
+    records: 2
+    bytes: 584
+    sha256: "b6c53d2a1d635b04144ff67fb1847a71b9f47d54cdf50d8ab1a3154c95d02f70"
+    id_range:
+      - 10064605
+      - 10064606
+  - name: "KNS_DocumentSecondaryLaw-001008.jsonl"
+    records: 4
+    bytes: 1116
+    sha256: "3618badc24597b595c46e115c59c21c338312d497fa1dbf7f7dda8aa10341b63"
+    id_range:
+      - 10074747
+      - 10077288
+  - name: "KNS_DocumentSecondaryLaw-001013.jsonl"
+    records: 7
+    bytes: 2042
+    sha256: "a27f8b613cf6dc195b3caa60d6fd9cfce0a0d4bc8035e9205e4f6c8f4831797e"
+    id_range:
+      - 10123555
+      - 10127226
+  - name: "KNS_DocumentSecondaryLaw-001014.jsonl"
+    records: 4
+    bytes: 1127
+    sha256: "9347d9ce5b361950ac9849ebabf84fdd98bcaf6a439cf288214472a61ead8d2e"
+    id_range:
+      - 10138946
+      - 10139271
+  - name: "KNS_DocumentSecondaryLaw-001015.jsonl"
+    records: 5
+    bytes: 1453
+    sha256: "a2169f47fdf7b7c582bb6d3dd4858f5c612aac978e61ac4e41b1fbdc177e9b59"
+    id_range:
+      - 10140108
+      - 10141170
+  - name: "KNS_DocumentSecondaryLaw-001016.jsonl"
+    records: 6
+    bytes: 1779
+    sha256: "e1c1cd5660adf1635e70de14545d9ec837e48b2fe96d822bd6b3bb1dc3eb54c9"
+    id_range:
+      - 10154222
+      - 10155722
+  - name: "KNS_DocumentSecondaryLaw-001017.jsonl"
+    records: 4
+    bytes: 1184
+    sha256: "3b6f7e07931e107e22efdd124d2bf836e59fa2b2e3fcda6d14834f509bc1f6f9"
+    id_range:
+      - 10168163
+      - 10168544
+  - name: "KNS_DocumentSecondaryLaw-001019.jsonl"
+    records: 2
+    bytes: 541
+    sha256: "93ae5fa389b595e9f71f7eb1ce2ec1d4a6c44c43b0abd0a3276475f1115bf7b6"
+    id_range:
+      - 10182515
+      - 10185202
+  - name: "KNS_DocumentSecondaryLaw-001024.jsonl"
+    records: 4
+    bytes: 1178
+    sha256: "1442475bc8ff764b9b5f2308e94e0c197d198d50573e8287636e3bf95251d094"
+    id_range:
+      - 10231084
+      - 10234692
+  - name: "KNS_DocumentSecondaryLaw-001025.jsonl"
+    records: 2
+    bytes: 608
+    sha256: "1198115b6248e6b0b9efdd20b9e3e623038d3afdfce51dd913baec585b9615aa"
+    id_range:
+      - 10245634
+      - 10245897
+  - name: "KNS_DocumentSecondaryLaw-001026.jsonl"
+    records: 1
+    bytes: 302
+    sha256: "06d3eb6f4dd7be7245b017a6d28e3ede238a5632dba5c126a4707ee71dfc409d"
+    id_range:
+      - 10259398
+      - 10259398
+  - name: "KNS_DocumentSecondaryLaw-001027.jsonl"
+    records: 8
+    bytes: 2308
+    sha256: "622c5d6198da2ebda92842b72c6940b9a2510b2f9f694e607966ff4dc8a47951"
+    id_range:
+      - 10260199
+      - 10262551
+  - name: "KNS_DocumentSecondaryLaw-001036.jsonl"
+    records: 1
+    bytes: 263
+    sha256: "0e00261ff040dfc2a1d8aad22e6790057f311ee7508d08f803f30fcce9c61b00"
+    id_range:
+      - 10359579
+      - 10359579
+  - name: "KNS_DocumentSecondaryLaw-001037.jsonl"
+    records: 5
+    bytes: 1468
+    sha256: "5a7ce44c52f248819e4754ba75705e1fcbffcd00f4443b2f576c237f59e077bb"
+    id_range:
+      - 10361228
+      - 10362238
+  - name: "KNS_DocumentSecondaryLaw-001038.jsonl"
+    records: 1
+    bytes: 263
+    sha256: "71710e741b2403715e05135282d8b9589b88c616884cd4204cc2db66aaba40e2"
+    id_range:
+      - 10374347
+      - 10374347
+  - name: "KNS_DocumentSecondaryLaw-001040.jsonl"
+    records: 1
+    bytes: 296
+    sha256: "a509d299b82b765a95d82e757bed4ba5da222264bcb1dd5e19862ccfea59ec18"
+    id_range:
+      - 10392464
+      - 10392464
+  - name: "KNS_DocumentSecondaryLaw-001041.jsonl"
+    records: 3
+    bytes: 883
+    sha256: "554dd6251f0eaccdde7935c04c75659f7dd970372ad7b358d3f8e18698b91a5b"
+    id_range:
+      - 10404941
+      - 10406635
+  - name: "KNS_DocumentSecondaryLaw-001046.jsonl"
+    records: 6
+    bytes: 1773
+    sha256: "1737c4c52f286009ab7a78b3b6dc54faaee109761bc8e3cf9a0e2ced965bbc71"
+    id_range:
+      - 10455647
+      - 10456331
+  - name: "KNS_DocumentSecondaryLaw-001048.jsonl"
+    records: 13
+    bytes: 3752
+    sha256: "e651d0e0934074cea42d264f0048dcc0b3e5f5e07d8a6f7887c0d529d9adc8f1"
+    id_range:
+      - 10470169
+      - 10474566
+  - name: "KNS_DocumentSecondaryLaw-001049.jsonl"
+    records: 8
+    bytes: 2336
+    sha256: "e7161005774bedff688e212249c45840fbe941a816a2cf32a1088feacaf62b9f"
+    id_range:
+      - 10487724
+      - 10489736
+  - name: "KNS_DocumentSecondaryLaw-001050.jsonl"
+    records: 1
+    bytes: 282
+    sha256: "cc4a9368a4ba654ce9e7fbec5b09ed58796d209e2e43458dbbb99b79c0c5b909"
+    id_range:
+      - 10492231
+      - 10492231
+  - name: "KNS_DocumentSecondaryLaw-001053.jsonl"
+    records: 10
+    bytes: 2893
+    sha256: "4476d93cd96e48b2c64d41c4ffab80c5dccb8e79fe112b9a000808f9e94fa1f4"
+    id_range:
+      - 10520976
+      - 10522824
+  - name: "KNS_DocumentSecondaryLaw-001057.jsonl"
+    records: 1
+    bytes: 276
+    sha256: "58983433dc4e4da47367cb7341efc7752cf564a60c23cf9563942c7e7d49bf22"
+    id_range:
+      - 10569352
+      - 10569352
+  - name: "KNS_DocumentSecondaryLaw-001058.jsonl"
+    records: 3
+    bytes: 849
+    sha256: "892f9998983e20e1206f52bbe91a5890eb643fca9745fa6dbecaf756b8edb2e9"
+    id_range:
+      - 10570195
+      - 10571157
+  - name: "KNS_DocumentSecondaryLaw-001059.jsonl"
+    records: 1
+    bytes: 283
+    sha256: "17d4c9464912741ab05a8dff18fd1df0e9fdfd338d1a2100a6ae3d5647b44e26"
+    id_range:
+      - 10587444
+      - 10587444
+  - name: "KNS_DocumentSecondaryLaw-001060.jsonl"
+    records: 2
+    bytes: 552
+    sha256: "4878462a79ba4a81048e4550e6d9a4822b472dfe99aee2a02971effa4221e263"
+    id_range:
+      - 10590142
+      - 10592626
+  - name: "KNS_DocumentSecondaryLaw-001061.jsonl"
+    records: 6
+    bytes: 1746
+    sha256: "f27620cfdf227df055c5dd6e21c61d01ba925f43aa0f2446b66fa0b8084251d0"
+    id_range:
+      - 10604949
+      - 10605148
+  - name: "KNS_DocumentSecondaryLaw-001063.jsonl"
+    records: 6
+    bytes: 1682
+    sha256: "ad90b906a6f264f66a93e6f3e2823994c7496dfd5a65ff46321940a5c937b20e"
+    id_range:
+      - 10622505
+      - 10628776
+  - name: "KNS_DocumentSecondaryLaw-001071.jsonl"
+    records: 1
+    bytes: 304
+    sha256: "27aec117dcc2acade2e7d1b7189613462bea4aa8d1c1c3fb9f6eb536923f4d61"
+    id_range:
+      - 10700546
+      - 10700546
+  - name: "KNS_DocumentSecondaryLaw-001072.jsonl"
+    records: 3
+    bytes: 885
+    sha256: "86eef66060486c6679de8e3bdd94afccc6f47abbb1105b62754d151a22b6d90e"
+    id_range:
+      - 10714471
+      - 10714752
+  - name: "KNS_DocumentSecondaryLaw-001083.jsonl"
+    records: 3
+    bytes: 894
+    sha256: "bfe2ae631275834b73b6d97e53fc270644ca52732874948ada84c7fc45eebd03"
+    id_range:
+      - 10820142
+      - 10820222
+  - name: "KNS_DocumentSecondaryLaw-001084.jsonl"
+    records: 1
+    bytes: 304
+    sha256: "5e7a6089cfb20a3376bb53792b20588b2547cc19c9a22d4bf42f26c8c0e2bb4c"
+    id_range:
+      - 10838274
+      - 10838274
+  - name: "KNS_DocumentSecondaryLaw-001085.jsonl"
+    records: 2
+    bytes: 595
+    sha256: "5e788c89b089a008c5009233ecea5c90f5d364cb4d01dd7dcb8429af3e3306d0"
+    id_range:
+      - 10840240
+      - 10840389
+  - name: "KNS_DocumentSecondaryLaw-001086.jsonl"
+    records: 2
+    bytes: 566
+    sha256: "6c6bd36342f04ed8484e28e0ebb9d48530a0fe5b31c3f51de3c974e0b885fbc8"
+    id_range:
+      - 10857417
+      - 10857436
+  - name: "KNS_DocumentSecondaryLaw-001092.jsonl"
+    records: 1
+    bytes: 263
+    sha256: "f71275ad08dc669120d6c2a41af5051e33471a3aa232c250389da151091ec382"
+    id_range:
+      - 10910593
+      - 10910593
+  - name: "KNS_DocumentSecondaryLaw-001093.jsonl"
+    records: 2
+    bytes: 589
+    sha256: "1060d821985d1f3de5515e9e801387b3d928483ebaef92012939fa666f8e5380"
+    id_range:
+      - 10926985
+      - 10927000
+  - name: "KNS_DocumentSecondaryLaw-001094.jsonl"
+    records: 3
+    bytes: 892
+    sha256: "43838a44342a70518b24983c359981e1b720baad87fcf85e200a3eb9d996f6db"
+    id_range:
+      - 10930626
+      - 10932836
+  - name: "KNS_DocumentSecondaryLaw-001095.jsonl"
+    records: 3
+    bytes: 858
+    sha256: "d4042fccd005768c3b3ff3b146949a9c9cea4987e18860604514769db2bc8989"
+    id_range:
+      - 10945647
+      - 10948254
+  - name: "KNS_DocumentSecondaryLaw-001097.jsonl"
+    records: 7
+    bytes: 2013
+    sha256: "3737f6e73d40a1ace1008002d2183f392e23b7aaa52f940684dfc5cd18875b16"
+    id_range:
+      - 10967119
+      - 10967866
+  - name: "KNS_DocumentSecondaryLaw-001099.jsonl"
+    records: 6
+    bytes: 1759
+    sha256: "0a4242e9e50cf32a4aaf226f054412fc54c3ab40f7df34fdb1a7d64929f9c210"
+    id_range:
+      - 10982988
+      - 10983105
+  - name: "KNS_DocumentSecondaryLaw-001106.jsonl"
+    records: 3
+    bytes: 863
+    sha256: "0a903cd0b5de90ff00e03906427e211657f45cdc99c5e8894794065aaffe842e"
+    id_range:
+      - 11054086
+      - 11054213
+  - name: "KNS_DocumentSecondaryLaw-001108.jsonl"
+    records: 4
+    bytes: 1196
+    sha256: "23ec1890b3b9c44f794fe10b404b2242f08aef69dfb9a85e2ad434e361d6ab74"
+    id_range:
+      - 11074713
+      - 11074881
+  - name: "KNS_DocumentSecondaryLaw-001109.jsonl"
+    records: 1
+    bytes: 277
+    sha256: "c61de0a7d7b3e46c5c6788286a2cfe7764c1abcae5837140f1d54d12ae719c77"
+    id_range:
+      - 11089591
+      - 11089591
+  - name: "KNS_DocumentSecondaryLaw-001110.jsonl"
+    records: 8
+    bytes: 2330
+    sha256: "ff2a8125b3512eb4318b019e8eb120fa2eb2c6aa892452bf1c3e8748231a6469"
+    id_range:
+      - 11091031
+      - 11094389
+  - name: "KNS_DocumentSecondaryLaw-001118.jsonl"
+    records: 8
+    bytes: 2328
+    sha256: "3ceb2a863c979847aa0e5551d6a28954e186ea4261c0535fe1dbd1455a8b5783"
+    id_range:
+      - 11172237
+      - 11175719
+  - name: "KNS_DocumentSecondaryLaw-001120.jsonl"
+    records: 7
+    bytes: 2016
+    sha256: "21b574b03e140874c0711aa75cd8a3d78d44e26f880af91974ed85b276b951c0"
+    id_range:
+      - 11191043
+      - 11195028
+  - name: "KNS_DocumentSecondaryLaw-001121.jsonl"
+    records: 2
+    bytes: 609
+    sha256: "503899fcefe324858a2b9acc587183fd19458926153a728792038af15e6e78de"
+    id_range:
+      - 11200747
+      - 11200766
+  - name: "KNS_DocumentSecondaryLaw-001123.jsonl"
+    records: 2
+    bytes: 602
+    sha256: "22b2c7743b65d8860db7b77e9f11e477cfb8845f5a8f7a03e1c345bc44d614cd"
+    id_range:
+      - 11226402
+      - 11226971
+  - name: "KNS_DocumentSecondaryLaw-001124.jsonl"
+    records: 2
+    bytes: 588
+    sha256: "a0b49525caf8f5408457a4c33c967eb38676d956de1ff0a5ab1b8e839f3feb6e"
+    id_range:
+      - 11231261
+      - 11231264
+  - name: "KNS_DocumentSecondaryLaw-001125.jsonl"
+    records: 3
+    bytes: 886
+    sha256: "7d44a703cde9cda2e3fe803ec16237fb9cce15950a17a9383d66426df29b9b7a"
+    id_range:
+      - 11245533
+      - 11246059

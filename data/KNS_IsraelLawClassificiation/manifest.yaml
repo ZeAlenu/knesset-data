@@ -1,0 +1,52 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_IsraelLawClassificiation"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLawClassificiation"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "IsraelLawID"
+      type: "integer"
+      nullable: true
+    - name: "ClassificiationID"
+      type: "integer"
+      nullable: true
+    - name: "ClassificiationDesc"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 2853
+  file_count: 1
+  total_bytes: 419668
+  min_id: 1
+  max_id: 2987
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_IsraelLawClassificiation-000001.jsonl"
+    records: 2853
+    bytes: 419668
+    sha256: "36dc40bcc7cfe16be726aff6c9a9bf9b12153847324e944b519c6c698d702e9c"
+    id_range:
+      - 1
+      - 2987

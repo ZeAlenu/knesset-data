@@ -1,0 +1,256 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_SecondaryLaw"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_SecondaryLaw"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "CompletionCauseID"
+      type: "integer"
+      nullable: true
+    - name: "CompletionCauseDesc"
+      type: "string"
+      nullable: true
+    - name: "PostponementReasonID"
+      type: "integer"
+      nullable: true
+    - name: "PostponementReasonDesc"
+      type: "string"
+      nullable: true
+    - name: "KnessetInvolvementID"
+      type: "integer"
+      nullable: true
+    - name: "KnessetInvolvementDesc"
+      type: "string"
+      nullable: true
+    - name: "CommitteeID"
+      type: "integer"
+      nullable: true
+    - name: "PublicationSeriesID"
+      type: "integer"
+      nullable: true
+    - name: "PublicationSeriesDesc"
+      type: "string"
+      nullable: true
+    - name: "MagazineNumber"
+      type: "string"
+      nullable: true
+    - name: "PageNumber"
+      type: "string"
+      nullable: true
+    - name: "PublicationDate"
+      type: "datetime"
+      nullable: true
+    - name: "MajorAuthorizingLawID"
+      type: "integer"
+      nullable: true
+    - name: "CommitteeReceivedDate"
+      type: "datetime"
+      nullable: true
+    - name: "CommitteeApprovalDate"
+      type: "datetime"
+      nullable: true
+    - name: "ApprovalDateWithoutDiscussion"
+      type: "datetime"
+      nullable: true
+    - name: "IsAmmendingLawOriginal"
+      type: "boolean"
+      nullable: true
+    - name: "ClassificationID"
+      type: "integer"
+      nullable: true
+    - name: "ClassificationDesc"
+      type: "string"
+      nullable: true
+    - name: "IsEmergency"
+      type: "boolean"
+      nullable: true
+    - name: "SecretaryReceivedDate"
+      type: "datetime"
+      nullable: true
+    - name: "PlenumApprovalDate"
+      type: "datetime"
+      nullable: true
+    - name: "TypeID"
+      type: "integer"
+      nullable: true
+    - name: "TypeDesc"
+      type: "string"
+      nullable: true
+    - name: "StatusID"
+      type: "integer"
+      nullable: true
+    - name: "StatusName"
+      type: "string"
+      nullable: true
+    - name: "IsCurrent"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 59876
+  file_count: 19
+  total_bytes: 56652968
+  min_id: 2066990
+  max_id: 2240270
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_SecondaryLaw-000207.jsonl"
+    records: 931
+    bytes: 941196
+    sha256: "f2eaf16c91e1300c38467f2090c71707446b24607cad86805cbace889a0b0483"
+    id_range:
+      - 2066990
+      - 2069807
+  - name: "KNS_SecondaryLaw-000208.jsonl"
+    records: 161
+    bytes: 166924
+    sha256: "b49ab7cedff4b503984c704bc73608c1ca81ffa52949b17f7576c7ce05b8c62a"
+    id_range:
+      - 2070019
+      - 2078537
+  - name: "KNS_SecondaryLaw-000209.jsonl"
+    records: 1563
+    bytes: 1426786
+    sha256: "0ea7a975116517fddddcf5d637c7415b786d5259e69440ea12b3b76c92e6a1e2"
+    id_range:
+      - 2080250
+      - 2089999
+  - name: "KNS_SecondaryLaw-000210.jsonl"
+    records: 10000
+    bytes: 9180077
+    sha256: "d77e909f7bb778a8fbd75a087d2d45574239b6eaa29f8e17414b10d1da969cd7"
+    id_range:
+      - 2090000
+      - 2099999
+  - name: "KNS_SecondaryLaw-000211.jsonl"
+    records: 10000
+    bytes: 9273812
+    sha256: "8026f8efb3869368560c5023f399489342455b149f8bd97d727567641f92f349"
+    id_range:
+      - 2100000
+      - 2109999
+  - name: "KNS_SecondaryLaw-000212.jsonl"
+    records: 10000
+    bytes: 9392219
+    sha256: "6ec922f58186eea1e227a468d0ecd9085259c581e6bc247759747f1d22df44e5"
+    id_range:
+      - 2110000
+      - 2119999
+  - name: "KNS_SecondaryLaw-000213.jsonl"
+    records: 9999
+    bytes: 9409161
+    sha256: "81d3f30ad04d91b2330b2b1d7d4addc334fc7a11710d602bc85ef17358b15748"
+    id_range:
+      - 2120000
+      - 2129999
+  - name: "KNS_SecondaryLaw-000214.jsonl"
+    records: 9600
+    bytes: 9076553
+    sha256: "db4b26db80cd7b994696fce2b06c45d82d359a4d2cae9045edd64872f9822468"
+    id_range:
+      - 2130000
+      - 2139930
+  - name: "KNS_SecondaryLaw-000215.jsonl"
+    records: 345
+    bytes: 365776
+    sha256: "56d5ca172dc713fa38d8af56a2a3541ae07f75242b9072f8d851696f871b7f21"
+    id_range:
+      - 2140059
+      - 2149990
+  - name: "KNS_SecondaryLaw-000216.jsonl"
+    records: 3465
+    bytes: 3355323
+    sha256: "9cb887b7f41fe6720df1d194afec255c5ac0da3e37ec5c91ba8dfc6848be7059"
+    id_range:
+      - 2150001
+      - 2159986
+  - name: "KNS_SecondaryLaw-000217.jsonl"
+    records: 517
+    bytes: 552493
+    sha256: "ed61056529b4d68caddd0b4225f024caaba93ab4dee26794427ac17294aeb3d9"
+    id_range:
+      - 2160000
+      - 2169985
+  - name: "KNS_SecondaryLaw-000218.jsonl"
+    records: 7
+    bytes: 7571
+    sha256: "e1e74fc43216115b31d40c4bdf88a04c4dc3e699eb8ec8a625d3c6d03e1f74be"
+    id_range:
+      - 2170014
+      - 2170275
+  - name: "KNS_SecondaryLaw-000219.jsonl"
+    records: 15
+    bytes: 15498
+    sha256: "9188eabd48270753a19a954100d325138cb8fa5e474bd1894be5248bb74bcbcc"
+    id_range:
+      - 2189463
+      - 2189903
+  - name: "KNS_SecondaryLaw-000220.jsonl"
+    records: 880
+    bytes: 923917
+    sha256: "f4d7765b7d2707d6b5ecc0505fbd894511b9e8aa51164125f06545fa38d462ba"
+    id_range:
+      - 2190056
+      - 2199970
+  - name: "KNS_SecondaryLaw-000221.jsonl"
+    records: 408
+    bytes: 432095
+    sha256: "e518b8647ded71343d8decd761e0e60b780f0d92b5ac0cb6f564f92570cb2f2b"
+    id_range:
+      - 2200030
+      - 2209979
+  - name: "KNS_SecondaryLaw-000222.jsonl"
+    records: 591
+    bytes: 632533
+    sha256: "04df200bf3a885e6b8ba684d4878895b735bef164071cfe5479068846bf3dc9c"
+    id_range:
+      - 2210001
+      - 2219962
+  - name: "KNS_SecondaryLaw-000223.jsonl"
+    records: 695
+    bytes: 731627
+    sha256: "24da84ef28b5a41136f8fab619a2c8401f5d5d16db63c9f7891bab520b2a4286"
+    id_range:
+      - 2220010
+      - 2229974
+  - name: "KNS_SecondaryLaw-000224.jsonl"
+    records: 687
+    bytes: 756845
+    sha256: "3c1c16ea28a174b3e4b52ed6a3c87c3f78cb268b89232a844f71ea58e0e7253d"
+    id_range:
+      - 2230151
+      - 2239961
+  - name: "KNS_SecondaryLaw-000225.jsonl"
+    records: 12
+    bytes: 12562
+    sha256: "5014824355c8826e9bd0e3cdf9548c381962ebfef32f832764d6742525abc375"
+    id_range:
+      - 2240000
+      - 2240270

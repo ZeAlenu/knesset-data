@@ -1,0 +1,209 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_BillInitiator"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_BillInitiator"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "BillID"
+      type: "integer"
+      nullable: true
+    - name: "PersonID"
+      type: "integer"
+      nullable: true
+    - name: "IsInitiator"
+      type: "boolean"
+      nullable: true
+    - name: "Ordinal"
+      type: "integer"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 169493
+  file_count: 23
+  total_bytes: 21156963
+  min_id: 1
+  max_id: 228943
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_BillInitiator-000001.jsonl"
+    records: 7537
+    bytes: 904215
+    sha256: "14c8f8135029d450023dd494ff0cbcfbe006e990505d278e119807925ffdd575"
+    id_range:
+      - 1
+      - 9999
+  - name: "KNS_BillInitiator-000002.jsonl"
+    records: 8185
+    bytes: 997169
+    sha256: "8ed80cd89dfad1d326acb7a45d4e631d5d1aca15ae4958da415ccfd93d595f45"
+    id_range:
+      - 10000
+      - 19999
+  - name: "KNS_BillInitiator-000003.jsonl"
+    records: 8140
+    bytes: 992636
+    sha256: "00072079c52a203476af115775f1c7085cd280b6d937116ccf13368f0e48436c"
+    id_range:
+      - 20001
+      - 29999
+  - name: "KNS_BillInitiator-000004.jsonl"
+    records: 7742
+    bytes: 947105
+    sha256: "a073e9cdc203cd95690db56dab3e8b439cd0b558efd0252d6b64f40ec486863a"
+    id_range:
+      - 30000
+      - 39999
+  - name: "KNS_BillInitiator-000005.jsonl"
+    records: 7862
+    bytes: 962154
+    sha256: "16dbcf0488aa39125f85990956422e7f31c80cbac24e7f81adb79a1c4fc13c72"
+    id_range:
+      - 40000
+      - 49986
+  - name: "KNS_BillInitiator-000006.jsonl"
+    records: 8020
+    bytes: 983570
+    sha256: "d9766c151b420f93367dc96fea41b443a45aea3604e2b7c1172fd5524dfdb4e3"
+    id_range:
+      - 50008
+      - 59999
+  - name: "KNS_BillInitiator-000007.jsonl"
+    records: 7927
+    bytes: 971312
+    sha256: "6a4f293a9a162b4a9804eb5612814bed3eb5c36770e73e953046760f702b5064"
+    id_range:
+      - 60000
+      - 69999
+  - name: "KNS_BillInitiator-000008.jsonl"
+    records: 7474
+    bytes: 916907
+    sha256: "21eca0df8af6cc6ced2ac735543d7a4acd2941c7f6853eb9f131fa89f1923404"
+    id_range:
+      - 70000
+      - 79996
+  - name: "KNS_BillInitiator-000009.jsonl"
+    records: 7044
+    bytes: 886589
+    sha256: "f5f9043742555e0e9303a55da4199a5f2afcda9a1af931b9e999f14a020fc6a5"
+    id_range:
+      - 80002
+      - 89999
+  - name: "KNS_BillInitiator-000010.jsonl"
+    records: 7660
+    bytes: 959257
+    sha256: "a477f38d65140626688bb00b1fef8c7c47bad5496cfe0f1f97dfe5840be86196"
+    id_range:
+      - 90002
+      - 99999
+  - name: "KNS_BillInitiator-000011.jsonl"
+    records: 9714
+    bytes: 1189036
+    sha256: "19eef9aece029f7cce866102fcced5457b1955afe5936de22382ede10ce72cd6"
+    id_range:
+      - 100000
+      - 109999
+  - name: "KNS_BillInitiator-000012.jsonl"
+    records: 9856
+    bytes: 1204032
+    sha256: "a86aa77cb9fdc24e0a4aa7b3a25a1fb89a69f2c537f1f84de3ace96965c39fee"
+    id_range:
+      - 110000
+      - 119999
+  - name: "KNS_BillInitiator-000013.jsonl"
+    records: 9523
+    bytes: 1170275
+    sha256: "fe82b4cbebcc72970dc79da01ccec6746463bc6902f7f714df65e408dfe7ffa1"
+    id_range:
+      - 120000
+      - 129971
+  - name: "KNS_BillInitiator-000014.jsonl"
+    records: 7190
+    bytes: 920322
+    sha256: "824a25b8f04a5c3598c57977e87345b8a5637b4eee1ec9f8cf22d0772f8c5a76"
+    id_range:
+      - 130000
+      - 139999
+  - name: "KNS_BillInitiator-000015.jsonl"
+    records: 7398
+    bytes: 951440
+    sha256: "12999229a008a98c62a11de50398272d126d42ec2eb6d5e32d9efe8dcf8b95ac"
+    id_range:
+      - 140000
+      - 149999
+  - name: "KNS_BillInitiator-000016.jsonl"
+    records: 7731
+    bytes: 995174
+    sha256: "b127ea783cfdee17a3e87401c741bd6b54544521941b3064a9b7fdbe17230dc6"
+    id_range:
+      - 150000
+      - 159992
+  - name: "KNS_BillInitiator-000017.jsonl"
+    records: 4533
+    bytes: 582493
+    sha256: "d2995ae2f3266ae516912240e366b63f0b441e72ee45523c90917e4b52250ab6"
+    id_range:
+      - 160005
+      - 169997
+  - name: "KNS_BillInitiator-000018.jsonl"
+    records: 5324
+    bytes: 684544
+    sha256: "ef9033f484a4d1b89cc59d3b5247a3ee1da4ffd351be6482c5749c0968986c95"
+    id_range:
+      - 170019
+      - 179999
+  - name: "KNS_BillInitiator-000019.jsonl"
+    records: 5778
+    bytes: 742724
+    sha256: "9b3ca8e6197ded296846bb701f4b8c61fb228e89164d2dbd3d87a0f2d85fd5e7"
+    id_range:
+      - 180000
+      - 189999
+  - name: "KNS_BillInitiator-000020.jsonl"
+    records: 6539
+    bytes: 841283
+    sha256: "466ad615f161740f2e87a1319d2e4911146e0efa6200fd0a3d8fd13dee721743"
+    id_range:
+      - 190000
+      - 199999
+  - name: "KNS_BillInitiator-000021.jsonl"
+    records: 5524
+    bytes: 709440
+    sha256: "02fa5d9360f99f82cb099c0829875f17cabfd9ef1d4d117c348ef45bf40cea53"
+    id_range:
+      - 200000
+      - 209999
+  - name: "KNS_BillInitiator-000022.jsonl"
+    records: 6602
+    bytes: 849438
+    sha256: "3c5b6384b606df185720facda1fd4c69310e8f2584cd91c68e3fded37652c552"
+    id_range:
+      - 210000
+      - 219999
+  - name: "KNS_BillInitiator-000023.jsonl"
+    records: 6190
+    bytes: 795848
+    sha256: "1ccaa6f9497ddba7fb5775d658e539ef594b8150badf406dc025c7973e4eb4d1"
+    id_range:
+      - 220000
+      - 228943

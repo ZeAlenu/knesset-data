@@ -1,0 +1,116 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_PlenumVote"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_PlenumVote"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "VoteDateTime"
+      type: "datetime"
+      nullable: true
+    - name: "SessionID"
+      type: "integer"
+      nullable: true
+    - name: "ItemID"
+      type: "integer"
+      nullable: true
+    - name: "Ordinal"
+      type: "integer"
+      nullable: true
+    - name: "VoteMethodID"
+      type: "integer"
+      nullable: true
+    - name: "VoteMethodDesc"
+      type: "string"
+      nullable: true
+    - name: "VoteStatusCode"
+      type: "integer"
+      nullable: true
+    - name: "VoteStatusDesc"
+      type: "string"
+      nullable: true
+    - name: "VoteTitle"
+      type: "string"
+      nullable: true
+    - name: "VoteSubject"
+      type: "string"
+      nullable: true
+    - name: "IsNoConfidenceInGov"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+    - name: "ForOptionID"
+      type: "integer"
+      nullable: true
+    - name: "ForOptionDesc"
+      type: "string"
+      nullable: true
+    - name: "AgainstOptionID"
+      type: "integer"
+      nullable: true
+    - name: "AgainstOptionDesc"
+      type: "string"
+      nullable: true
+stats:
+  record_count: 34905
+  file_count: 5
+  total_bytes: 22078620
+  min_id: 6
+  max_id: 45189
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_PlenumVote-000001.jsonl"
+    records: 7069
+    bytes: 4479694
+    sha256: "b63ec5d34cfa39ca0b9bca0f5735f0cf6c86ee1b7c5de6b07892f2b15069210c"
+    id_range:
+      - 6
+      - 9999
+  - name: "KNS_PlenumVote-000002.jsonl"
+    records: 7887
+    bytes: 5025156
+    sha256: "4ec2e523d70f5986d6890d96fa696081feaeb3402111c6f050728f1ef30e94f8"
+    id_range:
+      - 10000
+      - 19999
+  - name: "KNS_PlenumVote-000003.jsonl"
+    records: 7337
+    bytes: 4650344
+    sha256: "8fe2f4104190e07d49adb748313d16aa860a0eadcd2c98aa64597281cb2f4898"
+    id_range:
+      - 20000
+      - 29999
+  - name: "KNS_PlenumVote-000004.jsonl"
+    records: 8285
+    bytes: 5203833
+    sha256: "73faafaf4d15af3455ed86db6324b8264a2f743a49860b13e1e2170d012d4433"
+    id_range:
+      - 30000
+      - 39999
+  - name: "KNS_PlenumVote-000005.jsonl"
+    records: 4327
+    bytes: 2719593
+    sha256: "79c3717674c1214d589943b22fa5466eb3dde2f27974b76d97d6927f92b73629"
+    id_range:
+      - 40000
+      - 45189

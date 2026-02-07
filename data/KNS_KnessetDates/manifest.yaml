@@ -1,0 +1,64 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_KnessetDates"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_KnessetDates"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "Assembly"
+      type: "integer"
+      nullable: true
+    - name: "Plenum"
+      type: "integer"
+      nullable: true
+    - name: "PlenumStart"
+      type: "datetime"
+      nullable: true
+    - name: "PlenumFinish"
+      type: "datetime"
+      nullable: true
+    - name: "IsCurrent"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 164
+  file_count: 1
+  total_bytes: 37460
+  min_id: 1
+  max_id: 167
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_KnessetDates-000001.jsonl"
+    records: 164
+    bytes: 37460
+    sha256: "ecb7c17f3aa284b2d203f9db4a183b04221d435a3ef11d05b417d24ec348e0ae"
+    id_range:
+      - 1
+      - 167

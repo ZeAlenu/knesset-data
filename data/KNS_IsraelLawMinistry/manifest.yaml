@@ -1,0 +1,49 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_IsraelLawMinistry"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_IsraelLawMinistry"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "IsraelLawID"
+      type: "integer"
+      nullable: true
+    - name: "GovMinistryID"
+      type: "integer"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 1695
+  file_count: 1
+  total_bytes: 178944
+  min_id: 2135419
+  max_id: 2137356
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_IsraelLawMinistry-000214.jsonl"
+    records: 1695
+    bytes: 178944
+    sha256: "66f68837299ee6e74c0fa39ace995360d38a2bd718b0e0e41319122850b8ee1f"
+    id_range:
+      - 2135419
+      - 2137356

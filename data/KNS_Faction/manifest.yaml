@@ -1,0 +1,58 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_Faction"
+  description: ""
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_Faction"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-07T14:17:44.078Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d297a92f68dc0b6af537d6f233bc79fef08c7ec1"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "Name"
+      type: "string"
+      nullable: true
+    - name: "KnessetNum"
+      type: "integer"
+      nullable: true
+    - name: "StartDate"
+      type: "datetime"
+      nullable: true
+    - name: "FinishDate"
+      type: "datetime"
+      nullable: true
+    - name: "IsCurrent"
+      type: "boolean"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 544
+  file_count: 1
+  total_bytes: 117433
+  min_id: 3
+  max_id: 1109
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files:
+  - name: "KNS_Faction-000001.jsonl"
+    records: 544
+    bytes: 117433
+    sha256: "620d9aec43e39bf29a2cdf53bc8c9810d41366dddb9c34c7d9cc40e783bb1782"
+    id_range:
+      - 3
+      - 1109
