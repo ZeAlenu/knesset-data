@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-09T15:17:02.445Z"
+    accessed_at: "2026-02-09T18:48:22.641Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "3cb8e9b2fbaf2275993a02dfbe7b815f717e3faf"
+    commit: "e64435f9e15703886971080d0124c03089492a58"
 schema:
   fields:
     - name: "Id"
@@ -49,11 +49,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 167986
+  record_count: 167988
   file_count: 17
-  total_bytes: 51121868
+  total_bytes: 51122157
   min_id: 1
-  max_id: 167986
+  max_id: 167988
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -109,71 +109,71 @@ files:
       - 69999
   - name: "KNS_PlmSessionItem-000008.jsonl"
     records: 10000
-    bytes: 3157797
-    sha256: "a07bc007d66b646ba1fa4ba533aac3b17b7bd1289ab785c9ebb18020768fdc18"
+    bytes: 3157800
+    sha256: "6154d8013b51cc5b4c4e72fca790cec38d76f7ee13c9695212b364a8f615b1d9"
     id_range:
       - 70000
       - 79999
   - name: "KNS_PlmSessionItem-000009.jsonl"
     records: 10000
-    bytes: 3203492
-    sha256: "a88efff5743f49ad1b1df8a2a9087e29d6ad5ee4e16132d08079301b07507d1c"
+    bytes: 3203395
+    sha256: "8281e9a4569ba6801e85b3f56e333feacc11b0f5ea2f71d8212ad9ba74fa73be"
     id_range:
       - 80000
       - 89999
   - name: "KNS_PlmSessionItem-000010.jsonl"
     records: 10000
-    bytes: 3053233
-    sha256: "80e489b06a8b82fa35ada523a45e998938ad38a4a0e4fbcc39e2a33cba2cf1c3"
+    bytes: 3053237
+    sha256: "0014201c7ca8ecd91deb605688c912c314294fe84ac379856b1358266d461dcc"
     id_range:
       - 90000
       - 99999
   - name: "KNS_PlmSessionItem-000011.jsonl"
     records: 10000
-    bytes: 2996702
-    sha256: "a5cf502a9dbd4358238df6c3c4663dc53b742d9be47703b0583297647f486000"
+    bytes: 2996768
+    sha256: "0a4d1a29d97733c0195aa03c32f09412872d2a4ffdb636c20476383f41125376"
     id_range:
       - 100000
       - 109999
   - name: "KNS_PlmSessionItem-000012.jsonl"
     records: 10000
-    bytes: 2762795
-    sha256: "700ad2f4d1f8b7930835c64756dd06b16c4d429bd2eba3cf63f310a0cd5a3407"
+    bytes: 2762806
+    sha256: "57b33b21c95ed9bff575cba8e34f6093587a277ca1ab9c04193271978a62115e"
     id_range:
       - 110000
       - 119999
   - name: "KNS_PlmSessionItem-000013.jsonl"
     records: 10000
-    bytes: 2830199
-    sha256: "879b45771744c521909b5a36708b28b3742ec8970109d8b21de46a873e8e9895"
+    bytes: 2830162
+    sha256: "d17d763fa1b78d85801eb203cfc711dac8531995ca8ed1c569a07c883e8066ec"
     id_range:
       - 120000
       - 129999
   - name: "KNS_PlmSessionItem-000014.jsonl"
     records: 10000
-    bytes: 2830593
-    sha256: "2814bd571b13db10151a6adf8029b6568efdcadeafc20bcd0df62cbedf5ae78a"
+    bytes: 2830619
+    sha256: "62fc0dc6b224a03f77d1f6bbcfcce5532e95fbe235b7f481370e35e43e104c9d"
     id_range:
       - 130000
       - 139999
   - name: "KNS_PlmSessionItem-000015.jsonl"
     records: 10000
-    bytes: 2781449
-    sha256: "07f6b32c66f78a6f9f6f74529a39a5987217131a6f8e13cb09ec65c509e277e0"
+    bytes: 2781420
+    sha256: "7df3e9017b1e53f3ed38e9cacd9153ca617573dfe3e29be886029907addf9da0"
     id_range:
       - 140000
       - 149999
   - name: "KNS_PlmSessionItem-000016.jsonl"
     records: 10000
-    bytes: 3015666
-    sha256: "08c6a53c43539afd6c517b49cd93203f2380c84476f7a9da117a1209717ac37e"
+    bytes: 3015690
+    sha256: "27b35c76da8cfc50cef6502471589fc39b7a1b3367910b88f749c8d76c476f49"
     id_range:
       - 150000
       - 159999
   - name: "KNS_PlmSessionItem-000017.jsonl"
-    records: 7987
-    bytes: 2506026
-    sha256: "489b6dd07502699abc3a4bfaae4f1ee1e255bf5ca5d519e5947886c28d0c3e55"
+    records: 7989
+    bytes: 2506344
+    sha256: "8215ebb6957ad65bf5097188d0d8dff52f114b80202c8f08f93076cf46b9a8d1"
     id_range:
       - 160000
-      - 167986
+      - 167988
