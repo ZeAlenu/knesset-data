@@ -10,7 +10,6 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-09T19:09:15.503Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
