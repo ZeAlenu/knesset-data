@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T14:30:37.382Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "3cb8e9b2fbaf2275993a02dfbe7b815f717e3faf"
 schema:
   fields:
     - name: "Id"
@@ -67,11 +67,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 23483
+  record_count: 23484
   file_count: 4
-  total_bytes: 9698266
+  total_bytes: 9698627
   min_id: 379
-  max_id: 33708
+  max_id: 33709
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -98,9 +98,9 @@ files:
       - 20000
       - 29999
   - name: "KNS_PersonToPosition-000004.jsonl"
-    records: 2408
-    bytes: 1057874
-    sha256: "78a22d77cacc6b7befe763254ad39f87b09fbf1a8b16b98e4a16ee5fe979b878"
+    records: 2409
+    bytes: 1058235
+    sha256: "c424b53336f57bd0a43bdbc2bc68bfd42d13066f2ee624fe1b28c39e82132374"
     id_range:
       - 30000
-      - 33708
+      - 33709

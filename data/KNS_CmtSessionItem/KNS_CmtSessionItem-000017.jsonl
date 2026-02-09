@@ -29,6 +29,7 @@
 {"Id":162653,"ItemID":176033,"CommitteeSessionID":176035,"Ordinal":1,"StatusID":null,"Name":"תיקונים בתקנון הבורסה:1. שינוי הגדרת \"יום האקס\" עם המעבר ל-סליקה ביום 1+T2. חלוקת דיבידנדים בחברה חדשה","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":162782,"ItemID":145475,"CommitteeSessionID":176168,"Ordinal":1,"StatusID":null,"Name":"תקנות בתי המשפט (אגרות), התשס\"ו-2006","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":162783,"ItemID":145443,"CommitteeSessionID":176170,"Ordinal":1,"StatusID":null,"Name":"דיווח על יישום חוק נכסים של נספי השואה (השבה ליורשים והקדשה למטרות סיוע והנצחה), תשס\"ו-2005","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
+{"Id":162784,"ItemID":176055,"CommitteeSessionID":176171,"Ordinal":1,"StatusID":null,"Name":"צו איסור הלבנת הון (חובות זיהוי, דיווח וניהול רישומים של תאגידים בנקאיים) (תיקון), התשס\"ז-2006","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":162805,"ItemID":132424,"CommitteeSessionID":176195,"Ordinal":1,"StatusID":108,"Name":"חוק הבטחת הכנסה (תיקון מס' 28), התשס\"ז-2007","ItemTypeID":2,"LastUpdatedDate":"2020-09-09T13:34:39.38+03:00"}
 {"Id":162806,"ItemID":139985,"CommitteeSessionID":176197,"Ordinal":1,"StatusID":304,"Name":"ניסויים לא חוקיים במאות מאושפזים קשישים","ItemTypeID":4,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":162807,"ItemID":139824,"CommitteeSessionID":176197,"Ordinal":2,"StatusID":304,"Name":"ניסויים בלתי חוקיים בבתי החולים קפלן והרצפלד","ItemTypeID":4,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
@@ -63,6 +64,8 @@
 {"Id":163589,"ItemID":177105,"CommitteeSessionID":177106,"Ordinal":1,"StatusID":null,"Name":"פניות ציבור של דיירי מקבץ דיור ברח' קודשי בלזן באשדוד","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":163669,"ItemID":140325,"CommitteeSessionID":177135,"Ordinal":1,"StatusID":304,"Name":"החלטת שר הפנים לעכב הכפלת מספר עולי הפלאשמורה עד שנת 2007, בניגוד להחלטת הממשלה ממרץ 2005","ItemTypeID":4,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
 {"Id":163670,"ItemID":141519,"CommitteeSessionID":177135,"Ordinal":2,"StatusID":304,"Name":"מכסת עולי אתיופיה","ItemTypeID":4,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}
+{"Id":163828,"ItemID":176055,"CommitteeSessionID":177202,"Ordinal":1,"StatusID":null,"Name":"צו איסור הלבנת הון (חובות זיהוי, דיווח וניהול רישומים של תאגידים בנקאיים) (תיקון), התשס\"ז-2006","ItemTypeID":11,"LastUpdatedDate":"2026-02-09T15:14:08.203+02:00"}
+{"Id":163830,"ItemID":177204,"CommitteeSessionID":177202,"Ordinal":2,"StatusID":null,"Name":"תקנות איסור מימון טרור (היתר לעשיית פעולות ברכוש), התשס\"ז-2006","ItemTypeID":11,"LastUpdatedDate":"2026-02-09T15:14:08.203+02:00"}
 {"Id":163844,"ItemID":108574,"CommitteeSessionID":177219,"Ordinal":1,"StatusID":113,"Name":"חוק חופשה שנתית (תיקון מס' 9), התשס\"ז-2006","ItemTypeID":2,"LastUpdatedDate":"2020-09-09T13:11:46.333+03:00"}
 {"Id":163847,"ItemID":18814,"CommitteeSessionID":177224,"Ordinal":1,"StatusID":113,"Name":"חוק השתלת אברים, התשס\"ח-2008","ItemTypeID":2,"LastUpdatedDate":"2020-08-24T17:43:43.71+03:00"}
 {"Id":163849,"ItemID":143746,"CommitteeSessionID":177227,"Ordinal":1,"StatusID":null,"Name":"גיבוש תקנות חוק שוויון זכויות לאנשים עם מוגבלות - פרק מקום ציבורי ושירות ציבורי (נגישות)","ItemTypeID":11,"LastUpdatedDate":"2012-09-20T22:23:56+03:00"}

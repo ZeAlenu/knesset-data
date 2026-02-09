@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T15:29:30.399Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
 schema:
   fields:
     - name: "Id"

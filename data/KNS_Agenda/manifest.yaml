@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T15:22:57.583Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "3cb8e9b2fbaf2275993a02dfbe7b815f717e3faf"
 schema:
   fields:
     - name: "Id"
@@ -79,11 +79,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 42141
+  record_count: 42178
   file_count: 65
-  total_bytes: 24325198
+  total_bytes: 24350676
   min_id: 9703
-  max_id: 2240098
+  max_id: 2240437
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -293,8 +293,8 @@ files:
       - 369633
   - name: "KNS_Agenda-000038.jsonl"
     records: 5194
-    bytes: 2889944
-    sha256: "471c869c5096c3ff77b694e44c52c5561a8d8f7113d3b394cc62715275206dea"
+    bytes: 2889900
+    sha256: "961df5e3e1783a39cb8c5071085f7eb2f66a8cff1f89857e6823886857aaa9b3"
     id_range:
       - 370529
       - 379999
@@ -531,15 +531,15 @@ files:
       - 2229990
   - name: "KNS_Agenda-000224.jsonl"
     records: 725
-    bytes: 478150
-    sha256: "77306236050d2838edd4e3c945c8985ebedeae38ab5457bd81387e5bca050d39"
+    bytes: 478152
+    sha256: "dbac081567f046230cda20baeb5ca94ea0dc894463ed43ee43a00c468d6eec3d"
     id_range:
       - 2230001
       - 2239998
   - name: "KNS_Agenda-000225.jsonl"
-    records: 31
-    bytes: 21382
-    sha256: "f54eb28271bb465a488f3a480bb7233d6188cd73e9599afd1f562c3471ebf923"
+    records: 68
+    bytes: 46902
+    sha256: "252d5a2ffff1457450a7fd4188ab0dc333e48fc75a1f2f06f8642e84a23731fc"
     id_range:
       - 2240009
-      - 2240098
+      - 2240437

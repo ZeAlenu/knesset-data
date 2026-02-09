@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T14:57:36.295Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "3cb8e9b2fbaf2275993a02dfbe7b815f717e3faf"
 schema:
   fields:
     - name: "Id"
@@ -43,11 +43,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 196031
-  file_count: 888
-  total_bytes: 52188050
+  record_count: 196162
+  file_count: 892
+  total_bytes: 52224816
   min_id: 71308
-  max_id: 11281155
+  max_id: 11321827
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -4876,9 +4876,9 @@ files:
       - 8528080
       - 8529340
   - name: "KNS_DocumentCommitteeSession-000854.jsonl"
-    records: 10
-    bytes: 2641
-    sha256: "26e31abb1749b685eb186e3270a6d9e706c213c038c632e530a05397d73d1adf"
+    records: 12
+    bytes: 3172
+    sha256: "b961b9a3cf032d91bb331ed8c6bd5678c0dacfec7e873f8807d6e13ce2e124b7"
     id_range:
       - 8530602
       - 8532715
@@ -6262,9 +6262,37 @@ files:
       - 11251966
       - 11252580
   - name: "KNS_DocumentCommitteeSession-001129.jsonl"
-    records: 4
-    bytes: 1083
-    sha256: "fdc55a583857d98a19ad329bf1716c62253908028e85198bb99941eaf37cbf7a"
+    records: 9
+    bytes: 2435
+    sha256: "737cf0d960100f17efca3c5cecdada0d834dedfdb6c41c6d18f9fb97f5c97c70"
     id_range:
       - 11280552
-      - 11281155
+      - 11287210
+  - name: "KNS_DocumentCommitteeSession-001130.jsonl"
+    records: 24
+    bytes: 6681
+    sha256: "4b52bd356cec7d09a3d149f2dac4ea4ae57c3b36981f6001cfdd46f33a7b80b1"
+    id_range:
+      - 11296836
+      - 11299932
+  - name: "KNS_DocumentCommitteeSession-001131.jsonl"
+    records: 17
+    bytes: 4736
+    sha256: "7bdffcf158d0d2fd2111b0697f6f1f7bfb0900846c467339076fe4421a6d3be6"
+    id_range:
+      - 11300342
+      - 11303307
+  - name: "KNS_DocumentCommitteeSession-001132.jsonl"
+    records: 65
+    bytes: 18370
+    sha256: "14793295a2f43f8b918ca9d7ff4386622d68fcd7713e3cc34a57c3bdc67809cd"
+    id_range:
+      - 11314673
+      - 11319644
+  - name: "KNS_DocumentCommitteeSession-001133.jsonl"
+    records: 18
+    bytes: 5096
+    sha256: "6ff7a7a8571eb18d573052a83a607d0f37195c756589826b5c167988c51bd40b"
+    id_range:
+      - 11320232
+      - 11321827

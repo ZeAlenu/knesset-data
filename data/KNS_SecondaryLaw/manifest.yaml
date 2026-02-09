@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T15:39:22.981Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
 schema:
   fields:
     - name: "Id"
@@ -112,11 +112,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 59876
+  record_count: 59878
   file_count: 19
-  total_bytes: 56652968
+  total_bytes: 56655003
   min_id: 2066990
-  max_id: 2240270
+  max_id: 2240405
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -242,15 +242,15 @@ files:
       - 2229974
   - name: "KNS_SecondaryLaw-000224.jsonl"
     records: 687
-    bytes: 756845
-    sha256: "3c1c16ea28a174b3e4b52ed6a3c87c3f78cb268b89232a844f71ea58e0e7253d"
+    bytes: 756908
+    sha256: "eb53e7a699cfe4f3a14b725b782dc202c026329b9d4d3e7d3f6e136b0762b060"
     id_range:
       - 2230151
       - 2239961
   - name: "KNS_SecondaryLaw-000225.jsonl"
-    records: 12
-    bytes: 12562
-    sha256: "5014824355c8826e9bd0e3cdf9548c381962ebfef32f832764d6742525abc375"
+    records: 14
+    bytes: 14534
+    sha256: "093c52f94d8cee0bfba649fdffb74b73b319a658757da04d6c6fd9e94ff661f1"
     id_range:
       - 2240000
-      - 2240270
+      - 2240405

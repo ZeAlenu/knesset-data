@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T15:38:44.923Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
 schema:
   fields:
     - name: "Id"
@@ -31,11 +31,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 67827
+  record_count: 67829
   file_count: 10
-  total_bytes: 7602052
+  total_bytes: 7602283
   min_id: 7
-  max_id: 135819
+  max_id: 135821
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -104,9 +104,9 @@ files:
       - 120000
       - 129999
   - name: "KNS_SecLawAuthorizingLaw-000014.jsonl"
-    records: 5499
-    bytes: 635383
-    sha256: "f827df53ecca1a916494566e9beae9d94d6d575e4317d8cb5c97978f429ef422"
+    records: 5501
+    bytes: 635614
+    sha256: "d457b7353bc2d49f41e603e4c1f8c1058e7368fda46785d170155d85a02bf2f6"
     id_range:
       - 130000
-      - 135819
+      - 135821

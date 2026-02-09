@@ -1,0 +1,54 @@
+manifest_version: "1.0.0"
+table:
+  name: "KNS_DocumentIsraelLaw"
+  description: "מסמכי חוקי מדינת ישראל"
+  primary_key: "Id"
+provenance:
+  source:
+    name: "Knesset OData API"
+    url: "https://knesset.gov.il/OdataV4/ParliamentInfo/KNS_DocumentIsraelLaw"
+    publisher: "הכנסת — מדינת ישראל"
+    license: "Israeli Open Government Data License"
+    license_url: "https://data.gov.il/terms"
+    accessed_at: "2026-02-09T15:36:17.841Z"
+  process:
+    tool: "knesset-sync"
+    version: "1.0.0"
+    repository: "https://github.com/ZeAlenu/knesset"
+    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
+schema:
+  fields:
+    - name: "Id"
+      type: "integer"
+      nullable: false
+    - name: "IsraelLawID"
+      type: "integer"
+      nullable: true
+    - name: "GroupTypeID"
+      type: "integer"
+      nullable: true
+    - name: "GroupTypeDesc"
+      type: "string"
+      nullable: true
+    - name: "ApplicationID"
+      type: "integer"
+      nullable: true
+    - name: "ApplicationDesc"
+      type: "string"
+      nullable: true
+    - name: "FilePath"
+      type: "string"
+      nullable: true
+    - name: "LastUpdatedDate"
+      type: "datetime"
+      nullable: true
+stats:
+  record_count: 0
+  file_count: 0
+  total_bytes: 0
+  min_id: 0
+  max_id: 0
+partitioning:
+  strategy: "id_range"
+  records_per_file: 10000
+files: []

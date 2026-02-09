@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-07T14:47:54.318Z"
+    accessed_at: "2026-02-09T15:29:30.755Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "dfbe8fcfd9fd507b32d2ddf9c299c69f7d05fbd4"
+    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
 schema:
   fields:
     - name: "Id"
@@ -66,7 +66,7 @@ schema:
 stats:
   record_count: 1993
   file_count: 14
-  total_bytes: 1017345
+  total_bytes: 1017346
   min_id: 2000001
   max_id: 2239473
 partitioning:
@@ -75,8 +75,8 @@ partitioning:
 files:
   - name: "KNS_IsraelLaw-000201.jsonl"
     records: 1449
-    bytes: 731490
-    sha256: "5c542810c7ebb73bd89d64584869b9622499ac10a455cb416d310d4e18281f5a"
+    bytes: 731491
+    sha256: "0ba7af51da7caba12edb47f326d00c9a1acdb5e6244d1f4edf3b03ef689052c3"
     id_range:
       - 2000001
       - 2009637

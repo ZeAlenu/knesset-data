@@ -1675,6 +1675,7 @@
 {"Id":892078,"ItemID":148255,"CommitteeSessionID":2030741,"Ordinal":2,"StatusID":108,"Name":"חוק לתיקון דיני העונשין (דרכי ענישה) (תיקון), התשכ\"א-1960","ItemTypeID":2,"LastUpdatedDate":"2023-07-11T11:49:41.683+03:00"}
 {"Id":892080,"ItemID":2208787,"CommitteeSessionID":2208790,"Ordinal":1,"StatusID":null,"Name":"עידוד הגופים המוסדיים להשקיע בחברות היי טק ישראליות כחלופה לירידה בהשקעות זרות","ItemTypeID":11,"LastUpdatedDate":"2023-07-11T12:18:07.773+03:00"}
 {"Id":892082,"ItemID":2208289,"CommitteeSessionID":2208791,"Ordinal":1,"StatusID":304,"Name":"הצעה לדיון מהיר בנושא: \"מכת טביעות בחופי הים\"","ItemTypeID":4,"LastUpdatedDate":"2026-01-15T16:50:30.867+02:00"}
+{"Id":892083,"ItemID":2208687,"CommitteeSessionID":2208686,"Ordinal":1,"StatusID":null,"Name":"ביקור במרכז לטיפול בנפגעי ובנפגעות תקיפה מינית (הלנה) במרכז הרפואי הלל יפה בחדרה","ItemTypeID":11,"LastUpdatedDate":"2026-02-08T08:55:32.05+02:00"}
 {"Id":892084,"ItemID":2208799,"CommitteeSessionID":2208798,"Ordinal":1,"StatusID":null,"Name":"סיוע נפשי לילדים ערבים בשל העלייה בפשיעה","ItemTypeID":11,"LastUpdatedDate":"2023-07-11T12:47:33.53+03:00"}
 {"Id":892085,"ItemID":2208800,"CommitteeSessionID":2208320,"Ordinal":2,"StatusID":null,"Name":"זכרון השואה במערכת החינוך בישראל","ItemTypeID":11,"LastUpdatedDate":"2023-07-11T13:34:26.23+03:00"}
 {"Id":892086,"ItemID":2207221,"CommitteeSessionID":2208801,"Ordinal":1,"StatusID":null,"Name":"שינויים בתקציב לשנת 2023","ItemTypeID":11,"LastUpdatedDate":"2024-01-01T13:41:20.433+02:00"}
@@ -2884,7 +2885,7 @@
 {"Id":893543,"ItemID":148911,"CommitteeSessionID":2177138,"Ordinal":1,"StatusID":113,"Name":"חוק התיאום המודולרי, התשל\"ג-1972","ItemTypeID":2,"LastUpdatedDate":"2023-10-10T16:48:19.043+03:00"}
 {"Id":893546,"ItemID":153587,"CommitteeSessionID":2051283,"Ordinal":1,"StatusID":113,"Name":"חוק העונשין (תיקון מס' 35), התשנ\"א-1991","ItemTypeID":2,"LastUpdatedDate":"2023-10-11T08:44:43.94+03:00"}
 {"Id":893547,"ItemID":153587,"CommitteeSessionID":2051286,"Ordinal":2,"StatusID":113,"Name":"חוק העונשין (תיקון מס' 35), התשנ\"א-1991","ItemTypeID":2,"LastUpdatedDate":"2023-10-11T08:45:28.513+03:00"}
-{"Id":893548,"ItemID":174432,"CommitteeSessionID":2051084,"Ordinal":1,"StatusID":113,"Name":"חוק העונשין (תיקון מס' 34), התשנ\"א-1991","ItemTypeID":2,"LastUpdatedDate":"2023-10-11T08:49:52.093+03:00"}
+{"Id":893548,"ItemID":174432,"CommitteeSessionID":2051084,"Ordinal":1,"StatusID":113,"Name":"חוק העונשין (תיקון מס' 34), התשנ\"א-1991","ItemTypeID":2,"LastUpdatedDate":"2026-02-09T08:31:04.283+02:00"}
 {"Id":893549,"ItemID":152679,"CommitteeSessionID":2051094,"Ordinal":2,"StatusID":113,"Name":"חוק העונשין (תיקון מס' 28), התש\"ן-1990","ItemTypeID":2,"LastUpdatedDate":"2023-10-11T09:14:43.32+03:00"}
 {"Id":893550,"ItemID":2210479,"CommitteeSessionID":2210478,"Ordinal":1,"StatusID":null,"Name":"אספקת מי שתייה בשעת חירום - דוח מבקר המדינה נובמבר 2022","ItemTypeID":11,"LastUpdatedDate":"2023-10-18T12:32:01.247+03:00"}
 {"Id":893551,"ItemID":2210481,"CommitteeSessionID":2210480,"Ordinal":1,"StatusID":null,"Name":"דוח ביצוע תקציב משרד מבקר המדינה לשנת הכספים 2022 - הצבעה","ItemTypeID":11,"LastUpdatedDate":"2023-10-11T10:07:25.797+03:00"}

@@ -4815,3 +4815,6 @@
 {"Id":8459,"SecondaryLawID":2240193,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-02-03T20:57:36.41+02:00"}
 {"Id":8460,"SecondaryLawID":2240193,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-03T20:57:36.41+02:00"}
 {"Id":8462,"SecondaryLawID":2240270,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-02-04T14:56:29.357+02:00"}
+{"Id":8463,"SecondaryLawID":2240396,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":568,"RegulatorDesc":"משרד ראש הממשלה","LastUpdatedDate":"2026-02-09T08:17:00.06+02:00"}
+{"Id":8464,"SecondaryLawID":2240405,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":754,"RegulatorDesc":"משרד הפנים","LastUpdatedDate":"2026-02-09T09:38:29.903+02:00"}
+{"Id":8465,"SecondaryLawID":2240405,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-09T09:38:29.903+02:00"}
