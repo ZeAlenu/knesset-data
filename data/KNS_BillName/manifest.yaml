@@ -10,12 +10,12 @@ provenance:
     publisher: "הכנסת — מדינת ישראל"
     license: "Israeli Open Government Data License"
     license_url: "https://data.gov.il/terms"
-    accessed_at: "2026-02-09T15:30:04.767Z"
+    accessed_at: "2026-02-09T19:03:14.015Z"
   process:
     tool: "knesset-sync"
     version: "1.0.0"
     repository: "https://github.com/ZeAlenu/knesset"
-    commit: "d644695b15028d615b7f9773082dc2d235887cb4"
+    commit: "e64435f9e15703886971080d0124c03089492a58"
 schema:
   fields:
     - name: "Id"
@@ -37,11 +37,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 27816
+  record_count: 27817
   file_count: 4
-  total_bytes: 7944294
+  total_bytes: 7944571
   min_id: 1
-  max_id: 37281
+  max_id: 37282
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -68,9 +68,9 @@ files:
       - 20738
       - 29999
   - name: "KNS_BillName-000004.jsonl"
-    records: 4687
-    bytes: 1371115
-    sha256: "1044c2ceb5440697496d3406ef03fab1524c66e848e00a70849e965b6131c878"
+    records: 4688
+    bytes: 1371392
+    sha256: "b1f7ae230c31b02b738399cbf67736cc1fd0f13b1f0dcd4cb06a8e31256a9f04"
     id_range:
       - 30000
-      - 37281
+      - 37282
