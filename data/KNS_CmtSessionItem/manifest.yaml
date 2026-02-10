@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 78382
+  record_count: 78372
   file_count: 72
-  total_bytes: 20972290
+  total_bytes: 20969187
   min_id: 28006
-  max_id: 924260
+  max_id: 924268
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -548,9 +548,9 @@ files:
       - 910000
       - 919999
   - name: "KNS_CmtSessionItem-000093.jsonl"
-    records: 2631
-    bytes: 707432
-    sha256: "fa0b46be1441ed4223394b028550f8013e2640dfd121537dc3dd7a13347607b8"
+    records: 2621
+    bytes: 704329
+    sha256: "6336249079ba55cb3cfafdbbaba87e0d81303c041fe29d4f6a736e4b3aa233ad"
     id_range:
       - 920002
-      - 924260
+      - 924268
