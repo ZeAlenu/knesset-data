@@ -86,11 +86,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 60024
+  record_count: 60058
   file_count: 66
-  total_bytes: 42125118
+  total_bytes: 42153590
   min_id: 5
-  max_id: 2240486
+  max_id: 2240537
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -188,8 +188,8 @@ files:
       - 149999
   - name: "KNS_Bill-000016.jsonl"
     records: 7648
-    bytes: 4991967
-    sha256: "5629d8b0e7c635039b96ebd2d8765b6af31fc4a3a0a440bedb6d64dcd7302b7e"
+    bytes: 4991970
+    sha256: "7c997e7fc2942d37a6d1b9b273306f9ae3317aa92795b599ccfc987779869486"
     id_range:
       - 150000
       - 159999
@@ -426,8 +426,8 @@ files:
       - 999955
   - name: "KNS_Bill-000105.jsonl"
     records: 40
-    bytes: 29939
-    sha256: "fdf734f738eaa5b418c0d9fc98f12991b1db9c6f8cf3988c39b26cf9433cbcde"
+    bytes: 29953
+    sha256: "2b16ef7bb4524ca113545d83e25675c3cabcaef92bc30ba720887978c5dab655"
     id_range:
       - 1040059
       - 1046681
@@ -517,8 +517,8 @@ files:
       - 2189996
   - name: "KNS_Bill-000220.jsonl"
     records: 2822
-    bytes: 2010400
-    sha256: "5a27e3f8c94f9a49cd4038c315cea5fde7cae00a10566b27628db98974095b60"
+    bytes: 2010399
+    sha256: "56c3203f9393e305c05242c5b84bda0ea17114b1afe91d3218f93c17af1fb082"
     id_range:
       - 2190007
       - 2199996
@@ -538,22 +538,22 @@ files:
       - 2219982
   - name: "KNS_Bill-000223.jsonl"
     records: 1102
-    bytes: 890056
-    sha256: "efe3db0a50689fc010eff07f066940b33be2919d7424fabc2854b15dea353fe6"
+    bytes: 890055
+    sha256: "7fa1094ff4b064e0ae1cf5b9a1d83e3e528d8bd3c64a1c2c522ae8495cce0c67"
     id_range:
       - 2220054
       - 2229997
   - name: "KNS_Bill-000224.jsonl"
     records: 855
-    bytes: 611576
-    sha256: "f3eca0df7260d6203a735e139fccfdcbc89de6b24065c87d3462924a1285e5ee"
+    bytes: 611629
+    sha256: "1c88f88fdc44a1062f50e532a11d23902b803b5ad645963f10f70f48d1f17e7c"
     id_range:
       - 2230004
       - 2239945
   - name: "KNS_Bill-000225.jsonl"
-    records: 30
-    bytes: 22733
-    sha256: "580a5f89ef51fefb4c36a7b275265ef912272bacd048fb23927e8c5234e48199"
+    records: 64
+    bytes: 51137
+    sha256: "b7d5a42fa41709840a3b7dc6622286b439d2044134396b7ea8d0d206c9767732"
     id_range:
       - 2240064
-      - 2240486
+      - 2240537

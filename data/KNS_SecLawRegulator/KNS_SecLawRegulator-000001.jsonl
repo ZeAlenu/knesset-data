@@ -4818,3 +4818,4 @@
 {"Id":8463,"SecondaryLawID":2240396,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":568,"RegulatorDesc":"משרד ראש הממשלה","LastUpdatedDate":"2026-02-09T08:17:00.06+02:00"}
 {"Id":8464,"SecondaryLawID":2240405,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":754,"RegulatorDesc":"משרד הפנים","LastUpdatedDate":"2026-02-09T09:38:29.903+02:00"}
 {"Id":8465,"SecondaryLawID":2240405,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-09T09:38:29.903+02:00"}
+{"Id":8469,"SecondaryLawID":2239774,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-10T12:15:34.703+02:00"}

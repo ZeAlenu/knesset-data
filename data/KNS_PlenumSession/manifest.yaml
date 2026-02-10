@@ -43,7 +43,7 @@ schema:
 stats:
   record_count: 8744
   file_count: 61
-  total_bytes: 2332262
+  total_bytes: 2332284
   min_id: 9626
   max_id: 2239863
 partitioning:
@@ -143,8 +143,8 @@ files:
       - 159987
   - name: "KNS_PlenumSession-000017.jsonl"
     records: 617
-    bytes: 164853
-    sha256: "a0345ec1b5aee11695e308af9062bce07633e70cf52175a0108d94f979779e09"
+    bytes: 164875
+    sha256: "e02daa99b63fe3301aac3e7b708229f7ab06bd6e5b71676948d27b30a4e54d2c"
     id_range:
       - 160006
       - 161492

@@ -6237,3 +6237,5 @@
 {"Id":228970,"BillID":2240257,"PersonID":30693,"IsInitiator":false,"Ordinal":1,"LastUpdatedDate":"2026-02-04T15:27:16.7+02:00"}
 {"Id":228971,"BillID":2240064,"PersonID":30851,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2026-02-04T16:09:37.587+02:00"}
 {"Id":228972,"BillID":2240064,"PersonID":23631,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2026-02-04T16:09:37.587+02:00"}
+{"Id":229009,"BillID":2229858,"PersonID":30693,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2026-02-10T11:23:10.14+02:00"}
+{"Id":229010,"BillID":2229858,"PersonID":30877,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2026-02-10T11:23:10.14+02:00"}
