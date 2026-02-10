@@ -67,7 +67,7 @@ schema:
 stats:
   record_count: 23484
   file_count: 4
-  total_bytes: 9698627
+  total_bytes: 9698441
   min_id: 379
   max_id: 33709
 partitioning:
@@ -76,8 +76,8 @@ partitioning:
 files:
   - name: "KNS_PersonToPosition-000001.jsonl"
     records: 4485
-    bytes: 1694825
-    sha256: "ebe5e7ff49a82f4e6128a843d18c1252cf048baebdcf86e6e1af39bf36ab2843"
+    bytes: 1694798
+    sha256: "36195b1a7721036c3019a38369cdc256611f1ae10e60dc5802b61c831c57ed1f"
     id_range:
       - 379
       - 9999
@@ -97,8 +97,8 @@ files:
       - 29999
   - name: "KNS_PersonToPosition-000004.jsonl"
     records: 2409
-    bytes: 1058235
-    sha256: "c424b53336f57bd0a43bdbc2bc68bfd42d13066f2ee624fe1b28c39e82132374"
+    bytes: 1058076
+    sha256: "084f46a6595aa11f43eeef67f145a8ac4e28558cd2061f3409a5179e32964736"
     id_range:
       - 30000
       - 33709
