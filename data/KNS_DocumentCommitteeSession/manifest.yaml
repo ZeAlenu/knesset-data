@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 196239
-  file_count: 894
-  total_bytes: 52246317
+  record_count: 196245
+  file_count: 895
+  total_bytes: 52248040
   min_id: 71308
-  max_id: 11340721
+  max_id: 11351734
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -5995,8 +5995,8 @@ files:
       - 10704825
   - name: "KNS_DocumentCommitteeSession-001072.jsonl"
     records: 26
-    bytes: 7113
-    sha256: "bd4c6f5dbf733dc031089083df623292414c4c907b59ff3fc1f6d02e74e3261f"
+    bytes: 7110
+    sha256: "ef2b99235bb4c3b9ebd854414b5c7a65004ea174a017c37755455834e86e22f7"
     id_range:
       - 10712901
       - 10715339
@@ -6281,30 +6281,37 @@ files:
       - 11300342
       - 11303307
   - name: "KNS_DocumentCommitteeSession-001132.jsonl"
-    records: 65
-    bytes: 18369
-    sha256: "20bfd066c2799db6c104144585f0862133410e94fabfa83447eb00f2f23f00a7"
+    records: 61
+    bytes: 17228
+    sha256: "3880e0dad927f8034142a6b757a05389dc432b97b107ecd78a37e32dfc771707"
     id_range:
       - 11314673
-      - 11319644
+      - 11319609
   - name: "KNS_DocumentCommitteeSession-001133.jsonl"
-    records: 33
-    bytes: 9390
-    sha256: "d2e737a92faa09412b67024f688aed74d3384d3d731aeaa9d68508f7e682ae67"
+    records: 26
+    bytes: 7316
+    sha256: "db56b2cef09f5517e878dd9eaba9ca8a874ad9f9485140cfe3f7bc66437a9fed"
     id_range:
       - 11320232
       - 11325962
   - name: "KNS_DocumentCommitteeSession-001134.jsonl"
-    records: 59
-    bytes: 16362
-    sha256: "957b3e767c9521270b81afaed7d618a42a99f948bfdee214ab876104e9dc2311"
+    records: 52
+    bytes: 14478
+    sha256: "083c3d5592357e123b05887cbc3387a17b6053f714cc8b5aa75bba08c3c5e068"
     id_range:
       - 11334013
       - 11339963
   - name: "KNS_DocumentCommitteeSession-001135.jsonl"
-    records: 3
-    bytes: 846
-    sha256: "31aa169bd0caa2305179eb90e5b1ac35338282173c81c6711fbc3b8341339d69"
+    records: 10
+    bytes: 2851
+    sha256: "d57e526a636c233b80d04b392dca0de7c5dfd8e14e194c77d6e796004d5325d7"
     id_range:
       - 11340132
-      - 11340721
+      - 11343992
+  - name: "KNS_DocumentCommitteeSession-001136.jsonl"
+    records: 17
+    bytes: 4820
+    sha256: "1c57c068d1a68f97b7ce67eb9746e1d17eaaf4a6ce0815c0b1ffc32261bf1845"
+    id_range:
+      - 11351493
+      - 11351734
