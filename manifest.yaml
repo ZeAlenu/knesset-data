@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-02-11T06:56:17.871Z"
+  at: "2026-02-11T08:29:28.590Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1495899
-  total_files: 4125
-  total_bytes: 478067244
+  total_records: 1495914
+  total_files: 4126
+  total_bytes: 478071434
 tables:
   KNS_Status:
     record_count: 82
@@ -81,15 +81,15 @@ tables:
   KNS_CommitteeSession:
     record_count: 107754
     file_count: 60
-    bytes: 55755357
+    bytes: 55755354
     description: "ישיבות ועדה"
-    sha256: "450255a423d9d99b2e17169856e805cd77212c6256c0e1647fb608d10b6f9830"
+    sha256: "557503fcfd578770127cac390ee863eee61e14c41cccd1d58a840cf34f2724c2"
   KNS_CmtSessionItem:
-    record_count: 78365
+    record_count: 78366
     file_count: 72
-    bytes: 20966589
+    bytes: 20966854
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "d671000ac9c5717c3c75f70b719716de3cfc79fe50d57907cd3eefc4980cf04f"
+    sha256: "b9d7d077a457ad47b32dbe78484ab60ef733194f1b260e80d90f68b106fde0c5"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,29 +103,29 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 107754
+    record_count: 107755
     file_count: 60
-    bytes: 7798456
+    bytes: 7798510
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "fdb2d3398a08d255cd2e9cc4ed47ab6c72add6829e116be69c41a33eda06164e"
+    sha256: "e78f960012f3c49b8173d27689dd21de07bf66ef9085c48d87a7759c7541ad81"
   KNS_DocumentCommitteeSession:
-    record_count: 196245
+    record_count: 196249
     file_count: 895
-    bytes: 52248040
+    bytes: 52249068
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "11ec62b54e5d2a9c766cfa9c8659efd336eb2670e854d21e10bc23557daa2cc6"
+    sha256: "0df7b14ea2a74fd5c00eb4f7195147f8763873a71bac40561d7afa24ea249e75"
   KNS_PlenumSession:
     record_count: 8745
     file_count: 61
     bytes: 2332554
     description: "ישיבות מליאה"
-    sha256: "296cd710917b7dfa49cfcbd4be3a7c8dd5b61b9923e65310813b86e765b5a3c0"
+    sha256: "607c9f5f5735d27e38fa753eccb4c1c31ab72962099d57045f64b4e1cb9c680a"
   KNS_PlmSessionItem:
-    record_count: 168004
+    record_count: 168006
     file_count: 17
-    bytes: 51127028
+    bytes: 51127585
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "78d10c23b5a5f639e5d6129e3022fe6b168f536d16d532bed2a88064e04f3158"
+    sha256: "7c96c5c20e6cd600886337f7f4fdc8c9394e56a11cf333215f6100f9da9602d4"
   KNS_DocumentPlenumSession:
     record_count: 74401
     file_count: 470
@@ -149,7 +149,7 @@ tables:
     file_count: 65
     bytes: 24344694
     description: "הצעות לסדר היום"
-    sha256: "84aaf9ab01a2500cca152d916c4ebe69d01700fe781ed7922f92fd62a41e8e31"
+    sha256: "cb554dd631735099aa94862d0ececf7ecfac07b16dc41efdaccb103c31691dcb"
   KNS_DocumentAgenda:
     record_count: 27321
     file_count: 478
@@ -159,9 +159,9 @@ tables:
   KNS_Bill:
     record_count: 60058
     file_count: 66
-    bytes: 42153590
+    bytes: 42154155
     description: "הצעות חוק וחוקים שנחקקו"
-    sha256: "d564538eb19bdd8c4f4afa40b126d9370bf511712fe264aabcb217ed836d94f5"
+    sha256: "ebcb4c7cba94f285614b31d60a691f89736ed7f7ec8d7dfc02975e9007fe8dea"
   KNS_BillHistoryInitiator:
     record_count: 10390
     file_count: 2
@@ -193,11 +193,11 @@ tables:
     description: "איחודי הצעות חוק"
     sha256: "b5545912f7960803e6fe9aec6b507d3967bfc609c0b6402edb2487ad24d09b22"
   KNS_DocumentBill:
-    record_count: 110541
-    file_count: 655
-    bytes: 29072088
+    record_count: 110548
+    file_count: 656
+    bytes: 29073812
     description: "מסמכי הצעות חוק — נוסחים, דברי הסבר"
-    sha256: "04d9f0c11e4b57f8eee7d417736eea85d471f3f8ff9485b4d2a5afdfc015751e"
+    sha256: "ea7ef8fbc647318e5942e1c9c57d81b3d8a9b818eadeb7245adcd6c92fd639b8"
   KNS_IsraelLaw:
     record_count: 1993
     file_count: 14
