@@ -86,9 +86,9 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 60058
+  record_count: 60059
   file_count: 66
-  total_bytes: 42154155
+  total_bytes: 42155263
   min_id: 5
   max_id: 2240537
 partitioning:
@@ -188,8 +188,8 @@ files:
       - 149999
   - name: "KNS_Bill-000016.jsonl"
     records: 7648
-    bytes: 4991970
-    sha256: "7c997e7fc2942d37a6d1b9b273306f9ae3317aa92795b599ccfc987779869486"
+    bytes: 4991972
+    sha256: "94e57d461f1441b6d875878c81425acda3d59486219d2323265b8f2480aab431"
     id_range:
       - 150000
       - 159999
@@ -203,7 +203,7 @@ files:
   - name: "KNS_Bill-000018.jsonl"
     records: 2588
     bytes: 1728876
-    sha256: "e04b823a1019c39cefc9b6b624d492084f1ff404b3b6be4ad249ef64e832b817"
+    sha256: "55de305b5c64374a84e52649ffec874dc11e212853c5c2cc4d8d385641ea3ca4"
     id_range:
       - 170000
       - 179977
@@ -425,12 +425,12 @@ files:
       - 999955
       - 999955
   - name: "KNS_Bill-000105.jsonl"
-    records: 40
-    bytes: 29953
-    sha256: "2b16ef7bb4524ca113545d83e25675c3cabcaef92bc30ba720887978c5dab655"
+    records: 41
+    bytes: 30646
+    sha256: "ee2f960089672350fd186c6d1ef23e685f3e1848c5a7e80ed8987b61c0183606"
     id_range:
       - 1040059
-      - 1046681
+      - 1046683
   - name: "KNS_Bill-000201.jsonl"
     records: 1020
     bytes: 817722
@@ -524,8 +524,8 @@ files:
       - 2199996
   - name: "KNS_Bill-000221.jsonl"
     records: 1960
-    bytes: 1525504
-    sha256: "59ba728f7e828102cf3c5f514acc32edac0b3b786144e07667d5246ecc51bc09"
+    bytes: 1525503
+    sha256: "b20c905cea728ae6925ffee902ca6f6a549e1e0030c631a2da8a1013c2033e8d"
     id_range:
       - 2200000
       - 2209991
@@ -538,22 +538,22 @@ files:
       - 2219982
   - name: "KNS_Bill-000223.jsonl"
     records: 1102
-    bytes: 890058
-    sha256: "b86232626ac8eb4f18576691b8b827a84ed7aeaf82c563c336af5711d3af38e8"
+    bytes: 890056
+    sha256: "5d93aab9058b1b22ac4ab65d42efce084db8f45012f1e521f1378e95c78b787b"
     id_range:
       - 2220054
       - 2229997
   - name: "KNS_Bill-000224.jsonl"
     records: 855
-    bytes: 611621
-    sha256: "fabb3772af8803926d92b03438fd1ee58a2db555d91e00771d15a445fb00223c"
+    bytes: 611725
+    sha256: "41faecdc40d635b94ab96b52bd4f29c3c905379cdb8b95180faa58841bf75630"
     id_range:
       - 2230004
       - 2239945
   - name: "KNS_Bill-000225.jsonl"
     records: 64
-    bytes: 51706
-    sha256: "f4f240fcacb39a3b30da0e074e674ccf28f2b0f7a975046cdda98eac65eb9499"
+    bytes: 52018
+    sha256: "943031b23759bdd3c4f12d0c0778de46c3a2b2f55e335460499bbaf473fa7855"
     id_range:
       - 2240064
       - 2240537

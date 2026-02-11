@@ -77,9 +77,9 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 42169
+  record_count: 42168
   file_count: 65
-  total_bytes: 24344694
+  total_bytes: 24343887
   min_id: 9703
   max_id: 2240437
 partitioning:
@@ -291,8 +291,8 @@ files:
       - 369633
   - name: "KNS_Agenda-000038.jsonl"
     records: 5194
-    bytes: 2889900
-    sha256: "961df5e3e1783a39cb8c5071085f7eb2f66a8cff1f89857e6823886857aaa9b3"
+    bytes: 2889899
+    sha256: "403ce0e4dd61aeb765a2cbda85d3329e678948603f9a3eb4100ec49ea863af0d"
     id_range:
       - 370529
       - 379999
@@ -508,8 +508,8 @@ files:
       - 2199978
   - name: "KNS_Agenda-000221.jsonl"
     records: 457
-    bytes: 285247
-    sha256: "bc5f10dfc2a3850b5409ab81b9c516cc1b30f44dd76dc7a597222514fabb6eab"
+    bytes: 285248
+    sha256: "ac9cabb03a4f08f17b178379f980eab6f2a8cdf3f31aeb7a72cf022b5354a4f1"
     id_range:
       - 2200005
       - 2209305
@@ -535,9 +535,9 @@ files:
       - 2230001
       - 2239998
   - name: "KNS_Agenda-000225.jsonl"
-    records: 67
-    bytes: 46241
-    sha256: "f3d08bc7d57ef5cef2227c20f245f0423bc9a4c763013121b991a52acafbb8f7"
+    records: 66
+    bytes: 45434
+    sha256: "35d85c0465c119b0d0cb92d0f90db51a953c41ed02dc3777ac2204b45a30cf41"
     id_range:
       - 2240009
       - 2240437

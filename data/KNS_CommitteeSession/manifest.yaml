@@ -62,11 +62,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 107754
+  record_count: 107809
   file_count: 60
-  total_bytes: 55755354
+  total_bytes: 55783375
   min_id: 64515
-  max_id: 2240552
+  max_id: 2240678
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -360,8 +360,8 @@ files:
       - 2019999
   - name: "KNS_CommitteeSession-000203.jsonl"
     records: 5305
-    bytes: 2843911
-    sha256: "b5e320d373edf777411c68b70ca2682ba7ac9db0facb9893b43eb63a8049078f"
+    bytes: 2843916
+    sha256: "1b06b53ea96e97f832d9e2ae0e1940611f09d7a031e8243e186766dc23dc01c3"
     id_range:
       - 2020001
       - 2029999
@@ -374,15 +374,15 @@ files:
       - 2039999
   - name: "KNS_CommitteeSession-000205.jsonl"
     records: 9884
-    bytes: 6446855
-    sha256: "46873d643a7b923dbe0b4fcfaa475b539337b08b87dac98e568012989864dd9d"
+    bytes: 6446955
+    sha256: "194c473c621e588e6f0605b0c6fdb3a1bcfba30385cc018b6d9f057a1310afb1"
     id_range:
       - 2040000
       - 2049999
   - name: "KNS_CommitteeSession-000206.jsonl"
     records: 9912
-    bytes: 6314644
-    sha256: "9ef9f4a4798d51981059513828ac1d29e131bf7d6f024e3ce8ac29771bdfd874"
+    bytes: 6314645
+    sha256: "8f43a534f48b9f0c8b93ecd09158b19d6a82008e669dcfedb975c7aede10ab5c"
     id_range:
       - 2050000
       - 2059999
@@ -478,16 +478,16 @@ files:
       - 2220009
       - 2229985
   - name: "KNS_CommitteeSession-000224.jsonl"
-    records: 2584
-    bytes: 1332088
-    sha256: "3bf6edc826bbac6915d686801d3a974c967a02cf5dc7512b7d2e82e235703bf5"
+    records: 2586
+    bytes: 1333103
+    sha256: "faf760d41b47544c8a3ede01c8e08719ed7c01904aa00956683e438dabe4e1de"
     id_range:
       - 2230050
       - 2239994
   - name: "KNS_CommitteeSession-000225.jsonl"
-    records: 98
-    bytes: 50758
-    sha256: "57ed01b930092fb30f845fbefab2650d7e8ec5df8fbf4e853a5a9f6903f11e7d"
+    records: 151
+    bytes: 77658
+    sha256: "fb4f3ac50311534ca06e076869b3c178b28fbc84584f3ca13269e32504b556b5"
     id_range:
       - 2240022
-      - 2240552
+      - 2240678

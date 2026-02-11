@@ -65,11 +65,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 23487
+  record_count: 23495
   file_count: 4
-  total_bytes: 9699666
+  total_bytes: 9702824
   min_id: 379
-  max_id: 33713
+  max_id: 33721
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -96,9 +96,9 @@ files:
       - 20000
       - 29999
   - name: "KNS_PersonToPosition-000004.jsonl"
-    records: 2412
-    bytes: 1059301
-    sha256: "b12fc37d9fea376f5cba25bfb45404bc019a994e9d0561fbdb709ed14d5ac256"
+    records: 2420
+    bytes: 1062459
+    sha256: "3e9d31d6ab009e6d2c6c137dd01ae879df94474e3370718112d37c9ac5a05b49"
     id_range:
       - 30000
-      - 33713
+      - 33721
