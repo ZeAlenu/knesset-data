@@ -4821,3 +4821,4 @@
 {"Id":8469,"SecondaryLawID":2239774,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-10T12:15:34.703+02:00"}
 {"Id":8471,"SecondaryLawID":2240618,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-11T12:16:11.033+02:00"}
 {"Id":8472,"SecondaryLawID":2240666,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":517,"RegulatorDesc":"אחר","LastUpdatedDate":"2026-02-11T13:54:12.773+02:00"}
+{"Id":8476,"SecondaryLawID":2240733,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-12T12:47:59.543+02:00"}

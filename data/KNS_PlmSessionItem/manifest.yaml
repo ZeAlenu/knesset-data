@@ -49,7 +49,7 @@ schema:
 stats:
   record_count: 168020
   file_count: 17
-  total_bytes: 51132447
+  total_bytes: 51132442
   min_id: 1
   max_id: 168020
 partitioning:
@@ -121,15 +121,15 @@ files:
       - 89999
   - name: "KNS_PlmSessionItem-000010.jsonl"
     records: 10000
-    bytes: 3053333
-    sha256: "010c012ab63dd9588649c46939fb0aa5d71554a3c579407d0a6902d4831fdaac"
+    bytes: 3053332
+    sha256: "7017070b5f88884f582fa7479ac7d4a837d30f6f0a1c0a7749929d47a17d3d8f"
     id_range:
       - 90000
       - 99999
   - name: "KNS_PlmSessionItem-000011.jsonl"
     records: 10000
-    bytes: 2997030
-    sha256: "efa53e7b5db4434cf381852d963bb7b9ced0935bf47e4ff30ddcf235837c6a01"
+    bytes: 2997027
+    sha256: "d58b1a5f5806680e0028b399713e726b70dfc96b711f5fc9c269d96e965a331d"
     id_range:
       - 100000
       - 109999
@@ -170,8 +170,8 @@ files:
       - 159999
   - name: "KNS_PlmSessionItem-000017.jsonl"
     records: 8021
-    bytes: 2516259
-    sha256: "9ef72e1785122fcdde7bd128d0790911d4ef4da55b2ec72e99399dd0a3944d7b"
+    bytes: 2516258
+    sha256: "10643ed521de4179c646bcc7e6a1aadcbe2b16fec6e528fb874d9d86d17f4f21"
     id_range:
       - 160000
       - 168020
