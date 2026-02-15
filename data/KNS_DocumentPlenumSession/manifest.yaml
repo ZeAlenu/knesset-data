@@ -43,7 +43,7 @@ schema:
 stats:
   record_count: 74430
   file_count: 472
-  total_bytes: 19185721
+  total_bytes: 19185717
   min_id: 128869
   max_id: 11360361
 partitioning:
@@ -2783,7 +2783,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000930.jsonl"
     records: 24
     bytes: 6091
-    sha256: "99008443846e0224ecda1bb34b722413bfe8a1a273f07f602bfc42b0fa130500"
+    sha256: "fc1fecee4bb54e7d044dfdf7baf8581c032e8ae1fc61050439638cba104d0ac3"
     id_range:
       - 9293037
       - 9297422
@@ -2818,7 +2818,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000935.jsonl"
     records: 16
     bytes: 4064
-    sha256: "25ac4ad11f046b5e8a86458b9bcb692dadf8a72ef3a494c657f490193e7f5c8b"
+    sha256: "3a1384b69c6e578024dfc42219bc23073e7b9c0fb75f71596efc18cd63340cb7"
     id_range:
       - 9340038
       - 9342572
@@ -2831,8 +2831,8 @@ files:
       - 9434329
   - name: "KNS_DocumentPlenumSession-000946.jsonl"
     records: 10
-    bytes: 2546
-    sha256: "01bae2bf289f8eafd05d37190a902c02e39feba5c859572977338f0e1aeb4ea2"
+    bytes: 2542
+    sha256: "62780e79a558e81f3f9dc6eb0642e549a2de9fad2c9dc9d2017bca66455d1c47"
     id_range:
       - 9453584
       - 9455048
@@ -2846,7 +2846,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000948.jsonl"
     records: 42
     bytes: 10662
-    sha256: "e067ee0611f68b0f40999452420343b988dbe503b95f10d69b0709d6ea57e940"
+    sha256: "c2397ca27871fdebe6d7c660152fc56d669c923b00c9615ae6b2f0e38b883aca"
     id_range:
       - 9470104
       - 9477180
@@ -2881,7 +2881,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000962.jsonl"
     records: 36
     bytes: 9113
-    sha256: "010f6c159595a95208493dcf63266ff124dde43d59eb00559ad56315d5913e74"
+    sha256: "85b6530e5fdee7dc8b78578f76b25ff310cc51cab2a7c788005414f82ba47b6b"
     id_range:
       - 9610274
       - 9614648
@@ -2923,7 +2923,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000974.jsonl"
     records: 41
     bytes: 10423
-    sha256: "56c313ac42df18d25b10387af263576cf31bc81e355dd24b28020e823586325a"
+    sha256: "ae38bed070061136f24f7cc2c78c2e69995905387b5a69961dcdc792df1b1ca2"
     id_range:
       - 9730032
       - 9736044
@@ -2944,7 +2944,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000984.jsonl"
     records: 26
     bytes: 6661
-    sha256: "a7ba23e18f82d04e53d4f3230d7075004a4784a6bf25a1cafa212564b1adc61c"
+    sha256: "901a91752c96369c9b3edadc6611aa9c19f2c380eee67428d9b7e947f7ad1b6a"
     id_range:
       - 9833243
       - 9839700
@@ -2979,7 +2979,7 @@ files:
   - name: "KNS_DocumentPlenumSession-000997.jsonl"
     records: 3
     bytes: 765
-    sha256: "d6c4ea352e395f01cccbe2b9f0efee2dcb3d42b5f7148d338bf2a78827f7c67a"
+    sha256: "630da9a842d6e2aa5a88accd48a35194832816344f1e24c155d00d9085526b32"
     id_range:
       - 9961311
       - 9961313

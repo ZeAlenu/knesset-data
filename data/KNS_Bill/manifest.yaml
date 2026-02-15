@@ -88,7 +88,7 @@ schema:
 stats:
   record_count: 60059
   file_count: 66
-  total_bytes: 42155236
+  total_bytes: 42155243
   min_id: 5
   max_id: 2240537
 partitioning:
@@ -139,8 +139,8 @@ files:
       - 79871
   - name: "KNS_Bill-000009.jsonl"
     records: 2060
-    bytes: 1354845
-    sha256: "e1658268f101b25740dddbf61ff389fabad090f7f29e94fe5552de45a6d9c706"
+    bytes: 1354844
+    sha256: "4e2ac15893575779b15d935879f74320a356141e181f4ef42a14c958ec3794e0"
     id_range:
       - 80009
       - 89829
@@ -426,8 +426,8 @@ files:
       - 999955
   - name: "KNS_Bill-000105.jsonl"
     records: 41
-    bytes: 30645
-    sha256: "ed4df9ad2b0085a8bacc5f3b2c6ca3ee3377203e75d5ef0f4778a1ae4d75ac19"
+    bytes: 30646
+    sha256: "60b83a425a4f7874d4aba5efa87b92d324441ed954bc4b5d57e7a34f2f61fbef"
     id_range:
       - 1040059
       - 1046683
@@ -524,29 +524,29 @@ files:
       - 2199996
   - name: "KNS_Bill-000221.jsonl"
     records: 1960
-    bytes: 1525503
-    sha256: "b20c905cea728ae6925ffee902ca6f6a549e1e0030c631a2da8a1013c2033e8d"
+    bytes: 1525508
+    sha256: "4e7e73abdbb7af13257ba94f5c72c6ce271b3fcef27ac4ad129068b44d5b6eb3"
     id_range:
       - 2200000
       - 2209991
   - name: "KNS_Bill-000222.jsonl"
     records: 863
     bytes: 843679
-    sha256: "dd2e260778e735b52a44fc17139c92a0772b841e276d79632d9258e5e700e7a1"
+    sha256: "fb840fe31b368e1d84851a84c2fa857c879b679a3ce19c9679bcc0213904252b"
     id_range:
       - 2210033
       - 2219982
   - name: "KNS_Bill-000223.jsonl"
     records: 1102
-    bytes: 890055
-    sha256: "436a2c67d9add19c4c756fe91e74ee760d4718f5206d5e455357997ce3452296"
+    bytes: 890054
+    sha256: "9fad82334f559027541581a2eb6f8d04e2130ab4e1f8ad6fbad065c714650904"
     id_range:
       - 2220054
       - 2229997
   - name: "KNS_Bill-000224.jsonl"
     records: 855
-    bytes: 611725
-    sha256: "f7c55dae3a71d6ed99e0cdaf09379355347455b0b3e58745fb38d8231f85affb"
+    bytes: 611728
+    sha256: "3655c7d4993e15ad05969fae04eca56220c4e0bff64ea0ee10268902c29a45e5"
     id_range:
       - 2230004
       - 2239945
