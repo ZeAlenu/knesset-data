@@ -2776,8 +2776,6 @@
 {"Id":3212,"BillID":320637,"PersonID":1054,"IsInitiator":true,"Ordinal":9,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":3214,"BillID":320652,"PersonID":1054,"IsInitiator":true,"Ordinal":7,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":3215,"BillID":320677,"PersonID":1054,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
-{"Id":3216,"BillID":83969,"PersonID":1049,"IsInitiator":false,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
-{"Id":3217,"BillID":83969,"PersonID":1048,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":3218,"BillID":84006,"PersonID":524,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":3219,"BillID":84033,"PersonID":1032,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":3220,"BillID":84046,"PersonID":501,"IsInitiator":false,"Ordinal":8,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
@@ -4832,7 +4830,6 @@
 {"Id":6418,"BillID":123533,"PersonID":501,"IsInitiator":true,"Ordinal":14,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":6419,"BillID":86915,"PersonID":501,"IsInitiator":true,"Ordinal":36,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":6420,"BillID":78028,"PersonID":501,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
-{"Id":6434,"BillID":320197,"PersonID":501,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":6443,"BillID":320227,"PersonID":501,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":6444,"BillID":320230,"PersonID":501,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":6445,"BillID":320241,"PersonID":501,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
@@ -6491,7 +6488,6 @@
 {"Id":8502,"BillID":121415,"PersonID":1053,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":8503,"BillID":121415,"PersonID":567,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":8504,"BillID":121415,"PersonID":1048,"IsInitiator":false,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
-{"Id":8515,"BillID":320197,"PersonID":580,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":8524,"BillID":320233,"PersonID":580,"IsInitiator":true,"Ordinal":5,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":8525,"BillID":320241,"PersonID":580,"IsInitiator":true,"Ordinal":17,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
 {"Id":8532,"BillID":320309,"PersonID":580,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2015-03-20T12:03:24+02:00"}
