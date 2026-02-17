@@ -31,7 +31,7 @@ schema:
 stats:
   record_count: 1566
   file_count: 1
-  total_bytes: 159882
+  total_bytes: 159885
   min_id: 1
   max_id: 1673
 partitioning:
@@ -40,8 +40,8 @@ partitioning:
 files:
   - name: "KNS_BillUnion-000001.jsonl"
     records: 1566
-    bytes: 159882
-    sha256: "7bcd9c6233971c00453bcedf6e53fbc63eab957b6b568325465f5c0df1faba46"
+    bytes: 159885
+    sha256: "41456e3bbe43f71a7887d33269b53962139007c9d2ddbf8f214e3d1040710e18"
     id_range:
       - 1
       - 1673

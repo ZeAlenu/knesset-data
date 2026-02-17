@@ -8445,6 +8445,7 @@
 {"Id":8988,"BillID":2198417,"PersonID":23551,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:09:11.163+02:00"}
 {"Id":8989,"BillID":2198419,"PersonID":23551,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:09:11.163+02:00"}
 {"Id":8990,"BillID":2198420,"PersonID":23551,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:09:11.163+02:00"}
+{"Id":8995,"BillID":2196527,"PersonID":1056,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:09:42.333+02:00"}
 {"Id":8999,"BillID":2197607,"PersonID":30057,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:10:44.563+02:00"}
 {"Id":9000,"BillID":2197891,"PersonID":30083,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:11:30.727+02:00"}
 {"Id":9001,"BillID":2198521,"PersonID":30083,"IsInitiator":true,"StartDate":null,"EndDate":"2022-12-29T00:00:00+02:00","ReasonID":1200,"ReasonDesc":"מינוי לתפקיד שר בממשלה","LastUpdatedDate":"2023-01-11T11:11:30.727+02:00"}

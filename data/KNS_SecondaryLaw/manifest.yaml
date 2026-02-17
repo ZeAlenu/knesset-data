@@ -110,11 +110,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 59885
+  record_count: 59890
   file_count: 19
-  total_bytes: 56662521
+  total_bytes: 56667736
   min_id: 2066990
-  max_id: 2240763
+  max_id: 2240907
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -184,8 +184,8 @@ files:
       - 2149990
   - name: "KNS_SecondaryLaw-000216.jsonl"
     records: 3465
-    bytes: 3355323
-    sha256: "9cb887b7f41fe6720df1d194afec255c5ac0da3e37ec5c91ba8dfc6848be7059"
+    bytes: 3355324
+    sha256: "c66d4674be0331b1b6675d145e2bbecd1ff6d9d660799333768dc2afbd20b149"
     id_range:
       - 2150001
       - 2159986
@@ -240,15 +240,15 @@ files:
       - 2229974
   - name: "KNS_SecondaryLaw-000224.jsonl"
     records: 687
-    bytes: 756974
-    sha256: "ac0fd23528ffea35d115f1458d2f9cb8fc6dc683fe8fbd46141644cd4f20aa87"
+    bytes: 756973
+    sha256: "1e519367823cc90e1027407f3984dc1862d01b8b20dd2049b3a95380666d26f2"
     id_range:
       - 2230151
       - 2239961
   - name: "KNS_SecondaryLaw-000225.jsonl"
-    records: 21
-    bytes: 21986
-    sha256: "893b25ad114c41cef85a10a6c2e7f9367437faf739db2d841d8bd7425a5b2829"
+    records: 26
+    bytes: 27201
+    sha256: "42060e705ab68a55b5e9beae321d4e0521215ee7b09c9cdad7fc52da71836769"
     id_range:
       - 2240000
-      - 2240763
+      - 2240907

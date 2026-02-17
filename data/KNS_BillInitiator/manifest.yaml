@@ -35,11 +35,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 169576
+  record_count: 169637
   file_count: 23
-  total_bytes: 21167820
+  total_bytes: 21175660
   min_id: 1
-  max_id: 229123
+  max_id: 229142
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -185,9 +185,9 @@ files:
       - 190000
       - 199999
   - name: "KNS_BillInitiator-000021.jsonl"
-    records: 5524
-    bytes: 709440
-    sha256: "02fa5d9360f99f82cb099c0829875f17cabfd9ef1d4d117c348ef45bf40cea53"
+    records: 5527
+    bytes: 709827
+    sha256: "e4a36686f7aca0f5815873d860a544a7507ef267b353cb9f065e0c38141dbe8d"
     id_range:
       - 200000
       - 209999
@@ -199,9 +199,9 @@ files:
       - 210000
       - 219999
   - name: "KNS_BillInitiator-000023.jsonl"
-    records: 6290
-    bytes: 808761
-    sha256: "6e5ce3958e517634c197c9bdec943163d8cc4174dd86aab2a449f94a44b5d694"
+    records: 6348
+    bytes: 816214
+    sha256: "43f66fa6ed4ae234aca07997136ee789c7d32cf6fbe3ac375c84f50700e057ee"
     id_range:
       - 220000
-      - 229123
+      - 229142

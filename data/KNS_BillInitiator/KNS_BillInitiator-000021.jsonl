@@ -1282,6 +1282,7 @@
 {"Id":203074,"BillID":2196521,"PersonID":563,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2026-01-21T19:35:32.237+02:00"}
 {"Id":203075,"BillID":2196522,"PersonID":30601,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2022-11-15T19:06:01.81+02:00"}
 {"Id":203078,"BillID":2196524,"PersonID":563,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2026-01-21T19:35:32.237+02:00"}
+{"Id":203083,"BillID":2196527,"PersonID":30749,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2022-11-15T19:08:19.427+02:00"}
 {"Id":203085,"BillID":2196528,"PersonID":526,"IsInitiator":true,"Ordinal":4,"LastUpdatedDate":"2025-03-19T10:57:51.637+02:00"}
 {"Id":203086,"BillID":2196528,"PersonID":23641,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2022-11-15T19:08:20.77+02:00"}
 {"Id":203088,"BillID":2196530,"PersonID":30799,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2024-11-13T14:36:56.217+02:00"}
@@ -3408,6 +3409,8 @@
 {"Id":206530,"BillID":2198129,"PersonID":30835,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2022-12-07T10:49:05.043+02:00"}
 {"Id":206531,"BillID":2198129,"PersonID":30772,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2022-12-07T10:49:05.043+02:00"}
 {"Id":206534,"BillID":2198129,"PersonID":30770,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2022-12-07T10:49:05.043+02:00"}
+{"Id":206540,"BillID":2196527,"PersonID":30770,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2022-12-07T10:56:54.923+02:00"}
+{"Id":206541,"BillID":2196527,"PersonID":30470,"IsInitiator":true,"Ordinal":2,"LastUpdatedDate":"2022-12-07T10:56:54.923+02:00"}
 {"Id":206542,"BillID":2198130,"PersonID":30772,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2022-12-14T20:08:14.167+02:00"}
 {"Id":206546,"BillID":2198132,"PersonID":30772,"IsInitiator":true,"Ordinal":1,"LastUpdatedDate":"2022-12-07T12:45:44.017+02:00"}
 {"Id":206548,"BillID":2198133,"PersonID":30772,"IsInitiator":true,"Ordinal":3,"LastUpdatedDate":"2022-12-07T12:53:35.86+02:00"}

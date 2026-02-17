@@ -102,7 +102,7 @@ files:
   - name: "KNS_IsraelLaw-000208.jsonl"
     records: 132
     bytes: 64944
-    sha256: "082260e1b341c104efd4da96ed31e13a0ba7b4922a15308be653c0c9204ea461"
+    sha256: "40361f7220ec00540c1fe86810c8d8ef1cdf422cce0bb483f47b6fe8c34b189a"
     id_range:
       - 2070000
       - 2078565

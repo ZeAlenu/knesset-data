@@ -4821,8 +4821,13 @@
 {"Id":8469,"SecondaryLawID":2239774,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-10T12:15:34.703+02:00"}
 {"Id":8471,"SecondaryLawID":2240618,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-11T12:16:11.033+02:00"}
 {"Id":8472,"SecondaryLawID":2240666,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":517,"RegulatorDesc":"אחר","LastUpdatedDate":"2026-02-11T13:54:12.773+02:00"}
+{"Id":8474,"SecondaryLawID":2240713,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":922,"RegulatorDesc":"משרד הכלכלה והתעשייה","LastUpdatedDate":"2026-02-12T11:40:21.747+02:00"}
 {"Id":8476,"SecondaryLawID":2240733,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":830,"RegulatorDesc":"משרד העבודה","LastUpdatedDate":"2026-02-12T12:47:59.543+02:00"}
 {"Id":8477,"SecondaryLawID":2240757,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-15T09:46:36.367+02:00"}
 {"Id":8478,"SecondaryLawID":2240759,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-15T09:47:48.907+02:00"}
 {"Id":8479,"SecondaryLawID":2240762,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-15T10:00:32.943+02:00"}
 {"Id":8480,"SecondaryLawID":2240763,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-15T10:01:46.48+02:00"}
+{"Id":8481,"SecondaryLawID":2240795,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-16T09:24:10.143+02:00"}
+{"Id":8482,"SecondaryLawID":2240797,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-16T09:37:53.773+02:00"}
+{"Id":8484,"SecondaryLawID":2240888,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-02-16T17:52:26.237+02:00"}
+{"Id":8486,"SecondaryLawID":2240907,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1332,"RegulatorDesc":"המשרד להגנת הסביבה","LastUpdatedDate":"2026-02-17T10:02:36.213+02:00"}
