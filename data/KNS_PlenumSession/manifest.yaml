@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 8748
+  record_count: 8749
   file_count: 62
-  total_bytes: 2333363
+  total_bytes: 2333609
   min_id: 9626
-  max_id: 2240195
+  max_id: 2240196
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -478,9 +478,9 @@ files:
       - 2230011
       - 2239865
   - name: "KNS_PlenumSession-000225.jsonl"
-    records: 2
-    bytes: 539
-    sha256: "16df14a44bf1d5b8d8b3e6c2bb875bcd2fd7639bb70ecdb4a72c4c8a8db82a9a"
+    records: 3
+    bytes: 785
+    sha256: "ac5a19720d50124d67d18c49b43c1fc859e060b6fbaddffd958c006471f1292b"
     id_range:
       - 2240194
-      - 2240195
+      - 2240196

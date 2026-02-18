@@ -58,7 +58,7 @@ schema:
 stats:
   record_count: 42656
   file_count: 29
-  total_bytes: 15042743
+  total_bytes: 15042686
   min_id: 478099
   max_id: 2240891
 partitioning:
@@ -256,8 +256,8 @@ files:
       - 2229993
   - name: "KNS_Query-000224.jsonl"
     records: 401
-    bytes: 161804
-    sha256: "7f2707274643cbe5f6738a43ece0ed0bda02ab060d11ad48bf398fe2404d5bb9"
+    bytes: 161747
+    sha256: "5aa910fd30acde176297d786c8340fc04e8bcc5afcb8871dc537f9eeabef0dc6"
     id_range:
       - 2230000
       - 2239979
