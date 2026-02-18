@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-02-18T16:05:29.896Z"
+  at: "2026-02-18T22:01:58.879Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1497838
-  total_files: 4166
-  total_bytes: 478682579
+  total_records: 1497845
+  total_files: 4167
+  total_bytes: 478684406
 tables:
   KNS_Status:
     record_count: 82
@@ -79,17 +79,17 @@ tables:
     description: "ועדות הכנסת"
     sha256: "1987a841c5ed98493c984ff3f6444b3348175bc021fcd4673a7b03bac178a3c3"
   KNS_CommitteeSession:
-    record_count: 107911
+    record_count: 107913
     file_count: 60
-    bytes: 55838914
+    bytes: 55839851
     description: "ישיבות ועדה"
-    sha256: "53357878a515337afabf7d90d03c9cd11063a1b2f88778f4827d3402318cf907"
+    sha256: "5c80c5516d0b4e19cd5f21546d037c797a4fb507f654eee1fb5059700467841c"
   KNS_CmtSessionItem:
-    record_count: 78618
+    record_count: 78620
     file_count: 72
-    bytes: 21045471
+    bytes: 21045927
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "be41e4184dd1a8a28fc22f0d3c468d4086dde4eaf2aa8eeebdca0dfa2f07cd72"
+    sha256: "ef4ac1c5daf1d1498c093ff9db6e5ad68ca8225194e0d97a238e096364142ed2"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,23 +103,23 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 107914
+    record_count: 107916
     file_count: 60
-    bytes: 7807096
+    bytes: 7807204
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "4a23145e3a9f42f9ef4c7bee8d9ed7f2d61b4af2aaee03972fac316b09ac71e8"
+    sha256: "167778d4169e2ad0da720f19eff8bfcc0848b13c8d22256bd5d7cbddc1281ecc"
   KNS_DocumentCommitteeSession:
     record_count: 196868
     file_count: 907
-    bytes: 52435533
+    bytes: 52435602
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "e317482b66002154bad7ccae0dd38c14feb2a715b2ac721385eff171d908bf2a"
+    sha256: "c250ddc7dfd61c425e9721e1ad1243019b5919c0230faf489c14f368eb410880"
   KNS_PlenumSession:
     record_count: 8749
     file_count: 62
     bytes: 2333632
     description: "ישיבות מליאה"
-    sha256: "1aa05867487972ea43d0497caae5d4da8722b44bbf7bd1a8e245f5635e389403"
+    sha256: "cb402f3a1278c636f72cf31d104e2acc6aca6ace4c098e8d04c06c0f4b6b43cd"
   KNS_PlmSessionItem:
     record_count: 168063
     file_count: 17
@@ -127,11 +127,11 @@ tables:
     description: "פריטים על סדר היום בישיבות מליאה"
     sha256: "bf09ca3b87ee4179535fca35741e6fee38b723999449404310b1bedf683363ad"
   KNS_DocumentPlenumSession:
-    record_count: 74467
-    file_count: 475
-    bytes: 19195308
+    record_count: 74468
+    file_count: 476
+    bytes: 19195565
     description: "מסמכי ישיבות מליאה — פרוטוקולים וסיכומים"
-    sha256: "72f0216c2d7ffd433a9b88bb28c8b525da209eaf4a3179044bd935f994bacebb"
+    sha256: "f47898fc3059ac43af3b051d822827c17020fd133c8b888ec6026136d4fe5306"
   KNS_PlenumVote:
     record_count: 34947
     file_count: 5
