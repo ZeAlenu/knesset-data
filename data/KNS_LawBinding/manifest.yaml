@@ -55,7 +55,7 @@ schema:
 stats:
   record_count: 15046
   file_count: 3
-  total_bytes: 4207196
+  total_bytes: 4217078
   min_id: 41555
   max_id: 67532
 partitioning:
@@ -78,8 +78,8 @@ files:
       - 58958
   - name: "KNS_LawBinding-000007.jsonl"
     records: 2207
-    bytes: 616581
-    sha256: "53e9cc6d73245c88b480d87d3acd53a217b957d4841203cd26694ffcfa20a0b0"
+    bytes: 626463
+    sha256: "b0de596359b25dd7ccc80ba26a89c6ce77bab2b00dd39b58512dddb7b937f31f"
     id_range:
       - 62377
       - 67532

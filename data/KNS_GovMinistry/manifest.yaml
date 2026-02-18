@@ -31,7 +31,7 @@ schema:
 stats:
   record_count: 922
   file_count: 1
-  total_bytes: 107138
+  total_bytes: 113716
   min_id: 490
   max_id: 1478
 partitioning:
@@ -40,8 +40,8 @@ partitioning:
 files:
   - name: "KNS_GovMinistry-000001.jsonl"
     records: 922
-    bytes: 107138
-    sha256: "7189e0da38dbde3a93068a96c3e22e9eacf58a68bbb5c89cfd9651272de18d7c"
+    bytes: 113716
+    sha256: "21c3cc336a5656b3474342b0d96c996dfb76fffdba6b37aeabf064a56bcb048a"
     id_range:
       - 490
       - 1478
