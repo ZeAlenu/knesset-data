@@ -43,6 +43,12 @@ schema:
     - name: "FirstName"
       type: "string"
       nullable: true
+    - name: "SessionID"
+      type: "integer"
+      nullable: true
+    - name: "ItemID"
+      type: "integer"
+      nullable: true
 stats:
   record_count: 250
   file_count: 2

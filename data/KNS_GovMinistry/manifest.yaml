@@ -28,6 +28,15 @@ schema:
     - name: "LastUpdatedDate"
       type: "datetime"
       nullable: true
+    - name: "CategoryID"
+      type: "integer"
+      nullable: true
+    - name: "CategoryName"
+      type: "string"
+      nullable: true
+    - name: "GovID"
+      type: "integer"
+      nullable: true
 stats:
   record_count: 922
   file_count: 1

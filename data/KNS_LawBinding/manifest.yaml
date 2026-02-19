@@ -52,6 +52,18 @@ schema:
     - name: "LastUpdatedDate"
       type: "datetime"
       nullable: true
+    - name: "IsTempLegislation"
+      type: "boolean"
+      nullable: true
+    - name: "IsSecondaryAmendment"
+      type: "boolean"
+      nullable: true
+    - name: "CorrectionNumber"
+      type: "integer"
+      nullable: true
+    - name: "ParagraphNumber"
+      type: "string"
+      nullable: true
 stats:
   record_count: 15047
   file_count: 3
