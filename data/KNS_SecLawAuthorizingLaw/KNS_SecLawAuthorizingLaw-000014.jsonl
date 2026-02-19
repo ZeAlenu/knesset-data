@@ -5512,3 +5512,7 @@
 {"Id":135839,"AuthorizingLawID":2139579,"SecondaryLawID":2240888,"LastUpdatedDate":"2026-02-16T17:52:26.33+02:00"}
 {"Id":135840,"AuthorizingLawID":2139579,"SecondaryLawID":2240888,"LastUpdatedDate":"2026-02-16T17:52:26.33+02:00"}
 {"Id":135842,"AuthorizingLawID":2000771,"SecondaryLawID":2240907,"LastUpdatedDate":"2026-02-17T10:02:36.26+02:00"}
+{"Id":135843,"AuthorizingLawID":2000845,"SecondaryLawID":2241033,"LastUpdatedDate":"2026-02-19T08:42:33.94+02:00"}
+{"Id":135844,"AuthorizingLawID":2000049,"SecondaryLawID":2241036,"LastUpdatedDate":"2026-02-19T08:52:47.977+02:00"}
+{"Id":135845,"AuthorizingLawID":2000198,"SecondaryLawID":2241039,"LastUpdatedDate":"2026-02-19T13:00:36.62+02:00"}
+{"Id":135846,"AuthorizingLawID":2139579,"SecondaryLawID":2241042,"LastUpdatedDate":"2026-02-19T13:24:59.093+02:00"}
