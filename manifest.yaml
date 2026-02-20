@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-02-19T18:49:39.517Z"
+  at: "2026-02-20T10:02:19.880Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -22,7 +22,7 @@ stats:
   total_tables: 44
   total_records: 1498079
   total_files: 4172
-  total_bytes: 478758464
+  total_bytes: 478758553
 tables:
   KNS_Status:
     record_count: 82
@@ -81,15 +81,15 @@ tables:
   KNS_CommitteeSession:
     record_count: 107927
     file_count: 60
-    bytes: 55846885
+    bytes: 55846975
     description: "ישיבות ועדה"
-    sha256: "fc4b942cfd44bfe9eebb26aeaa2e6144e0b8e3df6a658cfc5058b4f7b3282ca4"
+    sha256: "d9811c246ff90de202569845cac05fdef836d324bb9aff959686cb19720db93f"
   KNS_CmtSessionItem:
     record_count: 78643
     file_count: 72
-    bytes: 21052941
+    bytes: 21052940
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "8b2c7f1b8e4b5abb433f35c1be0b7c8c3794563300de99881014b1578e8a8095"
+    sha256: "932edca0f076f975b6950f1f37319a1fb7a1f29905a95609c7e9edc1269b9e85"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -221,7 +221,7 @@ tables:
     file_count: 1
     bytes: 183994
     description: "משרדים ממשלתיים אחראים על חוקים"
-    sha256: "c4140bdf0c17fd651ec96b9f35f8a612009db847c2986978f468039609008edc"
+    sha256: "3b2386f5ef587baac0997b4f9ca35ca515950ee6a674add764972b0354857545"
   KNS_IsraelLawName:
     record_count: 2148
     file_count: 1
