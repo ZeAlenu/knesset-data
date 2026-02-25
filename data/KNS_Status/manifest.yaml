@@ -38,9 +38,9 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 82
+  record_count: 81
   file_count: 1
-  total_bytes: 15372
+  total_bytes: 15205
   min_id: 6
   max_id: 6050
 partitioning:
@@ -48,9 +48,9 @@ partitioning:
   records_per_file: 10000
 files:
   - name: "KNS_Status-000001.jsonl"
-    records: 82
-    bytes: 15372
-    sha256: "3096aedb814dc70cd83a8ad827387ab8de44af2858065b083a9ede295006ed9b"
+    records: 81
+    bytes: 15205
+    sha256: "db56105d18d5fc0355bc6d7281c5932539551fcb5ad40f50849477efb9cbd6af"
     id_range:
       - 6
       - 6050

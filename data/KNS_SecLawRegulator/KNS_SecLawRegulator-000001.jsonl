@@ -4830,7 +4830,18 @@
 {"Id":8481,"SecondaryLawID":2240795,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-16T09:24:10.143+02:00"}
 {"Id":8482,"SecondaryLawID":2240797,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-02-16T09:37:53.773+02:00"}
 {"Id":8484,"SecondaryLawID":2240888,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-02-16T17:52:26.237+02:00"}
+{"Id":8485,"SecondaryLawID":2240906,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5276,"RegulatorDesc":"נגיד בנק ישראל","LastUpdatedDate":"2026-02-17T09:39:52.34+02:00"}
 {"Id":8486,"SecondaryLawID":2240907,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1332,"RegulatorDesc":"המשרד להגנת הסביבה","LastUpdatedDate":"2026-02-17T10:02:36.213+02:00"}
 {"Id":8487,"SecondaryLawID":2241033,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-19T08:42:33.797+02:00"}
 {"Id":8488,"SecondaryLawID":2241036,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-02-19T08:52:47.943+02:00"}
 {"Id":8489,"SecondaryLawID":2241039,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5301,"RegulatorDesc":"המוסד לביטוח לאומי","LastUpdatedDate":"2026-02-19T13:00:36.573+02:00"}
+{"Id":8490,"SecondaryLawID":2241106,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":512,"RegulatorDesc":"ועדת הכנסת","LastUpdatedDate":"2026-02-22T17:40:08.373+02:00"}
+{"Id":8493,"SecondaryLawID":2241126,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1004,"RegulatorDesc":"משרד החינוך","LastUpdatedDate":"2026-02-23T10:02:42.027+02:00"}
+{"Id":8494,"SecondaryLawID":2241131,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":512,"RegulatorDesc":"ועדת הכנסת","LastUpdatedDate":"2026-02-23T11:01:41.383+02:00"}
+{"Id":8495,"SecondaryLawID":2241136,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-02-23T12:07:35.25+02:00"}
+{"Id":8497,"SecondaryLawID":2241154,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1112,"RegulatorDesc":"משרד הבריאות","LastUpdatedDate":"2026-02-23T15:06:26.01+02:00"}
+{"Id":8498,"SecondaryLawID":2241180,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5313,"RegulatorDesc":"בתי הדין הרבניים","LastUpdatedDate":"2026-02-24T10:07:33.403+02:00"}
+{"Id":8499,"SecondaryLawID":2241214,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-02-24T20:06:36.617+02:00"}
+{"Id":8500,"SecondaryLawID":2241223,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-25T08:39:37.42+02:00"}
+{"Id":8502,"SecondaryLawID":2241231,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-02-25T09:39:01.517+02:00"}
+{"Id":8503,"SecondaryLawID":2241270,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-25T14:33:12.953+02:00"}

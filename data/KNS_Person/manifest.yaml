@@ -43,7 +43,7 @@ schema:
 stats:
   record_count: 1184
   file_count: 4
-  total_bytes: 210753
+  total_bytes: 210773
   min_id: 48
   max_id: 30914
 partitioning:
@@ -73,8 +73,8 @@ files:
       - 29855
   - name: "KNS_Person-000004.jsonl"
     records: 234
-    bytes: 44034
-    sha256: "a729304af8684ccefce05ad1dc0d66a2b57aba8a75eed7a5d7f97769a9754e90"
+    bytes: 44054
+    sha256: "0a9957cfb405556ed78d0a24f3573d4b98b629b5922c1519b5dae4db6b12f911"
     id_range:
       - 30014
       - 30914

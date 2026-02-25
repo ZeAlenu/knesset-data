@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 110668
-  file_count: 665
-  total_bytes: 29104337
+  record_count: 110739
+  file_count: 673
+  total_bytes: 29122805
   min_id: 73614
-  max_id: 11499923
+  max_id: 11612830
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -4705,3 +4705,59 @@ files:
     id_range:
       - 11499480
       - 11499923
+  - name: "KNS_DocumentBill-001155.jsonl"
+    records: 1
+    bytes: 245
+    sha256: "229ab7825eedf2fb62d19bea26d90ac2368587652633bb4f3f73132a905817a9"
+    id_range:
+      - 11549995
+      - 11549995
+  - name: "KNS_DocumentBill-001156.jsonl"
+    records: 5
+    bytes: 1267
+    sha256: "0363f33a211f729df1713bf3a7ef0da6ae8059fdcf2d727e457a375511240e2c"
+    id_range:
+      - 11550063
+      - 11554481
+  - name: "KNS_DocumentBill-001157.jsonl"
+    records: 1
+    bytes: 245
+    sha256: "8f1c0493742a3b99904a51b7ddea11b9371018c2ba5a731c79365958aa2ad1f9"
+    id_range:
+      - 11568442
+      - 11568442
+  - name: "KNS_DocumentBill-001158.jsonl"
+    records: 47
+    bytes: 12417
+    sha256: "b4af927fb6db16155a96de1c6ae4dff8b9262d73d1bef7e30c472619175893ae"
+    id_range:
+      - 11572942
+      - 11578038
+  - name: "KNS_DocumentBill-001159.jsonl"
+    records: 7
+    bytes: 1733
+    sha256: "ce115918e39b3377a30e7630d4733d915f738d69cb040fd6385f9c595dd77c22"
+    id_range:
+      - 11587161
+      - 11589943
+  - name: "KNS_DocumentBill-001160.jsonl"
+    records: 2
+    bytes: 491
+    sha256: "a97eebd5faf34d493979fe4252d0c07d5b7991387026a5849ffe206a58522855"
+    id_range:
+      - 11591405
+      - 11591649
+  - name: "KNS_DocumentBill-001161.jsonl"
+    records: 5
+    bytes: 1293
+    sha256: "7a100849f7e7301341777d2dd5184a2837ded6cfdc7d29fa152fbc513464aeb5"
+    id_range:
+      - 11603801
+      - 11609878
+  - name: "KNS_DocumentBill-001162.jsonl"
+    records: 3
+    bytes: 777
+    sha256: "83300aa2c5d7b9370fdddf8a798d95504edb196a3d052b7f2234853b374a1c43"
+    id_range:
+      - 11610345
+      - 11612830

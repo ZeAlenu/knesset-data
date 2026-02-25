@@ -27,7 +27,7 @@ schema:
       nullable: true
     - name: "MinistryCategoryID"
       type: "integer"
-      nullable: true
+      nullable: false
     - name: "MinistryCategoryDesc"
       type: "string"
       nullable: true

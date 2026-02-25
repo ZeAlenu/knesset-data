@@ -50,7 +50,6 @@
 {"Id":310,"Desc":"הונחו מסקנות הוועדה","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":null,"LastUpdatedDate":"2025-07-03T15:34:52.2033333+03:00"}
 {"Id":311,"Desc":"הונחו כל הודעות השרים","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":null,"LastUpdatedDate":"2025-07-03T15:34:52.2033333+03:00"}
 {"Id":315,"Desc":"התקיים דיון במליאה","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":null,"LastUpdatedDate":"2025-07-03T15:34:52.22+03:00"}
-{"Id":333,"Desc":null,"TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":null,"LastUpdatedDate":"2025-07-03T15:34:52.2366667+03:00"}
 {"Id":335,"Desc":"נעצרה","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":null,"LastUpdatedDate":"2025-07-03T15:34:52.2366667+03:00"}
 {"Id":337,"Desc":"הסתפקות חה\"כ בעמדת הממשלה","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":true,"LastUpdatedDate":"2025-07-03T15:35:02.6733333+03:00"}
 {"Id":338,"Desc":"הסתפקות במסקנות הוועדה","TypeID":4,"TypeDesc":"הצעה לסדר היום","OrderTransition":null,"IsActive":true,"LastUpdatedDate":"2025-07-03T15:35:02.69+03:00"}
