@@ -4845,3 +4845,7 @@
 {"Id":8500,"SecondaryLawID":2241223,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-25T08:39:37.42+02:00"}
 {"Id":8502,"SecondaryLawID":2241231,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-02-25T09:39:01.517+02:00"}
 {"Id":8503,"SecondaryLawID":2241270,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-25T14:33:12.953+02:00"}
+{"Id":8504,"SecondaryLawID":2241292,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5304,"RegulatorDesc":"נציבות שירות המדינה","LastUpdatedDate":"2026-02-26T09:28:58.88+02:00"}
+{"Id":8505,"SecondaryLawID":2241293,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5300,"RegulatorDesc":"המפקח על הבנקים","LastUpdatedDate":"2026-02-26T09:29:58.637+02:00"}
+{"Id":8506,"SecondaryLawID":2241296,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-26T11:41:33.007+02:00"}
+{"Id":8507,"SecondaryLawID":2241296,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-02-26T11:41:33.007+02:00"}
