@@ -79,7 +79,7 @@ schema:
 stats:
   record_count: 42219
   file_count: 65
-  total_bytes: 24379369
+  total_bytes: 24379370
   min_id: 9703
   max_id: 2241146
 partitioning:
@@ -529,8 +529,8 @@ files:
       - 2229990
   - name: "KNS_Agenda-000224.jsonl"
     records: 717
-    bytes: 472806
-    sha256: "e1ca90043bb90a942b930e1c961126d0818e0e1f89c5f8a4bfbb2cf70b2a30cd"
+    bytes: 472807
+    sha256: "e2719570b640cb7920222010982a165e2b3622f83b34874134dc10d968ac7bc6"
     id_range:
       - 2230001
       - 2239998

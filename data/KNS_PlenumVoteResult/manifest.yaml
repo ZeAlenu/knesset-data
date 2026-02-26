@@ -50,11 +50,11 @@ schema:
       type: "integer"
       nullable: true
 stats:
-  record_count: 450
+  record_count: 550
   file_count: 2
-  total_bytes: 112917
+  total_bytes: 138370
   min_id: 1
-  max_id: 1978372
+  max_id: 1978475
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -67,9 +67,9 @@ files:
       - 1
       - 50
   - name: "KNS_PlenumVoteResult-000198.jsonl"
-    records: 400
-    bytes: 102428
-    sha256: "f75ba15074988ad0bba9459cc86b0d921768fce02eaba7677b9a2e0b3d1ca003"
+    records: 500
+    bytes: 127881
+    sha256: "904ea143348fc37f10a99efd477ab5d5f14651255e833512b5d2eed491575bd2"
     id_range:
       - 1976602
-      - 1978372
+      - 1978475

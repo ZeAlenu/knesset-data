@@ -112,7 +112,7 @@ schema:
 stats:
   record_count: 59911
   file_count: 19
-  total_bytes: 56689883
+  total_bytes: 56689954
   min_id: 2066990
   max_id: 2241296
 partitioning:
@@ -247,8 +247,8 @@ files:
       - 2239961
   - name: "KNS_SecondaryLaw-000225.jsonl"
     records: 47
-    bytes: 49346
-    sha256: "e7c609aff19e7c334b4e5a7b085b86c63b708d479e753eeeb3f4054119e3061a"
+    bytes: 49417
+    sha256: "3f1c1f18ee863f6aeaf9f3c1b6c044b09ef5601fb77ddaf0c3179dc306a89ab3"
     id_range:
       - 2240000
       - 2241296
