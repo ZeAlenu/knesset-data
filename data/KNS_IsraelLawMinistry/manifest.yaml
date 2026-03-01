@@ -32,19 +32,19 @@ schema:
       type: "string"
       nullable: true
 stats:
-  record_count: 1698
+  record_count: 1700
   file_count: 1
-  total_bytes: 183994
+  total_bytes: 184304
   min_id: 2135419
-  max_id: 2137358
+  max_id: 2137360
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
 files:
   - name: "KNS_IsraelLawMinistry-000214.jsonl"
-    records: 1698
-    bytes: 183994
-    sha256: "55b5df4f22e0866c01e150ede5185121489e2d41a23510dbb8cc72aef133c2d0"
+    records: 1700
+    bytes: 184304
+    sha256: "f68cc34e962ad826da2c0952a7f806ac7fedcdabf09f0279ec4645578c6ebbba"
     id_range:
       - 2135419
-      - 2137358
+      - 2137360

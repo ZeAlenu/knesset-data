@@ -2851,3 +2851,6 @@
 {"Id":2979,"IsraelLawID":2238756,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
 {"Id":2986,"IsraelLawID":2239473,"ClassificiationID":18,"ClassificiationDesc":"מועדים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
 {"Id":2987,"IsraelLawID":2239473,"ClassificiationID":3,"ClassificiationDesc":"ביטחון","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3019,"IsraelLawID":2241319,"ClassificiationID":52,"ClassificiationDesc":"טכנולוגיה וסייבר","LastUpdatedDate":"2020-08-26T15:36:02.96+03:00"}
+{"Id":3020,"IsraelLawID":2241319,"ClassificiationID":26,"ClassificiationDesc":"משפט פלילי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3021,"IsraelLawID":2241319,"ClassificiationID":4,"ClassificiationDesc":"ביטחון הפנים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
