@@ -38,7 +38,7 @@ files:
   - name: "KNS_MkSiteCode-000001.jsonl"
     records: 1111
     bytes: 41307
-    sha256: "dddc5c4722a2a871e72d7b41bf4eaa472d2eb62844af5d6248aab515d3e0ea0b"
+    sha256: "2d094c910fcfcac992231f777d3e4506964db36f09a63bf9c2d4a1c6a8ed703b"
     id_range:
       - 1
       - 1111

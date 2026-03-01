@@ -4849,3 +4849,4 @@
 {"Id":8505,"SecondaryLawID":2241293,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5300,"RegulatorDesc":"המפקח על הבנקים","LastUpdatedDate":"2026-02-26T09:29:58.637+02:00"}
 {"Id":8506,"SecondaryLawID":2241296,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-02-26T11:41:33.007+02:00"}
 {"Id":8507,"SecondaryLawID":2241296,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-02-26T11:41:33.007+02:00"}
+{"Id":8508,"SecondaryLawID":2241314,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-01T11:11:27.207+02:00"}
