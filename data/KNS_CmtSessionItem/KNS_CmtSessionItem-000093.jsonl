@@ -3035,3 +3035,7 @@
 {"Id":924815,"ItemID":2241328,"CommitteeSessionID":2241326,"Ordinal":1,"StatusID":null,"Name":"בטחון קהילות יהודיות בתפוצות בתקופת \"שאגת הארי\"","ItemTypeID":11,"LastUpdatedDate":"2026-03-02T09:42:28.597+02:00"}
 {"Id":924817,"ItemID":146888,"CommitteeSessionID":2172668,"Ordinal":1,"StatusID":113,"Name":"חוק הארנונה לפיצוי נזקי מלחמה (תיקון), התשי\"ז-1957","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T10:39:08.96+02:00"}
 {"Id":924818,"ItemID":146888,"CommitteeSessionID":2172669,"Ordinal":1,"StatusID":113,"Name":"חוק הארנונה לפיצוי נזקי מלחמה (תיקון), התשי\"ז-1957","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T10:40:28.087+02:00"}
+{"Id":924819,"ItemID":320301,"CommitteeSessionID":65516,"Ordinal":1,"StatusID":108,"Name":"הצעת חוק פקודת המועצות המקומיות (מס' 34) (הרכב מועצה מקומית תעשייתית), התשס\"ד-2004","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T12:50:46.603+02:00"}
+{"Id":924820,"ItemID":320301,"CommitteeSessionID":66092,"Ordinal":1,"StatusID":108,"Name":"הצעת חוק פקודת המועצות המקומיות (מס' 34) (הרכב מועצה מקומית תעשייתית), התשס\"ד-2004","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T12:50:46.603+02:00"}
+{"Id":924821,"ItemID":148840,"CommitteeSessionID":2172770,"Ordinal":1,"StatusID":113,"Name":"חוק התקציב לשנת 1956/57, התשט\"ז-1956","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T13:57:13.01+02:00"}
+{"Id":924822,"ItemID":148832,"CommitteeSessionID":2173169,"Ordinal":1,"StatusID":113,"Name":"חוק התקציב לשנת 1958/59, התשי\"ח-1958","ItemTypeID":2,"LastUpdatedDate":"2026-03-02T14:02:31.92+02:00"}
