@@ -64,7 +64,7 @@ schema:
 stats:
   record_count: 108012
   file_count: 60
-  total_bytes: 55891507
+  total_bytes: 55891508
   min_id: 64515
   max_id: 2241333
 partitioning:
@@ -486,8 +486,8 @@ files:
       - 2239994
   - name: "KNS_CommitteeSession-000225.jsonl"
     records: 353
-    bytes: 184541
-    sha256: "61d08fe88b5c227e5c863aae705212233df26c817bc6493532c85a0603bcc589"
+    bytes: 184542
+    sha256: "7067d0cc10ad4a450cbdbccc320324bc7bac44f24b577c957a945701ae1c1191"
     id_range:
       - 2240022
       - 2241333

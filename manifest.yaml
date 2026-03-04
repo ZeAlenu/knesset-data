@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-04T16:08:12.608Z"
+  at: "2026-03-04T22:06:52.568Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1499258
-  total_files: 4214
-  total_bytes: 479138084
+  total_records: 1499278
+  total_files: 4215
+  total_bytes: 479146513
 tables:
   KNS_Status:
     record_count: 81
@@ -81,9 +81,9 @@ tables:
   KNS_CommitteeSession:
     record_count: 108012
     file_count: 60
-    bytes: 55891507
+    bytes: 55891508
     description: "ישיבות ועדה"
-    sha256: "fa42d4e59ab15d72f84c678139b7701d30e30d9c92d080cd3c2b80a611e1528b"
+    sha256: "d83c9fc9ed1317ad1e8f6d490f6aaaf18403c70eb026cf5e3132f6c9ebc6bf6d"
   KNS_CmtSessionItem:
     record_count: 78798
     file_count: 72
@@ -109,11 +109,11 @@ tables:
     description: "קישורי שידור ישיבות ועדה"
     sha256: "7570711eaff0b398e06f8ed44942c675415bc65acea786c3457bc34a3704fdfd"
   KNS_DocumentCommitteeSession:
-    record_count: 197102
-    file_count: 922
-    bytes: 52528977
+    record_count: 197122
+    file_count: 923
+    bytes: 52537405
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "e8f34ef1dab303df44eb8cb5ab893b2a36ff28b867bd17664cd6c27293fa6e6e"
+    sha256: "e896709a3526fb0589302e722e53baec7f178a24bbc788f394d714f1ebeac203"
   KNS_PlenumSession:
     record_count: 8753
     file_count: 62
