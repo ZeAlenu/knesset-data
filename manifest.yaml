@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-09T16:04:54.107Z"
+  at: "2026-03-09T22:08:00.123Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1499875
+  total_records: 1499885
   total_files: 4232
-  total_bytes: 479354400
+  total_bytes: 479357970
 tables:
   KNS_Status:
     record_count: 81
@@ -79,17 +79,17 @@ tables:
     description: "ועדות הכנסת"
     sha256: "9d1bf7adc3977025110a009dcffc8b880bd1ceff5a0bb7a96425976ebfd21ec1"
   KNS_CommitteeSession:
-    record_count: 108059
+    record_count: 108060
     file_count: 60
-    bytes: 55916378
+    bytes: 55917059
     description: "ישיבות ועדה"
-    sha256: "1bb9a95a754f274cd91b9e2950a19dab362dca8d1c94e3dfde09bb733a47894f"
+    sha256: "2085249c0f04c524560d58a6b29562fbc8c2b64dec42a89ab4d5de1a5f844e3d"
   KNS_CmtSessionItem:
-    record_count: 78907
+    record_count: 78908
     file_count: 72
-    bytes: 21129524
+    bytes: 21129765
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "f29a65c58633480603189a3c2ec81898be3a2922d1c1e0086a5eab95ace677e2"
+    sha256: "eb728d7a02fa0dd0ff4d029377acb8751f45ca2cdd16bd44f33d0d5b9c2ff1ea"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,17 +103,17 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 108062
+    record_count: 108063
     file_count: 60
-    bytes: 7815088
+    bytes: 7815142
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "f5fd65d0923c4dd047d68e3851a9620e9b2b318272c06c224ccdf3c5e8438209"
+    sha256: "e4003c22aab8433de45cbac77db5e7671828c167e12c1e89737d6ffd06091904"
   KNS_DocumentCommitteeSession:
-    record_count: 197317
+    record_count: 197324
     file_count: 930
-    bytes: 52615783
+    bytes: 52618377
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "7a2755409576a164a936e745f4f3d97a75b186536f3eac4208412259e3380e8e"
+    sha256: "df7ef412db78a571e25fa7a3655fddb1d1f77d2498a72380c5c8716e087e2c85"
   KNS_PlenumSession:
     record_count: 8754
     file_count: 62
