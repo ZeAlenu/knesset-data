@@ -4858,3 +4858,11 @@
 {"Id":8514,"SecondaryLawID":2241379,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-05T14:43:20.41+02:00"}
 {"Id":8515,"SecondaryLawID":2241423,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-08T12:39:29.083+02:00"}
 {"Id":8516,"SecondaryLawID":2241427,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-03-08T13:30:22.947+02:00"}
+{"Id":8517,"SecondaryLawID":2241445,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-09T08:28:26.07+02:00"}
+{"Id":8518,"SecondaryLawID":2241456,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5316,"RegulatorDesc":"ראש שירות הביטחון הכללי","LastUpdatedDate":"2026-03-09T11:22:53.673+02:00"}
+{"Id":8519,"SecondaryLawID":2241457,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5316,"RegulatorDesc":"ראש שירות הביטחון הכללי","LastUpdatedDate":"2026-03-09T11:31:35.27+02:00"}
+{"Id":8520,"SecondaryLawID":2241455,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5333,"RegulatorDesc":"מערך הסייבר הלאומי","LastUpdatedDate":"2026-03-09T11:33:58.853+02:00"}
+{"Id":8521,"SecondaryLawID":2241458,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-09T11:57:22.33+02:00"}
+{"Id":8522,"SecondaryLawID":2241461,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-09T12:04:11.93+02:00"}
+{"Id":8523,"SecondaryLawID":2241466,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-09T12:48:03.777+02:00"}
+{"Id":8524,"SecondaryLawID":2241467,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-09T12:49:24.573+02:00"}
