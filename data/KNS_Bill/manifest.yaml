@@ -88,7 +88,7 @@ schema:
 stats:
   record_count: 60107
   file_count: 66
-  total_bytes: 42187627
+  total_bytes: 42187628
   min_id: 5
   max_id: 2241153
 partitioning:
@@ -552,8 +552,8 @@ files:
       - 2239958
   - name: "KNS_Bill-000225.jsonl"
     records: 102
-    bytes: 77543
-    sha256: "daf0f0dc23ba835f1673bf59c393279fab1206c12aa7a9525a876be6ed2af2cc"
+    bytes: 77544
+    sha256: "d399ef3d2788a489d9295c6ae0b33150e0876047467db71fd74fa2e1696b3cba"
     id_range:
       - 2240063
       - 2241153
