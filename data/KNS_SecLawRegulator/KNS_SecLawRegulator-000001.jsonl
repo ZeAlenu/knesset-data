@@ -4866,3 +4866,7 @@
 {"Id":8522,"SecondaryLawID":2241461,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-09T12:04:11.93+02:00"}
 {"Id":8523,"SecondaryLawID":2241466,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-09T12:48:03.777+02:00"}
 {"Id":8524,"SecondaryLawID":2241467,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-09T12:49:24.573+02:00"}
+{"Id":8525,"SecondaryLawID":2241520,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-11T08:23:55.223+02:00"}
+{"Id":8526,"SecondaryLawID":2241522,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-11T10:19:20.817+02:00"}
+{"Id":8527,"SecondaryLawID":2241541,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-11T12:00:07.363+02:00"}
+{"Id":8528,"SecondaryLawID":2241544,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-11T12:01:08.763+02:00"}

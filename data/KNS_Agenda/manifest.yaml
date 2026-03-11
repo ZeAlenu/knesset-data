@@ -530,7 +530,7 @@ files:
   - name: "KNS_Agenda-000224.jsonl"
     records: 717
     bytes: 472807
-    sha256: "e2719570b640cb7920222010982a165e2b3622f83b34874134dc10d968ac7bc6"
+    sha256: "221b1255f1a9148c7dcca15e1391a71ae31ac6fadcf8920d12eea4cda8067139"
     id_range:
       - 2230001
       - 2239998
