@@ -32,19 +32,19 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 877
+  record_count: 879
   file_count: 1
-  total_bytes: 178676
+  total_bytes: 178910
   min_id: 1
-  max_id: 1328
+  max_id: 1338
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
 files:
   - name: "KNS_BillSplit-000001.jsonl"
-    records: 877
-    bytes: 178676
-    sha256: "47237b3d0c24e69100b26d5230fa15efd4637d1245371e3c66cf906519b96a55"
+    records: 879
+    bytes: 178910
+    sha256: "64a56329ba6c8447f7ad8af4b3b0662219dde4acb350b109cba2e993b20d764d"
     id_range:
       - 1
-      - 1328
+      - 1338
