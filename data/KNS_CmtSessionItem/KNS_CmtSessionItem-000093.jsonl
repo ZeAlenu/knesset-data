@@ -3292,3 +3292,6 @@
 {"Id":925151,"ItemID":2202706,"CommitteeSessionID":2241656,"Ordinal":7,"StatusID":108,"Name":"הצעת חוק התובע הכללי, התשפ\"ג-2023","ItemTypeID":2,"LastUpdatedDate":"2026-03-12T20:18:55.817+02:00"}
 {"Id":925152,"ItemID":2197909,"CommitteeSessionID":2241656,"Ordinal":8,"StatusID":108,"Name":"הצעת חוק התובע הכללי, התשפ\"ג-2022","ItemTypeID":2,"LastUpdatedDate":"2026-03-12T20:19:01.083+02:00"}
 {"Id":925153,"ItemID":2229802,"CommitteeSessionID":2241656,"Ordinal":9,"StatusID":108,"Name":"הצעת חוק עצמאות היועץ המשפטי של משרד ממשלתי, מעמדו וסמכויותיו, התשפ\"ה-2025","ItemTypeID":2,"LastUpdatedDate":"2026-03-12T20:19:22.253+02:00"}
+{"Id":925158,"ItemID":2241664,"CommitteeSessionID":2241665,"Ordinal":1,"StatusID":null,"Name":"פתרונות לשורדי שואה וקשישים הזקוקים לדיור מונגש בחירום","ItemTypeID":11,"LastUpdatedDate":"2026-03-13T11:44:23.113+02:00"}
+{"Id":925159,"ItemID":2234169,"CommitteeSessionID":2241667,"Ordinal":1,"StatusID":null,"Name":"מיפוי דחוף של תשתיות המיגון לקשישים ושורדי שואה - בהיערכות למצבי חירום עתידיים","ItemTypeID":11,"LastUpdatedDate":"2026-03-13T11:44:31.393+02:00"}
+{"Id":925160,"ItemID":2241668,"CommitteeSessionID":2241667,"Ordinal":2,"StatusID":null,"Name":"דיון מעקב - שורדי שואה ברשויות מפונות - תמונת מצב כיום - מלחמת \"שאגת הארי\"","ItemTypeID":11,"LastUpdatedDate":"2026-03-13T11:44:31.393+02:00"}
