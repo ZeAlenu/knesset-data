@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-14T16:05:20.497Z"
+  at: "2026-03-14T22:07:56.841Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1500786
-  total_files: 4250
-  total_bytes: 479677770
+  total_records: 1500810
+  total_files: 4251
+  total_bytes: 479686643
 tables:
   KNS_Status:
     record_count: 81
@@ -81,15 +81,15 @@ tables:
   KNS_CommitteeSession:
     record_count: 108152
     file_count: 60
-    bytes: 55965664
+    bytes: 55965941
     description: "ישיבות ועדה"
-    sha256: "f56bf95cf024262eefa1dd209fc8255c40645ea97393b38272041c0be28759c4"
+    sha256: "9b02c4cbf9a446d15fdda762be2fca01195dfe0f999cc05d8314f348266a2883"
   KNS_CmtSessionItem:
     record_count: 79049
     file_count: 72
-    bytes: 21172973
+    bytes: 21172972
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "ce353fac9ac905082016fe91798eb53f54dee04a08cf94f66466f8d67896ed9f"
+    sha256: "92c6a0dbb3fb9efd368faad6b56f9ce55bd693e5541c1774645af864e527151e"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -109,11 +109,11 @@ tables:
     description: "קישורי שידור ישיבות ועדה"
     sha256: "dc50d829ae1b11381aeaa9c0f1d1fc616ae6affbe4eaf5c355bad88ce8909d3e"
   KNS_DocumentCommitteeSession:
-    record_count: 197674
-    file_count: 936
-    bytes: 52762451
+    record_count: 197698
+    file_count: 937
+    bytes: 52771049
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "3b940ec7f3e1769bd425c96687275db2adde27c7a3a6a4d424643a5a20f60bdf"
+    sha256: "4dabfa61525d8d35fd3d3e626acaff84c5580f674afb36a72e7772494113d021"
   KNS_PlenumSession:
     record_count: 8755
     file_count: 62
@@ -123,9 +123,9 @@ tables:
   KNS_PlmSessionItem:
     record_count: 168089
     file_count: 17
-    bytes: 51160073
+    bytes: 51160072
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "0cd620940df2b9f1339d5259f3745624e6e9053122cd509855b398abffb402d4"
+    sha256: "c3189611aec0e4bcfb7ea86d3e96fbdd5a87d08f35073c107b85520d1a8e9412"
   KNS_DocumentPlenumSession:
     record_count: 74479
     file_count: 484
