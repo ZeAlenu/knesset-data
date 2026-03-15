@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-15T04:03:55.442Z"
+  at: "2026-03-15T10:06:23.927Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1500810
-  total_files: 4251
-  total_bytes: 479686643
+  total_records: 1500853
+  total_files: 4256
+  total_bytes: 479700988
 tables:
   KNS_Status:
     record_count: 81
@@ -79,17 +79,17 @@ tables:
     description: "ועדות הכנסת"
     sha256: "9d1bf7adc3977025110a009dcffc8b880bd1ceff5a0bb7a96425976ebfd21ec1"
   KNS_CommitteeSession:
-    record_count: 108152
+    record_count: 108155
     file_count: 60
-    bytes: 55965941
+    bytes: 55968170
     description: "ישיבות ועדה"
-    sha256: "9b02c4cbf9a446d15fdda762be2fca01195dfe0f999cc05d8314f348266a2883"
+    sha256: "a3cd23cc5d58c02dce2faa292631a9a49329d9b320659bbf3e0dc301fb83d272"
   KNS_CmtSessionItem:
-    record_count: 79049
+    record_count: 79060
     file_count: 72
-    bytes: 21172972
+    bytes: 21175856
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "92c6a0dbb3fb9efd368faad6b56f9ce55bd693e5541c1774645af864e527151e"
+    sha256: "1c95a1b206152cef762cf9bcc8881c430a0e5cdb0faf3b1282c68fcdc569bf11"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,17 +103,17 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 108155
+    record_count: 108158
     file_count: 60
-    bytes: 7820110
+    bytes: 7820272
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "dc50d829ae1b11381aeaa9c0f1d1fc616ae6affbe4eaf5c355bad88ce8909d3e"
+    sha256: "05995db7aba0e9102405ed5416dd03501a1fd7142f095d2bc90187e3b86b11fe"
   KNS_DocumentCommitteeSession:
-    record_count: 197698
-    file_count: 937
-    bytes: 52771049
+    record_count: 197718
+    file_count: 939
+    bytes: 52778673
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "4dabfa61525d8d35fd3d3e626acaff84c5580f674afb36a72e7772494113d021"
+    sha256: "8732c2a38a2bf60df666beb9aa7b6fdc0dd294ad138ccb2098baf806b97ed2f5"
   KNS_PlenumSession:
     record_count: 8755
     file_count: 62
@@ -123,9 +123,9 @@ tables:
   KNS_PlmSessionItem:
     record_count: 168089
     file_count: 17
-    bytes: 51160072
+    bytes: 51160008
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "c3189611aec0e4bcfb7ea86d3e96fbdd5a87d08f35073c107b85520d1a8e9412"
+    sha256: "85be4f5892ffb11dbdcb4cc30775b24554e2830ba3133b06b6d2909173315db9"
   KNS_DocumentPlenumSession:
     record_count: 74479
     file_count: 484
@@ -187,17 +187,17 @@ tables:
     description: "פיצולי הצעות חוק"
     sha256: "a7cf4891f7bdb37c0b243c8c64486ef7afc49ea6407149363e650a3bdf182c2b"
   KNS_BillUnion:
-    record_count: 1570
+    record_count: 1571
     file_count: 1
-    bytes: 160302
+    bytes: 160407
     description: "איחודי הצעות חוק"
-    sha256: "81d6bf27de47d404dd2c2aa99d3a5603c16791be2917a2ad99031f219851a67b"
+    sha256: "4eb3ddb4903ba24e0b38e91c42572060e861c2387d6940a1dd93a3f3ff48ddbb"
   KNS_DocumentBill:
-    record_count: 110809
-    file_count: 683
-    bytes: 29141177
+    record_count: 110810
+    file_count: 684
+    bytes: 29141423
     description: "מסמכי הצעות חוק — נוסחים, דברי הסבר"
-    sha256: "03e60c2de1a88846a47ef085942ed620efd5e905c6312655a68da0d4f2a9575d"
+    sha256: "04f7390f2221f4bb239401582a636b23b7664c1610c399057794805608baf27c"
   KNS_IsraelLaw:
     record_count: 1994
     file_count: 15
@@ -277,11 +277,11 @@ tables:
     description: "קשרים בין תקנות חקיקת משנה"
     sha256: "043c01eb08faa672179773dd7f0aeff10b40ff5df085a99c27eb84ff5898acd0"
   KNS_DocumentSecondaryLaw:
-    record_count: 6966
-    file_count: 642
-    bytes: 1983843
+    record_count: 6970
+    file_count: 644
+    bytes: 1985002
     description: "מסמכי חקיקת משנה"
-    sha256: "75f4720d8e9e6e95ec7f9af1791c5e563364b0734365cc57071001d1d72bf335"
+    sha256: "9969dc478b02c9b0129ae64bee0404d4666391888e99c1fcdd31a69ae46d337d"
   KNS_MkSiteCode:
     record_count: 1111
     file_count: 1
