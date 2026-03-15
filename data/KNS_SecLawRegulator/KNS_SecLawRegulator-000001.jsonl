@@ -4874,3 +4874,5 @@
 {"Id":8529,"SecondaryLawID":2241580,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-11T15:02:00.127+02:00"}
 {"Id":8530,"SecondaryLawID":2241613,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":686,"RegulatorDesc":"משרד התחבורה והבטיחות בדרכים","LastUpdatedDate":"2026-03-12T10:48:24.6+02:00"}
 {"Id":8531,"SecondaryLawID":2241619,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":686,"RegulatorDesc":"משרד התחבורה והבטיחות בדרכים","LastUpdatedDate":"2026-03-12T11:22:17.03+02:00"}
+{"Id":8533,"SecondaryLawID":2241687,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-15T12:53:32.053+02:00"}
+{"Id":8534,"SecondaryLawID":2241681,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":618,"RegulatorDesc":"משרד התקשורת","LastUpdatedDate":"2026-03-15T14:58:33.777+02:00"}

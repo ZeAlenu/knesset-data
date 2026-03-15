@@ -29,11 +29,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 67894
+  record_count: 67896
   file_count: 10
-  total_bytes: 7609792
+  total_bytes: 7610024
   min_id: 7
-  max_id: 135899
+  max_id: 135901
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -102,9 +102,9 @@ files:
       - 120000
       - 129999
   - name: "KNS_SecLawAuthorizingLaw-000014.jsonl"
-    records: 5566
-    bytes: 643123
-    sha256: "afdb0acd931ad559f5266ce1c26a51b012c211f980e01f6cacee22bc169548ae"
+    records: 5568
+    bytes: 643355
+    sha256: "aed6a468e013df2fbe9b40228e052ad301e7f760990fdbae915750b76b09e395"
     id_range:
       - 130000
-      - 135899
+      - 135901
