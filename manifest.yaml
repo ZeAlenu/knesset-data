@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-15T22:05:28.593Z"
+  at: "2026-03-16T04:03:05.558Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -22,7 +22,7 @@ stats:
   total_tables: 44
   total_records: 1501047
   total_files: 4256
-  total_bytes: 479773328
+  total_bytes: 479773421
 tables:
   KNS_Status:
     record_count: 81
@@ -123,9 +123,9 @@ tables:
   KNS_PlmSessionItem:
     record_count: 168089
     file_count: 17
-    bytes: 51159976
+    bytes: 51160069
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "1728c199282c236003a735c5f9ea64e8088f46a607c049649f4c47bf0d6b2477"
+    sha256: "ad0eee10d80618175e133badac0edfc6481cdcc02de33b1a4a34f230f602a07c"
   KNS_DocumentPlenumSession:
     record_count: 74479
     file_count: 484
