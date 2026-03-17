@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-16T16:03:54.287Z"
+  at: "2026-03-17T04:03:53.518Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1501301
+  total_records: 1501328
   total_files: 4263
-  total_bytes: 479855485
+  total_bytes: 479865042
 tables:
   KNS_Status:
     record_count: 81
@@ -79,17 +79,17 @@ tables:
     description: "ועדות הכנסת"
     sha256: "9d1bf7adc3977025110a009dcffc8b880bd1ceff5a0bb7a96425976ebfd21ec1"
   KNS_CommitteeSession:
-    record_count: 108177
+    record_count: 108180
     file_count: 60
-    bytes: 55980348
+    bytes: 55982475
     description: "ישיבות ועדה"
-    sha256: "8cf8f359ea661cdb15cad01d5fcaf6d5479123a69c99df64fd85b7bda276a3f3"
+    sha256: "8ad3b14206a52ff622bc7ab8af4d9727c8b733c9ef7a8ec99cb7e4f865488601"
   KNS_CmtSessionItem:
-    record_count: 79091
+    record_count: 79094
     file_count: 72
-    bytes: 21185793
+    bytes: 21186616
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "03d87446a68e433ff1cc9c985ce0809845b9889e12418517434ad40a64f12242"
+    sha256: "906c47fb44c04ee55aacdc20653a28f7a47931ed0dc98b43cd3392ba4c6a93da"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,17 +103,17 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 108180
+    record_count: 108183
     file_count: 60
-    bytes: 7821460
+    bytes: 7821622
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "5b267b16c200f96ee1b917ebd06cbe927de0448f3eb75d20a8b07799da2ccc83"
+    sha256: "2c0f339f09bf140fd17d5ef56f57a4fdc5b25195aabc49916f28bb02aa86b158"
   KNS_DocumentCommitteeSession:
-    record_count: 197913
+    record_count: 197926
     file_count: 941
-    bytes: 52857285
+    bytes: 52862259
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "4f0fc534268e0294ec823a82bc132f3bea20e9537e8aa3d40e7a0b1a0f8b1a9a"
+    sha256: "4a75dac6c3afd6b921ea42507ed0b1a5fed7d48d84bcf1620c4184e689fd04e7"
   KNS_PlenumSession:
     record_count: 8756
     file_count: 62
@@ -121,17 +121,17 @@ tables:
     description: "ישיבות מליאה"
     sha256: "25dde7a9f6523c2a050014c3bd66f84accd1317ac6c91f56640f5470c1dc4675"
   KNS_PlmSessionItem:
-    record_count: 168106
+    record_count: 168110
     file_count: 17
-    bytes: 51165410
+    bytes: 51166596
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "164e40a68c2540cc7b7c71fa187eab92df6894fe9f3813ec835ebc5b8927396b"
+    sha256: "588f3790a8a85031cc19124931d36c5408fba42be2f3724d90f98fe7243803b0"
   KNS_DocumentPlenumSession:
     record_count: 74479
     file_count: 484
     bytes: 19198580
     description: "מסמכי ישיבות מליאה — פרוטוקולים וסיכומים"
-    sha256: "b2a8112c28d9e66dcd138af3a0156901ef041dd3d8516696956e1bed4453cbd2"
+    sha256: "57099a5af40f141f20287e1127ca5dbc52e3aba48df4b936e0f75a33df1eb4dc"
   KNS_PlenumVote:
     record_count: 35011
     file_count: 5
@@ -193,11 +193,11 @@ tables:
     description: "איחודי הצעות חוק"
     sha256: "9b75ffbc7cd07e102e03ec1753ef59d7f28b1b22d840e5c20cb909112f89bd3b"
   KNS_DocumentBill:
-    record_count: 110846
+    record_count: 110847
     file_count: 686
-    bytes: 29150870
+    bytes: 29151140
     description: "מסמכי הצעות חוק — נוסחים, דברי הסבר"
-    sha256: "b469d7407f09dfa5ab53b547b068baa0948ef20f362ddf7d7d5b33d7c137352f"
+    sha256: "fe207af4bc949b4a420d5237226745bf09e3c4eb11d336efc7cd0c499fa1cb4c"
   KNS_IsraelLaw:
     record_count: 1994
     file_count: 15
@@ -243,9 +243,9 @@ tables:
   KNS_Query:
     record_count: 42679
     file_count: 29
-    bytes: 15052134
+    bytes: 15052149
     description: "שאילתות — שאלות חברי כנסת לשרים"
-    sha256: "9809ac58ff303508514123c41dbfbdf053f62863c337a134f798cf2a26d7dca5"
+    sha256: "6f10ad3203968255b3ac811378a55778a181d575589551b4b9bca75d28d35e35"
   KNS_DocumentQuery:
     record_count: 7207
     file_count: 473

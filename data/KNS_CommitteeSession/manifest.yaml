@@ -62,11 +62,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 108177
+  record_count: 108180
   file_count: 60
-  total_bytes: 55980348
+  total_bytes: 55982475
   min_id: 64515
-  max_id: 2241768
+  max_id: 2241795
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -485,9 +485,9 @@ files:
       - 2230050
       - 2239994
   - name: "KNS_CommitteeSession-000225.jsonl"
-    records: 518
-    bytes: 273382
-    sha256: "7f8cb9eded923121809cf8925b5de26cd0c142535ceffb57c1cd278ae8c61e69"
+    records: 521
+    bytes: 275509
+    sha256: "28b561f64d4341d07dca9bac4dafca8aa29a0a4f39cb3e1addafe00a9440ea80"
     id_range:
       - 2240022
-      - 2241768
+      - 2241795
