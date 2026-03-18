@@ -35,11 +35,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 169747
+  record_count: 169748
   file_count: 23
-  total_bytes: 21189760
+  total_bytes: 21189889
   min_id: 1
-  max_id: 229400
+  max_id: 229405
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -199,9 +199,9 @@ files:
       - 210000
       - 219999
   - name: "KNS_BillInitiator-000023.jsonl"
-    records: 6458
-    bytes: 830314
-    sha256: "21fa74ce2e9c721a933868b8803eaac86d5df9c7d61319d6504fdeba3e7ca4a1"
+    records: 6459
+    bytes: 830443
+    sha256: "8e69a1ba825f65b72db92b62ece9b37321515cf467c765c36032c2b8962c4d2d"
     id_range:
       - 220000
-      - 229400
+      - 229405
