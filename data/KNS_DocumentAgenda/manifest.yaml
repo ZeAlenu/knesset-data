@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 27459
-  file_count: 490
-  total_bytes: 7525217
+  record_count: 27471
+  file_count: 491
+  total_bytes: 7528520
   min_id: 35235
-  max_id: 11949895
+  max_id: 11984415
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -3480,3 +3480,10 @@ files:
     id_range:
       - 11949894
       - 11949895
+  - name: "KNS_DocumentAgenda-001199.jsonl"
+    records: 12
+    bytes: 3303
+    sha256: "10e941f044b46e4ea5cdccf91984671645598774fcdb2f8a2d2594318a7d1ced"
+    id_range:
+      - 11983071
+      - 11984415
