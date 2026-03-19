@@ -4887,3 +4887,6 @@
 {"Id":8546,"SecondaryLawID":2241760,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-16T14:35:57.557+02:00"}
 {"Id":8547,"SecondaryLawID":2241761,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-16T14:40:30.15+02:00"}
 {"Id":8550,"SecondaryLawID":2235618,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":686,"RegulatorDesc":"משרד התחבורה והבטיחות בדרכים","LastUpdatedDate":"2026-03-19T09:50:37.013+02:00"}
+{"Id":8551,"SecondaryLawID":2241931,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-19T13:05:16.24+02:00"}
+{"Id":8552,"SecondaryLawID":2241935,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5296,"RegulatorDesc":"רשות החברות הממשלתיות","LastUpdatedDate":"2026-03-19T13:48:06.65+02:00"}
+{"Id":8553,"SecondaryLawID":2241936,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5306,"RegulatorDesc":"הנהלת בתי המשפט","LastUpdatedDate":"2026-03-19T14:06:06.49+02:00"}
