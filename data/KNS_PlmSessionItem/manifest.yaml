@@ -47,11 +47,11 @@ schema:
       type: "datetime"
       nullable: false
 stats:
-  record_count: 168137
+  record_count: 168138
   file_count: 17
-  total_bytes: 51175940
+  total_bytes: 51176218
   min_id: 1
-  max_id: 168137
+  max_id: 168138
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -169,9 +169,9 @@ files:
       - 150000
       - 159999
   - name: "KNS_PlmSessionItem-000017.jsonl"
-    records: 8138
-    bytes: 2557674
-    sha256: "b51345e86abdecda36195b7f1a1b8887284da9c0556e091c6909cfeb3a3a0922"
+    records: 8139
+    bytes: 2557952
+    sha256: "940138e12259d50c4a59ddcb83963b762092f9c182a1159858cd723c890d8349"
     id_range:
       - 160000
-      - 168137
+      - 168138
