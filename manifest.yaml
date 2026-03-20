@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-20T04:05:12.686Z"
+  at: "2026-03-20T10:03:11.622Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -22,7 +22,7 @@ stats:
   total_tables: 44
   total_records: 1502129
   total_files: 4281
-  total_bytes: 480132399
+  total_bytes: 480132406
 tables:
   KNS_Status:
     record_count: 81
@@ -81,9 +81,9 @@ tables:
   KNS_CommitteeSession:
     record_count: 108254
     file_count: 60
-    bytes: 56021501
+    bytes: 56021508
     description: "ישיבות ועדה"
-    sha256: "191a9fcd26c63b56f4d1c79ba15614fa7a3e39de4abd152c7ab2399c1f16902e"
+    sha256: "1766dfd4df1362dbe594b4221c837d217b430a497506205000da92eebfffe283"
   KNS_CmtSessionItem:
     record_count: 79234
     file_count: 72
