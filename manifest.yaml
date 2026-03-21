@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-20T10:03:11.622Z"
+  at: "2026-03-21T04:03:06.448Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1502129
+  total_records: 1502132
   total_files: 4281
-  total_bytes: 480132406
+  total_bytes: 480133429
 tables:
   KNS_Status:
     record_count: 81
@@ -79,17 +79,17 @@ tables:
     description: "ועדות הכנסת"
     sha256: "9d1bf7adc3977025110a009dcffc8b880bd1ceff5a0bb7a96425976ebfd21ec1"
   KNS_CommitteeSession:
-    record_count: 108254
+    record_count: 108255
     file_count: 60
-    bytes: 56021508
+    bytes: 56022075
     description: "ישיבות ועדה"
-    sha256: "1766dfd4df1362dbe594b4221c837d217b430a497506205000da92eebfffe283"
+    sha256: "84054b5b4553c61ba34c3ea058fe2ea249fa048d7a5b9dd21e230c031e2d69f6"
   KNS_CmtSessionItem:
-    record_count: 79234
+    record_count: 79235
     file_count: 72
-    bytes: 21226925
+    bytes: 21227327
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "5dfc902a48aa4f9661538686a0e8f5a2ebac6e0a2af8a83eefd83e863d0d920f"
+    sha256: "1a6218c7f21995447e570e111705dcc9f67a455701ece14167df188277dc84fd"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -103,11 +103,11 @@ tables:
     description: "ועדות משותפות — קשרים בין ועדות"
     sha256: "dffd3ea551c3599c1851db20787d67c239da87273f8a4f3c6ac251191677d5e5"
   KNS_BroadcastCommitteSession:
-    record_count: 108257
+    record_count: 108258
     file_count: 60
-    bytes: 7825618
+    bytes: 7825672
     description: "קישורי שידור ישיבות ועדה"
-    sha256: "c14c999260ee179ea4c92fe49d06a93561a558518cfbbd8712f0b54c1134441d"
+    sha256: "5973c3bceec9c91b2f29d5bc17f3cbd60120b33b68f21120c9415f3f61b0b23e"
   KNS_DocumentCommitteeSession:
     record_count: 198148
     file_count: 947
