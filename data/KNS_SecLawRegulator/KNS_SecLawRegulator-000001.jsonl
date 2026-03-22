@@ -4877,16 +4877,23 @@
 {"Id":8533,"SecondaryLawID":2241687,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-15T12:53:32.053+02:00"}
 {"Id":8534,"SecondaryLawID":2241681,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":618,"RegulatorDesc":"משרד התקשורת","LastUpdatedDate":"2026-03-15T14:58:33.777+02:00"}
 {"Id":8535,"SecondaryLawID":2241732,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-03-16T10:42:55.057+02:00"}
+{"Id":8536,"SecondaryLawID":2241733,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-16T10:45:55.753+02:00"}
+{"Id":8537,"SecondaryLawID":2241733,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5293,"RegulatorDesc":"משטרת ישראל","LastUpdatedDate":"2026-03-16T10:45:55.753+02:00"}
 {"Id":8538,"SecondaryLawID":2241735,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-03-16T10:53:17.51+02:00"}
 {"Id":8539,"SecondaryLawID":2241736,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-16T10:53:35.51+02:00"}
 {"Id":8540,"SecondaryLawID":2241739,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-16T11:00:51.997+02:00"}
 {"Id":8541,"SecondaryLawID":2241739,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":518,"RegulatorDesc":"הממשלה","LastUpdatedDate":"2026-03-16T11:00:51.997+02:00"}
 {"Id":8542,"SecondaryLawID":2241740,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-16T11:09:02.633+02:00"}
+{"Id":8543,"SecondaryLawID":2241745,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-16T12:33:58.077+02:00"}
 {"Id":8544,"SecondaryLawID":2241755,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":754,"RegulatorDesc":"משרד הפנים","LastUpdatedDate":"2026-03-16T14:27:48.113+02:00"}
 {"Id":8545,"SecondaryLawID":2241759,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-16T14:35:03.167+02:00"}
 {"Id":8546,"SecondaryLawID":2241760,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-16T14:35:57.557+02:00"}
 {"Id":8547,"SecondaryLawID":2241761,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-16T14:40:30.15+02:00"}
+{"Id":8548,"SecondaryLawID":2241808,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-17T11:06:49.01+02:00"}
+{"Id":8549,"SecondaryLawID":2241809,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-17T11:11:02.887+02:00"}
 {"Id":8550,"SecondaryLawID":2235618,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":686,"RegulatorDesc":"משרד התחבורה והבטיחות בדרכים","LastUpdatedDate":"2026-03-19T09:50:37.013+02:00"}
 {"Id":8551,"SecondaryLawID":2241931,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-19T13:05:16.24+02:00"}
 {"Id":8552,"SecondaryLawID":2241935,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5296,"RegulatorDesc":"רשות החברות הממשלתיות","LastUpdatedDate":"2026-03-19T13:48:06.65+02:00"}
 {"Id":8553,"SecondaryLawID":2241936,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5306,"RegulatorDesc":"הנהלת בתי המשפט","LastUpdatedDate":"2026-03-19T14:06:06.49+02:00"}
+{"Id":8554,"SecondaryLawID":2241966,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-22T09:24:41.837+02:00"}
+{"Id":8555,"SecondaryLawID":2241967,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1361,"RegulatorDesc":"המשרד לביטחון לאומי","LastUpdatedDate":"2026-03-22T10:02:40.103+02:00"}
