@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-22T10:03:51.687Z"
+  at: "2026-03-22T16:03:12.469Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1502301
-  total_files: 4285
-  total_bytes: 480188675
+  total_records: 1502355
+  total_files: 4286
+  total_bytes: 480209703
 tables:
   KNS_Status:
     record_count: 81
@@ -81,15 +81,15 @@ tables:
   KNS_CommitteeSession:
     record_count: 108256
     file_count: 60
-    bytes: 56022665
+    bytes: 56022767
     description: "ישיבות ועדה"
-    sha256: "5c714145644578d57aa04e44a9ef3b2b803d7976d54e3cf8c0d5d7ea4365b647"
+    sha256: "f00ef2724b566456bef10d77595d1acff5af2041393fdca40b8eaaf0cd3e4c2a"
   KNS_CmtSessionItem:
-    record_count: 79236
+    record_count: 79243
     file_count: 72
-    bytes: 21227589
+    bytes: 21230484
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "d1de399d0fbaaa7a8997ceef7da8f9513f6eab56d05864c69e60c06df2a6d1eb"
+    sha256: "b848e93b8f5c6bb9a5ec59bf7c476e74ea8e768c765cef153b69688994d97cf7"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -109,11 +109,11 @@ tables:
     description: "קישורי שידור ישיבות ועדה"
     sha256: "186c465eb07891e1c3367bfbcdcd15a26534aaae6c5e50e0410aa195199ee2ed"
   KNS_DocumentCommitteeSession:
-    record_count: 198165
-    file_count: 949
-    bytes: 52958239
+    record_count: 198183
+    file_count: 950
+    bytes: 52965262
     description: "מסמכי ישיבות ועדה — פרוטוקולים, הזמנות, סיכומים"
-    sha256: "3c21db7af1de8d2e012c9adc854bbbd482a860b9964189e703fa27907181e793"
+    sha256: "df1db7dd1d4bb2633228dc779010e1d583014a3f38c55f8f01acdead718a62c8"
   KNS_PlenumSession:
     record_count: 8758
     file_count: 62
@@ -121,11 +121,11 @@ tables:
     description: "ישיבות מליאה"
     sha256: "03cde5c39c1dffbefed1497c3e061f5b1f4b1db04e6664b1cb7455179f5da0b5"
   KNS_PlmSessionItem:
-    record_count: 168139
+    record_count: 168140
     file_count: 17
-    bytes: 51176510
+    bytes: 51176941
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "6435c027319db1d9a09e527a02a510e276e302bf6633ac5f7bab97f0d863bc60"
+    sha256: "8c359ae4b624b5cacb6902889e5502a6a0fec3b117068646d92e54fb863ce1b9"
   KNS_DocumentPlenumSession:
     record_count: 74482
     file_count: 486
@@ -161,7 +161,7 @@ tables:
     file_count: 66
     bytes: 42195237
     description: "הצעות חוק וחוקים שנחקקו"
-    sha256: "5ebb7eb3270e6c5b3f37fb21ec2f6e34ac1582195fe8bf0f39f10121f815ea0f"
+    sha256: "a1fd4f427427b92c0610ea850d6b5803fc7026a8a92edc4deb2213e724340544"
   KNS_BillHistoryInitiator:
     record_count: 10392
     file_count: 2
@@ -175,11 +175,11 @@ tables:
     description: "יוזמי הצעות חוק — מיפוי הצעה לח\"כ יוזם"
     sha256: "b54d91267ba4a11d441794dad5764b1ee3adf91547543f96c4c551c7aefb1d50"
   KNS_BillName:
-    record_count: 27856
+    record_count: 27860
     file_count: 4
-    bytes: 7956363
+    bytes: 7958110
     description: "שמות קודמים של הצעות חוק"
-    sha256: "873517b0c6a24a5286045c401fb61b5ca7e473ae431c8479a612478fbd5ab118"
+    sha256: "25a813a5eb36221d0d62bae983e337925794979cd9d241904e76d99233506db1"
   KNS_BillSplit:
     record_count: 879
     file_count: 1
@@ -241,11 +241,11 @@ tables:
     description: "קשרים בין חוקים שנחקקו לחוקי אב"
     sha256: "30f6a708632d3bcec29b6becfe9ca7fe7b465bae5849e7b847d9ae559f2e7191"
   KNS_Query:
-    record_count: 42713
+    record_count: 42714
     file_count: 29
-    bytes: 15066342
+    bytes: 15066708
     description: "שאילתות — שאלות חברי כנסת לשרים"
-    sha256: "8a19227dfe2d42cc8233c730b18c838caba1d801acd956e65ce96aec75185a54"
+    sha256: "89143d0a4e93c713a3e9d4687aebd24948bbdf1ad8cf89802b435320552f4a41"
   KNS_DocumentQuery:
     record_count: 7207
     file_count: 473
@@ -253,23 +253,23 @@ tables:
     description: "מסמכי שאילתות"
     sha256: "b1b19a1b948ccd15aab69aee46123c2f4dd08ea7f4d2c6453b9b751a23f8bf1a"
   KNS_SecondaryLaw:
-    record_count: 59960
+    record_count: 59963
     file_count: 19
-    bytes: 56743799
+    bytes: 56747230
     description: "חקיקת משנה — תקנות, צווים, כללים"
-    sha256: "6f65ac9d40ad3b04159f641cedb23a56f08e365bf9d710f8380ae4a2c9d9c9de"
+    sha256: "a5b00e6dab6b4108763761f97366215dd7fea7126a0c7ab0a7c82b43baba578c"
   KNS_SecLawAuthorizingLaw:
-    record_count: 67916
+    record_count: 67919
     file_count: 10
-    bytes: 7612338
+    bytes: 7612686
     description: "חוקים מסמיכים לחקיקת משנה"
-    sha256: "a1605f18a93ce4d79f810537a2fdf37986dec2fc8c269ec025466369f8b05e5b"
+    sha256: "00e220b5f8724fe20c5064185f71127f63855e41da8d9d6cc0dc3743ab0953c4"
   KNS_SecLawRegulator:
-    record_count: 4899
+    record_count: 4902
     file_count: 1
-    bytes: 1009474
+    bytes: 1010102
     description: "גופים מתקינים של חקיקת משנה"
-    sha256: "fb64106e634537f3b1caaca8b3cab466d51a96e3a7740c4128c0a65bddd9f59d"
+    sha256: "011f7e161859d9905ede546ac2d4b35df49681145fa7db12faef8246c6cc3d23"
   KNS_SecToSecBinding:
     record_count: 23763
     file_count: 3
@@ -277,11 +277,11 @@ tables:
     description: "קשרים בין תקנות חקיקת משנה"
     sha256: "043c01eb08faa672179773dd7f0aeff10b40ff5df085a99c27eb84ff5898acd0"
   KNS_DocumentSecondaryLaw:
-    record_count: 7041
+    record_count: 7055
     file_count: 651
-    bytes: 2005196
+    bytes: 2009253
     description: "מסמכי חקיקת משנה"
-    sha256: "ddea16e048cedbbeda0ad1a8bbfef6fa9cccb2a7eaeca3775533c596e98b755a"
+    sha256: "513ceb94140db481246bf72ad48e3221c7326dcc7fd0aa4eb5a1b3f56c32f8ec"
   KNS_MkSiteCode:
     record_count: 1111
     file_count: 1
