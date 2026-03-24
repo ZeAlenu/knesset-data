@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-23T22:02:08.810Z"
+  at: "2026-03-24T04:02:57.350Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -22,7 +22,7 @@ stats:
   total_tables: 44
   total_records: 1502666
   total_files: 4295
-  total_bytes: 480310809
+  total_bytes: 480310833
 tables:
   KNS_Status:
     record_count: 81
@@ -117,15 +117,15 @@ tables:
   KNS_PlenumSession:
     record_count: 8759
     file_count: 62
-    bytes: 2336282
+    bytes: 2336306
     description: "ישיבות מליאה"
-    sha256: "b74fea10a1aa196fb3728a4b6daca866784a7fcf02471041de8fb34711692e4a"
+    sha256: "dca6601b2e4032714c37edf47175472a8bd326b890eaa2e38d716902694050bb"
   KNS_PlmSessionItem:
     record_count: 168168
     file_count: 17
     bytes: 51186383
     description: "פריטים על סדר היום בישיבות מליאה"
-    sha256: "044d9da2bcf6bff2731cc2a5c82e79bf877ba9dac396d4780b073d79e9658173"
+    sha256: "cf7448c026af560a31144fc4db4f7b9644bfb51c632879d8ffe7dbf6b5ef7402"
   KNS_DocumentPlenumSession:
     record_count: 74486
     file_count: 488
