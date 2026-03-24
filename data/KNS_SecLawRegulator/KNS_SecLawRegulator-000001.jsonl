@@ -4904,3 +4904,6 @@
 {"Id":8560,"SecondaryLawID":2242026,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":589,"RegulatorDesc":"משרד התרבות והספורט","LastUpdatedDate":"2026-03-23T09:13:27.703+02:00"}
 {"Id":8561,"SecondaryLawID":2242039,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-23T11:16:49.663+02:00"}
 {"Id":8562,"SecondaryLawID":2242070,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-03-23T18:11:21.657+02:00"}
+{"Id":8563,"SecondaryLawID":2242091,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-03-24T10:46:29.343+02:00"}
+{"Id":8564,"SecondaryLawID":2242092,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5295,"RegulatorDesc":"מנהל רשות המיסים","LastUpdatedDate":"2026-03-24T10:54:44.503+02:00"}
+{"Id":8565,"SecondaryLawID":2242093,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5276,"RegulatorDesc":"נגיד בנק ישראל","LastUpdatedDate":"2026-03-24T11:06:06.33+02:00"}
