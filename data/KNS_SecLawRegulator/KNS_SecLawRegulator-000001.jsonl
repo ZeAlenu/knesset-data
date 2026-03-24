@@ -4909,3 +4909,4 @@
 {"Id":8565,"SecondaryLawID":2242093,"RegulatorTypeID":341,"RegulatorTypeDesc":"גופים","RegulatorID":5276,"RegulatorDesc":"נגיד בנק ישראל","LastUpdatedDate":"2026-03-24T11:06:06.33+02:00"}
 {"Id":8566,"SecondaryLawID":2242106,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-03-24T15:09:25.563+02:00"}
 {"Id":8567,"SecondaryLawID":2242112,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-03-24T15:53:34.337+02:00"}
+{"Id":8568,"SecondaryLawID":2242120,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-03-24T20:21:19.437+02:00"}
