@@ -4911,3 +4911,5 @@
 {"Id":8567,"SecondaryLawID":2242112,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1237,"RegulatorDesc":"משרד האוצר","LastUpdatedDate":"2026-03-24T15:53:34.337+02:00"}
 {"Id":8568,"SecondaryLawID":2242120,"RegulatorTypeID":342,"RegulatorTypeDesc":"כללי","RegulatorID":510,"RegulatorDesc":"יושב ראש הכנסת","LastUpdatedDate":"2026-03-24T20:21:19.437+02:00"}
 {"Id":8569,"SecondaryLawID":2242128,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-25T08:03:37.16+02:00"}
+{"Id":8570,"SecondaryLawID":2242138,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":876,"RegulatorDesc":"משרד המשפטים","LastUpdatedDate":"2026-03-25T12:55:07.323+02:00"}
+{"Id":8571,"SecondaryLawID":2242139,"RegulatorTypeID":340,"RegulatorTypeDesc":"משרדים","RegulatorID":1178,"RegulatorDesc":"משרד הביטחון","LastUpdatedDate":"2026-03-25T12:56:11.11+02:00"}
