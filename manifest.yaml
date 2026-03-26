@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-25T22:01:45.917Z"
+  at: "2026-03-26T04:03:50.246Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1503139
+  total_records: 1503254
   total_files: 4308
-  total_bytes: 480467646
+  total_bytes: 480502791
 tables:
   KNS_Status:
     record_count: 81
@@ -133,17 +133,17 @@ tables:
     description: "מסמכי ישיבות מליאה — פרוטוקולים וסיכומים"
     sha256: "66677678a560db930a8eb246421fe9ebde7d9e39d356b6d03f91a93859b945f4"
   KNS_PlenumVote:
-    record_count: 35081
+    record_count: 35096
     file_count: 5
-    bytes: 22194701
+    bytes: 22204395
     description: "הצבעות במליאה — מטאדאטה"
-    sha256: "75dea17476647a6f54aeb5b630702f235174eca05242b2c220147b8ce09d011a"
+    sha256: "85aa1dc9368fd74128a644eba8ccf52c1a64e003983f915fb268c2f2be86e562"
   KNS_PlenumVoteResult:
-    record_count: 1035
+    record_count: 1135
     file_count: 3
-    bytes: 262469
+    bytes: 287920
     description: "תוצאות הצבעות — הצבעת כל חבר כנסת"
-    sha256: "2314e626dd0855f3b21c8ec638c03573e3278af0bc5dde8d961a1a9ebf404b19"
+    sha256: "b38a836d04e513086c26850a8ae953d74e56b55f0bd380064635221fe2adb3b1"
   KNS_Agenda:
     record_count: 42240
     file_count: 65
