@@ -41,11 +41,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 7077
-  file_count: 655
-  total_bytes: 2015515
+  record_count: 7089
+  file_count: 657
+  total_bytes: 2018804
   min_id: 491804
-  max_id: 12108650
+  max_id: 12134057
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -4635,3 +4635,17 @@ files:
     id_range:
       - 12108650
       - 12108650
+  - name: "KNS_DocumentSecondaryLaw-001213.jsonl"
+    records: 5
+    bytes: 1381
+    sha256: "d52776a8b0849a950611b2d34cb15ec3757b6fc4fdce180609c38823f851b477"
+    id_range:
+      - 12129347
+      - 12129375
+  - name: "KNS_DocumentSecondaryLaw-001214.jsonl"
+    records: 7
+    bytes: 1908
+    sha256: "2eb5461723dd0089054f6447780414e34802502edd7e57f5b62502870ac766d0"
+    id_range:
+      - 12134024
+      - 12134057
