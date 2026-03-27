@@ -1,6 +1,6 @@
 manifest_version: "1.0.0"
 generated:
-  at: "2026-03-27T03:04:34.119Z"
+  at: "2026-03-27T21:04:36.937Z"
   by: "knesset-sync"
   version: "1.0.0"
 provenance:
@@ -20,9 +20,9 @@ provenance:
     - "Dublin Core"
 stats:
   total_tables: 44
-  total_records: 1503284
+  total_records: 1503305
   total_files: 4310
-  total_bytes: 480513354
+  total_bytes: 480515557
 tables:
   KNS_Status:
     record_count: 81
@@ -89,7 +89,7 @@ tables:
     file_count: 72
     bytes: 21251070
     description: "פריטים על סדר היום בישיבות ועדה"
-    sha256: "606d588edb700c06debf9ab178a30500d45240e763a37d81c2b54e38a2d5282d"
+    sha256: "4532b5e351127698dd49b9c0a93809afaabee82fc78185782aa6e6c5a62964e0"
   KNS_CmtSiteCode:
     record_count: 718
     file_count: 1
@@ -159,9 +159,9 @@ tables:
   KNS_Bill:
     record_count: 60129
     file_count: 66
-    bytes: 42202466
+    bytes: 42202468
     description: "הצעות חוק וחוקים שנחקקו"
-    sha256: "169a459e4df7abcd74a72366d8c58b2ab7f0d27906a98c3ed6c67b57138c7851"
+    sha256: "c5c3bc178822a5587aad58b9bd841f288b540a512421e7d93bf5a44fa3034266"
   KNS_BillHistoryInitiator:
     record_count: 10392
     file_count: 2
@@ -187,11 +187,11 @@ tables:
     description: "פיצולי הצעות חוק"
     sha256: "a7cf4891f7bdb37c0b243c8c64486ef7afc49ea6407149363e650a3bdf182c2b"
   KNS_BillUnion:
-    record_count: 1583
+    record_count: 1604
     file_count: 1
-    bytes: 161657
+    bytes: 163858
     description: "איחודי הצעות חוק"
-    sha256: "eb6846fac4ba07458c77b2515b68db2e6a7aa03aebaaa3ae47b7c373aafa4812"
+    sha256: "6443d34079f145ff48a4bb60105de2a56531839123ee22aeda0989de9361f942"
   KNS_DocumentBill:
     record_count: 110924
     file_count: 696
