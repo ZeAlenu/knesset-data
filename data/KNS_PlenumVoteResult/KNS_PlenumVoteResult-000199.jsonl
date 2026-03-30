@@ -298,3 +298,4 @@
 {"Id":1986919,"MkId":34376,"VoteID":45486,"VoteDate":"2026-03-25T00:00:00+02:00","ResultCode":7,"ResultDesc":"בעד","LastUpdatedDate":"2026-03-26T04:45:48.097+02:00","LastName":"שירי","FirstName":"נאור","SessionID":2241628,"ItemID":2239066}
 {"Id":1986920,"MkId":34632,"VoteID":45486,"VoteDate":"2026-03-25T00:00:00+02:00","ResultCode":8,"ResultDesc":"נגד","LastUpdatedDate":"2026-03-26T04:45:48.097+02:00","LastName":"שקלים","FirstName":"אושר","SessionID":2241628,"ItemID":2239066}
 {"Id":1986921,"MkId":23635,"VoteID":45486,"VoteDate":"2026-03-25T00:00:00+02:00","ResultCode":7,"ResultDesc":"בעד","LastUpdatedDate":"2026-03-26T04:45:48.097+02:00","LastName":"תמנו","FirstName":"פנינה","SessionID":2241628,"ItemID":2239066}
+{"Id":1987023,"MkId":12938,"VoteID":45466,"VoteDate":"2026-03-25T13:13:00+02:00","ResultCode":7,"ResultDesc":"בעד","LastUpdatedDate":"2026-03-29T15:33:51.167+03:00","LastName":"עמאר","FirstName":"חמד","SessionID":2241628,"ItemID":2231897}
