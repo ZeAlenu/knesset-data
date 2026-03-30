@@ -151,7 +151,7 @@ files:
   - name: "KNS_IsraelLaw-000222.jsonl"
     records: 35
     bytes: 20369
-    sha256: "0d2d276a62e1ca49b19a4bc03944f70197c2743f5ccf06d0fb862a9bdd54c070"
+    sha256: "e0dc8dac83decf2a4c257350725179968b67449fc593bec0da7a09626dda30c9"
     id_range:
       - 2210693
       - 2219974
