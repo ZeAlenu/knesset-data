@@ -62,11 +62,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 1995
+  record_count: 1999
   file_count: 15
-  total_bytes: 1018605
+  total_bytes: 1020822
   min_id: 2000001
-  max_id: 2242222
+  max_id: 2242329
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -144,7 +144,7 @@ files:
   - name: "KNS_IsraelLaw-000221.jsonl"
     records: 16
     bytes: 9017
-    sha256: "24fbc72b0e5db0a0879efd2dc8ead6baaeef2f492d884fdeff3f70383c6fced3"
+    sha256: "edca4851c73ff3818f3fa7a15b166517eaefb7817b2e9a40fb3e11319f75d412"
     id_range:
       - 2203836
       - 2209913
@@ -165,14 +165,14 @@ files:
   - name: "KNS_IsraelLaw-000224.jsonl"
     records: 18
     bytes: 9921
-    sha256: "f5cd5fefbae4346e213494f5e9d2478943bb586c1806b6b1c6a56d7c56734db1"
+    sha256: "72f89ad07a702dcb482f62bf871e87f522f2a79892bc08f6dd00d5578eead9a7"
     id_range:
       - 2230332
       - 2239473
   - name: "KNS_IsraelLaw-000225.jsonl"
-    records: 2
-    bytes: 1259
-    sha256: "8ac07d5c3ef8906b02ebc2c9c9d97ca47f2b7deee8c9003d0640b09332224797"
+    records: 6
+    bytes: 3476
+    sha256: "c1cf727048957c27b8eb0dfa635d70e7d9281f135c6372da13466d151110afb2"
     id_range:
       - 2241319
-      - 2242222
+      - 2242329

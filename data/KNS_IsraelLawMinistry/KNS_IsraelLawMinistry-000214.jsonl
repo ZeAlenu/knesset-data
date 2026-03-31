@@ -1699,3 +1699,7 @@
 {"Id":2137359,"IsraelLawID":2241319,"LastUpdatedDate":"2026-03-01T12:38:11.813+02:00","MinistryCategoryID":5,"MinistryCategoryDesc":"ביטחון לאומי"}
 {"Id":2137360,"IsraelLawID":2241319,"LastUpdatedDate":"2026-03-01T12:38:11.813+02:00","MinistryCategoryID":35,"MinistryCategoryDesc":"המשפטים"}
 {"Id":2137361,"IsraelLawID":2242222,"LastUpdatedDate":"2026-03-30T10:58:11.507+03:00","MinistryCategoryID":35,"MinistryCategoryDesc":"המשפטים"}
+{"Id":2137362,"IsraelLawID":2242324,"LastUpdatedDate":"2026-03-31T18:55:34.007+03:00","MinistryCategoryID":3,"MinistryCategoryDesc":"הממשלה"}
+{"Id":2137363,"IsraelLawID":2242327,"LastUpdatedDate":"2026-03-31T20:31:15.307+03:00","MinistryCategoryID":16,"MinistryCategoryDesc":"האוצר"}
+{"Id":2137364,"IsraelLawID":2242328,"LastUpdatedDate":"2026-03-31T20:36:48.723+03:00","MinistryCategoryID":16,"MinistryCategoryDesc":"האוצר"}
+{"Id":2137365,"IsraelLawID":2242329,"LastUpdatedDate":"2026-03-31T20:52:04.94+03:00","MinistryCategoryID":16,"MinistryCategoryDesc":"האוצר"}
