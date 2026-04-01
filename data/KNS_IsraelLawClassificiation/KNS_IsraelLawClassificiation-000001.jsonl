@@ -2871,3 +2871,18 @@
 {"Id":3036,"IsraelLawID":2242329,"ClassificiationID":45,"ClassificiationDesc":"תעסוקה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
 {"Id":3037,"IsraelLawID":2242329,"ClassificiationID":4,"ClassificiationDesc":"ביטחון הפנים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
 {"Id":3038,"IsraelLawID":2242329,"ClassificiationID":5,"ClassificiationDesc":"בינוי ושיכון","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3039,"IsraelLawID":2242330,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3040,"IsraelLawID":2242330,"ClassificiationID":34,"ClassificiationDesc":"קליטת עלייה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3041,"IsraelLawID":2242331,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3042,"IsraelLawID":2242331,"ClassificiationID":7,"ClassificiationDesc":"בריאות","LastUpdatedDate":"2020-07-02T14:42:30.85+03:00"}
+{"Id":3043,"IsraelLawID":2242330,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3044,"IsraelLawID":2242332,"ClassificiationID":34,"ClassificiationDesc":"קליטת עלייה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3045,"IsraelLawID":2242332,"ClassificiationID":7,"ClassificiationDesc":"בריאות","LastUpdatedDate":"2020-07-02T14:42:30.85+03:00"}
+{"Id":3046,"IsraelLawID":2242332,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3047,"IsraelLawID":2242332,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3048,"IsraelLawID":2242329,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3049,"IsraelLawID":2242328,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3050,"IsraelLawID":2242327,"ClassificiationID":12,"ClassificiationDesc":"חוקי הסדרים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3051,"IsraelLawID":2242333,"ClassificiationID":53,"ClassificiationDesc":"מצב חירום","LastUpdatedDate":"2021-06-03T11:07:40.247+03:00"}
+{"Id":3052,"IsraelLawID":2242333,"ClassificiationID":45,"ClassificiationDesc":"תעסוקה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3053,"IsraelLawID":2242334,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
