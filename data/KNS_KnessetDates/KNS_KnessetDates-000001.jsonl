@@ -161,4 +161,5 @@
 {"Id":164,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":2,"Plenum":2,"PlenumStart":"2023-10-15T00:00:00+03:00","PlenumFinish":"2024-07-28T00:00:00+03:00","IsCurrent":false,"LastUpdatedDate":"2024-02-21T21:34:54.03+02:00"}
 {"Id":165,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":1,"Plenum":3,"PlenumStart":"2024-10-27T00:00:00+03:00","PlenumFinish":"2025-07-27T00:00:00+03:00","IsCurrent":false,"LastUpdatedDate":"2025-03-12T13:57:56.683+02:00"}
 {"Id":166,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":2,"Plenum":3,"PlenumStart":"2024-10-27T00:00:00+03:00","PlenumFinish":"2025-07-27T00:00:00+03:00","IsCurrent":false,"LastUpdatedDate":"2025-03-12T13:58:27.61+02:00"}
-{"Id":167,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":1,"Plenum":4,"PlenumStart":"2025-10-19T00:00:00+03:00","PlenumFinish":null,"IsCurrent":true,"LastUpdatedDate":"2022-10-27T18:20:34.167+03:00"}
+{"Id":167,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":1,"Plenum":4,"PlenumStart":"2025-10-19T00:00:00+03:00","PlenumFinish":null,"IsCurrent":true,"LastUpdatedDate":"2026-04-09T16:17:52.363+03:00"}
+{"Id":168,"KnessetNum":25,"Name":"העשרים וחמש","Assembly":2,"Plenum":4,"PlenumStart":"2025-10-19T00:00:00+03:00","PlenumFinish":null,"IsCurrent":false,"LastUpdatedDate":"2026-04-09T16:19:35.453+03:00"}

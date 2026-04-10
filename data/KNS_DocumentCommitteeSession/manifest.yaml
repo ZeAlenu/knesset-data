@@ -44,11 +44,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 198300
-  file_count: 959
-  total_bytes: 53010179
+  record_count: 198345
+  file_count: 965
+  total_bytes: 53026911
   min_id: 71308
-  max_id: 12236932
+  max_id: 12380604
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -6760,9 +6760,51 @@ files:
       - 12201071
       - 12205858
   - name: "KNS_DocumentCommitteeSession-001224.jsonl"
-    records: 3
-    bytes: 1095
-    sha256: "083562a50343a15dbe566416c2ca1a472296d0626450e1804cc5cd5f94925eb7"
+    records: 8
+    bytes: 2824
+    sha256: "402d9f7a1b258db1f42dc51e7f54ff579586c3c9edef625fd2bd7a08a0392d70"
     id_range:
       - 12236280
-      - 12236932
+      - 12238898
+  - name: "KNS_DocumentCommitteeSession-001231.jsonl"
+    records: 6
+    bytes: 2294
+    sha256: "8ad8a3bd048b457577b5e37c9e7254b8f0a1bcb9305500aece9483f27fd71cf6"
+    id_range:
+      - 12307463
+      - 12307943
+  - name: "KNS_DocumentCommitteeSession-001235.jsonl"
+    records: 11
+    bytes: 4203
+    sha256: "2bba77322d8073008a2692bc254b4631afefba81994206fe03b3c11e8cfff677"
+    id_range:
+      - 12342496
+      - 12343731
+  - name: "KNS_DocumentCommitteeSession-001236.jsonl"
+    records: 1
+    bytes: 379
+    sha256: "41ce6ed86ef66061d2576c9ad39804ba6375d7de09af25d5018b84392089b77a"
+    id_range:
+      - 12359874
+      - 12359874
+  - name: "KNS_DocumentCommitteeSession-001237.jsonl"
+    records: 8
+    bytes: 3010
+    sha256: "54fa10af84631a8d826d7b40c1cfdd5ca7c4e1165b65b5cf478a2c0b8dd4a96a"
+    id_range:
+      - 12362658
+      - 12369065
+  - name: "KNS_DocumentCommitteeSession-001238.jsonl"
+    records: 9
+    bytes: 3263
+    sha256: "65f959546dd539a8553af4826d4ebb7b605b07d124f2766bf1caf55b9f62d073"
+    id_range:
+      - 12377066
+      - 12379899
+  - name: "KNS_DocumentCommitteeSession-001239.jsonl"
+    records: 5
+    bytes: 1854
+    sha256: "f05f9af8a27e0d05b57639729d4ea816c700692ff6a9cc0b4a8ec445cbd05fc0"
+    id_range:
+      - 12380300
+      - 12380604

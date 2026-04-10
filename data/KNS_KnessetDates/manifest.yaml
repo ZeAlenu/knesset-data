@@ -44,19 +44,19 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 164
+  record_count: 165
   file_count: 1
-  total_bytes: 37460
+  total_bytes: 37672
   min_id: 1
-  max_id: 167
+  max_id: 168
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
 files:
   - name: "KNS_KnessetDates-000001.jsonl"
-    records: 164
-    bytes: 37460
-    sha256: "ecb7c17f3aa284b2d203f9db4a183b04221d435a3ef11d05b417d24ec348e0ae"
+    records: 165
+    bytes: 37672
+    sha256: "a1f521c0cc686aa07b2a74a48ab4ecc46ec743d401a15a4fa937cdcd594ae7b9"
     id_range:
       - 1
-      - 167
+      - 168
