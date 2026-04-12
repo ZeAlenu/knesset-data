@@ -2886,3 +2886,9 @@
 {"Id":3051,"IsraelLawID":2242333,"ClassificiationID":53,"ClassificiationDesc":"מצב חירום","LastUpdatedDate":"2021-06-03T11:07:40.247+03:00"}
 {"Id":3052,"IsraelLawID":2242333,"ClassificiationID":45,"ClassificiationDesc":"תעסוקה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
 {"Id":3053,"IsraelLawID":2242334,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3054,"IsraelLawID":2242356,"ClassificiationID":26,"ClassificiationDesc":"משפט פלילי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3055,"IsraelLawID":2242356,"ClassificiationID":4,"ClassificiationDesc":"ביטחון הפנים","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3056,"IsraelLawID":2242356,"ClassificiationID":3,"ClassificiationDesc":"ביטחון","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3057,"IsraelLawID":2242357,"ClassificiationID":19,"ClassificiationDesc":"מיסוי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3058,"IsraelLawID":2242357,"ClassificiationID":24,"ClassificiationDesc":"משפט אזרחי","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}
+{"Id":3059,"IsraelLawID":2242357,"ClassificiationID":43,"ClassificiationDesc":"תכנון ובנייה","LastUpdatedDate":"2015-01-15T15:59:55.7+02:00"}

@@ -110,11 +110,11 @@ schema:
       type: "datetime"
       nullable: true
 stats:
-  record_count: 59993
+  record_count: 59996
   file_count: 19
-  total_bytes: 56779896
+  total_bytes: 56783026
   min_id: 2066990
-  max_id: 2242342
+  max_id: 2242381
 partitioning:
   strategy: "id_range"
   records_per_file: 10000
@@ -246,9 +246,9 @@ files:
       - 2230151
       - 2239961
   - name: "KNS_SecondaryLaw-000225.jsonl"
-    records: 129
-    bytes: 139359
-    sha256: "0c531493472af84058430132a2ea2bdcc7c63c874d8ccaa3bd9c4f5fb67b6c00"
+    records: 132
+    bytes: 142489
+    sha256: "eae3f108d2ac1979b6b22b3f5caf4e1e054757418ac4f99e40bea97fd3ba3174"
     id_range:
       - 2240000
-      - 2242342
+      - 2242381
